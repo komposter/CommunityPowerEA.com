@@ -1,2 +1,1 @@
-# Hello world!
-CP EA docs will be hosted here )
+This repository is used to host [https://CommunityPowerEA.com](https://CommunityPowerEA.com)
