@@ -15,13 +15,13 @@
 # in the templates via {{ site.myvariable }}.
 
 title: CommunityPower EA
-email: your-email@domain.com
-author: Dinosaur Avocado
+email: komposter@gmail.com
+author: komposter
 description: > # this means to ignore newlines until "baseurl:"
   Free, versatile and powerful Expert Advisor for MetaTrader 4 and MetaTrader 5
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
-baseurl: "/site" # the subpath of your site, e.g. /blog
+baseurl: "/docsy-jekyll" # the subpath of your site, e.g. /blog
 
 # This is mostly for testing
 url: "https://communitypowerea.com" # the base hostname & protocol for your site
