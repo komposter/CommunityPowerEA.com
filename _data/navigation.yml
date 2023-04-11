@@ -1,4 +1,13 @@
-- title: About
-  url: about
-- title: Documentation
-  url: docs
+# Navigation menu in the header
+- title: "How it works"
+  url: "how-it-works"
+- title: "Quick start guide"
+  url: "quick-start-guide"
+- title: "Forum"
+  external_url: "https://forum.communitypowerea.com/"
+- title: "Docs"
+  url: "docs"
+- title: "Brokers"
+  url: "brokers"
+- title: "VPS"
+  url: "vps"

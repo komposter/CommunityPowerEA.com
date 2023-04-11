@@ -37,23 +37,23 @@ github_branch: "gh-docsy"
 #linkedin: vsochat
 #dockerhub: vanessa
 
-# These options are used to configure the locations of your version history when you want to serve versioned documents
-version_params:
-  version_menu: "Release"
-  version_dir: Archive
-  tocversion_dir: versions
-  versioning: true
-
-  # Disable so older versions cannot be searched
-  allow_search: true  
-
-  # Allow these versions to be searched
-  search_versions:
-    - Previous
-  latest: Current
-  versions:
-    - Current
-    - Previous
+## These options are used to configure the locations of your version history when you want to serve versioned documents
+#version_params:
+#  version_menu: "Release"
+#  version_dir: Archive
+#  tocversion_dir: versions
+#  versioning: false
+#
+#  # Disable so older versions cannot be searched
+#  allow_search: true
+#
+#  # Allow these versions to be searched
+#  search_versions:
+#    - Previous
+#  latest: Current
+#  versions:
+#    - Current
+#    - Previous
 
 # Should there be feedback buttons at the bottom of pages?
 feedback: false
@@ -64,10 +64,9 @@ feedback: false
 # google-analytics: UA-XXXXXXXXXX
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
-# logo: "assets/img/logo/SRCC-square-red.png"
-logo_pixels: 34
-#color: "#30638e"
-color: "#8c1515" # primary color for header, buttons
+#logo: "assets/img/logo.png"
+logo_pixels: 32
+color: "#403f4c" # primary color for header, buttons
 
 # Build settings
 markdown: kramdown
@@ -79,7 +78,7 @@ tag_color: primary # danger, success, warning, primary, info, secondary
 
 accentColor: red # purple, green, etc.
 themeColor: red # purple, green, blue, orange, purple, grey
-fixedNav: 'true' # true or false
+fixedNav: 'false' # true or false
 
 permalink: /:year/:title/
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
