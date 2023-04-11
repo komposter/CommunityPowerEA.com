@@ -18,7 +18,7 @@ title: CommunityPower EA
 email: komposter@gmail.com
 author: komposter
 description: > # this means to ignore newlines until "baseurl:"
-  Free, versatile and powerful Expert Advisor for MetaTrader 4 and MetaTrader 5
+  Free, Versatile and Powerful Expert Advisor for MetaTrader 4/5
 
 # Add your baseurl here (your repository) but DO NOT CHANGE THE LINE NUMBER without editing .circleci/circle_urls.sh
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -56,7 +56,7 @@ version_params:
     - Previous
 
 # Should there be feedback buttons at the bottom of pages?
-feedback: true
+feedback: false
 
 # Link to a privacy policy in footer, uncomment and define if wanted
 # privacy: https://domain.com/privacy
@@ -66,8 +66,8 @@ feedback: true
 # If commented, will use material hat theme
 # logo: "assets/img/logo/SRCC-square-red.png"
 logo_pixels: 34
-color: "#30638e"
-# color: "#8c1515" # primary color for header, buttons
+#color: "#30638e"
+color: "#8c1515" # primary color for header, buttons
 
 # Build settings
 markdown: kramdown
@@ -82,7 +82,6 @@ themeColor: red # purple, green, blue, orange, purple, grey
 fixedNav: 'true' # true or false
 
 permalink: /:year/:title/
-markdown: kramdown
 exclude: [_site, CHANGELOG.md, LICENSE, README.md, vendor]
 
 # Collections
