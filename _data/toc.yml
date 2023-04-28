@@ -7,7 +7,7 @@
   url: "quick-start-guide"
 - title: "Backtesting and optimization"
   url: "backtesting-and-optimization"
-- title: "Parameters"
+- title: "Documentation"
   url: "docs"
   links:
     - title: "Main parameters"
