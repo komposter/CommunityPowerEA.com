@@ -2,7 +2,7 @@
 layout: page
 title: Versions history
 description: Here you can find the list of all versions of the bot and the list of changes in each version.
-permalink: /docs/version-history
+permalink: /docs/versions-history
 ---
 
 # Versions history
