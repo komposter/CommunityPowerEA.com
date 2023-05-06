@@ -11,24 +11,24 @@ Version 1
 
 Full documentation is available on [Google Drive](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs) (will be moved here soon).
 
-### Expert Id
+#### Expert Id
 
 Uniq expert id (magic number)
 
 
-### Expert Comment
+#### Expert Comment
 
 Comment for positions.
 Leave empty to use “CommunityPower” comment.
 
 
-### Trade direction
+#### Trade direction
 
 Allowed direction: buy, sell or both.
 EA will not open **first** trade in disabled direction (but will open additional trades).
 
 
-### Signal TimeFrame
+#### Signal TimeFrame
 
 *(starting from v2.09)* <br/>
 
