@@ -35,16 +35,8 @@ and others..
 | Parameter | Description |
 | --------- | ----------- |
 | Expert Id | Uniq expert id (magic number) |
-| Trade direction | Allowed direction: buy, sell or both.
-EA will not open **first** trade in disabled direction (but will open additional trades). |
-| Signal TimeFrame | Common TimeFrame for the following functions/parameters:
-New deal on the new bar
-Martin: New deal on the end of the bar only
-Martin: Min pause between trades
-Pending entry: Extremum bars
-Pending entry: Cancel after bars
-Pause after loss
-and others.. |
+| Trade direction | Allowed direction: buy, sell or both. EA will not open **first** trade in disabled direction (but will open additional trades). |
+| Signal TimeFrame | Common TimeFrame for the following functions/parameters: <br/> * **New deal on the new bar** <br/> - **Martin: New deal on the end of the bar only** <br/> - **Martin: Min pause between trades** <br/> - **Pending entry: Extremum bars** <br/> - **Pending entry: Cancel after bars** <br/> - **Pause after loss** <br/> and others.. |
 
 
 
