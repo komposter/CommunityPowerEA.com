@@ -13,6 +13,7 @@ Don't trade symbols with **different trading sessions** on the same account with
 Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a small chance of new positions opening before all positions are closed by GlobalAccount signal (in case a new opening signal of another EA happens simultaneously with GA close signal). So, please, test your EAs on demo-accounts first.
 
 
+
 # Global Account StopLoss
 
 *(starting from v2.48)*
@@ -24,6 +25,7 @@ Loss of all **opened positions** (with all magic numbers, opened by any EA or ma
 *Don’t activate this option for several EAs, you need to activate it only once!*
 
 Set 0 to disable GA StopLoss.
+
 
 ## GA StopLoss (% from balance)
 
@@ -88,6 +90,7 @@ Set 0 to disable GA TakeProfit.
 The same as GA TargetProfit (account currency) but in % from the last equity high.
 
 Set 0 to disable.
+
 
 # Stop Till Tomorrow After Close
 
