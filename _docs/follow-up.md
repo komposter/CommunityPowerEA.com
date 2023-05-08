@@ -34,15 +34,15 @@ Set 0 to disable SL reducing
 *(starting from v2.20)*
 
 StopLoss mode:
-* **From average open price** - SL based on weighted average open price of all positions in the series.<br/>
-* **From last open price** - SL based on the open price of the last position in the series.<br/>
+* **From average open price** - SL based on weighted average open price of all positions in the series.
+* **From last open price** - SL based on the open price of the last position in the series.
 * **From first open price** - SL based on the open price of the first position in the series.
 
 
 ## StopLoss calc mode
 
 StopLoss can be set:<br/>
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
+* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
@@ -89,9 +89,9 @@ TakeProfit size (In points or Like Coefficient to Volatility) (0 - disabled)
 
 ## TakeProfit mode
 
-TakeProfit mode:<br/>
-* **From average open price** - TP based on weighted average open price of all positions in the series (price1*lot1 + price2*lot2 + priceN*lotN)/(lot1 + lot2 + lotN).<br/>
-* **From last open price** - TP based on the open price of the last position in the series.<br/>
+TakeProfit mode:
+* **From average open price** - TP based on weighted average open price of all positions in the series (price1*lot1 + price2*lot2 + priceN*lotN)/(lot1 + lot2 + lotN).
+* **From last open price** - TP based on the open price of the last position in the series.
 * **From first open price** *(starting from v2.20)* - TP based on the open price of the first position in the series.
 
 Spread included. Sells are closed by Ask price. So, only when Ask became <= TP must trigger.
@@ -176,7 +176,7 @@ When you select **Close in profit only** mode for any signal, it will close the 
 ## Min/max profit calc mode
 
 Min/max profit can be set:<br/>
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
+* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
@@ -203,7 +203,7 @@ Thus, the series will be closed with profit of **BreakEven to** points.
 ## BreakEven calc mode
 
 BreakEven can be set:<br/>
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
+* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 <hr>
@@ -235,10 +235,10 @@ If 0, trailing activated after profit = **Trailing stop size**.
 
 If **Increase trailing every** > 0, Trailing stop size changes by **Increase size** every **Increase trailing every** (points or volatilities, see below).
 
-For example, if **TrailingStop size** = 5.0, **Increase every** = 2.0 and **Increase size** = -1.0:<br/>
-* if profit <= 7.0, TrailingStop distance = 5.0<br/>
-* if profit >= 7.0 and < 9.0, TrailingStop distance = 5.0+(-1.0) = 4.0<br/>
-* if profit >= 9.0 and < 11.0, TrailingStop distance = 5.0+(-1.0)+(-1.0) = 3.0 and so on…<br/>
+For example, if **TrailingStop size** = 5.0, **Increase every** = 2.0 and **Increase size** = -1.0:
+* if profit <= 7.0, TrailingStop distance = 5.0
+* if profit >= 7.0 and < 9.0, TrailingStop distance = 5.0+(-1.0) = 4.0
+* if profit >= 9.0 and < 11.0, TrailingStop distance = 5.0+(-1.0)+(-1.0) = 3.0 and so on…
 As you can see, **Increase size** can be negative.
 
 
@@ -248,11 +248,11 @@ As you can see, **Increase size** can be negative.
 
 After **Decrease start after minutes** after first position open, TrailingStop size increases/decreases by **Decrease coefficient** every **Decrease every minutes**.
 
-For example, with Initial Trailing Stop size 50 points:<br/>
-* after 30 minutes it will be 50*0.9 = 45 points<br/>
-* after 35 minutes it will be 50*0.9*0.9 = 40.5 points<br/>
-* after 40 minutes it will be 50*0.9*0.9*0.9 = 36.5 points<br/>
-* ...<br/>
+For example, with Initial Trailing Stop size 50 points:
+* after 30 minutes it will be 50*0.9 = 45 points
+* after 35 minutes it will be 50*0.9*0.9 = 40.5 points
+* after 40 minutes it will be 50*0.9*0.9*0.9 = 36.5 points
+* ...
 * after 60 minutes it will be 50*0.9*0.9*0.9*0.9*0.9*0.9*0.9 = 23.9 points
 
 Set **Decrease every minutes** = 0 to disable this function.
@@ -273,15 +273,15 @@ Set 0 to disable limits.
 ## TrailingStop mode
 
 TrailingStop mode:<br/>
-* **From average open price** - TS based on average open price of all positions in the series;<br/>
-* **From last open price** - TS based on the open price of the last position in the series.<br/>
+* **From average open price** - TS based on average open price of all positions in the series;
+* **From last open price** - TS based on the open price of the last position in the series.
 * **From first open price** *(starting from v2.20)* - TS based on the open price of the first position in the series.
 
 
 ## TrailingStop calc mode
 
-TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:<br/>
-* In points ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
+TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:
+* In points ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like Coefficient to Volatility ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
