@@ -6,13 +6,14 @@ permalink: /docs/follow-up
 
 # Follow up
 
+<hr>
+
 # StopLoss
 
 ## StopLoss size
 
 StopLoss for the last position in series (for the single position, if martingale disabled)
 
-<hr>
 
 ## StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
 
@@ -112,7 +113,7 @@ TakeProfit can be set:
 TakeProfit reduce coefficient for all orders. Activates after a certain number of minutes have passed since first order opening.
 
 
-## Reduce TP for every order:<br/>- Reduce size,<br/>- Reduce coefficient,<br/>- Min TakeProfit size
+## Reduce TP for every order: Reduce size, Reduce coefficient, Min TakeProfit size
 
 *(starting from v2.11)*
 
