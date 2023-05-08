@@ -107,16 +107,16 @@ Can be negative (when calculated from average price) (starting from v2.20)
 
 *(starting from v2.20)*
 
-Anti-StopLoss reduce size and coefficient.
+Anti-StopLoss reduce size and coefficient.<br/>
 If enabled, SL for each next anti-martingale order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
 
-For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:<br/>
-* For the 1st deal SL will be = 50 points<br/>
-* For 2 deals: 50 - 10 = 40<br/>
-* For 3 deals: 50 - 10*1.1 = 29<br/>
-* For 4 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 = 16.9<br/>
-* For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6<br/>
-* And so on (-11 for 6 deals, -27.2 for 7 deals)<br/>
+For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:
+* For the 1st deal SL will be = 50 points
+* For 2 deals: 50 - 10 = 40
+* For 3 deals: 50 - 10*1.1 = 29
+* For 4 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 = 16.9
+* For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
+* And so on (-11 for 6 deals, -27.2 for 7 deals)
 
 Anti-StopLoss can’t be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 
@@ -129,8 +129,8 @@ For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the 
 *(starting from v2.20)*
 
 Anti-StopLoss mode:<br/>
-* **From average open price**: SL based on weighted average open price of all positions in the series.<br/>
-* **From last open price**: SL based on the open price of the last position in the series.<br/>
+* **From average open price**: SL based on weighted average open price of all positions in the series.
+* **From last open price**: SL based on the open price of the last position in the series.
 * **From first open price**: SL based on the open price of the first position in the series.
 
 
@@ -138,9 +138,10 @@ Anti-StopLoss mode:<br/>
 
 *(starting from v2.31)*
 
-Can be: <br/>
+Can be:
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+
 
 
 ## Allow TakeProfit for anti-martin trades

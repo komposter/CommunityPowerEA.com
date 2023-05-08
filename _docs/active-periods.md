@@ -16,11 +16,11 @@ Active periods are set in this section. Each period can start and end by its own
 
 ## Activation event, Activation value
 
-Event that activates period. Can be one of the following:<br/>
-* **Activate immediately**: period is active from the very beginning and until the deactivation event occurs. Use this option for periods you use for the first entry signals (otherwise the first trade will never open).<br/>
-* **Activate after time (seconds)**: period activates after **Activation value** seconds after the first deal of the series opens. If the first deal is closed for any reason (by Partial close, manually, etc), the earliest opened deal in the corresponding direction is used as the “first open time”.<br/>
-* **Activate after trade #**: period activates when deal # **Activation value** in the series is opened.<br/>
-* **Activate on DrawDown >=** and **Activate on DrawDown <=**: period activates if current drawdown of series becomes greater/smaller than Activation value %.<br/>
+Event that activates period. Can be one of the following:
+* **Activate immediately**: period is active from the very beginning and until the deactivation event occurs. Use this option for periods you use for the first entry signals (otherwise the first trade will never open).
+* **Activate after time (seconds)**: period activates after **Activation value** seconds after the first deal of the series opens. If the first deal is closed for any reason (by Partial close, manually, etc), the earliest opened deal in the corresponding direction is used as the "first open time".
+* **Activate after trade #**: period activates when deal # **Activation value** in the series is opened.
+* **Activate on DrawDown >=** and **Activate on DrawDown <=**: period activates if current drawdown of series becomes greater/smaller than Activation value %.
 
 Each Active period can be activated only once. Means, it will not be activated again after deactivation even if an activation event occurs.
 

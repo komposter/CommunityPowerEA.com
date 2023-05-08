@@ -37,7 +37,7 @@ Indicator used for the Volatility calculation.
 Can be one of the following:
 * ATR
 * StDev
-* ATR based on “Close-Open” (high and low prices not used)
+* ATR based on "Close-Open" (high and low prices not used)
 * WATR
 * (don’t use Volume mode for this block!)
 

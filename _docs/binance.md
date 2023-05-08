@@ -7,4 +7,10 @@ permalink: /docs/binance
 
 # Connection to Binance
 
-Full documentation is available on [Google Drive](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs) (will be moved here soon).
+Starting from v2.41, you can trade on your Binance account using CP EA (MT5 only).
+
+Detailed instruction and parameters description are [here](https://www.mql5.com/en/blogs/post/747402).
+
+
+
+
