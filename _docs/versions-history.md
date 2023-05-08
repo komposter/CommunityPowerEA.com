@@ -173,7 +173,7 @@ To visualize "TMA channel" you can use this indy. But it is only one possible op
 * [+] One more Fibo retracement filter added
 
 
-## ## 2021.01.15 (2.25):
+## 2021.01.15 (2.25):
 * [+] "Close on" parameter for Big candle filter
 * [+] 3 new types of MACD filter:<br/>
 Buy on Main > Signal / Sell on Main < Signal<br/>
