@@ -121,11 +121,11 @@ TakeProfit reduce size and coefficient for every order in series.<br/>
 If enabled, TP for each next order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
 
 For example, with TakeProfit = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:<br/>
-* For the 1st deal TP will be = 50 points<br/>
-* For 2 deals: 50 - 10 = 40<br/>
-* For 3 deals: 50 - 10 - 10*1.1 = 29<br/>
-* For 4 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 = 16.9<br/>
-* For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6<br/>
+* For the 1st deal TP will be = 50 points
+* For 2 deals: 50 - 10 = 40
+* For 3 deals: 50 - 10 - 10*1.1 = 29
+* For 4 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 = 16.9
+* For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
 TakeProfit can’t be less than **Min TakeProfit size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
