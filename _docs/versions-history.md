@@ -173,7 +173,7 @@ To visualize "TMA channel" you can use this indy. But it is only one possible op
 * [+] One more Fibo retracement filter added
 
 
-2021.01.15 (2.25):
+## ## 2021.01.15 (2.25):
 * [+] "Close on" parameter for Big candle filter
 * [+] 3 new types of MACD filter:<br/>
 Buy on Main > Signal / Sell on Main < Signal<br/>
@@ -188,13 +188,13 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] "Apply schedule to" parameter<br/>
 * [+] Auto-hedge after order
 
-2021.02.02 (2.26):
+## 2021.02.02 (2.26):
 * [+] Indicator showing by click on signal
 * [+] Parameters grouped for easier optimization
 * [+] Sounds on position opening and closing added
 * [*] Loading after terminal crash is fixed * [MT4]
 
-2021.03.02 (2.27):
+## 2021.03.02 (2.27):
 * [+] Use virtual StopLoss
 * [+] Custom commission (in account currency per lot) (0 - disable)
 * [*] AntiStopLoss works if AntiMartingale is enabled only
@@ -205,10 +205,10 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] New TDI filter with all inputs<br/>
 **Warning! All sets with disabled TDI filter must be updated (now it is enabled by default)!**
 
-2021.03.03 (2.28):
+## 2021.03.03 (2.28):
 * [+] Automatic orders drawing and "Show orders" button on panel
 
-2021.04.03 (2.29):
+## 2021.04.03 (2.29):
 * [+] News filter
 * [+] Max Relative DD as optimization criterion
 * [*] BreakEven button works with non-virtual SL/TP too
@@ -222,7 +222,7 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] Min step size (for ATR based step size calculation)
 * [*] Visual testing speed increased
 
-2021.04.19 (2.30):
+## 2021.04.19 (2.30):
 * [+] ZigZag Filter
 * [+] "Open on", "Open martin on", "Close on" and "Partial close on" options for the News filter
 * [+] Alert on first signal
@@ -231,7 +231,7 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] "Auto-hedge after order" always executes like market-order<br/>
 **Warning! All sets with "Auto-hedge after order" and Pending entry enabled must be reviewed!**
 
-2021.05.08 (2.31):
+## 2021.05.08 (2.31):
 * [+] Min margin level %<br/>
 * [*] Trades made in 1 second are analyzed by the EA correctly.<br/>
 Please, check your set-files where 2 trades in 1 second are possible.<br/>
@@ -258,7 +258,7 @@ To increase step size with every order use the "Step increase coefficient" param
 "Previous step * coefficient" mode must be replaced with "Martingale enabled". No other changes are needed.<br/>
 "Step increase coefficient" for "Fixed step" mode must be set 1.<br/>
 
-2021.06.05 (2.32):
+## 2021.06.05 (2.32):
 * [+] GUI works in tester visual mode!
 * [+] Soft Martin Lot increasing mode
 * [+] Max lot per 1000
@@ -276,7 +276,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] Global StopLoss and Global TakeProfit renamed to Sum StopLoss and Sum TakeProfit
 * [*] Global Account Close works in tester
 
-2021.06.10 (2.33):
+## 2021.06.10 (2.33):
 * [+] Hedge deal with separate magic
 * [+] Auto-hedge works with any "Trade direction"
 * [*] Hedge deal opening with disabled GUI fixed
@@ -284,11 +284,11 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] "Custom lot coefficients" Lot increasing mode<br/>
 **Warning! All sets with enabled "Auto-hedge after order" or "Allow both Martin and Anti-martin" must be reviewed!**
 
-2021.06.12 (2.34):
+## 2021.06.12 (2.34):
 * [+] GlobalAccount TrailingStop
 * [+] GlobalAccount TargetProfit restarts if all positions are closed
 
-2021.07.15 (2.35):
+## 2021.07.15 (2.35):
 * [+] DTrend filter
 * [*] "Custom lot coefficients" fixed
 * [+] Sum TakeProfit (account currency)
@@ -301,14 +301,14 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] MACD: "Buy on Signal > 0 / Sell on Signal < 0" mode
 * [+] MACD: "Buy on Main > Signal and Signal < 0 / Sell on Main < Signal and Signal > 0" mode
 
-2021.08.04 (2.36):
+## 2021.08.04 (2.36):
 * [+] Custom step coefficients
 * [+] Auto-hedge on DrawDown %
 * [+] "Open hedge on" parameter for each filter
 * [+] Hedge: Close main series by opposite main series
 * [*] Hedge: Allow close both ways fixed
 
-2021.09.06 (2.37):
+## 2021.09.06 (2.37):
 * [+] Pending entry: Disable if opposite trade is open
 * [+] Anti-martingale: Allow TakeProfit for anti-martin trades
 * [+] Tester withdrawal
@@ -317,11 +317,11 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] Testing speed improvement
 * [*] Safer default settings
 
-2021.09.23 (2.38):
+## 2021.09.23 (2.38):
 * [+] Max step size (points) for martingale and anti-martingale
 * [*] Recompiled with correct MT5 build
 
-2021.11.14 (2.39):
+## 2021.11.14 (2.39):
 * [+] Max floating loss and Min margin level % for 1st trade
 * [+] Virtual StopLoss can be executed only on good spread (if Spread filter enabled)
 * [*] Volatility calculation on different time frames fixed
@@ -330,34 +330,34 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] Global Account TrailingStop works correctly after closed loss
 * [*] Global Account Close works correctly with separate in/out commission
 
-2021.12.10 (2.40-2.41):
+## 2021.12.10 (2.40-2.41):
 * [+] Ready to trade crypto on Binance (MT5 only, details here)
 * [*] Fix for Roboforex accounts with empty Orders history (MT5)
 
-2022.01.22 (2.42):
+## 2022.01.22 (2.42):
 * [*] Binance: correct work with MT connected to netting account
 * [*] Correct volatility values on start
 * [*] Pending entry: "Disable if opposite trade is open" renamed to "Enter by market if opposite trade is open"
 * [+] Pending entry: Delete if opposite trade is open
 * [*] MACD and HMA indicators fixed (MT5)
 
-2022.02.02 (2.43):
+## 2022.02.02 (2.43):
 * [+] Improved ZZ signal with visualization
 * [+] Binance: more stable connection to the Binance Trade Manager
 
-2022.03.12 (2.44):
+## 2022.03.12 (2.44):
 * [+] Partial close: Close any with any
 * [+] Directional change filter
 * [*] “Delete if opposite trade is open” works with enabled pending entry only
 * [+] Big candle max size
 
-2022.04.21 (2.45):
+## 2022.04.21 (2.45):
 * [+] TrailingStop: Increase every, Increase size
 * [+] TrailingStop: Min/max size
 * [+] GlobalAccountClose: Stop Till Tomorrow After Close
 * [+] ADX filter
 
-2022.04.28 (2.46):
+## 2022.04.28 (2.46):
 * [*] "New deal on the end of the bar only" and "Min pause between trades" work correctly even if last martin trade was closed (and some of previous ones are still opened)
 * [+] Partial close: Close profit itself
 * [+] TrailingStop: Decrease every minutes, Decrease coefficient and Decrease start after minutes
@@ -365,18 +365,18 @@ To increase step size with every order use the "Step increase coefficient" param
 **Warning! Set files from version 2.45 with non-zero "Min/max size" must be revised!**
 * [+] Martin: "Change step after order #" and "Change step by coefficient"
 
-2022.05.20 (2.47):
+## 2022.05.20 (2.47):
 * [*] First order can be opened on the same tick when the "Partial close" closes all open orders (works like v2.43 and earlier versions)
 * [+] Lot: "Amount in base currency" mode
 * [+] "Use only opened trades for time filters" (set true to make "New deal on the end of the bar only" and "Min pause between trades" working like in 2.45)
 
-2022.07.02 (2.48):
+## 2022.07.02 (2.48):
 * [+] GlobalAccount StopLoss
 * [+] Period Limits
 * [+] "Set description" parameter
 * [+] MACD filter: "Main cross 0" and "Signal cross 0" modes
 
-2022.10.07 (2.49):
+## 2022.10.07 (2.49):
 * [+] EveryDay session duration (mins) (0 - use end hour and minute)
 * [+] 2 CustomIndy signals
 * [+] Spread filter: apply to first/apply to martin
@@ -386,7 +386,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] AutoHedge deals are closed with main series if it is closed by non-virtual SL or TP
 * [*] News: testing works correct for the last month
 
-2022.10.14-2023.01.07 (2.50):
+## 2022.10.14-2023.01.07 (2.50):
 * [+] Pending entry: Delete on position close
 * [+] Lot increasing mode: 1st deal lot * distance * coeff
 * [*] SL and TP are not changed by EA after manual modification until the next recalculation (opening a new order, changing swap, etc.)
@@ -398,7 +398,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Hedge works like a main series with common management rules but with its own entry rules.<br/>
 **Warning! All sets with enabled Auto-hedge must be reviewed!**
 
-2023.02.11-03.24 (2.52):
+## 2023.02.11-03.24 (2.52):
 * [+] Max profit to close on signal
 * [+] Active Periods
 * [+] Min profit to close on signal fix
@@ -410,7 +410,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Anti-martingale: Min pause between trades (in bars of Signal TF)
 * [+] Anti-martingale: Use martingale signal for anti-martin trades
 
-2023.04.12-04.26 (2.53):
+## 2023.04.12-04.26 (2.53):
 * [+] ADX: Buy/sell when ADX >= level<br/>
 * [+] ADX: Buy on +DI >= level / Sell on -DI >= level<br/>
 * [+] StopLoss reduce every bar K (0 - disable)<br/>
