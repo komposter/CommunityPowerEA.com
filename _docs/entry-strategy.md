@@ -38,7 +38,7 @@ Open on Collective signal (neutral signals accepted) mode works like previous, b
 For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
 
-## *Open martin on* parameter for each filter
+## **Open martin on** parameter for each filter
 
 *(starting from v2.20)*
 
