@@ -24,6 +24,7 @@ Event that activates period. Can be one of the following:
 
 Each Active period can be activated only once. Means, it will not be activated again after deactivation even if an activation event occurs.
 
+
 ## Deactivation event, Deactivation value
 
 Deactivation events work the same way as activation events.<br/>
