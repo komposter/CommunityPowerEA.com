@@ -12,13 +12,13 @@ permalink: /docs/martingale
 
 Type of martingale strategy used. Can be enabled or disabled.
 
-<br>
+<hr>
 
 ## Max trades in one direction
 
 Max deals in series.
 
-<br>
+<hr>
 
 ## New deal on the end of the bar only
 

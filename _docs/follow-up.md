@@ -12,7 +12,7 @@ permalink: /docs/follow-up
 
 StopLoss for the last position in series (for the single position, if martingale disabled)
 
-<br>
+<hr>
 
 ## StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
 
@@ -77,7 +77,7 @@ Disables opening new first trades after closing by StopLoss or GlobalStopLoss. S
 Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
 
-<br>
+<hr>
 
 # TakeProfit
 
@@ -186,13 +186,13 @@ Min/max profit can be set:<br/>
 Set **true** to close trades by market when TP level is reached.
 Set **false** to set the real TP for all orders (if possible).
 
-<br>
+<hr>
 
 # BreakEven
 
 *(starting from v2.49)*
 
-<br>
+<hr>
 
 ## BreakEven after, BreakEven to
 
@@ -206,11 +206,11 @@ BreakEven can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
-<br>
+<hr>
 
 # TrailingStop
 
-<br>
+<hr>
 
 ## TrailingStop size
 
