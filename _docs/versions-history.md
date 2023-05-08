@@ -87,16 +87,16 @@ permalink: /docs/versions-history
 
 ## 2020.08.06 (2.15):
 * [+] Volatility filter
-* [+] MA below/above filters are replaced by 3 universal MA filters
-**WARNING! All sets using MA filters must be updated!!!**
+* [+] MA below/above filters are replaced by 3 universal MA filters<br/>
+**WARNING! All sets using MA filters must be updated!!!**<br/>
 * [+] Distance for MA filters can be calculated using Volatility indicator
 
 ## 2020.08.19 (2.16):
-* [+] "Close on" parameter for each filter. Can be Individual/Collective.
-**WARNING! All sets using "Close on signal" and/or "Close on filter" mode must be updated!!!**
+* [+] "Close on" parameter for each filter. Can be Individual/Collective.<br/>
+**WARNING! All sets using "Close on signal" and/or "Close on filter" mode must be updated!!!**<br/>
 * [+] Momentum indy available in Oscillator filters
-* [+] Peace filter renamed to MACD and improved with 2 growing modes
-**WARNING! All sets using the Peace filter must be updated!!!**
+* [+] Peace filter renamed to MACD and improved with 2 growing modes<br/>
+**WARNING! All sets using the Peace filter must be updated!!!**<br/>
 * [+] TrailingStep parameter added
 
 ## 2020.08.26 (2.17):
@@ -107,16 +107,16 @@ permalink: /docs/versions-history
 * [+] MA filter: "on cross" mode added
 * [+] Min pause between trades (in bars of Signal TF)
 * [+] Close on BreakEven after order #
-* [+] Pending entry by LIMIT orders added
-**WARNING! Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!**
+* [+] Pending entry by LIMIT orders added<br/>
+**WARNING! Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!**<br/>
 * [*] Pending buy-orders cancelation by opposite signal fixed for "in profit only" modes
 * [*] GUI blinking fixed
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
 ## 2020.10.14 (2.19):
-* [+] "Open on" parameter for each filter. Can be Individual/Collective.
-**WARNING! All sets using non-default open signals must be updated!!!**
+* [+] "Open on" parameter for each filter. Can be Individual/Collective.<br/>
+**WARNING! All sets using non-default open signals must be updated!!!**<br/>
 * [+] Allow martingale deals on signal only
 * [+] Window transparency parameter
 * [+] GUI scaling for 4K monitors
@@ -202,7 +202,7 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] Use virtual TakeProfit
 * [+] "R squared" as custom optimization criterion
 * [+] BreakEven After Order: MinProfit (points)
-* [+] New TDI filter with all inputs
+* [+] New TDI filter with all inputs<br/>
 **Warning! All sets with disabled TDI filter must be updated (now it is enabled by default)!**
 
 2021.03.03 (2.28):
@@ -228,7 +228,7 @@ Warning! Please, review all set-files with Fibo-filter activated!<br/>
 * [+] Alert on first signal
 * [+] First signal sound is played (alert is shown, Grammy message is sent) even if trading is disabled (or checkbox is unchecked)
 * [+] "Logistic Growth" Lot increasing mode
-* [+] "Auto-hedge after order" always executes like market-order
+* [+] "Auto-hedge after order" always executes like market-order<br/>
 **Warning! All sets with "Auto-hedge after order" and Pending entry enabled must be reviewed!**
 
 2021.05.08 (2.31):
@@ -281,7 +281,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Auto-hedge works with any "Trade direction"
 * [*] Hedge deal opening with disabled GUI fixed
 * [*] Martingale and Anti-martingale: max trades, lot and step are calculated using it's own orders (not all orders)
-* [+] "Custom lot coefficients" Lot increasing mode
+* [+] "Custom lot coefficients" Lot increasing mode<br/>
 **Warning! All sets with enabled "Auto-hedge after order" or "Allow both Martin and Anti-martin" must be reviewed!**
 
 2021.06.12 (2.34):
@@ -361,7 +361,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] "New deal on the end of the bar only" and "Min pause between trades" work correctly even if last martin trade was closed (and some of previous ones are still opened)
 * [+] Partial close: Close profit itself
 * [+] TrailingStop: Decrease every minutes, Decrease coefficient and Decrease start after minutes
-* [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size
+* [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size<br/>
 **Warning! Set files from version 2.45 with non-zero "Min/max size" must be revised!**
 * [+] Martin: "Change step after order #" and "Change step by coefficient"
 
@@ -395,7 +395,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Allow dragging the lines to modify SL/TP
 * [+] Expert Comment is shown in the panel header
 * [*] "Apply martin after closed loss" works correctly with pending orders
-* [+] Hedge works like a main series with common management rules but with its own entry rules.
+* [+] Hedge works like a main series with common management rules but with its own entry rules.<br/>
 **Warning! All sets with enabled Auto-hedge must be reviewed!**
 
 2023.02.11-03.24 (2.52):
