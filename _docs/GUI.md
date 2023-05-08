@@ -7,7 +7,9 @@ permalink: /docs/gui
 
 # GUI parameters
 
-Full documentation is available on [Google Drive](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs) (will be moved here soon).
+*(starting from v2.14)*
+
+You can activate the trading and signals panel (look at GUI user guide for details). Available parameters to customize GUI:
 
 ## Expert panel
 
