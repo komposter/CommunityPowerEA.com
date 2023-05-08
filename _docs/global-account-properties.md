@@ -12,7 +12,7 @@ Don't trade symbols with **different trading sessions** on the same account with
 
 Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a small chance of new positions opening before all positions are closed by GlobalAccount signal (in case a new opening signal of another EA happens simultaneously with GA close signal). So, please, test your EAs on demo-accounts first.
 
-
+<hr>
 
 # Global Account StopLoss
 
@@ -33,6 +33,7 @@ The same as GA StopLoss (account currency) but in % from current account balance
 
 Set 0 to disable.
 
+<hr>
 
 # Global Account TrailingStop
 
@@ -49,6 +50,7 @@ For example, if you start with $1000 and set GA TrailingStop (account currency) 
 
 Set 0 to disable GA TrailingStop.
 
+<hr>
 
 # Global Account TakeProfit
 
@@ -69,6 +71,7 @@ The same as GA TakeProfit (account currency) but in % from current account balan
 
 Set 0 to disable.
 
+<hr>
 
 # Global Account TargetProfit
 
@@ -91,6 +94,7 @@ The same as GA TargetProfit (account currency) but in % from the last equity hig
 
 Set 0 to disable.
 
+<hr>
 
 # Stop Till Tomorrow After Close
 
