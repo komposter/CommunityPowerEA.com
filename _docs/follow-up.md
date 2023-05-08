@@ -192,7 +192,6 @@ Set **false** to set the real TP for all orders (if possible).
 
 *(starting from v2.49)*
 
-<hr>
 
 ## BreakEven after, BreakEven to
 
@@ -210,7 +209,6 @@ BreakEven can be set:<br/>
 
 # TrailingStop
 
-<hr>
 
 ## TrailingStop size
 
