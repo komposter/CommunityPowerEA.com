@@ -25,6 +25,7 @@ Percent of losing order that can be closed with profit by Partial close.
 For example, there are 2 deals opened:
 1. buy-order 1.4 lots with profit +50
 1. buy-order 1.2 lots with loss -80
+
 With **Min profit to close** = 10 we can close only 50% (0.6 lots) of losing order, and have +50 - 40 = +10 total profit. So, if **Min part of losing order to close = 50% or less**, orders will be closed.
 
 By default, only the entire order can be closed (**Min part of losing order to close** = 100%). Value of 0 also disables this function.
