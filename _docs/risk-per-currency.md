@@ -14,8 +14,8 @@ Risk manager allows you to control the risks in your account by prohibiting the 
 ## Type
 
 Type of risk management:
-* **Disabled**: risk management disabled.<br/>
-* **By positions number**: limit is set as positions number.  For example, if Max risk value = 3 and you have 3 open positions (lot doesn’t matter), new opens will be prohibited.<br/>
+* **Disabled**: risk management disabled.
+* **By positions number**: limit is set as positions number.  For example, if Max risk value = 3 and you have 3 open positions (lot doesn’t matter), new opens will be prohibited.
 * **By lots**: limit is set as sum lot size. For example, if Max risk value = 3 and you have 5 open positions with sum lot 1.5+1.0+0.4+0.03+0.05 = 2.95, a new open will be allowed for lot 0.05 or less.
 
 

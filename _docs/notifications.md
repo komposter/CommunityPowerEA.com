@@ -9,7 +9,7 @@ permalink: /docs/notifications
 
 *(starting from v2.26)*
 
-You can set any sound for any opening and closing signals:
+You can set any sound for any opening and closing signals.
 
 
 ## Allow messages to Grammy
@@ -19,7 +19,7 @@ If **true**, EA sends additional messages and screenshots to the Telegram channe
 
 ## Enable alert on first signal
 
-Show alert on every first signal (even if trading is disabled or ‘first’ checkbox is unchecked)
+Show alert on every first signal (even if trading is disabled or 'first' checkbox is unchecked)
 
 
 ## Enable sounds
@@ -29,7 +29,7 @@ Enable sounds
 
 ## First signal sound name
 
-The name of the sound file that will be played when the first signal happens. Sound will be played even if trading is disabled or ‘first’ checkbox is unchecked.
+The name of the sound file that will be played when the first signal happens. Sound will be played even if trading is disabled or 'first' checkbox is unchecked.
 
 The file must be located in terminal_directory\Sounds or its sub-directory. Only WAV files are played.
 

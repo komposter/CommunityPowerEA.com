@@ -22,8 +22,7 @@ Max deals in series.
 
 *(starting from v2.20)*
 
-If enabled, Step condition is checked using last bar Close price (+ current spread for buy-orders).
-So, only 1 trade per bar is allowed and all trades are opened on the beginning of the bar.
+If enabled, Step condition is checked using last bar Close price (+ current spread for buy-orders). So, only 1 trade per bar is allowed and all trades are opened on the beginning of the bar.
 
 
 ## Min pause between trades (in bars of Signal TF)
@@ -48,14 +47,14 @@ When false, closed positions are taken into account as well (closed position may
 *(starting from v2.20)*
 
 Can be one of the following:<br/>
-* **Sum**: previous lot + adding [1-2-3-4-5-...]<br/>
-* **Fibo**: previous lot + pre-previous lot [1-1-2-3-5-8-...]<br/>
-* **Martin**: previous lot * coeff [1-2-4-8-16-...]<br/>
-* **Martin Sum** *(starting from v2.29)*: previous lots sum * coeff [1-2-6-18-54-...]<br/>
-* **Logistic Growth** *(starting from v2.30)*: lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter “Lot coefficient / adding / x0”)<br/>
-* **Soft Martin** *(starting from v2.32)*: previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))<br/>
-* **Custom lot coefficients** *(starting from v2.33)*: user-defined coefficient sequence (see Custom lot coefficients parameter below)<br/>
-* **1st deal lot * distance * coeff** *(starting from v2.50)*: lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.<br/>
+* **Sum**: previous lot + adding [1-2-3-4-5-...]
+* **Fibo**: previous lot + pre-previous lot [1-1-2-3-5-8-...]
+* **Martin**: previous lot * coeff [1-2-4-8-16-...]
+* **Martin Sum** *(starting from v2.29)*: previous lots sum * coeff [1-2-6-18-54-...]
+* **Logistic Growth** *(starting from v2.30)*: lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter “Lot coefficient / adding / x0”)
+* **Soft Martin** *(starting from v2.32)*: previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
+* **Custom lot coefficients** *(starting from v2.33)*: user-defined coefficient sequence (see Custom lot coefficients parameter below)
+* **1st deal lot * distance * coeff** *(starting from v2.50)*: lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
 
 ## Lot coefficient / adding / x0
@@ -82,7 +81,7 @@ Step size (in points or like coefficient to Volatility)
 *(starting from v2.31)*
 
 Step can be set:<br/>
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
+* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 

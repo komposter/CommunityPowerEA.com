@@ -42,7 +42,7 @@ and others..
 
 ## New deal on the new bar
 
-*(starting from v2.21)* <br/>
+*(starting from v2.21)*
 
 If **true**, allows opening of the first deal only on the next bar after the previous deal in the same direction was closed.<br/>
 If **false**, the next deal can be opened on the same bar (if signal allows opening).

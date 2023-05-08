@@ -19,15 +19,15 @@ Then you can set **calculation mode** for any parameter to **Coefficient to Vola
 In this example, TrailingStop size will be calculated as *"Current ATR * 1.5"*, Trailing Step will be *"ATR * 0.1"*.
 
 You can set "calculation mode" for the following parameters:
-* Pending entry: Distance to order and Cancel after distance<br/>
-* StopLoss size<br/>
-* TakeProfit size<br/>
-* Min profit to close on signal<br/>
-* Martingale Step size<br/>
-* Anti-martingale Step size<br/>
-* Anti-StopLoss size<br/>
-* TrailingStop size<br/>
-* Trailing Step<br/>
+* Pending entry: Distance to order and Cancel after distance
+* StopLoss size
+* TakeProfit size
+* Min profit to close on signal
+* Martingale Step size
+* Anti-martingale Step size
+* Anti-StopLoss size
+* TrailingStop size
+* Trailing Step
 * Start trailing after
 
 
