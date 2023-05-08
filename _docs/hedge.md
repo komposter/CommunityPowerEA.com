@@ -81,7 +81,9 @@ Hedge is opened with or without signal (depends on **Allow hedge on it's own sig
 
 ## Max hedge orders number
 
-Max number of hedge orders opened. <br/>Set 0 to disable the limit.
+Max number of hedge orders opened.
+
+Set 0 to disable the limit.
 
 
 ## Allow hedge only on main DrawDown %
