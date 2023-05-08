@@ -11,7 +11,7 @@ permalink: /docs/versions-history
 * [+] First release
 
 ## 2020.04.04 (1.01):
-# [+] TDI Filtr
+* [+] TDI Filter
 
 ## 2020.04.07 (2.0):
 * [+] Trade direction
