@@ -29,11 +29,11 @@ Mode of schedule:
 ## DST mode
 
 DST mode of your broker:
-* Disable DST
-* DST Europe (last Sunday of March / last Sunday of October)
-* DST USA (2nd Sunday of March / 1st Sunday of November)
-* DST Australia (1st Sunday of April / 1st Sunday of October)
-* DST New Zealand (1st Sunday of April / last Sunday of September)
+* **Disable DST**
+* **DST Europe** (last Sunday of March / last Sunday of October)
+* **DST USA** (2nd Sunday of March / 1st Sunday of November)
+* **DST Australia** (1st Sunday of April / 1st Sunday of October)
+* **DST New Zealand** (1st Sunday of April / last Sunday of September)
 
 
 ## GMT offset
