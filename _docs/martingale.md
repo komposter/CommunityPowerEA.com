@@ -53,7 +53,7 @@ Can be one of the following:<br/>
 * **Martin Sum** [*(starting from v2.29)*](/docs/versions-history#20210403-229): previous lots sum * coeff [1-2-6-18-54-...]
 * **Logistic Growth** [*(starting from v2.30)*](/docs/versions-history#20210419-230): lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter “Lot coefficient / adding / x0”)
 * **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
-* **Custom lot coefficients** *(starting from v2.33)*: user-defined coefficient sequence (see Custom lot coefficients parameter below)
+* **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see Custom lot coefficients parameter below)
 * **1st deal lot * distance * coeff** *(starting from v2.50)*: lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
 
@@ -64,7 +64,7 @@ Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 ## Custom lot coefficients
 
-*(starting from v2.33)*
+[*(starting from v2.33)*](/docs/versions-history#20210610-233)
 
 User-defined coefficient sequence for Custom lot coefficients increasing mode. Coefficients should be separated by comma. Max allowed string length — 63 symbols.
 

@@ -37,7 +37,7 @@ Set 0 to disable.
 
 # Global Account TrailingStop
 
-*(starting from v2.34)*
+[*(starting from v2.34)*](/docs/versions-history#20210612-234)
 
 ## GA TrailingStop
 
