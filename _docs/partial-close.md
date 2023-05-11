@@ -65,7 +65,7 @@ Close only profitable orders on **Partial close on** signals even if profit is n
 
 ## ~~Close main series by opposite main series~~
 
-~~*(starting from v2.36)*~~
+~~[*(starting from v2.36)*](/docs/versions-history#20210804-236)~~
 
 ~~Allow partial close of opposite main series with total profit (all other partial close parameters also work for this mode)~~
 

@@ -49,7 +49,7 @@ If all **Open martin on** parameters are set to **Don't use for open**, martinga
 
 ## **Open hedge on** parameter for each filter
 
-*(starting from v2.36)*
+[*(starting from v2.36)*](/docs/versions-history#20210804-236)
 
 The same as **Open martin on**, but for auto-hedge deals.
 

@@ -101,7 +101,7 @@ For example, with **Step size** = 20 points, **Change step after order #** = 2 a
 
 ## Custom step coefficients
 
-*(starting from v2.36)*
+[*(starting from v2.36)*](/docs/versions-history#20210804-236)
 
 Custom coefficients (comma separated) for 2nd and all next martingale deals. For example, with **Step size** = 20 points and **Custom step coefficients** = "1.5,2.5,5.0", distances between orders in martingale series will be 20 - 30 - 50 - 100 - 100 and so on (last coefficient applied to all following steps.
 
