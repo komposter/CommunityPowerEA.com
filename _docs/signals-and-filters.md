@@ -531,7 +531,7 @@ If true, the signal can’t change in the middle of the bar.
 
 # ZigZag Filter
 
-*(starting from v2.30)*
+[*(starting from v2.30)*](/docs/versions-history#20210419-230)
 
 ## ZZ filter type
 

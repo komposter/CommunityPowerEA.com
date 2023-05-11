@@ -47,7 +47,7 @@ Can be one of the following:<br/>
 * **Fibo**: previous lot + pre-previous lot [1-1-2-3-5-8-...]<br/>
 * **Martin**: previous lot * coeff [1-2-4-8-16-...]<br/>
 * **Martin Sum** [*(starting from v2.29)*](/docs/versions-history#20210403-229): previous lots sum * coeff [1-2-6-18-54-...]<br/>
-* **Logistic Growth** *(starting from v2.30)*: lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter "Lot coefficient / adding / x0")<br/>
+* **Logistic Growth** [*(starting from v2.30)*](/docs/versions-history#20210419-230): lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter "Lot coefficient / adding / x0")<br/>
 * **Soft Martin** *(starting from v2.32)*: previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))<br/>
 * **Custom lot coefficients** *(starting from v2.33)*: user-defined coefficient sequence (see **Custom lot coefficients** parameter below)<br/>
 
