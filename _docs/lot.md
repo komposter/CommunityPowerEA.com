@@ -9,7 +9,7 @@ permalink: /docs/lot
 
 ## Lot type
 
-*(starting from v2.10)*
+[*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
 Lot size calculation type (applies to first trade in each series): <br/>
 * **Fixed lot**: lot is fixed and regulated by Lot size parameter
@@ -31,7 +31,7 @@ Lot size for **Fixed lot**, **Fixed size per 1000** and **Fixed size per 1000 US
 
 ## Lot risk %
 
-*(starting from v2.10)*
+[*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
 Risk % for **Risk per trade** and **Margin percent use** modes.
 

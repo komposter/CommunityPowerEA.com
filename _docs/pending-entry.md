@@ -41,7 +41,7 @@ Order level calculates using **Distance to order** and **Extremum bars** paramet
 
 ## Cancel on opposite signal
 
-*(starting from v2.10)*
+[*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
 Cancel order on the opposite oscillator signal. In 2.09 this behavior was regulated by the **Close on opposite signal** parameter.
 
