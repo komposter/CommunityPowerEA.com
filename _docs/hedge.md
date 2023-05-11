@@ -42,7 +42,7 @@ If **false**:<br/>
 
 ## Allow hedge on it's own signal only
 
-*(starting from v2.50)*
+[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
 If **true**, allows a new hedge order only on its own signal (one of the signals with “Open hedge on” = Open on individual/collective signal).<br/>
 All next hedge positions are opened by the same signals, martingale/anti-martingale sections are not used.
@@ -96,7 +96,7 @@ Set 0 to disable this filter.
 
 ## Allow hedge only right after main position open
 
-*(starting from v2.50)*
+[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
 Allows to open a hedge order only within 60 seconds after main order opening.<br/>
 If **true**, a new hedge can be opened only right after the main order (all other hedge filters and signals are also applied).
@@ -105,7 +105,7 @@ If **false**, hedge can be opened at any time while the main series exists (all 
 
 ## Allow hedge on new bar only
 
-*(starting from v2.50)*
+[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
 Allows to open a hedge order if there were no hedge-orders opened or closed on this bar of Signal TimeFrame.<br/>
 This means that a new hedge can be opened only on the next bar after the previous one.<br/>

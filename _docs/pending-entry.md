@@ -83,7 +83,7 @@ Set **true** to delete pending buy-order if any sell position is open and vice v
 
 ## Delete on position close
 
-*(starting from v2.50)*
+[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
 Enable this option if you want to cancel existing pending order if another position is closed:<br/>
 * **Delete on any close**: delete pending order if it was set before last position of any direction is closed
