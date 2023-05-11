@@ -578,7 +578,7 @@ ZZ properties
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
     IMAGE HERE
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
-* **Extremum bar size * coefficient** *(starting from v2.43)*: distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
+* **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
     IMAGE HERE
 
 ## Distance size (Points / Coefficient)
@@ -590,7 +590,7 @@ Distance can be set negative (so, in **Extremum break** mode trade will be opene
 
 ## Use previous unbroken extremums
 
-*(starting from v2.43)*
+[*(starting from v2.43)*](/docs/versions-history#20220202-243)
 
 If enabled, previous (unbroken) extremums will be used after the last extremum is broken:
 IMAGE HERE
@@ -608,7 +608,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 
 ## Visualize levels, Fill rectangle, Color UP, Color DN
 
-*(starting from v2.43)*
+[*(starting from v2.43)*](/docs/versions-history#20220202-243)
 
 ZZ signal visualization parameters.<br/>
 Enable visualization to understand signals better.
