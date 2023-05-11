@@ -22,7 +22,7 @@ IMAGE HERE
 
 ## **Open on** parameter for each filter
 
-*(starting from v2.19)*
+[*(starting from v2.19)*](/docs/versions-history#20201014-219)
 
 You can set up opening of the first deal:
 * by one or more individual signals/filters,
