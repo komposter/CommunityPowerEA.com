@@ -57,7 +57,7 @@ Set 0 to disable.
 
 ## Sum StopLoss (% from balance)
 
-*(starting from v2.07)*
+[*(starting from v2.07)*](/docs/versions-history#20200504-207)
 
 Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in % from current balance.
 
