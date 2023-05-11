@@ -885,7 +885,7 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 
 ## Max current spread
 
-*(starting from v2.05)*
+[*(starting from v2.05)*](/docs/versions-history#20200421-205)
 
 Max spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening.
 
@@ -894,7 +894,7 @@ Set 0 to disable the filter.
 
 ## Max average spread, Seconds for averaging
 
-*(starting from v2.05)*
+[*(starting from v2.05)*](/docs/versions-history#20200421-205)
 
 Max average spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening and the number of seconds to calculate it.
 
