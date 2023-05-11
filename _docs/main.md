@@ -28,7 +28,7 @@ EA will not open **first** trade in disabled direction (but will open additional
 
 ## Signal TimeFrame
 
-*(starting from v2.09)* <br/>
+[*(starting from v2.09)*](/docs/versions-history#20200512-209) <br/>
 
 Common TimeFrame for the following functions/parameters: <br/>
 * **New deal on the new bar**
