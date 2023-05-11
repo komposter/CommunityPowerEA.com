@@ -156,7 +156,7 @@ Default value for Oscillator filters is True
 
 ## Enable IdentifyTrend filter
 
-*(starting from v2.03)*
+[*(starting from v2.03)*](/docs/versions-history#20200414-203)
 
 * BUYs are allowed if IdentifyTrend is blue
 * SELLs are allowed if IdentifyTrend is red
