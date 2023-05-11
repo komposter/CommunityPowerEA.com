@@ -6,7 +6,7 @@ permalink: /docs/risk-per-currency
 
 # Risk per currency
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 Risk manager allows you to control the risks in your account by prohibiting the opening of new positions if you already have much enough. You can set a restriction by positions number or by sum lot. You can also decide how to manage opposite positions -- limit only netto position number/size, set limits for buys and sells separately, or sum all positions and limit the total number/size. By default, only positions with magic number equals Expert Id are taken into account, but you can specify additional magics by settings.
 

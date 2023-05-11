@@ -749,7 +749,7 @@ If **Use closed bars only** = true, FIBO levels recalculate every bar of selecte
 
 # Custom Indicators
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 ## Custom label
 
@@ -903,13 +903,13 @@ Set 0 to disable the filter.
 
 ## Apply to first open
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 Set **true** to apply the spread filter to the open of the first position in a series.
 
 
 ## Apply to martin
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 Set **true** to apply the spread filter to the open of the martingale and anti-martingale positions.

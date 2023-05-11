@@ -53,7 +53,7 @@ If disabled, work time starts at 00:00
 
 ## EveryDay session duration (mins)
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 Length (in minutes) of the EA trade session.<br/>
 Set 0 to use EveryDay end hour/minute parameters.

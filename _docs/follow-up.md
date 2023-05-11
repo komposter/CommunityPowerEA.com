@@ -191,7 +191,7 @@ Set **false** to set the real TP for all orders (if possible).
 
 # BreakEven
 
-*(starting from v2.49)*
+[*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 
 ## BreakEven after, BreakEven to
