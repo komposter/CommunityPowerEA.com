@@ -45,7 +45,7 @@ If 0, the limit is disabled.
 
 ## Max lot per 1000
 
-*(starting from v2.32)*
+[*(starting from v2.32)*](/docs/versions-history#20210605-232)
 
 Max lot calculated per 1000 units of account balance.<br/>
 For example, with balance 15000 USD and Max lot per 1000 = 0.1, max lot size for EA will be 15 * 0.1 = 1.5<br/>

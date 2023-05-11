@@ -53,7 +53,7 @@ After the first entry, hedge-series works like the main series (with martingale,
 
 ## Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
 
-*(starting from v2.32)*
+[*(starting from v2.32)*](/docs/versions-history#20210605-232)
 
 If there are X sell trades opened and buy signal appears, lot for the new buy order will be calculated using these parameters.
 

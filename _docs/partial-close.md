@@ -19,7 +19,7 @@ Be careful, EA will reopen the last martingale order if the series is not totall
 
 ## Min part of losing order to close (%)
 
-*(starting from v2.32)*
+[*(starting from v2.32)*](/docs/versions-history#20210605-232)
 
 Percent of losing order that can be closed with profit by Partial close.
 For example, there are 2 deals opened:
