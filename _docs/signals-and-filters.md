@@ -449,7 +449,7 @@ Reverse all Parabolic signals
 
 # MA Filters
 
-*(starting from v2.15)*
+[*(starting from v2.15)*](/docs/versions-history#20200806-215)
 
 
 ## MA Filter Type
@@ -618,7 +618,7 @@ Enable visualization to understand signals better.
 
 # Volatility for MA and ZZ Filters distance
 
-*(starting from v2.15)*
+[*(starting from v2.15)*](/docs/versions-history#20200806-215)
 
 ## Volatility Indicator
 Indicator used for the Distance calculation for the MA and ZZ Filters.
@@ -642,7 +642,7 @@ TimeFrame and Period of volatility indicator
 
 ## Volatility Filter Indicator
 
-*(starting from v2.15)*
+[*(starting from v2.15)*](/docs/versions-history#20200806-215)
 
 Indicator for the Volatility Filter:
 Disabled: Volatility Filter disabled
