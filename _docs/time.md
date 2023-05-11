@@ -17,7 +17,7 @@ Please, set correct DST mode and GMT offset while testing ([How to?](https://com
 
 ## Apply schedule to
 
-*(starting from v2.25)*
+[*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
 Mode of schedule:
 * **Schedule disabled**: none of the time settings work
@@ -68,7 +68,7 @@ If disabled, work time ends at 23:59
 
 ## EveryDay close hour/minute
 
-*(starting from v2.25)*
+[*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
 Close time for every day.<br/>
 EA will close all open deals at this time.
@@ -88,7 +88,7 @@ EA will close all opened deals at this time on Friday (if trading is still enabl
 
 ## Custom Schedule for each day
 
-*(starting from v2.25)*
+[*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
 Individual schedule for each day.<br/>
 Works if **Enable Custom Schedule** = true only.<br/>
