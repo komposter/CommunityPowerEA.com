@@ -146,7 +146,7 @@ Can be:
 
 ## Allow TakeProfit for anti-martin trades
 
-*(starting from v2.37)*
+[*(starting from v2.37)*](/docs/versions-history#20210906-237)
 
 Set **true** to enable simple TakeProfit for series with anti-martingale trade open.
 

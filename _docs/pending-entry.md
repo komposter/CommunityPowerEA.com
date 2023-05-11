@@ -69,7 +69,7 @@ Set 0 to disable cancelation after bars.
 
 ## Enter by market if opposite trade is open
 
-*(starting from v2.37)*
+[*(starting from v2.37)*](/docs/versions-history#20210906-237)
 
 Set **true** to disable Pending entry for buys if any sell position is open and vice versa (buy will be opened **by market** if signal appears).
 

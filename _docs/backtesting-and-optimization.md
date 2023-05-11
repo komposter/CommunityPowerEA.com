@@ -9,7 +9,7 @@ permalink: /docs/backtesting-and-optimization
 
 # Tester withdrawal
 
-*(starting from v2.37)*
+[*(starting from v2.37)*](/docs/versions-history#20210906-237)
 
 
 ## Withdrawal type
