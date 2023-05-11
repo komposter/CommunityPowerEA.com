@@ -64,7 +64,7 @@ Disables new trades if Account margin level reaches specified value (in %). Set 
 
 ## Custom commission
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 Commission size (in account currency per lot) for all calculations in the EA (including BE level, current profit, etc). <br/>
 Overrides real commission size. Can be used for MT5 accounts with commission taken on opening and closing to help the EA calculate current profit correctly. <br/>

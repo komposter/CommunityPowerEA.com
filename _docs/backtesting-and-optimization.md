@@ -41,7 +41,7 @@ Percent or amount in account currency for each withdrawal.
 
 # Optimization criterion
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 [How to use it?](https://communitypowerea.userecho.com/en/communities/7/topics/392-how-to-use-custom-optimization-criterion)
 

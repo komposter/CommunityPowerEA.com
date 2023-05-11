@@ -73,7 +73,7 @@ Disables opening new first trades after closing by StopLoss or GlobalStopLoss. S
 
 ## Use virtual StopLoss
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
@@ -182,7 +182,7 @@ Min/max profit can be set:<br/>
 
 ## Use virtual TakeProfit
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 Set **true** to close trades by market when TP level is reached.
 Set **false** to set the real TP for all orders (if possible).

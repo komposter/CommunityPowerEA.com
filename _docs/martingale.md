@@ -141,7 +141,7 @@ Set 0 to disable this function.
 
 ## BreakEven min profit
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 Min profit size to close series on BreakEven after order (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 

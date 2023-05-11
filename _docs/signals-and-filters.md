@@ -201,7 +201,7 @@ Default value for IdentifyTrend is False.
 
 ## TDI filter mode
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 **TDI** filter type, can be one of the following:
 * **Disabled** - TDI filter is disabled
@@ -219,14 +219,14 @@ TimeFrame for the TDI filter
 
 ## Signal level
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 Signal level for signal calculation
 
 
 ## RSI period and price, RSI smoothing period and method, Signal smoothing period and method, Volatility bands period, Standard Deviations,
 
-*(starting from v2.27)*
+[*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
 TDI indicator parameters
 
