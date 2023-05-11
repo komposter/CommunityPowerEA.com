@@ -295,7 +295,7 @@ TimeFrame for the MACD filter
 
 ## MACD Signal Level
 
-*(starting from v2.53)*
+[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
 
 Signal level for all filter types where level 0 is used.<br/>
 Thus, **> 0** means **> Signal Level** and **< 0** means **< -Signal Level**
@@ -514,14 +514,14 @@ Angle value also can be negative, so in **Buy on rising MA** mode BUY will be al
 
 ## Reverse mode
 
-*(starting from v2.53)*
+[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
 
 Reverse all Moving Average (MA) signals
 
 
 ## Use closed bars only
 
-*(starting from v2.53)*
+[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
 
 Use only closed (formed) bars.<br/>
 If true, the signal can’t change in the middle of the bar.

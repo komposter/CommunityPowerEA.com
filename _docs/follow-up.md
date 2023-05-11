@@ -17,7 +17,7 @@ StopLoss for the last position in series (for the single position, if martingale
 
 ## StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
 
-*(starting from v2.53)*
+[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
 
 Reduces SL size every bar of Signal TF by specified coefficient, starting from bar # **Start reducing after bars** after 1st position open.<br/>
 SL can't be less than **StopLoss min size (points)**.
