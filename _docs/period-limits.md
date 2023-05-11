@@ -8,8 +8,8 @@ permalink: /docs/period-limits
 
 Starting from v2.48, you can limit trades per day, as well as Max DD and Max profit per day, per week and per month. When several EAs work on the same account, only trades with the same Magic number (Expert Id) are taken into account, so you can set independent limits for each group of CP EAs.
 
-<hr>
 
+<hr>
 
 # Daily limits
 
@@ -74,11 +74,13 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
+
 <hr>
 
 # Weekly and Monthly limits
 
 Weekly and Monthly limits are exactly the same as the daily limits (max DD and max profit limits are available). Also take a look at the "Common limits properties" below for some more details.
+
 
 <hr>
 

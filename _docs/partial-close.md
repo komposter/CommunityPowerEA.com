@@ -53,7 +53,6 @@ Close only profitable orders on **Partial close on** signals even if profit is n
 
 <hr>
 
-
 # ~~Partial close hedge (starting from v2.32)~~ **Removed in 2.50**
 
 ## ~~Close partial after order #, Min profit to close (in account currency / in% from balance / in % from opposite loss)~~

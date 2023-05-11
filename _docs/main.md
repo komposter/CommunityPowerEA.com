@@ -70,6 +70,7 @@ Commission size (in account currency per lot) for all calculations in the EA (in
 Overrides real commission size. Can be used for MT5 accounts with commission taken on opening and closing to help the EA calculate current profit correctly. <br/>
 Set 0 to use real commission size.
 
+
 ## Manage manual trades
 
 If **true**, EA manages trades opened by hands (with magic number = 0).<br/>

@@ -13,6 +13,7 @@ All settings are in GMT time corrected with selected DST mode.
 
 Please, set correct DST mode and GMT offset while testing ([How to?](https://communitypowerea.userecho.com/en/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker))
 
+
 <hr>
 
 ## Apply schedule to

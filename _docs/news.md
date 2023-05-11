@@ -11,6 +11,7 @@ permalink: /docs/news
 
 [How to set up the News filter?](https://communitypowerea.userecho.com/en/communities/7/topics/393-how-to-set-up-the-news-filter)
 
+
 <hr>
 
 ## News filter mode
@@ -57,6 +58,7 @@ Leave empty not to filter the news by name.
 ## Minutes before, Minutes after
 
 Time interval around the news release when “news time” is active.
+
 
 <hr>
 
