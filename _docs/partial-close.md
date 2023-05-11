@@ -33,7 +33,7 @@ By default, only the entire order can be closed (**Min part of losing order to c
 
 ## Close any with any
 
-*(starting from v2.44)*
+[*(starting from v2.44)*](/docs/versions-history#20220312-244)
 
 Allows **partial close** to close orders with any direction (buy or sell).
 

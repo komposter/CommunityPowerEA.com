@@ -11,7 +11,7 @@ permalink: /docs/signals-and-filters
 
 ## Directional change filter type
 
-*(starting from v2.44)*
+[*(starting from v2.44)*](/docs/versions-history#20220312-244)
 
 * **Disabled**: filter disabled
 * **Change dir after loss**:
