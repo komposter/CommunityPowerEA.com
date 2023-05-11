@@ -63,7 +63,7 @@ All colors used in Buy and Sell trading blocks.
 
 # Lines
 
-*(starting from v2.04)*
+[*(starting from v2.04)*](/docs/versions-history#20200416-204)
 
 You are able to draw StopLoss, TakeProfit, BreakEven and NextOrder levels on the chart. Each level can be configured with following parameters:
 

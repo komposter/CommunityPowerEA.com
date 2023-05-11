@@ -7,7 +7,7 @@ permalink: /docs/time
 
 # Time parameters
 
-*(starting from v2.04)*
+[*(starting from v2.04)*](/docs/versions-history#20200416-204)
 
 All settings are in GMT time corrected with selected DST mode.
 
