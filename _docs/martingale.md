@@ -8,7 +8,7 @@ permalink: /docs/martingale
 
 ## Martingale type
 
-*(starting from v2.01)*
+[*(starting from v2.01)*](/docs/versions-history#20200409-201)
 
 Type of martingale strategy used. Can be enabled or disabled.
 
