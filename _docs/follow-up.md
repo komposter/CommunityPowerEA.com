@@ -136,7 +136,7 @@ For example, if you set **Min TakeProfit size** = 20, for all deals from the las
 
 ## Sum TakeProfit (% from balance)
 
-*(starting from v2.17)*
+[*(starting from v2.17)*](/docs/versions-history#20200826-217)
 
 Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) in % from current balance.
 
@@ -218,7 +218,7 @@ Trailing stop size (0 - disabled)
 
 ## Trailing Step
 
-*(starting from v2.16)*
+[*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 Minimal step to move the StopLoss
 

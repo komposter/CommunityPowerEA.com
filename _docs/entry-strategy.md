@@ -56,7 +56,7 @@ The same as **Open martin on**, but for auto-hedge deals.
 
 ## **Close on** parameter for each filter
 
-*(starting from v2.16)*
+[*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 You can set up closing by individual signal/filter or by several filters showing the same signal. Both modes can be used with **in profit only** option.
 

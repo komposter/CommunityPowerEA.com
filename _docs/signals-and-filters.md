@@ -79,7 +79,7 @@ Can be one of the following:
 * RSI
 * Stochastic K
 * Stochastic D *(starting from v2.21)*
-* Momentum *(starting from v2.16)*
+* Momentum [*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 
 ## TimeFrame
@@ -252,7 +252,7 @@ Default value for TDI is True.
 
 ## MACD filter Type
 
-*(starting from v2.16)*
+[*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 Type of MACD filter:
 * **Disabled**: MACD filter disabled
@@ -693,7 +693,7 @@ MA period for Smoothing Volatility filter
 
 # Fibo Filters
 
-*(starting from v2.17)* *(improved in v2.24 and v2.25)*
+[*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*
 
 ## Type
 
