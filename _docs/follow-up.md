@@ -6,6 +6,7 @@ permalink: /docs/follow-up
 
 # Follow up
 
+
 <hr>
 
 # StopLoss
@@ -78,6 +79,7 @@ Disables opening new first trades after closing by StopLoss or GlobalStopLoss. S
 Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
 
+
 <hr>
 
 # TakeProfit
@@ -123,9 +125,9 @@ If enabled, TP for each next order in the series will be reduced by specified **
 For example, with TakeProfit = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:<br/>
 * For the 1st deal TP will be = 50 points
 * For 2 deals: 50 - 10 = 40
-* For 3 deals: 50 - 10 - 10*1.1 = 29
-* For 4 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 = 16.9
-* For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
+* For 3 deals: 50 - 10 - 10 * 1.1 = 29
+* For 4 deals: 50 - 10 - 10 * 1.1 - 10 * 1.1 * 1.1 = 16.9
+* For 5 deals: 50 - 10 - 10 * 1.1 - 10 * 1.1 * 1.1 - 10 * 1.1 * 1.1 * 1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
 TakeProfit can’t be less than **Min TakeProfit size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
@@ -187,6 +189,7 @@ Min/max profit can be set:<br/>
 Set **true** to close trades by market when TP level is reached.
 Set **false** to set the real TP for all orders (if possible).
 
+
 <hr>
 
 # BreakEven
@@ -205,6 +208,7 @@ Thus, the series will be closed with profit of **BreakEven to** points.
 BreakEven can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+
 
 <hr>
 
@@ -237,8 +241,8 @@ If **Increase trailing every** > 0, Trailing stop size changes by **Increase siz
 
 For example, if **TrailingStop size** = 5.0, **Increase every** = 2.0 and **Increase size** = -1.0:
 * if profit <= 7.0, TrailingStop distance = 5.0
-* if profit >= 7.0 and < 9.0, TrailingStop distance = 5.0+(-1.0) = 4.0
-* if profit >= 9.0 and < 11.0, TrailingStop distance = 5.0+(-1.0)+(-1.0) = 3.0 and so on…
+* if profit >= 7.0 and < 9.0, TrailingStop distance = 5.0 + (-1.0) = 4.0
+* if profit >= 9.0 and < 11.0, TrailingStop distance = 5.0 + (-1.0) + (-1.0) = 3.0 and so on…
 As you can see, **Increase size** can be negative.
 
 
@@ -249,11 +253,11 @@ As you can see, **Increase size** can be negative.
 After **Decrease start after minutes** after first position open, TrailingStop size increases/decreases by **Decrease coefficient** every **Decrease every minutes**.
 
 For example, with Initial Trailing Stop size 50 points:
-* after 30 minutes it will be 50*0.9 = 45 points
-* after 35 minutes it will be 50*0.9*0.9 = 40.5 points
-* after 40 minutes it will be 50*0.9*0.9*0.9 = 36.5 points
+* after 30 minutes it will be 50 * 0.9 = 45 points
+* after 35 minutes it will be 50 * 0.9 * 0.9 = 40.5 points
+* after 40 minutes it will be 50 * 0.9 * 0.9 * 0.9 = 36.5 points
 * ...
-* after 60 minutes it will be 50*0.9*0.9*0.9*0.9*0.9*0.9*0.9 = 23.9 points
+* after 60 minutes it will be 50 * 0.9 * 0.9 * 0.9 * 0.9 * 0.9 * 0.9 * 0.9 = 23.9 points
 
 Set **Decrease every minutes** = 0 to disable this function.
 
