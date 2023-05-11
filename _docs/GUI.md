@@ -17,7 +17,7 @@ One click trading without confirmation [*(starting from v2.20)*](/docs/versions-
 
 IMAGE HERE
 
-Click on signal label to show indicator and switch to signal TF *(starting from v2.26)*:
+Click on signal label to show indicator and switch to signal TF [*(starting from v2.26)*](/docs/versions-history#20210202-226):
 
 IMAGE HERE
 

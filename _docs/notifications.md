@@ -7,7 +7,7 @@ permalink: /docs/notifications
 
 # Notifications settings
 
-*(starting from v2.26)*
+[*(starting from v2.26)*](/docs/versions-history#20210202-226)
 
 You can set any sound for any opening and closing signals.
 
