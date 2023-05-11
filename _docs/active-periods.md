@@ -5,7 +5,7 @@ permalink: /docs/active-periods
 ---
 
 # Active periods
-[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)
+[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
 Each signal has an **Active period** parameter. It can be "always active" or use 1 of 3 predefined periods.
 

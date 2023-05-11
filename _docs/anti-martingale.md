@@ -24,7 +24,7 @@ Max anti-martingale deals in series.
 
 ## Min pause between trades (in bars of Signal TF)
 
-*(starting from v2.52)*
+[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)
 
 Anti-martingale deal can be opened only if previous trade in this direction was opened at least **Min pause bars** before (bars from **Signal TimeFrame** are used).
 
@@ -33,7 +33,7 @@ Set 0 to disable this filter.
 
 ## Use martingale signal for anti-martin trades
 
-*(starting from v2.52)*
+[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)
 
 If **true**, anti-martingale trades can be opened only on signals with **Open martin on...** enabled.
 
