@@ -54,7 +54,7 @@ Set 0 to disable GA TrailingStop.
 
 # Global Account TakeProfit
 
-*(starting from v2.31)*
+[*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
 ## GA TakeProfit (account currency)
 
@@ -75,7 +75,7 @@ Set 0 to disable.
 
 # Global Account TargetProfit
 
-*(starting from v2.31)*
+[*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
 ## GA TargetProfit (account currency)
 

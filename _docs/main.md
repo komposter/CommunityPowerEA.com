@@ -57,7 +57,7 @@ Disables new trades if floating loss of positions opened by this EA (and manual 
 
 ## Min margin level %
 
-*(starting from v2.31)*
+[*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
 Disables new trades if Account margin level reaches specified value (in %). Set 0 to disable this limit.
 

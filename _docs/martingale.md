@@ -78,7 +78,7 @@ Step size (in points or like coefficient to Volatility)
 
 ## Step size calc mode
 
-*(starting from v2.31)*
+[*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
 Step can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
