@@ -73,7 +73,7 @@ Set **Increase hedge lot after order = 0** to disable this feature.
 
 ## Allow hedge only after main order #
 
-[*(starting from v2.25](/docs/versions-history#20210115-225), [refactored in 2.50)](/docs/versions-history#20221014-20230107-250)*
+[*(starting from v2.25](/docs/versions-history#20210115-225) , [refactored in 2.50)*](/docs/versions-history#20221014-20230107-250)
 
 Allows to open a hedge series (buy, if sell is already active, or sell, if buy is already active) only if there are X open orders of main series.<br/>
 For example, if **Allow hedge only after main order # = 3**, buy can be opened if there are 3 sell-positions.<br/>
