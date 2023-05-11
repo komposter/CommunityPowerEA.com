@@ -78,7 +78,7 @@ Can be one of the following:
 * WPR
 * RSI
 * Stochastic K
-* Stochastic D *(starting from v2.21)*
+* Stochastic D [*(starting from v2.21)*](/docs/versions-history#20201130-221)
 * Momentum [*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 
