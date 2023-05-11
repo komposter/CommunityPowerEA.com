@@ -148,7 +148,7 @@ Min profit size to close series on BreakEven after order (in points) ([What is a
 
 ## BreakEven Alert
 
-*(starting from v2.11)*
+[*(starting from v2.11)*](/docs/versions-history#20200528-211)
 
 Send a message to Grammy when your series containing a specified number of orders reached Break Even. One alert for each series length.
 

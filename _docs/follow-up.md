@@ -115,7 +115,7 @@ TakeProfit reduce coefficient for all orders. Activates after a certain number o
 
 ## Reduce TP for every order: Reduce size, Reduce coefficient, Min TakeProfit size
 
-*(starting from v2.11)*
+[*(starting from v2.11)*](/docs/versions-history#20200528-211)
 
 TakeProfit reduce size and coefficient for every order in series.<br/>
 If enabled, TP for each next order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
