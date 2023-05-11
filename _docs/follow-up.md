@@ -48,7 +48,7 @@ StopLoss can be set:<br/>
 
 ## Sum StopLoss in account currency
 
-*(starting from v2.23)*
+[*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in account currency.
 
@@ -66,7 +66,7 @@ Set 0 to disable.
 
 ## PauseAfterLoss
 
-*(starting from v2.23)*
+[*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 Disables opening new first trades after closing by StopLoss or GlobalStopLoss. Specifies in bars of Signal TimeFrame.
 
@@ -108,7 +108,7 @@ TakeProfit can be set:
 
 ## Reduce TP after minutes, Reduce coefficient
 
-*(starting from v2.23)*
+[*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 TakeProfit reduce coefficient for all orders. Activates after a certain number of minutes have passed since first order opening.
 

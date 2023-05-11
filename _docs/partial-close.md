@@ -12,7 +12,7 @@ permalink: /docs/partial-close
 
 Close some orders in the same direction (the last one and the first one, for example) if they sum profit is big enough (>= **Min profit to close**), the series is long enough (orders number >= **Close partial after order #**) and there is a signal for partial close (**Partial close on** parameter in each filter settings).
 
-Min profit can be defined in account currency, in % from current balance *(starting from v2.23)*, or using both limits (greater will be taken into account).
+Min profit can be defined in account currency, in % from current balance [*(starting from v2.23)*](/docs/versions-history#20201210-223), or using both limits (greater will be taken into account).
 
 Be careful, EA will reopen the last martingale order if the series is not totally closed, and lots will continue to increase. ([More info](https://communitypowerea.userecho.com/en/communities/1/topics/225-partial-close-of-martingale-trades-with-counter-trades-after-maximum-number-of-trades-are-reached))
 

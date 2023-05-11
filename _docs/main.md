@@ -50,7 +50,7 @@ If **false**, the next deal can be opened on the same bar (if signal allows open
 
 ## Max floating loss
 
-*(starting from v2.23)*
+[*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 Disables new trades if floating loss of positions opened by this EA (and manual positions, if “Manage manual trades” = true) reaches specified value (in account currency). Set 0 to disable this limit.
 
