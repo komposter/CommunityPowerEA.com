@@ -179,14 +179,14 @@ Price and period for IdentifyTrend calculation
 
 ## IdentifyTrend Reverse mode
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 Reverse all IdentifyTrend signals (Buy on Red and Sell on Blue)
 
 
 ## IdentifyTrend use closed bars only
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 Use only closed (formed) bars. If true, the signal can’t change in the middle of the bar.<br/>
 Default value for IdentifyTrend is False.
@@ -233,14 +233,14 @@ TDI indicator parameters
 
 ## TDI Reverse mode
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 Reverse all TDI signals (Buy <= 50 and Sell >= 50)
 
 
 ## TDI use closed bars only
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
 Default value for TDI is True.
@@ -308,14 +308,14 @@ MACD indicator parameters
 
 ## MACD Reverse mode
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 Reverse all MACD signals
 
 
 ## MACD use closed bars only
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 
 <hr>

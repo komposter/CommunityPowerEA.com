@@ -7,7 +7,7 @@ permalink: /docs/gui
 
 # GUI parameters
 
-*(starting from v2.14)*
+[*(starting from v2.14)*](/docs/versions-history#20200722-214)
 
 You can activate the trading and signals panel (look at GUI user guide for details). Available parameters to customize GUI:
 
