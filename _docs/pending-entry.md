@@ -6,7 +6,7 @@ permalink: /docs/pending-entry
 
 # Pending entry
 
-*(starting from v2.09) (updated in v2.18)*
+*[(starting from v2.09)](/docs/versions-history#20200512-209) [(updated in v2.18)](/docs/versions-history#20200908-218)*
 
 
 ## Pending entry type
@@ -66,6 +66,7 @@ Set 0 to disable cancelation after bars.
 **Distance to order** and **Cancel after distance** can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+
 
 ## Enter by market if opposite trade is open
 
