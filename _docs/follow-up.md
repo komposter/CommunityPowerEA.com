@@ -231,7 +231,7 @@ If 0, trailing activated after profit = **Trailing stop size**.
 
 ## Increase trailing every, Increase size
 
-*(starting from v2.45)*
+[*(starting from v2.45)*](/docs/versions-history#20220421-245)
 
 If **Increase trailing every** > 0, Trailing stop size changes by **Increase size** every **Increase trailing every** (points or volatilities, see below).
 

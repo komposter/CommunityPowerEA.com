@@ -98,7 +98,7 @@ Set 0 to disable.
 
 # Stop Till Tomorrow After Close
 
-*(starting from v2.45)*
+[*(starting from v2.45)*](/docs/versions-history#20220421-245)
 
 ## Stop Till Tomorrow After Close
 
