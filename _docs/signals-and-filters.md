@@ -25,7 +25,7 @@ permalink: /docs/signals-and-filters
 
 ## Big candle filter type, Big candle min size, Big candle max size, Big candle TimeFrame, Analyze current bar
 
-*(starting from v2.12)*
+[*(starting from v2.12)*](/docs/versions-history#20200624-212)
 *(added in v2.44)*
 
 Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe.

@@ -6,7 +6,7 @@ permalink: /docs/anti-martingale
 
 # Anti-martingale
 
-*(starting from v2.12)*
+[*(starting from v2.12)*](/docs/versions-history#20200624-212)
 
 New type of exit in profit: instead of fixed TP or closing by opposite signal, EA will open new deals in the same direction, but on the profit side. After each new deal is opened, SL is moved to the new level.
 
