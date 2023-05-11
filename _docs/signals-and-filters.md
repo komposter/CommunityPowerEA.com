@@ -416,7 +416,7 @@ Default value for DTrend is False.
 
 # Parabolic SAR filter
 
-*(starting from v2.29)*
+[*(starting from v2.29)*](/docs/versions-history#20210403-229)
 
 ## Signal Type
 
@@ -650,7 +650,7 @@ Disabled: Volatility Filter disabled
 * StDev
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
-* Tick volume *(starting from v2.29)*
+* Tick volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
 
 ## Volatility Filter TimeFrame
 

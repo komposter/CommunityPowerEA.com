@@ -21,7 +21,7 @@ Click on signal label to show indicator and switch to signal TF [*(starting from
 
 IMAGE HERE
 
-Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news *(starting from v2.29)*:
+Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news [*(starting from v2.29)*](/docs/versions-history#20210403-229):
 
 <hr>
 

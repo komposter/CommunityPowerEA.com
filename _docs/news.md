@@ -7,7 +7,7 @@ permalink: /docs/news
 
 # News parameters
 
-*(starting from v2.29)*
+[*(starting from v2.29)*](/docs/versions-history#20210403-229)
 
 [How to set up the News filter?](https://communitypowerea.userecho.com/en/communities/7/topics/393-how-to-set-up-the-news-filter)
 
