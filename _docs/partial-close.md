@@ -44,7 +44,7 @@ Same side closings (most losing buy with several profitable buys, for example) a
 
 ## Close profit itself
 
-*(starting from v2.46)*
+[*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
 Close only profitable orders on **Partial close on** signals even if profit is not big enough to cover the loss.
 

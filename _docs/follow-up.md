@@ -244,7 +244,7 @@ As you can see, **Increase size** can be negative.
 
 ## Decrease every minutes, Decrease coefficient, Decrease start after minutes
 
-*(starting from v2.46)*
+[*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
 After **Decrease start after minutes** after first position open, TrailingStop size increases/decreases by **Decrease coefficient** every **Decrease every minutes**.
 
@@ -263,7 +263,7 @@ If both **Increase trailing every** and **Decrease every minutes** are activated
 
 ## Min size, Max size
 
-*(starting from v2.46)*
+[*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
 If **Min/max size** is set, TrailingStop size after applying all modificators can’t be less than **Min size** value and can't be greater than **Max size** value.
 

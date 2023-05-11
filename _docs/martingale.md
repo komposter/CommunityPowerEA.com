@@ -93,7 +93,7 @@ For example, with **Step size** = 20 points and **Step increase coefficient** = 
 
 ## Change step after order #, Change step by coefficient
 
-*(starting from v2.46)*
+[*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
 Change the step after a certain order by custom coefficient (next steps also change).<br/>
 For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
