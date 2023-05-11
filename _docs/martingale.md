@@ -27,7 +27,7 @@ If enabled, Step condition is checked using last bar Close price (+ current spre
 
 ## Min pause between trades (in bars of Signal TF)
 
-*(starting from v2.18)*
+[*(starting from v2.18)*](/docs/versions-history#20200908-218)
 
 Martingale deal can be opened only if previous trade in this direction was opened at least **Min pause bars** before (bars from **Signal TimeFrame** are used).
 
@@ -130,7 +130,7 @@ Calculated step can’t be larger than the **Max step size** value.
 
 ## Close on BreakEven after order #
 
-*(starting from v2.18)*
+[*(starting from v2.18)*](/docs/versions-history#20200908-218)
 
 Close all orders when your series containing a specified number of orders reaches Break Even.
 
