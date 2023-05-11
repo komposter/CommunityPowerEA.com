@@ -329,13 +329,13 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
-* **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
+* **Buy on +DI >= level / Sell on -DI >= level** [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
 * **Buy/sell on +DI crosses -DI up/down when ADX >= level**:
     * BUYs are allowed if ADX >= **Signal level** and +DI line crosses -DI line up
     * SELLs are allowed if ADX >= **Signal level** and +DI line crosses -DI line down
-* **Buy/sell when ADX >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
+* **Buy/sell when ADX >= level** [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252):
     both BUYs and SELLs are allowed if ADX >= **Signal level**
     [Signals examples](https://t.me/CommunityPowerNews/5)
 

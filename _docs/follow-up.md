@@ -168,7 +168,7 @@ When you select **Close in profit only** mode for any signal, it will close the 
 
 ## Max profit to close on signal
 
-[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)
+[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit <= X only.
 
