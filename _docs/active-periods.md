@@ -5,7 +5,7 @@ permalink: /docs/active-periods
 ---
 
 # Active periods
-*(starting from v2.52)*
+<span class="badge badge-secondary">*(starting from v2.52)*</span>
 
 Each signal has an **Active period** parameter. It can be "always active" or use 1 of 3 predefined periods.
 
