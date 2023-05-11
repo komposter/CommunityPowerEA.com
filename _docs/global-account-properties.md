@@ -16,7 +16,7 @@ Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a
 
 # Global Account StopLoss
 
-*(starting from v2.48)*
+[*(starting from v2.48)*](/docs/versions-history#20220702-248)
 
 ## GA StopLoss (account currency)
 

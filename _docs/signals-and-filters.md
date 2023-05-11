@@ -280,10 +280,10 @@ Type of MACD filter:
 * **Buy on Main > Signal and Signal < 0 / Sell on Main < Signal and Signal > 0** *(starting from 2.35)*:
     * BUYs are allowed if MACD histogram > MACD Signal line and MACD signal line < **-Signal Level**
     * SELLs are allowed if MACD histogram < MACD Signal line and MACD signal line > **Signal Level**
-* **Main cross 0** *(starting from v2.48)*:
+* **Main cross 0** [*(starting from v2.48)*](/docs/versions-history#20220702-248):
     * BUYs are allowed on the bar where MACD histogram crosses **Signal Level** upwards
     * SELLs are allowed on the bar where MACD histogram crosses **-Signal Level** downwards
-* **Signal cross 0** *(starting from v2.48)*:
+* **Signal cross 0** [*(starting from v2.48)*](/docs/versions-history#20220702-248):
     * BUYs are allowed on the bar where MACD Signal line crosses **Signal Level** upwards
     * SELLs are allowed on the bar where MACD Signal line crosses **-Signal Level** downwards
 
