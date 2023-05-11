@@ -21,7 +21,7 @@ Click on signal label to show indicator and switch to signal TF [*(starting from
 
 IMAGE HERE
 
-Show orders *(starting from v2.28)* and show news *(starting from v2.29)*:
+Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news *(starting from v2.29)*:
 
 <hr>
 
@@ -94,7 +94,7 @@ Starting from **2.50.4**, you can also enable **Allow dragging the lines to modi
 
 # Orders on chart
 
-*(starting from v2.28)*
+[*(starting from v2.28)*](/docs/versions-history#20210303-228)
 
 You can enable drawing of the EA orders on the chart and toggle it by button on the expert panel (look at **GUI user guide** (MISSING LINK) for details). EA draws only trades with a magic number equal to the Expert Id set in the properties (and manually opened trades, if Manage manual = true).
 
