@@ -5,11 +5,12 @@ permalink: /docs/active-periods
 ---
 
 # Active periods
-<span class="badge badge-secondary">*(starting from v2.52)*</span>
+<span class="badge badge-secondary">[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</span>
 
 Each signal has an **Active period** parameter. It can be "always active" or use 1 of 3 predefined periods.
 
 Active periods are set in this section. Each period can start and end by its own rules.
+
 
 <hr>
 
