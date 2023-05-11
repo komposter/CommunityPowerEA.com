@@ -76,7 +76,7 @@ Set **true** to disable Pending entry for buys if any sell position is open and 
 
 ## Delete if opposite trade is open
 
-*(starting from v2.42)*
+[*(starting from v2.42)*](/docs/versions-history#20220122-242)
 
 Set **true** to delete pending buy-order if any sell position is open and vice versa. New buy-order can be opened when the sell-position is closed.
 
