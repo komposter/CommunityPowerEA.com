@@ -145,7 +145,7 @@ Set 0 to disable.
 
 ## Sum TakeProfit (account currency)
 
-*(starting from v2.35)*
+[*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
 Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) in account currency.
 
@@ -154,7 +154,7 @@ Set 0 to disable.
 
 ## Sum TakeProfit works if both buy and sell are open
 
-*(starting from v2.35)*
+[*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
 Set this parameter to true to activate Sum TakeProfit if both buy and sell trades are opened.
 

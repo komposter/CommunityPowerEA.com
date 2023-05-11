@@ -144,7 +144,7 @@ If true, buy signals replaced by sell signals and vice versa
 
 ## Use closed bars only
 
-*(starting from v2.35)*
+[*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
 Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
 Default value for Oscillator filters is True
@@ -370,7 +370,7 @@ Default value for ADX is True.
 
 # DTrend filter
 
-*(starting from v2.35)*
+[*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
 ## Type
 
