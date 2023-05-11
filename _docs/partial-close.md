@@ -8,7 +8,7 @@ permalink: /docs/partial-close
 
 ## Close partial after order # and Min profit to close (in account currency / in% from balance)
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 Close some orders in the same direction (the last one and the first one, for example) if they sum profit is big enough (>= **Min profit to close**), the series is long enough (orders number >= **Close partial after order #**) and there is a signal for partial close (**Partial close on** parameter in each filter settings).
 

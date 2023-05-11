@@ -40,7 +40,7 @@ If **true**, anti-martingale trades can be opened only on signals with **Open ma
 
 ## Lot increasing mode
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 Can be one of the following:<br/>
 * **Sum**: previous lot + adding [1-2-3-4-5-...]<br/>
@@ -105,7 +105,7 @@ Can be negative (when calculated from average price) (starting from v2.20)
 
 ## Anti-StopLoss reduce size, Anti-StopLoss reduce coefficient and Min Anti-StopLoss size
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 Anti-StopLoss reduce size and coefficient.<br/>
 If enabled, SL for each next anti-martingale order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
@@ -126,7 +126,7 @@ For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the 
 
 ## Anti-StopLoss mode
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 Anti-StopLoss mode:<br/>
 * **From average open price**: SL based on weighted average open price of all positions in the series.

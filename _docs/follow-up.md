@@ -31,7 +31,7 @@ Set 0 to disable SL reducing
 
 ## StopLoss mode
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 StopLoss mode:
 * **From average open price** - SL based on weighted average open price of all positions in the series.
@@ -92,7 +92,7 @@ TakeProfit size (In points or Like Coefficient to Volatility) (0 - disabled)
 TakeProfit mode:
 * **From average open price** - TP based on weighted average open price of all positions in the series (price1*lot1 + price2*lot2 + priceN*lotN)/(lot1 + lot2 + lotN).
 * **From last open price** - TP based on the open price of the last position in the series.
-* **From first open price** *(starting from v2.20)* - TP based on the open price of the first position in the series.
+* **From first open price** [*(starting from v2.20)*](/docs/versions-history#20201103-220) - TP based on the open price of the first position in the series.
 
 Spread included. Sells are closed by Ask price. So, only when Ask became <= TP must trigger.
 
@@ -161,7 +161,7 @@ Set this parameter to true to activate Sum TakeProfit if both buy and sell trade
 
 ## Min profit to close on signal
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit >= X only.
 
@@ -275,7 +275,7 @@ Set 0 to disable limits.
 TrailingStop mode:<br/>
 * **From average open price** - TS based on average open price of all positions in the series;
 * **From last open price** - TS based on the open price of the last position in the series.
-* **From first open price** *(starting from v2.20)* - TS based on the open price of the first position in the series.
+* **From first open price** [*(starting from v2.20)*](/docs/versions-history#20201103-220) - TS based on the open price of the first position in the series.
 
 
 ## TrailingStop calc mode

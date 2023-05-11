@@ -40,7 +40,7 @@ For example, if Stochastic Inside zone signal selected with Levels 70/30, Collec
 
 ## **Open martin on** parameter for each filter
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 You can set up the opening of the martingale deals in the same way as the first deals opening. Signals for martingale deals can differ from signals for the first deals.
 

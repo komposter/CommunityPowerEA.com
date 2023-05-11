@@ -20,7 +20,7 @@ Max deals in series.
 
 ## New deal on the end of the bar only
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 If enabled, Step condition is checked using last bar Close price (+ current spread for buy-orders). So, only 1 trade per bar is allowed and all trades are opened on the beginning of the bar.
 
@@ -44,7 +44,7 @@ When false, closed positions are taken into account as well (closed position may
 
 ## Lot increasing mode
 
-*(starting from v2.20)*
+[*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 Can be one of the following:<br/>
 * **Sum**: previous lot + adding [1-2-3-4-5-...]

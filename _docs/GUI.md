@@ -13,7 +13,7 @@ You can activate the trading and signals panel (look at GUI user guide for detai
 
 IMAGE HERE
 
-One click trading without confirmation *(starting from v2.20)*:
+One click trading without confirmation [*(starting from v2.20)*](/docs/versions-history#20201103-220):
 
 IMAGE HERE
 
