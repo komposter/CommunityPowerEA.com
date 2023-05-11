@@ -36,7 +36,7 @@ Set 0 to disable this filter.
 
 ## Use only opened trades for time filters
 
-*(starting from v2.47)*
+[*(starting from v2.47)*](/docs/versions-history#20220520-247)
 
 When true, **New deal on the end of the bar only** and **Min pause between trades** analyze only open positions.<br/>
 When false, closed positions are taken into account as well (closed position may be opened later than opened one, for example after Partial close)
