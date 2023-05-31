@@ -493,7 +493,7 @@ TimeFrame for MA filter
 Moving Average (MA) properties
 
 
-# Distance / angle calculation type
+## Distance / angle calculation type
 
 **Distance / angle** calculation type:
 * **In points**: fixed distance in points / fixed angle in points per bar is used ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
