@@ -533,6 +533,7 @@ If true, the signal can’t change in the middle of the bar.
 
 [*(starting from v2.30)*](/docs/versions-history#20210419-230)
 
+
 ## ZZ filter type
 
 Type of ZZ filter:
@@ -581,6 +582,7 @@ ZZ properties
 * **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
     IMAGE HERE
 
+
 ## Distance size (Points / Coefficient)
 
 Distance size for signal calculation.
@@ -620,7 +622,9 @@ Enable visualization to understand signals better.
 
 [*(starting from v2.15)*](/docs/versions-history#20200806-215)
 
+
 ## Volatility Indicator
+
 Indicator used for the Distance calculation for the MA and ZZ Filters.
 Can be one of the following:
 * ATR
@@ -651,6 +655,7 @@ Disabled: Volatility Filter disabled
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
 * Tick volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
+
 
 ## Volatility Filter TimeFrame
 
@@ -694,6 +699,7 @@ MA period for Smoothing Volatility filter
 # Fibo Filters
 
 [*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*
+
 
 ## Type
 
@@ -751,9 +757,11 @@ If **Use closed bars only** = true, FIBO levels recalculate every bar of selecte
 
 [*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
+
 ## Custom label
 
 Short and understandable name of your custom indy to draw on the GUI, write to the expert logs and send via Grammy to your Telegram
+
 
 ## Type
 
@@ -863,6 +871,7 @@ Reverse all CustomIndy signals
 
 Use only closed (formed) bars. If true, the signal can’t change in the middle of the bar.<br/>
 Default value for CustomIndy is True.
+
 
 ## Short indicator name, Draw in subwindow
 
