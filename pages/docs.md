@@ -6,7 +6,7 @@ permalink: /docs/
 
 # Documentation
 
-### [Main parameters](/docs/main)
+### [Main parameters](/docs/main-parameters)
 
 ### [Lot](/docs/lot)
 
