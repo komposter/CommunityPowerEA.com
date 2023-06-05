@@ -5,8 +5,6 @@ description: Main parameters
 permalink: /docs/main-parameters
 ---
 
-Version 1
-
 # Main parameters
 
 ## Expert Id
