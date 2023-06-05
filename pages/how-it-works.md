@@ -42,7 +42,7 @@ To cancel your vote just click on the votes number:
 
 ### Implement
 After all, I implement new functions to the EA, upload it to the market and to the [Telegram channel](https://t.me/CommunityPowerNews/3), add a short description 
-to the [Versions history]({{site.baseurl}}/docs/versions-history/) page, and we go to the [backtesting and optimization]({{site.baseurl}}/backtesting-and-optimization/).
+to the [Versions history]({{site.baseurl}}/docs/versions-history) page, and we go to the [backtesting and optimization]({{site.baseurl}}/backtesting-and-optimization/).
 
 [<button class="btn btn-primary">Get the latest version</button>]({{site.baseurl}}/quick-start-guide/)
 
