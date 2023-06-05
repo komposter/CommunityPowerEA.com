@@ -40,9 +40,9 @@ permalink: /docs/
 
 ### [News](/docs/news)
 
-### [GUI](/docs/GUI)
+### [GUI](/docs/gui)
 
-### [Notifications settings](/docs/notifications-settings)
+### [Notifications settings](/docs/notifications)
 
 ### [Backtesting and optimization](/docs/backtesting-and-optimization)
 
