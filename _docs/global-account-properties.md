@@ -8,7 +8,7 @@ permalink: /docs/global-account-properties
 
 GlobalAccount functions manage **all open positions** (with any magic number, opened by any EA or manually).
 
-{% include alert.html type="warning" title="Warning" content="Don't trade symbols with **different trading sessions** on the same account with GlobalAccount closings enabled!" %}
+{% include alert.html type="warning" title="Warning" content="Don't trade symbols with different trading sessions on the same account with GlobalAccount closings enabled!" %}
 
 Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a small chance of new positions opening before all positions are closed by GlobalAccount signal (in case a new opening signal of another EA happens simultaneously with GA close signal). So, please, test your EAs on demo-accounts first.
 
