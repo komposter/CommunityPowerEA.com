@@ -21,7 +21,7 @@ Lot size calculation type (applies to first trade in each series): <br/>
   - for balance $700: 0.01 lots (min lot used because balance size < 1000)
   - for balance 112 342: 11.20 lots
 * **Fixed size per 1000 USD**: the same as Fixed size per 1000, but converted to USD. So, if your account is in EUR or GBP you’ll have a greater lot.
-* **Amount in base currency**: lot calculates as Lot size / current symbol price. Suitable for cryptocurrencies, when you want to invest fixed amount of USD in each trade <sup>[*(starting from v2.47)*](/docs/versions-history#20220520-247)</sup>
+* **Amount in base currency**: lot calculates as Lot size / current symbol price. Suitable for cryptocurrencies, when you want to invest fixed amount of USD in each trade <sup><sub>[*(starting from v2.47)*](/docs/versions-history#20220520-247)</sub></sup>
 
 <br />
 
