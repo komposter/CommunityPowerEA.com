@@ -32,6 +32,8 @@ Set 0 to disable GA StopLoss.
 
 The same as GA StopLoss (account currency) but in % from current account balance.
 
+    Don't activate this option for several EAs, you need to activate it only once!
+
 Set 0 to disable.
 
 <br />
@@ -71,21 +73,27 @@ Set 0 to disable GA TakeProfit.
 
 The same as GA TakeProfit (account currency) but in % from current account balance.
 
+    Don't activate this option for several EAs, you need to activate it only once!
+
 Set 0 to disable.
 
 <br />
 
 # Global Account TargetProfit
 
-<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
+<sup>*([starting from v2.31](/docs/versions-history#20210508-231), [improved in v2.34](/docs/versions-history#20210612-234))*</sup>
 
 ### GA TargetProfit (account currency)
 
-Target profit for the entire account. EA will close all positions when the target level is reached. Then the target level will be moved by the TargetProfit size (to the next level).<br/>Thus, EA will close positions every X dollars earned. Restarts if all positions are closed (starting from v2.34).
+Target profit for the entire account. EA will close all positions when the target level is reached. Then the target level will be moved by the TargetProfit size (to the next level).
+
+Thus, EA will close positions every X dollars earned.
+
+Restarts if all positions are closed (starting from v2.34).
 
 > For example, if you start with $1000 and set GA TargetProfit = 25, EA closes all positions as soon as equity becomes $1025, then at $1050, $1075, $1100, and so on. Equity will not be exactly rounded to the TargetProfit size because of price moves, slippages and execution speed. So, progression could be like 1000 - 1026 - 1050 - 1074 - 1110.
 
-{% include alert.html type="warning" title="Warning" content="Don't activate this option for several EAs, you need to activate it only once!" %}
+    Don't activate this option for several EAs, you need to activate it only once!
 
 
 Set 0 to disable GA TakeProfit.
@@ -95,6 +103,8 @@ Set 0 to disable GA TakeProfit.
 ### GA TargetProfit (% from balance)
 
 The same as GA TargetProfit (account currency) but in % from the last equity high.
+
+    Don't activate this option for several EAs, you need to activate it only once!
 
 Set 0 to disable.
 
