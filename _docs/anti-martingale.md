@@ -12,17 +12,17 @@ New type of exit in profit: instead of fixed TP or closing by opposite signal, E
 
 <hr>
 
-## Anti-martingale type
+### Anti-martingale type
 
 Type of anti-martingale strategy used. Can be enabled or disabled.
 
 
-## Max trades
+### Max trades
 
 Max anti-martingale deals in series.
 
 
-## Min pause between trades (in bars of Signal TF)
+### Min pause between trades (in bars of Signal TF)
 
 [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
@@ -31,14 +31,14 @@ Anti-martingale deal can be opened only if previous trade in this direction was 
 Set 0 to disable this filter.
 
 
-## Use martingale signal for anti-martin trades
+### Use martingale signal for anti-martin trades
 
 [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
 If **true**, anti-martingale trades can be opened only on signals with **Open martin on...** enabled.
 
 
-## Lot increasing mode
+### Lot increasing mode
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -52,12 +52,12 @@ Can be one of the following:<br/>
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see **Custom lot coefficients** parameter below)<br/>
 
 
-## Lot coefficient / adding / x0
+### Lot coefficient / adding / x0
 
 Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 
-## Custom lot coefficients
+### Custom lot coefficients
 
 [*(starting from v2.33)*](/docs/versions-history#20210610-233)
 
@@ -66,12 +66,12 @@ User-defined coefficient sequence for **Custom lot coefficients** increasing mod
 For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
 
 
-## Step size
+### Step size
 
 Step size (in points or like coefficient to Volatility)
 
 
-## Step size calc mode
+### Step size calc mode
 
 [*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
@@ -80,30 +80,30 @@ Step can be set:
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-## Step increase coefficient
+### Step increase coefficient
 
 Step increase coefficient for 2nd and all next martingale deals.<br/>
 For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 68 and so on
 
 
-## Min step size (points)
+### Min step size (points)
 
 [*(starting from v2.29)*](/docs/versions-history#20210403-229)
 
 Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
-Calculated step can’t be smaller than the Min step size value.
+Calculated step can't be smaller than the Min step size value.
 
 <hr>
 
 # Anti-StopLoss
 
-## Anti-StopLoss size
+### Anti-StopLoss size
 
 StopLoss applies to the series after the anti-martingale strategy is activated (2nd order in series is opened).
 Can be negative (when calculated from average price) (starting from v2.20)
 
 
-## Anti-StopLoss reduce size, Anti-StopLoss reduce coefficient and Min Anti-StopLoss size
+### Anti-StopLoss reduce size, Anti-StopLoss reduce coefficient and Min Anti-StopLoss size
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -118,13 +118,13 @@ For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 yo
 * For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
-Anti-StopLoss can’t be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
+Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 
 For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the last example, starting from 4th SL will be = 20 (16.9 is less than 20, so will be replaced).<br/>
 **Anti-StopLoss size** can be negative.
 
 
-## Anti-StopLoss mode
+### Anti-StopLoss mode
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -134,7 +134,7 @@ Anti-StopLoss mode:<br/>
 * **From first open price**: SL based on the open price of the first position in the series.
 
 
-## Anti-StopLoss calc mode
+### Anti-StopLoss calc mode
 
 [*(starting from v2.31)*](/docs/versions-history#20210508-231)
 
@@ -144,7 +144,7 @@ Can be:
 
 
 
-## Allow TakeProfit for anti-martin trades
+### Allow TakeProfit for anti-martin trades
 
 [*(starting from v2.37)*](/docs/versions-history#20210906-237)
 
@@ -155,7 +155,7 @@ Set **true** to enable simple TakeProfit for series with anti-martingale trade o
 
 # Allow both Martin and Anti-martin
 
-## Allow both Martin and Anti-martin
+### Allow both Martin and Anti-martin
 
 [*(starting from v2.32)*](/docs/versions-history#20210605-232)
 

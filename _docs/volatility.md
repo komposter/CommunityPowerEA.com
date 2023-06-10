@@ -31,7 +31,7 @@ You can set "calculation mode" for the following parameters:
 * Start trailing after
 
 
-## Volatility Indicator
+### Volatility Indicator
 
 Indicator used for the Volatility calculation.
 Can be one of the following:
@@ -39,24 +39,24 @@ Can be one of the following:
 * StDev
 * ATR based on "Close-Open" (high and low prices not used)
 * WATR
-* (don’t use Volume mode for this block!)
+* (don't use Volume mode for this block!)
 
 [Example of ATR/StDev using.](https://communitypowerea.userecho.com/en/communities/1/topics/509-how-to-properly-use-the-volatility-filter?redirect_to_reply=3383#comment-3383)
 
 
-## TimeFrame and Period
+### TimeFrame and Period
 
 TimeFrame and Period of volatility indicator
 
 
-## Min and Max volatility to use (points)
+### Min and Max volatility to use (points)
 
 Indicator value will be limited by these Min and Max values defined **in points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)). For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with coefficient to volatility = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
 
 Set 0 to disable the limit.
 
 
-## Fix volatility on 1st position open
+### Fix volatility on 1st position open
 
 *(starting from v2.50.4)*
 

@@ -7,7 +7,7 @@ permalink: /docs/entry-strategy
 # Entry strategy
 
 
-## **Active Period** parameter for each filter
+### **Active Period** parameter for each filter
 
 [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
@@ -20,7 +20,7 @@ Active signals are shown on the EA panel as usual (gray if there is no signal, a
 IMAGE HERE
 
 
-## **Open on** parameter for each filter
+### **Open on** parameter for each filter
 
 [*(starting from v2.19)*](/docs/versions-history#20201014-219)
 
@@ -38,7 +38,7 @@ Open on Collective signal (neutral signals accepted) mode works like previous, b
 For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
 
-## **Open martin on** parameter for each filter
+### **Open martin on** parameter for each filter
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -47,14 +47,14 @@ You can set up the opening of the martingale deals in the same way as the first 
 If all **Open martin on** parameters are set to **Don't use for open**, martingale deals are opened without any signal (but taking into account Step size and other martingale parameters, of course).
 
 
-## **Open hedge on** parameter for each filter
+### **Open hedge on** parameter for each filter
 
 [*(starting from v2.36)*](/docs/versions-history#20210804-236)
 
 The same as **Open martin on**, but for auto-hedge deals.
 
 
-## **Close on** parameter for each filter
+### **Close on** parameter for each filter
 
 [*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
@@ -65,7 +65,7 @@ For example, you can set Oscillator signal, TDI and MA filters, and close deals 
 Close signal - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 
 
-## **Partial close on** parameter for each filter
+### **Partial close on** parameter for each filter
 
 [*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
