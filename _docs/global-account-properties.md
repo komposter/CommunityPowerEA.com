@@ -114,6 +114,4 @@ Set 0 to disable.
 
 <sup>[*(starting from v2.45)*](/docs/versions-history#20220421-245)</sup>
 
-### Stop Till Tomorrow After Close
-
 Set **true** to disable trading till the next day (server time) after any close by Global Account functions
