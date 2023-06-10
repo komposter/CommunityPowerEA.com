@@ -12,11 +12,13 @@ Don't trade symbols with **different trading sessions** on the same account with
 
 Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a small chance of new positions opening before all positions are closed by GlobalAccount signal (in case a new opening signal of another EA happens simultaneously with GA close signal). So, please, test your EAs on demo-accounts first.
 
-<hr>
+<br />
 
 # Global Account StopLoss
 
-[*(starting from v2.48)*](/docs/versions-history#20220702-248)
+<sup>[*(starting from v2.48)*](/docs/versions-history#20220702-248)</sup>
+
+<br />
 
 ### GA StopLoss (account currency)
 
@@ -26,6 +28,7 @@ Loss of all **opened positions** (with all magic numbers, opened by any EA or ma
 
 Set 0 to disable GA StopLoss.
 
+<br />
 
 ### GA StopLoss (% from balance)
 
@@ -33,11 +36,11 @@ The same as GA StopLoss (account currency) but in % from current account balance
 
 Set 0 to disable.
 
-<hr>
+<br />
 
 # Global Account TrailingStop
 
-[*(starting from v2.34)*](/docs/versions-history#20210612-234)
+<sup>[*(starting from v2.34)*](/docs/versions-history#20210612-234)</sup>
 
 ### GA TrailingStop
 
@@ -50,11 +53,11 @@ For example, if you start with $1000 and set GA TrailingStop (account currency) 
 
 Set 0 to disable GA TrailingStop.
 
-<hr>
+<br />
 
 # Global Account TakeProfit
 
-[*(starting from v2.31)*](/docs/versions-history#20210508-231)
+<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 ### GA TakeProfit (account currency)
 
@@ -64,6 +67,7 @@ Profit of all **opened positions** (with all magic numbers, opened by any EA or 
 
 Set 0 to disable GA TakeProfit.
 
+<br />
 
 ### GA TakeProfit (% from balance)
 
@@ -71,11 +75,11 @@ The same as GA TakeProfit (account currency) but in % from current account balan
 
 Set 0 to disable.
 
-<hr>
+<br />
 
 # Global Account TargetProfit
 
-[*(starting from v2.31)*](/docs/versions-history#20210508-231)
+<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 ### GA TargetProfit (account currency)
 
@@ -87,6 +91,7 @@ For example, if you start with $1000 and set GA TargetProfit = 25, EA closes all
 
 Set 0 to disable GA TakeProfit.
 
+<br />
 
 ### GA TargetProfit (% from balance)
 
@@ -94,11 +99,11 @@ The same as GA TargetProfit (account currency) but in % from the last equity hig
 
 Set 0 to disable.
 
-<hr>
+<br />
 
 # Stop Till Tomorrow After Close
 
-[*(starting from v2.45)*](/docs/versions-history#20220421-245)
+<sup>[*(starting from v2.45)*](/docs/versions-history#20220421-245)</sup>
 
 ### Stop Till Tomorrow After Close
 
