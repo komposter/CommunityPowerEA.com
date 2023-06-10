@@ -86,4 +86,4 @@ Set 0 to use real commission size.
 If **true**, EA manages trades opened by hands (with magic number = 0).<br/>
 EA considers manual trades as its own, takes them into account for Max trades limit, manages them by TrailingStop and BreakEven, etc.
 
-If **false**, EA doesn’t take into account manual trades.
+If **false**, EA doesn't take into account manual trades.

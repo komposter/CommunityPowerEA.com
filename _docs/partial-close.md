@@ -6,7 +6,7 @@ permalink: /docs/partial-close
 
 # Partial close
 
-## Close partial after order # and Min profit to close (in account currency / in% from balance)
+### Close partial after order # and Min profit to close (in account currency / in% from balance)
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -17,7 +17,7 @@ Min profit can be defined in account currency, in % from current balance [*(star
 Be careful, EA will reopen the last martingale order if the series is not totally closed, and lots will continue to increase. ([More info](https://communitypowerea.userecho.com/en/communities/1/topics/225-partial-close-of-martingale-trades-with-counter-trades-after-maximum-number-of-trades-are-reached))
 
 
-## Min part of losing order to close (%)
+### Min part of losing order to close (%)
 
 [*(starting from v2.32)*](/docs/versions-history#20210605-232)
 
@@ -31,7 +31,7 @@ With **Min profit to close** = 10 we can close only 50% (0.6 lots) of losing ord
 By default, only the entire order can be closed (**Min part of losing order to close** = 100%). Value of 0 also disables this function.
 
 
-## Close any with any
+### Close any with any
 
 [*(starting from v2.44)*](/docs/versions-history#20220312-244)
 
@@ -42,7 +42,7 @@ If enabled, any number of profitable orders in any direction can be closed with 
 Same side closings (most losing buy with several profitable buys, for example) are still possible, if most losing buy is the most losing trade from all, and several profitable buys are most profitable trades.
 
 
-## Close profit itself
+### Close profit itself
 
 [*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
@@ -55,32 +55,32 @@ Close only profitable orders on **Partial close on** signals even if profit is n
 
 # ~~Partial close hedge (starting from v2.32)~~ **Removed in 2.50**
 
-## ~~Close partial after order #, Min profit to close (in account currency / in% from balance / in % from opposite loss)~~
+### ~~Close partial after order #, Min profit to close (in account currency / in% from balance / in % from opposite loss)~~
 
 ~~Close some opposite direction orders (the last buy and the first sell, for example) if they sum profit is big enough (>= Min profit to close) and the series is long enough (orders number >= Close partial after order #).~~
 
 ~~Min profit can be defined in account currency, in % from current balance, in % from opposite order loss, or using all 3 limits (greater will be taken into account).~~
 
 
-## ~~Close main series by opposite main series~~
+### ~~Close main series by opposite main series~~
 
 ~~[*(starting from v2.36)*](/docs/versions-history#20210804-236)~~
 
 ~~Allow partial close of opposite main series with total profit (all other partial close parameters also work for this mode)~~
 
 
-## ~~Allow close both ways~~
+### ~~Allow close both ways~~
 
 ~~**False**: close a winning order from a series with fewer orders with losing orders from a series with more orders.~~
 ~~**True**: allow close both ways (profitable order from a series with more orders with losing orders from a series with fewer orders, as well).~~
 
 
-## ~~Max profitable orders to close~~
+### ~~Max profitable orders to close~~
 
 ~~Max number of profitable orders that can be used for partial close hedge. Set 0 to disable this limit.~~
 
 
-## ~~Min part of losing order to close (%)~~
+### ~~Min part of losing order to close (%)~~
 
 ~~Percent of losing order that can be closed with profit by Partial close.~~
 

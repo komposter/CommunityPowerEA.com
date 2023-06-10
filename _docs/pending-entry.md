@@ -9,7 +9,7 @@ permalink: /docs/pending-entry
 *[(starting from v2.09)](/docs/versions-history#20200512-209) [(updated in v2.18)](/docs/versions-history#20200908-218)*
 
 
-## Pending entry type
+### Pending entry type
 
 Type of Pending entry:<br/>
 * **Pending entry disabled**: first deal will be opened by market.
@@ -17,19 +17,19 @@ Type of Pending entry:<br/>
 * **Entry with LIMIT order**: buy-limit / sell-limit orders will be set on signal.
 
 
-## Distance to order
+### Distance to order
 
 Distance from the current price to the pending order.
 
 
-## Extremum bars
+### Extremum bars
 
 If **Extremum bars** > 0, pending order open price will be based on the price extremum (instead of current price):<br/>
 * Buy-stop and sell-limit orders will be set on "**Highest** price of last **Extremum bars** + **Distance to order**",
 * Sell-stop and buy-limit orders will be set on "**Lowest** price of last **Extremum bars** - **Distance to order**".
 
 
-## Trail pendings mode
+### Trail pendings mode
 
 Trailing mode for pendings:
 * **Disabled**: pendings will not be moved<br/>
@@ -39,14 +39,14 @@ Trailing mode for pendings:
 Order level calculates using **Distance to order** and **Extremum bars** parameters and order moves to the new level only if the new level is better than the previous one (lower — for buy-stops and sell-limits, or higher — for sell-stops and buy-limits).
 
 
-## Cancel on opposite signal
+### Cancel on opposite signal
 
 [*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
 Cancel order on the opposite oscillator signal. In 2.09 this behavior was regulated by the **Close on opposite signal** parameter.
 
 
-## Cancel after distance
+### Cancel after distance
 
 Pending order will be canceled if distance to the current price is greater than specified distance.<br/>
 Pending order will not be placed if the distance to current price is too big.<br/>
@@ -54,35 +54,35 @@ Pending order will not be placed if the distance to current price is too big.<br
 Set 0 to disable cancelation after distance.
 
 
-## Cancel after bars
+### Cancel after bars
 
 Pending order will be canceled after specified number of bars.
 
 Set 0 to disable cancelation after bars.
 
 
-## Distance calc mode
+### Distance calc mode
 
 **Distance to order** and **Cancel after distance** can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-## Enter by market if opposite trade is open
+### Enter by market if opposite trade is open
 
 [*(starting from v2.37)*](/docs/versions-history#20210906-237)
 
 Set **true** to disable Pending entry for buys if any sell position is open and vice versa (buy will be opened **by market** if signal appears).
 
 
-## Delete if opposite trade is open
+### Delete if opposite trade is open
 
 [*(starting from v2.42)*](/docs/versions-history#20220122-242)
 
 Set **true** to delete pending buy-order if any sell position is open and vice versa. New buy-order can be opened when the sell-position is closed.
 
 
-## Delete on position close
+### Delete on position close
 
 [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 

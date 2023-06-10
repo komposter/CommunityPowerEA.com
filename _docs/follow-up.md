@@ -11,12 +11,12 @@ permalink: /docs/follow-up
 
 # StopLoss
 
-## StopLoss size
+### StopLoss size
 
 StopLoss for the last position in series (for the single position, if martingale disabled)
 
 
-## StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
+### StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
 
 [*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
 
@@ -30,7 +30,7 @@ Set 0 to disable SL reducing
 [Details are here](https://forum.communitypowerea.com/communities/1/topics/423-decrease-stop-loss-depending-on-trade-duration?redirect_to_reply=2763#comment-2763)
 
 
-## StopLoss mode
+### StopLoss mode
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
@@ -40,14 +40,14 @@ StopLoss mode:
 * **From first open price** - SL based on the open price of the first position in the series.
 
 
-## StopLoss calc mode
+### StopLoss calc mode
 
 StopLoss can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-## Sum StopLoss in account currency
+### Sum StopLoss in account currency
 
 [*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
@@ -56,7 +56,7 @@ Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in 
 Set 0 to disable.
 
 
-## Sum StopLoss (% from balance)
+### Sum StopLoss (% from balance)
 
 [*(starting from v2.07)*](/docs/versions-history#20200504-207)
 
@@ -65,14 +65,14 @@ Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in 
 Set 0 to disable.
 
 
-## PauseAfterLoss
+### PauseAfterLoss
 
 [*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 Disables opening new first trades after closing by StopLoss or GlobalStopLoss. Specifies in bars of Signal TimeFrame.
 
 
-## Use virtual StopLoss
+### Use virtual StopLoss
 
 [*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
@@ -84,12 +84,12 @@ Set **false** to set the real SL for all orders (if possible).
 
 # TakeProfit
 
-## TakeProfit size
+### TakeProfit size
 
 TakeProfit size (In points or Like Coefficient to Volatility) (0 - disabled)
 
 
-## TakeProfit mode
+### TakeProfit mode
 
 TakeProfit mode:
 * **From average open price** - TP based on weighted average open price of all positions in the series (price1*lot1 + price2*lot2 + priceN*lotN)/(lot1 + lot2 + lotN).
@@ -101,21 +101,21 @@ Spread included. Sells are closed by Ask price. So, only when Ask became <= TP m
 Commission and swap also included.
 
 
-## TakeProfit calc mode
+### TakeProfit calc mode
 
 TakeProfit can be set:
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))<br/>
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-## Reduce TP after minutes, Reduce coefficient
+### Reduce TP after minutes, Reduce coefficient
 
 [*(starting from v2.23)*](/docs/versions-history#20201210-223)
 
 TakeProfit reduce coefficient for all orders. Activates after a certain number of minutes have passed since first order opening.
 
 
-## Reduce TP for every order: Reduce size, Reduce coefficient, Min TakeProfit size
+### Reduce TP for every order: Reduce size, Reduce coefficient, Min TakeProfit size
 
 [*(starting from v2.11)*](/docs/versions-history#20200528-211)
 
@@ -130,13 +130,13 @@ For example, with TakeProfit = 50, reduce size = 10 and reduce coeff = 1.1 you w
 * For 5 deals: 50 - 10 - 10 * 1.1 - 10 * 1.1 * 1.1 - 10 * 1.1 * 1.1 * 1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
-TakeProfit can’t be less than **Min TakeProfit size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
+TakeProfit can't be less than **Min TakeProfit size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 
 For example, if you set **Min TakeProfit size** = 20, for all deals from the last example, starting from 4th TP will be = 20 (16.9 is less than 20, so will be replaced).<br/>
 **Min TakeProfit size** can be negative. So, you can limit it to -5 or -20 points.
 
 
-## Sum TakeProfit (% from balance)
+### Sum TakeProfit (% from balance)
 
 [*(starting from v2.17)*](/docs/versions-history#20200826-217)
 
@@ -145,7 +145,7 @@ Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) i
 Set 0 to disable.
 
 
-## Sum TakeProfit (account currency)
+### Sum TakeProfit (account currency)
 
 [*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
@@ -154,35 +154,35 @@ Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) i
 Set 0 to disable.
 
 
-## Sum TakeProfit works if both buy and sell are open
+### Sum TakeProfit works if both buy and sell are open
 
 [*(starting from v2.35)*](/docs/versions-history#20210715-235)
 
 Set this parameter to true to activate Sum TakeProfit if both buy and sell trades are opened.
 
 
-## Min profit to close on signal
+### Min profit to close on signal
 
 [*(starting from v2.20)*](/docs/versions-history#20201103-220)
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit >= X only.
 
 
-## Max profit to close on signal
+### Max profit to close on signal
 
 [[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit <= X only.
 
 
-## Min/max profit calc mode
+### Min/max profit calc mode
 
 Min/max profit can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-## Use virtual TakeProfit
+### Use virtual TakeProfit
 
 [*(starting from v2.27)*](/docs/versions-history#20210302-227)
 
@@ -197,13 +197,13 @@ Set **false** to set the real TP for all orders (if possible).
 [*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
 
-## BreakEven after, BreakEven to
+### BreakEven after, BreakEven to
 
 If the profit of a series reaches **BreakEven after** points ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)), SL of all positions will be moved to the level "average open price + **BreakEven** to points" (opposite for sell).
 
 Thus, the series will be closed with profit of **BreakEven to** points.
 
-## BreakEven calc mode
+### BreakEven calc mode
 
 BreakEven can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
@@ -215,25 +215,25 @@ BreakEven can be set:<br/>
 # TrailingStop
 
 
-## TrailingStop size
+### TrailingStop size
 
 Trailing stop size (0 - disabled)
 
 
-## Trailing Step
+### Trailing Step
 
 [*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 Minimal step to move the StopLoss
 
 
-## Start trailing after
+### Start trailing after
 
 Trailing activated after profit = **Start trailing after**.<br/>
 If 0, trailing activated after profit = **Trailing stop size**.
 
 
-## Increase trailing every, Increase size
+### Increase trailing every, Increase size
 
 [*(starting from v2.45)*](/docs/versions-history#20220421-245)
 
@@ -246,7 +246,7 @@ For example, if **TrailingStop size** = 5.0, **Increase every** = 2.0 and **Incr
 As you can see, **Increase size** can be negative.
 
 
-## Decrease every minutes, Decrease coefficient, Decrease start after minutes
+### Decrease every minutes, Decrease coefficient, Decrease start after minutes
 
 [*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
@@ -265,16 +265,16 @@ If both **Increase trailing every** and **Decrease every minutes** are activated
 ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/424-trailingstop-decrease-after-time))
 
 
-## Min size, Max size
+### Min size, Max size
 
 [*(starting from v2.46)*](/docs/versions-history#20220428-246)
 
-If **Min/max size** is set, TrailingStop size after applying all modificators can’t be less than **Min size** value and can't be greater than **Max size** value.
+If **Min/max size** is set, TrailingStop size after applying all modificators can't be less than **Min size** value and can't be greater than **Max size** value.
 
 Set 0 to disable limits.
 
 
-## TrailingStop mode
+### TrailingStop mode
 
 TrailingStop mode:<br/>
 * **From average open price** - TS based on average open price of all positions in the series;
@@ -282,7 +282,7 @@ TrailingStop mode:<br/>
 * **From first open price** [*(starting from v2.20)*](/docs/versions-history#20201103-220) - TS based on the open price of the first position in the series.
 
 
-## TrailingStop calc mode
+### TrailingStop calc mode
 
 TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:
 * In points ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))

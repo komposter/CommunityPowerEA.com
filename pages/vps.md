@@ -6,7 +6,7 @@ permalink: /vps/
 
 # VPS
 
-CommunityPower EA is not a high frequency EA, so you can launch a terminal with the EA on your PC at home. But if you want to reach the best results (low slippages, fast execution), or just don’t want to take risk of electricity and/or internet connection loss, select VPS server and run terminal with EA 24/7 with 100% uptime and best possible ping to broker server.
+CommunityPower EA is not a high frequency EA, so you can launch a terminal with the EA on your PC at home. But if you want to reach the best results (low slippages, fast execution), or just don't want to take risk of electricity and/or internet connection loss, select VPS server and run terminal with EA 24/7 with 100% uptime and best possible ping to broker server.
 
 I recommend following VPS providers:
 
@@ -21,4 +21,4 @@ I recommend following VPS providers:
 | [forexvps.com](https://www.forexvps.net/partner/communitypower) | Plans from $35/month ($30/month with annual subscription) | London, New York and other popular locations. |
 | [NYC servers](https://newyorkcityservers.com/billing/aff.php?aff=140) | Plans from $35/month ($31.5/month with annual subscription) | London, New York and Chicago. |
 
-All links are affiliate links, so if you use them, I will get a small commission. But you don’t need to pay more for the service, it’s just a way to support the project.
+All links are affiliate links, so if you use them, I will get a small commission. But you don't need to pay more for the service, it’s just a way to support the project.

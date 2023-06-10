@@ -29,7 +29,7 @@ If you want to replace **Auto-hedge on DrawDown**, set:
 More details / your comments and suggestions are welcome [here](https://t.me/CommunityPowerNews/60).
 
 
-## Allow hedge
+### Allow hedge
 
 If **true**:<br/>
 * allows open buy when sell is opened,
@@ -40,7 +40,7 @@ If **false**:<br/>
 * skips all sell signals (first and martingale) when buy is opened.
 
 
-## Allow hedge on it's own signal only
+### Allow hedge on it's own signal only
 
 [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
@@ -51,7 +51,7 @@ If **false**, allows a new hedge series to start by regular signals (those used 
 After the first entry, hedge-series works like the main series (with martingale, SL/TP/TS, close signals, etc)
 
 
-## Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
+### Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
 
 [*(starting from v2.32)*](/docs/versions-history#20210605-232)
 
@@ -71,7 +71,7 @@ For example, if Increase hedge after # = 3, there are 4 sells and 1 buy and 2nd 
 Set **Increase hedge lot after order = 0** to disable this feature.
 
 
-## Allow hedge only after main order #
+### Allow hedge only after main order #
 
 *([starting from v2.25](/docs/versions-history#20210115-225) , [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*
 
@@ -80,21 +80,21 @@ For example, if **Allow hedge only after main order # = 3**, buy can be opened i
 Hedge is opened with or without signal (depends on **Allow hedge on it's own signal only**) and after check of all other hedge filters (details below).
 
 
-## Max hedge orders number
+### Max hedge orders number
 
 Max number of hedge orders opened.
 
 Set 0 to disable the limit.
 
 
-## Allow hedge only on main DrawDown %
+### Allow hedge only on main DrawDown %
 
 Allows to open a new hedge (buy, if sell is already active, or sell, if buy is already active) only if loss of the main series is >= X% from the current balance.
 
 Set 0 to disable this filter.
 
 
-## Allow hedge only right after main position open
+### Allow hedge only right after main position open
 
 [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 
@@ -103,7 +103,7 @@ If **true**, a new hedge can be opened only right after the main order (all othe
 If **false**, hedge can be opened at any time while the main series exists (all hedge filters and signals are also applied).
 
 
-## Allow hedge on new bar only
+### Allow hedge on new bar only
 
 [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
 

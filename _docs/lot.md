@@ -7,7 +7,7 @@ permalink: /docs/lot
 
 # Lot parameters
 
-## Lot type
+### Lot type
 
 [*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
@@ -24,26 +24,26 @@ Lot size calculation type (applies to first trade in each series): <br/>
 * **Amount in base currency**: lot calculates as Lot size / current symbol price. Suitable for cryptocurrencies, when you want to invest fixed amount of USD in each trade [*(starting from v2.47)*](/docs/versions-history#20220520-247)
 
 
-## Lot size
+### Lot size
 
 Lot size for **Fixed lot**, **Fixed size per 1000** and **Fixed size per 1000 USD** modes.
 
 
-## Lot risk %
+### Lot risk %
 
 [*(starting from v2.10)*](/docs/versions-history#20200518-210)
 
 Risk % for **Risk per trade** and **Margin percent use** modes.
 
 
-## Max lot
+### Max lot
 
 Max lot EA can use for any deal.
 
 If 0, the limit is disabled.
 
 
-## Max lot per 1000
+### Max lot per 1000
 
 [*(starting from v2.32)*](/docs/versions-history#20210605-232)
 

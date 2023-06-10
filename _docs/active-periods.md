@@ -14,7 +14,7 @@ Active periods are set in this section. Each period can start and end by its own
 
 <hr>
 
-## Activation event, Activation value
+### Activation event, Activation value
 
 Event that activates period. Can be one of the following:
 * **Activate immediately**: period is active from the very beginning and until the deactivation event occurs. Use this option for periods you use for the first entry signals (otherwise the first trade will never open).
@@ -25,7 +25,7 @@ Event that activates period. Can be one of the following:
 Each Active period can be activated only once. Means, it will not be activated again after deactivation even if an activation event occurs.
 
 
-## Deactivation event, Deactivation value
+### Deactivation event, Deactivation value
 
 Deactivation events work the same way as activation events.<br/>
 Period can't be deactivated if it is not active (all deactivation events will be ignored). But it can be deactivated right after the activation (if a deactivation event occurs). Period can be deactivated only once.

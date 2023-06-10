@@ -16,7 +16,7 @@ Please, set correct DST mode and GMT offset while testing ([How to?](https://com
 
 <hr>
 
-## Apply schedule to
+### Apply schedule to
 
 [*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
@@ -27,7 +27,7 @@ Mode of schedule:
 * **Apply to all trade operations**: the schedule applies to all trading operations (excluding closing time)
 
 
-## DST mode
+### DST mode
 
 DST mode of your broker:
 * **Disable DST**
@@ -37,7 +37,7 @@ DST mode of your broker:
 * **DST New Zealand** (1st Sunday of April / last Sunday of September)
 
 
-## GMT offset
+### GMT offset
 
 GMT offset for StrategyTester.<br/>
 Ask your broker what GMT offset and DST mode he uses.
@@ -45,14 +45,14 @@ Ask your broker what GMT offset and DST mode he uses.
 [How to set the correct GMT and DST for your broker?](https://communitypowerea.userecho.com/en/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker)
 
 
-## EveryDay start hour/minute
+### EveryDay start hour/minute
 
 Start time for every day.<br/>
 First trade opens only within the **start time  -  end time** interval.<br/>
 If disabled, work time starts at 00:00
 
 
-## EveryDay session duration (mins)
+### EveryDay session duration (mins)
 
 [*(starting from v2.49)*](/docs/versions-history#20221007-249)
 
@@ -60,14 +60,14 @@ Length (in minutes) of the EA trade session.<br/>
 Set 0 to use EveryDay end hour/minute parameters.
 
 
-## EveryDay end hour/minute
+### EveryDay end hour/minute
 
 End time for every day.<br/>
 First trade opens only within the **start time  -  end time** interval.<br/>
 If disabled, work time ends at 23:59
 
 
-## EveryDay close hour/minute
+### EveryDay close hour/minute
 
 [*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
@@ -75,19 +75,19 @@ Close time for every day.<br/>
 EA will close all open deals at this time.
 
 
-## Friday stop hour/minute
+### Friday stop hour/minute
 
 End time for Friday (can differs from EveryDay end time).<br/>
 EA will not open new first trades after this time on Friday.
 
 
-## Friday close hour/minute
+### Friday close hour/minute
 
 Close time for Friday.<br/>
 EA will close all opened deals at this time on Friday (if trading is still enabled).
 
 
-## Custom Schedule for each day
+### Custom Schedule for each day
 
 [*(starting from v2.25)*](/docs/versions-history#20210115-225)
 
@@ -96,14 +96,14 @@ Works if **Enable Custom Schedule** = true only.<br/>
 Set equal start and end hour/minute to disable the whole day.
 
 
-## Last December day to trade
+### Last December day to trade
 
 Last day of December when trade is allowed.
 
 Set 0 to disable this filter.
 
 
-## First January day to trade
+### First January day to trade
 
 First day of January when trade is allowed.
 
