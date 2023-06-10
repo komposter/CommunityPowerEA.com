@@ -11,7 +11,9 @@ Hedge -- is a position in the opposite direction to the existing (main) position
 
 If you already have a main series started (for example, buy), hedge (sell) can be opened only if all hedge-rules are passed (details in the table below).
 
-Main series remains main, as long as the first order open time is less than the open time of the first hedge order. Thus, if your main series is closed, and the hedge is still open, the hedge series becomes main. For example, you had 3 sell orders in the main series, one buy order in the hedge series, and all sells were closed by TakeProfit. Now your buy-order -- is the first order of the new main series.
+Main series remains main, as long as the first order open time is less than the open time of the first hedge order. Thus, if your main series is closed, and the hedge is still open, the hedge series becomes main.
+
+> For example, you had 3 sell orders in the main series, one buy order in the hedge series, and all sells were closed by TakeProfit. Now your buy-order -- is the first order of the new main series.
 
 Hedge series can also become main, if the first main order is closed and the first hedge order open time becomes smallest within all open trades. This can be done by Partial close or manually, for example.
 
@@ -56,7 +58,7 @@ After the first entry, hedge-series works like the main series (with martingale,
 
 ### Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
 
-<sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
+<sup>*([starting from v2.32](/docs/versions-history#20210605-232), [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
 
 If there are X sell trades opened and buy signal appears, lot for the new buy order will be calculated using these parameters.
 
@@ -72,7 +74,7 @@ Set **Increase hedge lot after order = 0** to disable this feature.
 
 ### Allow hedge only after main order #
 
-<sup>*([starting from v2.25](/docs/versions-history#20210115-225) , [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
+<sup>*([starting from v2.25](/docs/versions-history#20210115-225), [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
 
 Allows to open a hedge series (buy, if sell is already active, or sell, if buy is already active) only if there are X open orders of main series.
 
