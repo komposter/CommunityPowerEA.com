@@ -28,10 +28,11 @@ If you want to replace **Auto-hedge on DrawDown**, set:
 
 More details / your comments and suggestions are welcome [here](https://t.me/CommunityPowerNews/60).
 
+<br />
 
 ### Allow hedge
 
-If **true**:<br/>
+If **true**:
 * allows open buy when sell is opened,
 * allows open sell when buy is opened.
 
@@ -39,10 +40,11 @@ If **false**:<br/>
 * skips all buy signals (first and martingale) when sell is opened,
 * skips all sell signals (first and martingale) when buy is opened.
 
+<br />
 
-### Allow hedge on it's own signal only
+### Allow hedge on its own signal only
 
-[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
+<sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
 If **true**, allows a new hedge order only on its own signal (one of the signals with “Open hedge on” = Open on individual/collective signal).<br/>
 All next hedge positions are opened by the same signals, martingale/anti-martingale sections are not used.
@@ -50,35 +52,35 @@ All next hedge positions are opened by the same signals, martingale/anti-marting
 If **false**, allows a new hedge series to start by regular signals (those used to open the main series).<br/>
 After the first entry, hedge-series works like the main series (with martingale, SL/TP/TS, close signals, etc)
 
+<br />
 
 ### Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
 
-[*(starting from v2.32)*](/docs/versions-history#20210605-232)
+<sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 If there are X sell trades opened and buy signal appears, lot for the new buy order will be calculated using these parameters.
 
 Depending on **Apply coefficient to**:<br/>
 * **First opposite lot** mode: lot for the first buy will be calculated as "lot of first sell-order * Increase lot coefficient"
-
-* **Corresponding lot** mode: lot for buy order #X will be calculated as "corresponding sell lot * Increase lot coefficient" where ‘corresponding sell’ - is a sell number Increase hedge after # - X + 1.<br/>
-For example, if Increase hedge after # = 3, there are 4 sells and 1 buy and 2nd buy is opening, lot will be "sell #2 lot * coefficient".
-(occasionally removed in 2.50, please let me know if you need it)<br/>
-
+* ~~**Corresponding lot** mode: lot for buy order #X will be calculated as "corresponding sell lot * Increase lot coefficient" where ‘corresponding sell’ - is a sell number Increase hedge after # - X + 1~~ <sup>[*(removed in v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 * **Last opposite lot mode**: lot for the first buy will be calculated as *lot of last sell-order * Increase lot coefficient*
-
 * **Sum opposite lots mode**: lot for the first buy will be calculated as *sum lot of all sell-orders * Increase lot coefficient*
 
 Set **Increase hedge lot after order = 0** to disable this feature.
 
+<br />
 
 ### Allow hedge only after main order #
 
-*([starting from v2.25](/docs/versions-history#20210115-225) , [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*
+<sup>*([starting from v2.25](/docs/versions-history#20210115-225) , [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
 
-Allows to open a hedge series (buy, if sell is already active, or sell, if buy is already active) only if there are X open orders of main series.<br/>
-For example, if **Allow hedge only after main order # = 3**, buy can be opened if there are 3 sell-positions.<br/>
+Allows to open a hedge series (buy, if sell is already active, or sell, if buy is already active) only if there are X open orders of main series.
+
+> For example, if **Allow hedge only after main order # = 3**, buy can be opened if there are 3 sell-positions.
+
 Hedge is opened with or without signal (depends on **Allow hedge on it's own signal only**) and after check of all other hedge filters (details below).
 
+<br />
 
 ### Max hedge orders number
 
@@ -86,6 +88,7 @@ Max number of hedge orders opened.
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Allow hedge only on main DrawDown %
 
@@ -93,21 +96,25 @@ Allows to open a new hedge (buy, if sell is already active, or sell, if buy is a
 
 Set 0 to disable this filter.
 
+<br />
 
 ### Allow hedge only right after main position open
 
-[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
+<sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
-Allows to open a hedge order only within 60 seconds after main order opening.<br/>
+Allows to open a hedge order only within 60 seconds after main order opening.
+
 If **true**, a new hedge can be opened only right after the main order (all other hedge filters and signals are also applied).
+
 If **false**, hedge can be opened at any time while the main series exists (all hedge filters and signals are also applied).
 
+<br />
 
 ### Allow hedge on new bar only
 
-[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)
+<sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
-Allows to open a hedge order if there were no hedge-orders opened or closed on this bar of Signal TimeFrame.<br/>
-This means that a new hedge can be opened only on the next bar after the previous one.<br/>
+Allows to open a hedge order if there were no hedge-orders opened or closed on this bar of Signal TimeFrame. This means that a new hedge can be opened only on the next bar after the previous one.
+
 If **false**, multiple hedge orders can be opened one after another on the same signal or after the same main order.
 
