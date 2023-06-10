@@ -14,13 +14,11 @@ Be careful — **other EAs can't cooperate with CP EA correctly**, so you have a
 
 <br />
 
-# Global Account StopLoss
+### GA StopLoss
 
 <sup>[*(starting from v2.48)*](/docs/versions-history#20220702-248)</sup>
 
-### GA StopLoss (account currency)
-
-Loss of all **opened positions** (with all magic numbers, opened by any EA or manually) that should be closed as soon as it is reached.
+Loss (in account currency / in % from account balance) of all **opened positions** (with all magic numbers, opened by any EA or manually) that should be closed as soon as it is reached.
 
     Don't activate this option for several EAs, you need to activate it only once!
 
@@ -28,21 +26,9 @@ Set 0 to disable GA StopLoss.
 
 <br />
 
-### GA StopLoss (% from balance)
-
-The same as GA StopLoss (account currency) but in % from current account balance.
-
-    Don't activate this option for several EAs, you need to activate it only once!
-
-Set 0 to disable.
-
-<br />
-
-# Global Account TrailingStop
+### GA TrailingStop
 
 <sup>[*(starting from v2.34)*](/docs/versions-history#20210612-234)</sup>
-
-### GA TrailingStop
 
 Equity Trailing Stop (in account currency / in % from account balance).
 Activates when profit of all **opened positions** (with all magic numbers, opened by any EA or manually) reaches some value. Follows new equity highs. Closes all opened positions when equity rolls back by the same value.
@@ -55,13 +41,11 @@ Set 0 to disable GA TrailingStop.
 
 <br />
 
-# Global Account TakeProfit
+### GA TakeProfit
 
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
-### GA TakeProfit (account currency)
-
-Profit of all **opened positions** (with all magic numbers, opened by any EA or manually) that should be closed as soon as it is reached.
+Profit (in account currency / in % from account balance) of all **opened positions** (with all magic numbers, opened by any EA or manually) that should be closed as soon as it is reached.
 
     Don't activate this option for several EAs, you need to activate it only once!
 
@@ -69,23 +53,11 @@ Set 0 to disable GA TakeProfit.
 
 <br />
 
-### GA TakeProfit (% from balance)
-
-The same as GA TakeProfit (account currency) but in % from current account balance.
-
-    Don't activate this option for several EAs, you need to activate it only once!
-
-Set 0 to disable.
-
-<br />
-
-# Global Account TargetProfit
+### GA TargetProfit
 
 <sup>*([starting from v2.31](/docs/versions-history#20210508-231), [improved in v2.34](/docs/versions-history#20210612-234))*</sup>
 
-### GA TargetProfit (account currency)
-
-Target profit for the entire account. EA will close all positions when the target level is reached. Then the target level will be moved by the TargetProfit size (to the next level).
+Target profit (in account currency / in % from the last equity high) for the entire account. EA will close all positions when the target level is reached. Then the target level will be moved by the TargetProfit size (to the next level).
 
 Thus, EA will close positions every X dollars earned.
 
@@ -100,17 +72,7 @@ Set 0 to disable GA TakeProfit.
 
 <br />
 
-### GA TargetProfit (% from balance)
-
-The same as GA TargetProfit (account currency) but in % from the last equity high.
-
-    Don't activate this option for several EAs, you need to activate it only once!
-
-Set 0 to disable.
-
-<br />
-
-# Stop Till Tomorrow After Close
+### Stop Till Tomorrow After Close
 
 <sup>[*(starting from v2.45)*](/docs/versions-history#20220421-245)</sup>
 
