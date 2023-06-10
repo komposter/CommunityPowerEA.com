@@ -9,7 +9,7 @@ permalink: /docs/entry-strategy
 
 ### **Active Period** parameter for each filter
 
-[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
 Each signal has an **Active period** parameter. It can be **always active** or use 1 of 3 predefined periods.
 
@@ -22,7 +22,7 @@ IMAGE HERE
 
 ### **Open on** parameter for each filter
 
-[*(starting from v2.19)*](/docs/versions-history#20201014-219)
+<sup>[*(starting from v2.19)*](/docs/versions-history#20201014-219)</sup>
 
 You can set up opening of the first deal:
 * by one or more individual signals/filters,
@@ -40,7 +40,7 @@ For example, if Stochastic Inside zone signal selected with Levels 70/30, Collec
 
 ### **Open martin on** parameter for each filter
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 You can set up the opening of the martingale deals in the same way as the first deals opening. Signals for martingale deals can differ from signals for the first deals.
 
@@ -49,14 +49,14 @@ If all **Open martin on** parameters are set to **Don't use for open**, martinga
 
 ### **Open hedge on** parameter for each filter
 
-[*(starting from v2.36)*](/docs/versions-history#20210804-236)
+<sup>[*(starting from v2.36)*](/docs/versions-history#20210804-236)</sup>
 
 The same as **Open martin on**, but for auto-hedge deals.
 
 
 ### **Close on** parameter for each filter
 
-[*(starting from v2.16)*](/docs/versions-history#20200819-216)
+<sup>[*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
 
 You can set up closing by individual signal/filter or by several filters showing the same signal. Both modes can be used with **in profit only** option.
 
@@ -67,7 +67,7 @@ Close signal - is an opposite signal of the filter. So, buy will be closed when 
 
 ### **Partial close on** parameter for each filter
 
-[*(starting from v2.25)*](/docs/versions-history#20210115-225)
+<sup>[*(starting from v2.25)*](/docs/versions-history#20210115-225)</sup>
 
 * **Partial close** can be activated by any **Individual** or **Collective signal**, as full close.
 * **Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.

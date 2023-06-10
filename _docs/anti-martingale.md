@@ -6,7 +6,7 @@ permalink: /docs/anti-martingale
 
 # Anti-martingale
 
-[*(starting from v2.12)*](/docs/versions-history#20200624-212)
+<sup>[*(starting from v2.12)*](/docs/versions-history#20200624-212)</sup>
 
 New type of exit in profit: instead of fixed TP or closing by opposite signal, EA will open new deals in the same direction, but on the profit side. After each new deal is opened, SL is moved to the new level.
 
@@ -24,7 +24,7 @@ Max anti-martingale deals in series.
 
 ### Min pause between trades (in bars of Signal TF)
 
-[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
 Anti-martingale deal can be opened only if previous trade in this direction was opened at least **Min pause bars** before (bars from **Signal TimeFrame** are used).
 
@@ -33,14 +33,14 @@ Set 0 to disable this filter.
 
 ### Use martingale signal for anti-martin trades
 
-[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
 If **true**, anti-martingale trades can be opened only on signals with **Open martin on...** enabled.
 
 
 ### Lot increasing mode
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Can be one of the following:<br/>
 * **Sum**: previous lot + adding [1-2-3-4-5-...]<br/>
@@ -48,7 +48,7 @@ Can be one of the following:<br/>
 * **Martin**: previous lot * coeff [1-2-4-8-16-...]<br/>
 * **Martin Sum** [*(starting from v2.29)*](/docs/versions-history#20210403-229): previous lots sum * coeff [1-2-6-18-54-...]<br/>
 * **Logistic Growth** [*(starting from v2.30)*](/docs/versions-history#20210419-230): lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter "Lot coefficient / adding / x0")<br/>
-* **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))<br/>
+* **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))<br/>
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see **Custom lot coefficients** parameter below)<br/>
 
 
@@ -59,7 +59,7 @@ Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 ### Custom lot coefficients
 
-[*(starting from v2.33)*](/docs/versions-history#20210610-233)
+<sup>[*(starting from v2.33)*](/docs/versions-history#20210610-233)</sup>
 
 User-defined coefficient sequence for **Custom lot coefficients** increasing mode. Coefficients should be separated by comma. Max allowed string length - 63 symbols.
 
@@ -73,7 +73,7 @@ Step size (in points or like coefficient to Volatility)
 
 ### Step size calc mode
 
-[*(starting from v2.31)*](/docs/versions-history#20210508-231)
+<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
@@ -88,7 +88,7 @@ For example, with **Step size** = 20 points and **Step increase coefficient** = 
 
 ### Min step size (points)
 
-[*(starting from v2.29)*](/docs/versions-history#20210403-229)
+<sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
 Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
 Calculated step can't be smaller than the Min step size value.
@@ -105,7 +105,7 @@ Can be negative (when calculated from average price) (starting from v2.20)
 
 ### Anti-StopLoss reduce size, Anti-StopLoss reduce coefficient and Min Anti-StopLoss size
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Anti-StopLoss reduce size and coefficient.<br/>
 If enabled, SL for each next anti-martingale order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
@@ -126,7 +126,7 @@ For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the 
 
 ### Anti-StopLoss mode
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Anti-StopLoss mode:<br/>
 * **From average open price**: SL based on weighted average open price of all positions in the series.
@@ -136,7 +136,7 @@ Anti-StopLoss mode:<br/>
 
 ### Anti-StopLoss calc mode
 
-[*(starting from v2.31)*](/docs/versions-history#20210508-231)
+<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Can be:
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
@@ -146,7 +146,7 @@ Can be:
 
 ### Allow TakeProfit for anti-martin trades
 
-[*(starting from v2.37)*](/docs/versions-history#20210906-237)
+<sup>[*(starting from v2.37)*](/docs/versions-history#20210906-237)</sup>
 
 Set **true** to enable simple TakeProfit for series with anti-martingale trade open.
 
@@ -157,7 +157,7 @@ Set **true** to enable simple TakeProfit for series with anti-martingale trade o
 
 ### Allow both Martin and Anti-martin
 
-[*(starting from v2.32)*](/docs/versions-history#20210605-232)
+<sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 Set **true** to allow martingale deals if any anti-martingale deal is opened and vice versa.
 

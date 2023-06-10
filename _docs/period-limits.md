@@ -23,6 +23,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Max trades per day (all symbols)
 
@@ -34,6 +35,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit
 
+<br />
 
 ### Max DrawDown per day (%)
 
@@ -45,6 +47,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Max DrawDown per day (account currency)
 
@@ -56,6 +59,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Max Profit per day (%)
 
@@ -65,6 +69,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Max Profit per day (account currency)
 

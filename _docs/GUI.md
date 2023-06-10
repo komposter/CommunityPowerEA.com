@@ -7,7 +7,7 @@ permalink: /docs/gui
 
 # GUI parameters
 
-[*(starting from v2.14)*](/docs/versions-history#20200722-214)
+<sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
 You can activate the trading and signals panel (look at GUI user guide for details). Available parameters to customize GUI:
 
@@ -31,16 +31,19 @@ Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and s
 
 Show panel on chart
 
+<br />
 
 ### Font name
 
 Font name for all text labels and buttons
 
+<br />
 
 ### Window transparency
 
 Transparency for all elements of the panel (0-255)
 
+<br />
 
 ### Show signals
 
@@ -48,11 +51,13 @@ Show signals panel.
 
 Only activated signals and filters will be shown.
 
+<br />
 
 ### Signals background color, Signals text color
 
 Signals background and text color
 
+<br />
 
 ### Buy/Sell block colors: background, buttons (pressed and unpressed), borders and text
 
@@ -63,24 +68,28 @@ All colors used in Buy and Sell trading blocks.
 
 # Lines
 
-[*(starting from v2.04)*](/docs/versions-history#20200416-204)
+<sup>[*(starting from v2.04)*](/docs/versions-history#20200416-204)</sup>
 
 You are able to draw StopLoss, TakeProfit, BreakEven and NextOrder levels on the chart. Each level can be configured with following parameters:
+<br />
 
 ### Width
 
 Line width.
 
 Set 0 to disable drawing this type of lines.
+<br />
 
 ### Style
 
 Line style (works with width = 1 only)
+<br />
 
 ### Color BUY
 
 Color for the line corresponding to BUY orders
 
+<br />
 
 ### Color SELL
 
@@ -94,9 +103,10 @@ Starting from **2.50.4**, you can also enable **Allow dragging the lines to modi
 
 # Orders on chart
 
-[*(starting from v2.28)*](/docs/versions-history#20210303-228)
+<sup>[*(starting from v2.28)*](/docs/versions-history#20210303-228)</sup>
 
 You can enable drawing of the EA orders on the chart and toggle it by button on the expert panel (look at **GUI user guide** (MISSING LINK) for details). EA draws only trades with a magic number equal to the Expert Id set in the properties (and manually opened trades, if Manage manual = true).
+<br />
 
 ### Main properties
 
@@ -112,6 +122,7 @@ You can enable drawing of the EA orders on the chart and toggle it by button on 
 
 **Max history deals** - draw only last X deals from history (0 - disable limit).
 
+<br />
 
 ### Color properties
 
@@ -122,6 +133,7 @@ Color for:
 
 Each color can be set for Buys and Sells separately.
 
+<br />
 
 ### Profit properties
 
@@ -133,6 +145,7 @@ Profit labels properties:
 * **Number of digits to show** - decimal digits for profit in points
 * **Font name and size** - font properties.
 
+<br />
 
 ### Style properties
 

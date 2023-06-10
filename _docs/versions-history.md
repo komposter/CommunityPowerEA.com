@@ -280,7 +280,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Hedge deal with separate magic
 * [+] Auto-hedge works with any "Trade direction"
 * [*] Hedge deal opening with disabled GUI fixed
-* [*] Martingale and Anti-martingale: max trades, lot and step are calculated using it's own orders (not all orders)
+* [*] Martingale and Anti-martingale: max trades, lot and step are calculated using its own orders (not all orders)
 * [+] "Custom lot coefficients" Lot increasing mode<br/>
 **Warning! All sets with enabled "Auto-hedge after order" or "Allow both Martin and Anti-martin" must be reviewed!**
 

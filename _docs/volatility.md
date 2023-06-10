@@ -30,6 +30,7 @@ You can set "calculation mode" for the following parameters:
 * Trailing Step
 * Start trailing after
 
+<br />
 
 ### Volatility Indicator
 
@@ -43,11 +44,13 @@ Can be one of the following:
 
 [Example of ATR/StDev using.](https://communitypowerea.userecho.com/en/communities/1/topics/509-how-to-properly-use-the-volatility-filter?redirect_to_reply=3383#comment-3383)
 
+<br />
 
 ### TimeFrame and Period
 
 TimeFrame and Period of volatility indicator
 
+<br />
 
 ### Min and Max volatility to use (points)
 
@@ -55,6 +58,7 @@ Indicator value will be limited by these Min and Max values defined **in points*
 
 Set 0 to disable the limit.
 
+<br />
 
 ### Fix volatility on 1st position open
 

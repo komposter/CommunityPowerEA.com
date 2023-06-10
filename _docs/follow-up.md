@@ -15,10 +15,11 @@ permalink: /docs/follow-up
 
 StopLoss for the last position in series (for the single position, if martingale disabled)
 
+<br />
 
 ### StopLoss reduce every bar K, Start reducing after bars, StopLoss min size
 
-[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)
+<sup>[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
 Reduces SL size every bar of Signal TF by specified coefficient, starting from bar # **Start reducing after bars** after 1st position open.<br/>
 SL can't be less than **StopLoss min size (points)**.
@@ -27,12 +28,13 @@ For example, with **StopLoss reduce every bar K = 0.95** and initial SL = 100 po
 
 Set 0 to disable SL reducing
 
-[Details are here](https://forum.communitypowerea.com/communities/1/topics/423-decrease-stop-loss-depending-on-trade-duration?redirect_to_reply=2763#comment-2763)
+[Initial discussion is here](https://forum.communitypowerea.com/communities/1/topics/423-decrease-stop-loss-depending-on-trade-duration?redirect_to_reply=2763#comment-2763)
 
+<br />
 
 ### StopLoss mode
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 StopLoss mode:
 * **From average open price** - SL based on weighted average open price of all positions in the series.
@@ -49,7 +51,7 @@ StopLoss can be set:<br/>
 
 ### Sum StopLoss in account currency
 
-[*(starting from v2.23)*](/docs/versions-history#20201210-223)
+<sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
 
 Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in account currency.
 
@@ -58,7 +60,7 @@ Set 0 to disable.
 
 ### Sum StopLoss (% from balance)
 
-[*(starting from v2.07)*](/docs/versions-history#20200504-207)
+<sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
 Sum StopLoss for all positions opened by EA (excluding auto-hedge positions) in % from current balance.
 
@@ -67,14 +69,14 @@ Set 0 to disable.
 
 ### PauseAfterLoss
 
-[*(starting from v2.23)*](/docs/versions-history#20201210-223)
+<sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
 
 Disables opening new first trades after closing by StopLoss or GlobalStopLoss. Specifies in bars of Signal TimeFrame.
 
 
 ### Use virtual StopLoss
 
-[*(starting from v2.27)*](/docs/versions-history#20210302-227)
+<sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
 Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
@@ -110,14 +112,14 @@ TakeProfit can be set:
 
 ### Reduce TP after minutes, Reduce coefficient
 
-[*(starting from v2.23)*](/docs/versions-history#20201210-223)
+<sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
 
 TakeProfit reduce coefficient for all orders. Activates after a certain number of minutes have passed since first order opening.
 
 
 ### Reduce TP for every order: Reduce size, Reduce coefficient, Min TakeProfit size
 
-[*(starting from v2.11)*](/docs/versions-history#20200528-211)
+<sup>[*(starting from v2.11)*](/docs/versions-history#20200528-211)</sup>
 
 TakeProfit reduce size and coefficient for every order in series.<br/>
 If enabled, TP for each next order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
@@ -138,7 +140,7 @@ For example, if you set **Min TakeProfit size** = 20, for all deals from the las
 
 ### Sum TakeProfit (% from balance)
 
-[*(starting from v2.17)*](/docs/versions-history#20200826-217)
+<sup>[*(starting from v2.17)*](/docs/versions-history#20200826-217)</sup>
 
 Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) in % from current balance.
 
@@ -147,7 +149,7 @@ Set 0 to disable.
 
 ### Sum TakeProfit (account currency)
 
-[*(starting from v2.35)*](/docs/versions-history#20210715-235)
+<sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
 Sum TakeProfit for all positions opened by EA (excluding auto-hedge positions) in account currency.
 
@@ -156,21 +158,21 @@ Set 0 to disable.
 
 ### Sum TakeProfit works if both buy and sell are open
 
-[*(starting from v2.35)*](/docs/versions-history#20210715-235)
+<sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
 Set this parameter to true to activate Sum TakeProfit if both buy and sell trades are opened.
 
 
 ### Min profit to close on signal
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit >= X only.
 
 
 ### Max profit to close on signal
 
-[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
 When you select **Close in profit only** mode for any signal, it will close the series with profit <= X only.
 
@@ -184,7 +186,7 @@ Min/max profit can be set:<br/>
 
 ### Use virtual TakeProfit
 
-[*(starting from v2.27)*](/docs/versions-history#20210302-227)
+<sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
 Set **true** to close trades by market when TP level is reached.
 Set **false** to set the real TP for all orders (if possible).
@@ -194,7 +196,7 @@ Set **false** to set the real TP for all orders (if possible).
 
 # BreakEven
 
-[*(starting from v2.49)*](/docs/versions-history#20221007-249)
+<sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 
 ### BreakEven after, BreakEven to
@@ -222,7 +224,7 @@ Trailing stop size (0 - disabled)
 
 ### Trailing Step
 
-[*(starting from v2.16)*](/docs/versions-history#20200819-216)
+<sup>[*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
 
 Minimal step to move the StopLoss
 
@@ -235,7 +237,7 @@ If 0, trailing activated after profit = **Trailing stop size**.
 
 ### Increase trailing every, Increase size
 
-[*(starting from v2.45)*](/docs/versions-history#20220421-245)
+<sup>[*(starting from v2.45)*](/docs/versions-history#20220421-245)</sup>
 
 If **Increase trailing every** > 0, Trailing stop size changes by **Increase size** every **Increase trailing every** (points or volatilities, see below).
 
@@ -248,7 +250,7 @@ As you can see, **Increase size** can be negative.
 
 ### Decrease every minutes, Decrease coefficient, Decrease start after minutes
 
-[*(starting from v2.46)*](/docs/versions-history#20220428-246)
+<sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
 After **Decrease start after minutes** after first position open, TrailingStop size increases/decreases by **Decrease coefficient** every **Decrease every minutes**.
 
@@ -262,12 +264,12 @@ For example, with Initial Trailing Stop size 50 points:
 Set **Decrease every minutes** = 0 to disable this function.
 
 If both **Increase trailing every** and **Decrease every minutes** are activated, **Increase trailing every** is applied first.
-([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/424-trailingstop-decrease-after-time))
+([Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/424-trailingstop-decrease-after-time))
 
 
 ### Min size, Max size
 
-[*(starting from v2.46)*](/docs/versions-history#20220428-246)
+<sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
 If **Min/max size** is set, TrailingStop size after applying all modificators can't be less than **Min size** value and can't be greater than **Max size** value.
 

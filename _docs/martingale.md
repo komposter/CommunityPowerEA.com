@@ -8,35 +8,39 @@ permalink: /docs/martingale
 
 ### Martingale type
 
-[*(starting from v2.01)*](/docs/versions-history#20200409-201)
+<sup>[*(starting from v2.01)*](/docs/versions-history#20200409-201)</sup>
 
 Type of martingale strategy used. Can be enabled or disabled.
 
+<br />
 
 ### Max trades in one direction
 
 Max deals in series.
 
+<br />
 
 ### New deal on the end of the bar only
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 If enabled, Step condition is checked using last bar Close price (+ current spread for buy-orders). So, only 1 trade per bar is allowed and all trades are opened on the beginning of the bar.
 
+<br />
 
 ### Min pause between trades (in bars of Signal TF)
 
-[*(starting from v2.18)*](/docs/versions-history#20200908-218)
+<sup>[*(starting from v2.18)*](/docs/versions-history#20200908-218)</sup>
 
 Martingale deal can be opened only if previous trade in this direction was opened at least **Min pause bars** before (bars from **Signal TimeFrame** are used).
 
 Set 0 to disable this filter.
 
+<br />
 
 ### Use only opened trades for time filters
 
-[*(starting from v2.47)*](/docs/versions-history#20220520-247)
+<sup>[*(starting from v2.47)*](/docs/versions-history#20220520-247)</sup>
 
 When true, **New deal on the end of the bar only** and **Min pause between trades** analyze only open positions.<br/>
 When false, closed positions are taken into account as well (closed position may be opened later than opened one, for example after Partial close)
@@ -44,7 +48,7 @@ When false, closed positions are taken into account as well (closed position may
 
 ### Lot increasing mode
 
-[*(starting from v2.20)*](/docs/versions-history#20201103-220)
+<sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Can be one of the following:<br/>
 * **Sum**: previous lot + adding [1-2-3-4-5-...]
@@ -52,7 +56,7 @@ Can be one of the following:<br/>
 * **Martin**: previous lot * coeff [1-2-4-8-16-...]
 * **Martin Sum** [*(starting from v2.29)*](/docs/versions-history#20210403-229): previous lots sum * coeff [1-2-6-18-54-...]
 * **Logistic Growth** [*(starting from v2.30)*](/docs/versions-history#20210419-230): lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter “Lot coefficient / adding / x0”)
-* **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([details are here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
+* **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see Custom lot coefficients parameter below)
 * **1st deal lot * distance * coeff** [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250): lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
@@ -64,7 +68,7 @@ Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 ### Custom lot coefficients
 
-[*(starting from v2.33)*](/docs/versions-history#20210610-233)
+<sup>[*(starting from v2.33)*](/docs/versions-history#20210610-233)</sup>
 
 User-defined coefficient sequence for Custom lot coefficients increasing mode. Coefficients should be separated by comma. Max allowed string length — 63 symbols.
 
@@ -78,7 +82,7 @@ Step size (in points or like coefficient to Volatility)
 
 ### Step size calc mode
 
-[*(starting from v2.31)*](/docs/versions-history#20210508-231)
+<sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:<br/>
 * **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
@@ -93,7 +97,7 @@ For example, with **Step size** = 20 points and **Step increase coefficient** = 
 
 ### Change step after order #, Change step by coefficient
 
-[*(starting from v2.46)*](/docs/versions-history#20220428-246)
+<sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
 Change the step after a certain order by custom coefficient (next steps also change).<br/>
 For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
@@ -101,7 +105,7 @@ For example, with **Step size** = 20 points, **Change step after order #** = 2 a
 
 ### Custom step coefficients
 
-[*(starting from v2.36)*](/docs/versions-history#20210804-236)
+<sup>[*(starting from v2.36)*](/docs/versions-history#20210804-236)</sup>
 
 Custom coefficients (comma separated) for 2nd and all next martingale deals. For example, with **Step size** = 20 points and **Custom step coefficients** = "1.5,2.5,5.0", distances between orders in martingale series will be 20 - 30 - 50 - 100 - 100 and so on (last coefficient applied to all following steps.
 
@@ -112,7 +116,7 @@ Set empty value to disable **Custom step coefficients**.
 
 ### Min step size (points)
 
-[*(starting from v2.29)*](/docs/versions-history#20210403-229)
+<sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
 Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
 Calculated step can't be smaller than the **Min step size** value.
@@ -130,7 +134,7 @@ Calculated step can't be larger than the **Max step size** value.
 
 ### Close on BreakEven after order #
 
-[*(starting from v2.18)*](/docs/versions-history#20200908-218)
+<sup>[*(starting from v2.18)*](/docs/versions-history#20200908-218)</sup>
 
 Close all orders when your series containing a specified number of orders reaches Break Even.
 
@@ -141,14 +145,14 @@ Set 0 to disable this function.
 
 ### BreakEven min profit
 
-[*(starting from v2.27)*](/docs/versions-history#20210302-227)
+<sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
 Min profit size to close series on BreakEven after order (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 
 
 ### BreakEven Alert
 
-[*(starting from v2.11)*](/docs/versions-history#20200528-211)
+<sup>[*(starting from v2.11)*](/docs/versions-history#20200528-211)</sup>
 
 Send a message to Grammy when your series containing a specified number of orders reached Break Even. One alert for each series length.
 
@@ -163,7 +167,7 @@ Set 0 to disable BreakEven alert.
 
 ### Apply martin after closed loss
 
-[*(starting from v2.07)*](/docs/versions-history#20200504-207)
+<sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
 Increase lot of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.<br/>
 To start again with a Start lot on account with loss, set new Magic number.

@@ -5,7 +5,7 @@ permalink: /docs/active-periods
 ---
 
 # Active periods
-[[[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)](/docs/versions-history#20230211-0324-252)
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
 Each signal has an **Active period** parameter. It can be "always active" or use 1 of 3 predefined periods.
 
@@ -13,6 +13,7 @@ Active periods are set in this section. Each period can start and end by its own
 
 
 <hr>
+<br />
 
 ### Activation event, Activation value
 
@@ -24,6 +25,7 @@ Event that activates period. Can be one of the following:
 
 Each Active period can be activated only once. Means, it will not be activated again after deactivation even if an activation event occurs.
 
+<br />
 
 ### Deactivation event, Deactivation value
 
