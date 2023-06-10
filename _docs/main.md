@@ -13,12 +13,15 @@ Uniq expert id (magic number).
 
 Use differnt Expert Ids to run several EAs on the same symbol.
 
+<br />
+
 ### Expert Comment
 
 Comment for positions.
 
-Leave empty to use "_CommunityPower_" comment.
+Leave empty to use "CommunityPower" comment.
 
+<br />
 
 ### Trade direction
 
@@ -26,9 +29,10 @@ Allowed direction: buy, sell or both.
 
 EA will not open **first** trade in disabled direction (but will open additional trades).
 
+<br />
 
 ### Signal TimeFrame
-<sup>[(starting from v2.09)](/docs/versions-history#20200512-209)</sup>
+<sup>[*(starting from v2.09)*](/docs/versions-history#20200512-209)</sup>
 
 Common TimeFrame for the following functions/parameters:
 * New deal on the new bar
@@ -39,18 +43,23 @@ Common TimeFrame for the following functions/parameters:
 * Pause after loss <br/>
 and others..
 
+<br />
 
-### New deal on the new bar <sub><sup>[(starting from v2.21)](/docs/versions-history#20201130-221)</sup></sub>
+### New deal on the new bar
+<sup>[*(starting from v2.21)*](/docs/versions-history#20201130-221)</sup>
 
 If **true**, allows opening of the first deal only on the next bar after the previous deal in the same direction was closed.
 
 If **false**, the next deal can be opened on the same bar (if signal allows opening).
 
+<br />
 
-### Max floating loss <sup><sub>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sub></sup>
+### Max floating loss
+<sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
 
 Disables new trades if floating loss of positions opened by this EA (and manual positions, if “Manage manual trades” = true) reaches specified value (in account currency). Set 0 to disable this limit.
 
+<br />
 
 ### Min margin level %
 
@@ -58,6 +67,7 @@ Disables new trades if floating loss of positions opened by this EA (and manual 
 
 Disables new trades if Account margin level reaches specified value (in %). Set 0 to disable this limit.
 
+<br />
 
 ### Custom commission
 
@@ -69,6 +79,7 @@ Overrides real commission size. Can be used for MT5 accounts with commission tak
 
 Set 0 to use real commission size.
 
+<br />
 
 ### Manage manual trades
 
