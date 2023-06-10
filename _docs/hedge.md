@@ -62,7 +62,7 @@ If there are X sell trades opened and buy signal appears, lot for the new buy or
 
 Depending on **Apply coefficient to**:<br/>
 * **First opposite lot** mode: lot for the first buy will be calculated as "lot of first sell-order * Increase lot coefficient"
-* ~~**Corresponding lot** mode: lot for buy order #X will be calculated as "corresponding sell lot * Increase lot coefficient" where ‘corresponding sell’ - is a sell number Increase hedge after # - X + 1~~ <sup><sup>[*(removed in v2.50)*](/docs/versions-history#20221014-20230107-250)</sub></sup>
+* ~~**Corresponding lot** mode: lot for buy order #X will be calculated as "corresponding sell lot * Increase lot coefficient" where ‘corresponding sell’ - is a sell number Increase hedge after # - X + 1~~ <sup><sub>[*(removed in v2.50)*](/docs/versions-history#20221014-20230107-250)</sub></sup>
 * **Last opposite lot mode**: lot for the first buy will be calculated as *lot of last sell-order * Increase lot coefficient*
 * **Sum opposite lot mode**: lot for the first buy will be calculated as *sum lot of all sell-orders * Increase lot coefficient*
 
