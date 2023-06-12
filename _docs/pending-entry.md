@@ -6,7 +6,7 @@ permalink: /docs/pending-entry
 
 # Pending entry
 
-<sup>[*(starting from v2.09)](/docs/versions-history#20200512-209)</sup> <sup>[(updated in v2.18)](/docs/versions-history#20200908-218)*</sup>
+<sup>[*(starting from v2.09)](/docs/versions-history#20200512-209)*</sup> <sup>*[(updated in v2.18)](/docs/versions-history#20200908-218)*</sup>
 
 <br />
 
