@@ -26,7 +26,7 @@ permalink: /docs/signals-and-filters
 ### Big candle filter type, Big candle min size, Big candle max size, Big candle TimeFrame, Analyze current bar
 
 <sup>[*(starting from v2.12)*](/docs/versions-history#20200624-212)</sup>
-*(added in v2.44)*
+<sup>*(added in v2.44)*</sup>
 
 Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe.
 
@@ -78,8 +78,8 @@ Can be one of the following:
 * WPR
 * RSI
 * Stochastic K
-* Stochastic D [*(starting from v2.21)*](/docs/versions-history#20201130-221)</sup>
-* Momentum [*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
+* Stochastic D <sup>[*(starting from v2.21)*](/docs/versions-history#20201130-221)</sup>
+* Momentum <sup>[*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
 
 
 ### TimeFrame
@@ -531,7 +531,7 @@ If true, the signal can't change in the middle of the bar.
 
 # ZigZag Filter
 
-[*(starting from v2.30)*](/docs/versions-history#20210419-230)
+<sup>[*(starting from v2.30)*](/docs/versions-history#20210419-230)</sup>
 
 
 ### ZZ filter type
@@ -592,7 +592,7 @@ Distance can be set negative (so, in **Extremum break** mode trade will be opene
 
 ### Use previous unbroken extremums
 
-[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
+<sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
 If enabled, previous (unbroken) extremums will be used after the last extremum is broken:
 IMAGE HERE
@@ -610,7 +610,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 
 ### Visualize levels, Fill rectangle, Color UP, Color DN
 
-[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
+<sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
 ZZ signal visualization parameters.<br/>
 Enable visualization to understand signals better.
@@ -620,7 +620,7 @@ Enable visualization to understand signals better.
 
 # Volatility for MA and ZZ Filters distance
 
-[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
+<sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
 
 ### Volatility Indicator
@@ -646,7 +646,7 @@ TimeFrame and Period of volatility indicator
 
 ### Volatility Filter Indicator
 
-[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
+<sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
 Indicator for the Volatility Filter:
 Disabled: Volatility Filter disabled
@@ -654,7 +654,7 @@ Disabled: Volatility Filter disabled
 * StDev
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
-* Tick volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
+* Tick volume <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
 
 ### Volatility Filter TimeFrame
@@ -698,7 +698,7 @@ MA period for Smoothing Volatility filter
 
 # Fibo Filters
 
-[*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*
+<sup>[*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*</sup>
 
 
 ### Type
@@ -755,7 +755,7 @@ If **Use closed bars only** = true, FIBO levels recalculate every bar of selecte
 
 # Custom Indicators
 
-[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
+<sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 
 ### Custom label
@@ -894,7 +894,7 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 
 ### Max current spread
 
-[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
+<sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
 Max spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening.
 
@@ -903,7 +903,7 @@ Set 0 to disable the filter.
 
 ### Max average spread, Seconds for averaging
 
-[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
+<sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
 Max average spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening and the number of seconds to calculate it.
 
@@ -912,13 +912,13 @@ Set 0 to disable the filter.
 
 ### Apply to first open
 
-[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
+<sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 Set **true** to apply the spread filter to the open of the first position in a series.
 
 
 ### Apply to martin
 
-[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
+<sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 Set **true** to apply the spread filter to the open of the martingale and anti-martingale positions.
