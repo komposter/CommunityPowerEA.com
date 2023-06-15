@@ -72,7 +72,7 @@ Close signal - is an opposite signal of the filter. So, buy will be closed when 
 * **Partial close** can be activated by any **Individual** or **Collective signal**, as full close.
 * **Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 
-<hr>
+<br />
 
 Starting from v2.21, if all signals are disabled (or none of **Open on** parameters are enabled), EA will trade **both ways**. So, you can open both buy and sell on the same bar and just manage them with trailing, martingale, or any other option.
 

@@ -7,7 +7,7 @@ permalink: /docs/follow-up
 # Follow up
 
 
-<hr>
+<br />
 
 # StopLoss
 
@@ -82,7 +82,7 @@ Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
 
 
-<hr>
+<br />
 
 # TakeProfit
 
@@ -192,7 +192,7 @@ Set **true** to close trades by market when TP level is reached.
 Set **false** to set the real TP for all orders (if possible).
 
 
-<hr>
+<br />
 
 # BreakEven
 
@@ -212,7 +212,7 @@ BreakEven can be set:<br/>
 * Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
 
 
-<hr>
+<br />
 
 # TrailingStop
 

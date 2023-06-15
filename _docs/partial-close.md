@@ -54,7 +54,7 @@ Close only profitable orders on **Partial close on** signals even if profit is n
 [Example](https://t.me/CommunityPowerNews/12)
 
 
-<hr>
+<br />
 
 # ~~Partial close hedge (starting from v2.32)~~ **Removed in 2.50**
 <br />

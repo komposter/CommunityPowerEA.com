@@ -12,7 +12,6 @@ Each signal has an **Active period** parameter. It can be "always active" or use
 Active periods are set in this section. Each period can start and end by its own rules.
 
 
-<hr>
 <br />
 
 ### Activation event, Activation value

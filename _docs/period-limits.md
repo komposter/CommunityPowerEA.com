@@ -6,10 +6,10 @@ permalink: /docs/period-limits
 
 # Period limits
 
-Starting from v2.48, you can limit trades per day, as well as Max DD and Max profit per day, per week and per month. When several EAs work on the same account, only trades with the same Magic number (Expert Id) are taken into account, so you can set independent limits for each group of CP EAs.
+Starting from [v2.48](/docs/versions-history#20220702-248), you can limit trades per day, as well as Max DrawDown and Max profit per day, per week and per month. When several EAs work on the same account, only trades with the same Magic number ([Expert Id](https://communitypowerea.com/docs/main-parameters#expert-id)) are taken into account, so you can set independent limits for each group of CP EAs.
 
 
-<hr>
+<br />
 
 # Daily limits
 
@@ -80,34 +80,41 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 Set 0 to disable the limit.
 
 
-<hr>
+<br />
 
 # Weekly and Monthly limits
 
-Weekly and Monthly limits are exactly the same as the daily limits (max DD and max profit limits are available). Also take a look at the "Common limits properties" below for some more details.
+Weekly and Monthly limits are exactly the same as the daily limits (max DD and max profit limits are available).
+
+Also take a look at the "Common limits properties" below for some more details.
 
 
-<hr>
+<br />
 
 # Common limits properties
 
 ### Week start day
 
-First day of the week for the "per week" periods calculations.<br/>For example, if **Week start day** is Wednesday, only positions opened since the last Wednesday will be counted for the **Max trades per week** limit.
+First day of the week for the "per week" periods calculations.
 
+For example, if **Week start day** is Wednesday, only positions opened since the last Wednesday will be counted for the **Max trades per week** limit.
+
+<br />
 
 ### Day start hour
 
 Start hour of the day for all time periods.
-For example, if **Day start hour** = 3:<br/>
+For example, if **Day start hour** = 3:
 * Daily period starts at 03:00,
 * Weekly period starts at 03:00 on **Week start day**,
 * And Monthly period starts at 03:00 on the 1st day of the month.
 
+<br />
 
-### Close open trades on profit/DD
+### Close open trades on profit / DD
 
-If **true**, EA will close all open positions when profit or DD is reached.<br/>
+If **true**, EA will close all open positions when profit or DD is reached.
+
 If **false**, EA will not close existing positions (new openings will be disabled, of course).
 
 Please, note: EA will not close positions of other EAs! If you want to close all positions on Profit/DD, set the same Period Limits for all EAs.

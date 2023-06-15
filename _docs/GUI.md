@@ -23,7 +23,7 @@ IMAGE HERE
 
 Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news [*(starting from v2.29)*](/docs/versions-history#20210403-229):
 
-<hr>
+<br />
 
 # Expert panel
 
@@ -64,7 +64,7 @@ Signals background and text color
 All colors used in Buy and Sell trading blocks.
 
 
-<hr>
+<br />
 
 # Lines
 
@@ -95,11 +95,11 @@ Color for the line corresponding to BUY orders
 
 Color for the line corresponding to SELL orders
 
-<hr>
+<br />
 
 Starting from **2.50.4**, you can also enable **Allow dragging the lines to modify SL/TP** to allow modification of SL and TP by dragging the lines on the chart. To restore original SL or TP, just delete the line.
 
-<hr>
+<br />
 
 # Orders on chart
 

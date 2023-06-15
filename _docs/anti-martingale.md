@@ -10,7 +10,7 @@ permalink: /docs/anti-martingale
 
 New type of exit in profit: instead of fixed TP or closing by opposite signal, EA will open new deals in the same direction, but on the profit side. After each new deal is opened, SL is moved to the new level.
 
-<hr>
+<br />
 
 ### Anti-martingale type
 
@@ -93,7 +93,7 @@ For example, with **Step size** = 20 points and **Step increase coefficient** = 
 Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
 Calculated step can't be smaller than the Min step size value.
 
-<hr>
+<br />
 
 # Anti-StopLoss
 
@@ -151,7 +151,7 @@ Can be:
 Set **true** to enable simple TakeProfit for series with anti-martingale trade open.
 
 
-<hr>
+<br />
 
 # Allow both Martin and Anti-martin
 

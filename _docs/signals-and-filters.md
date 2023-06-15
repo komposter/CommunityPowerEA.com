@@ -19,7 +19,7 @@ permalink: /docs/signals-and-filters
 *   allows SELLs after profitable SELLs/after losing BUYs
 
 
-<hr>
+<br />
 
 # Big candle filter
 
@@ -42,7 +42,7 @@ Can work in one of following modes:
     * SELLs are allowed if High - Open >= **Big candle min size** and High - Open <= **Big candle max size** (or max size = 0)
 
 
-<hr>
+<br />
 
 # Oscillator filters #1-3
 
@@ -150,7 +150,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for Oscillator filters is True
 
 
-<hr>
+<br />
 
 # IdentifyTrend filter
 
@@ -192,7 +192,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for IdentifyTrend is False.
 
 
-<hr>
+<br />
 
 # TDI filter
 
@@ -246,7 +246,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for TDI is True.
 
 
-<hr>
+<br />
 
 # MACD filter
 
@@ -318,7 +318,7 @@ Reverse all MACD signals
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
 
-<hr>
+<br />
 
 # ADX filter
 
@@ -366,7 +366,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for ADX is True.
 
 
-<hr>
+<br />
 
 # DTrend filter
 
@@ -412,7 +412,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for DTrend is False.
 
 
-<hr>
+<br />
 
 # Parabolic SAR filter
 
@@ -445,7 +445,7 @@ Parabolic indicator parameters
 Reverse all Parabolic signals
 
 
-<hr>
+<br />
 
 # MA Filters
 
@@ -527,7 +527,7 @@ Use only closed (formed) bars.<br/>
 If true, the signal can't change in the middle of the bar.
 
 
-<hr>
+<br />
 
 # ZigZag Filter
 
@@ -616,7 +616,7 @@ ZZ signal visualization parameters.<br/>
 Enable visualization to understand signals better.
 
 
-<hr>
+<br />
 
 # Volatility for MA and ZZ Filters distance
 
@@ -640,7 +640,7 @@ Can be one of the following:
 TimeFrame and Period of volatility indicator
 
 
-<hr>
+<br />
 
 # Volatility Filter
 
@@ -694,7 +694,7 @@ Smoothing Volatility filter. Can be one of following:
 MA period for Smoothing Volatility filter
 
 
-<hr>
+<br />
 
 # Fibo Filters
 
@@ -751,7 +751,7 @@ Fibo level used for signal
 If **Use closed bars only** = true, FIBO levels recalculate every bar of selected TimeFrame. Otherwise, FIBO recalculates every tick.
 
 
-<hr>
+<br />
 
 # Custom Indicators
 
@@ -888,7 +888,7 @@ Set **True** for indicators that can contain 0 or negative value by design (for 
 Set **False** for indicators that draw arrows and fill empty values with zeros (not EMPTY_VALUE constant).
 
 
-<hr>
+<br />
 
 # Spread Filter
 

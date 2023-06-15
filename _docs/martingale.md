@@ -128,7 +128,7 @@ Maximum step size (in points)<br/>
 Calculated step can't be larger than the **Max step size** value.
 
 
-<hr>
+<br />
 
 # Break even
 
@@ -161,7 +161,7 @@ For example, if **BreakEven Alert after order #** = 3, and if you have 3 or more
 Set 0 to disable BreakEven alert.
 
 
-<hr>
+<br />
 
 # Apply martin to the new deals
 

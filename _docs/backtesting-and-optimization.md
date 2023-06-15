@@ -37,7 +37,7 @@ Frequency of withdrawals:
 Percent or amount in account currency for each withdrawal.
 
 
-<hr>
+<br />
 
 # Optimization criterion
 
