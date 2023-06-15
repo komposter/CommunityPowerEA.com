@@ -79,7 +79,7 @@ Please, note: EA will not disable trading for other EAs! If you want to disable 
 
 Set 0 to disable the limit.
 
-
+<br />
 <br />
 
 # Weekly and Monthly limits

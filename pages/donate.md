@@ -6,7 +6,7 @@ permalink: /donate/
 
 # Donate
 
-If you like my work and want to support me, you can do it in many ways:
+If you like my work and want to support me, you can do it in many ways
 
 ### Become a sponsor [on GitHub](https://github.com/sponsors/komposter)
 <iframe src="https://github.com/sponsors/komposter/button" title="Sponsor komposter" height="32" width="114" style="border: 0; border-radius: 6px;"></iframe>
@@ -21,6 +21,8 @@ If you like my work and want to support me, you can do it in many ways:
 
 ### Donate using [Telegram bot](https://t.me/CommunityPowerNews/44)
 
+You need desktop Telegram client to see the button
+
 <br />
 
 ### Any other way you like
@@ -29,4 +31,6 @@ Contact me directly via [Telegram](https://t.me/komposterius)
 
 <br />
 
-Thank you!
+### Thank you!
+
+I really appreciate your support!
