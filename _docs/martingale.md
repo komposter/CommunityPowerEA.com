@@ -6,6 +6,10 @@ permalink: /docs/martingale
 
 # Martingale
 
+Martingale means opening new deals in the same direction, but on the better price.
+
+<br />
+
 ### Martingale type
 
 <sup>[*(starting from v2.01)*](/docs/versions-history#20200409-201)</sup>

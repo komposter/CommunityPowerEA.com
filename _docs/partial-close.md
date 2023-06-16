@@ -6,15 +6,29 @@ permalink: /docs/partial-close
 
 # Partial close
 
-### Close partial after order # and Min profit to close (in account currency / in% from balance)
-
 <sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Close some orders in the same direction (the last one and the first one, for example) if they sum profit is big enough (>= **Min profit to close**), the series is long enough (orders number >= **Close partial after order #**) and there is a signal for partial close (**Partial close on** parameter in each filter settings).
 
 Min profit can be defined in account currency, in % from current balance [*(starting from v2.23)*](/docs/versions-history#20201210-223), or using both limits (greater will be taken into account).
 
-Be careful, EA will reopen the last martingale order if the series is not totally closed, and lots will continue to increase. ([More info](https://communitypowerea.userecho.com/en/communities/1/topics/225-partial-close-of-martingale-trades-with-counter-trades-after-maximum-number-of-trades-are-reached))
+Be careful, EA will reopen the last martingale order if the series is not totally closed, and lots will continue to increase.
+
+[Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/225-partial-close-of-martingale-trades-with-counter-trades-after-maximum-number-of-trades-are-reached).
+
+<br />
+
+### Close partial after order #
+
+Min number of orders in series to start partial close.
+
+Set 0 to disable partial close.
+
+<br />
+
+### Min profit to close
+
+Min profit (in account currency / in% from balance) to close part of orders in series.
 
 <br />
 
@@ -25,8 +39,7 @@ Be careful, EA will reopen the last martingale order if the series is not totall
 Percent of losing order that can be closed with profit by Partial close.
 > For example, there are 2 deals opened:
 1. buy-order 1.4 lots with profit +50
-1. buy-order 1.2 lots with loss -80
-
+2. buy-order 1.2 lots with loss -80
 With **Min profit to close** = 10 we can close only 50% (0.6 lots) of losing order, and have +50 - 40 = +10 total profit. So, if **Min part of losing order to close = 50% or less**, orders will be closed.
 
 By default, only the entire order can be closed (**Min part of losing order to close** = 100%). Value of 0 also disables this function.
@@ -51,8 +64,7 @@ Same side closings (most losing buy with several profitable buys, for example) a
 
 Close only profitable orders on **Partial close on** signals even if profit is not big enough to cover the loss.
 
-[Example](https://t.me/CommunityPowerNews/12)
-
+![partial_close.jpg](..%2Fassets%2Fimg%2Fdocs%2Fpartial_close.jpg)
 
 <br />
 
