@@ -11,14 +11,15 @@ permalink: /docs/entry-strategy
 
 <sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
 
-Each signal has an **Active period** parameter. It can be **always active** or use 1 of 3 predefined periods.
+Each signal has an **Active period** parameter. It can be **always active** or use 1 of 4 predefined periods.
 
-Each of 3 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
 
 Active signals are shown on the EA panel as usual (gray if there is no signal, and blue/red if there is a signal), non-active signals are shown in light blue and light red if there is a signal:
 
-IMAGE HERE
+![active_periods.jpg](..%2Fassets%2Fimg%2Fdocs%2Factive_periods.jpg)
 
+<br />
 
 ### **Open on** parameter for each filter
 
@@ -39,6 +40,9 @@ Open on Collective signal (neutral signals accepted) mode works like previous, b
 
 > For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
+Starting from [v2.21](/docs/versions-history#20201130-221), if all signals are disabled (or none of **Open on** parameters are enabled), EA will trade **both ways**. So, you can open both buy and sell on the same bar and just manage them with trailing, martingale, or any other option.
+
+<br />
 
 ### **Open martin on** parameter for each filter
 
@@ -48,6 +52,7 @@ You can set up the opening of the martingale deals in the same way as the first 
 
 If all **Open martin on** parameters are set to **Don't use for open**, martingale deals are opened without any signal (but taking into account Step size and other martingale parameters, of course).
 
+<br />
 
 ### **Open hedge on** parameter for each filter
 
@@ -55,6 +60,7 @@ If all **Open martin on** parameters are set to **Don't use for open**, martinga
 
 The same as **Open martin on**, but for auto-hedge deals.
 
+<br />
 
 ### **Close on** parameter for each filter
 
@@ -66,6 +72,7 @@ You can set up closing by individual signal/filter or by several filters showing
 
 Close signal - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 
+<br />
 
 ### **Partial close on** parameter for each filter
 
@@ -75,13 +82,3 @@ Close signal - is an opposite signal of the filter. So, buy will be closed when 
 * **Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 
 <br />
-
-Starting from v2.21, if all signals are disabled (or none of **Open on** parameters are enabled), EA will trade **both ways**. So, you can open both buy and sell on the same bar and just manage them with trailing, martingale, or any other option.
-
-
-
-
-
-
-
-
