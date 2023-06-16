@@ -11,7 +11,7 @@ permalink: /docs/time
 
 All settings are in GMT time corrected with selected DST mode.
 
-Please, set correct DST mode and GMT offset while testing ([How to?](https://communitypowerea.userecho.com/en/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker))
+Please, set correct the DST mode and GMT offset during testing ([how to?](/docs/faq/gmt-and-dst)).
 
 
 <br />
@@ -43,9 +43,9 @@ DST mode of your broker:
 
 GMT offset for StrategyTester.
 
-Ask your broker what GMT offset and DST mode he uses.
+Ask your broker what GMT offset and DST mode it uses.
 
-[How to set the correct GMT and DST for your broker?](https://communitypowerea.userecho.com/en/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker)
+[How to set the correct GMT and DST for your broker?](/docs/faq/gmt-and-dst)
 
 <br />
 
