@@ -9,13 +9,13 @@ permalink: /docs/gui
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-You can activate the trading and signals panel (look at GUI user guide for details). Available parameters to customize GUI:
+You can activate the trading and signals panel in the EA settings:
 
 ![GUI.png](..%2Fassets%2Fimg%2Fdocs%2FGUI.png)
 
 <br />
 
-One click trading without confirmation [*(starting from v2.20)*](/docs/versions-history#20201103-220):
+One click trading in action (with and without confirmation):
 
 ![one-click-trading.gif](..%2Fassets%2Fimg%2Fdocs%2Fone-click-trading.gif)
 
