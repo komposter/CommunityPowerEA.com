@@ -78,7 +78,8 @@ Close signal - is an opposite signal of the filter. So, buy will be closed when 
 
 <sup>[*(starting from v2.25)*](/docs/versions-history#20210115-225)</sup>
 
-* **Partial close** can be activated by any **Individual** or **Collective signal**, as full close.
-* **Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
+**Partial close** can be activated by any **Individual** or **Collective signal**, as a full close.
+
+**Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 
 <br />

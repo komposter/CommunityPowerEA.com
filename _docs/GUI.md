@@ -5,27 +5,36 @@ description: GUI parameters
 permalink: /docs/gui
 ---
 
-# GUI parameters
+# GUI
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
 You can activate the trading and signals panel (look at GUI user guide for details). Available parameters to customize GUI:
 
-IMAGE HERE
-
-One click trading without confirmation [*(starting from v2.20)*](/docs/versions-history#20201103-220):
-
-IMAGE HERE
-
-Click on signal label to show indicator and switch to signal TF [*(starting from v2.26)*](/docs/versions-history#20210202-226):
-
-IMAGE HERE
-
-Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news [*(starting from v2.29)*](/docs/versions-history#20210403-229):
+![GUI.png](..%2Fassets%2Fimg%2Fdocs%2FGUI.png)
 
 <br />
 
-# Expert panel
+One click trading without confirmation [*(starting from v2.20)*](/docs/versions-history#20201103-220):
+
+![one-click-trading.gif](..%2Fassets%2Fimg%2Fdocs%2Fone-click-trading.gif)
+
+<br />
+
+Click on signal label to show indicator and switch to signal TF [*(starting from v2.26)*](/docs/versions-history#20210202-226):
+
+![show-indy.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow-indy.gif)
+
+<br />
+
+Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news [*(starting from v2.29)*](/docs/versions-history#20210403-229):
+
+![show_orders.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow_orders.gif)
+
+<br />
+<br />
+
+# GUI parameters
 
 ### Enable panel
 
