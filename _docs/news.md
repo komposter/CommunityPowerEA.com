@@ -56,8 +56,10 @@ Use news with none impact (Holidays and non-economic news)
 
 ### Include key-words
 
-Key-words separated by comma to filter the news. Case sensitive.<br/>
-For example, "Nonfarm,Speech,Trade Balance".<br/>
+Key-words separated by comma to filter the news. Case-sensitive.
+
+> For example, "Nonfarm,Speech,Trade Balance".
+
 Leave empty not to filter the news by name.
 
 <br />

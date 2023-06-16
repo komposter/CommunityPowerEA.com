@@ -6,7 +6,7 @@ permalink: /docs/volatility
 
 # Volatility for all parameters nominated in points
 
-> [What is a "point" in CommunityPower EA?](/docs/how-tos/what-is-a-point)
+> [What is a "point" in CommunityPower EA?](/docs/FAQ/what-is-a-point)
 
 Starting from [v2.31](/docs/versions-history#20210508-231), you can set **Volatility for all parameters nominated in points**, as well as limit volatility **min and max size**:
 
@@ -54,7 +54,7 @@ TimeFrame and Period of volatility indicator
 
 ### Min and Max volatility to use (points)
 
-Indicator value will be limited by these Min and Max values defined **in points** ([what is a "point"?](/docs/how-tos/what-is-a-point)).
+Indicator value will be limited by these Min and Max values defined **in points** ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
 > For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with coefficient to volatility = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
 

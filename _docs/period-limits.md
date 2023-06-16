@@ -97,14 +97,14 @@ Also take a look at the "Common limits properties" below for some more details.
 
 First day of the week for the "per week" periods calculations.
 
-For example, if **Week start day** is Wednesday, only positions opened since the last Wednesday will be counted for the **Max trades per week** limit.
+> For example, if **Week start day** is Wednesday, only positions opened since the last Wednesday will be counted for the **Max trades per week** limit.
 
 <br />
 
 ### Day start hour
 
 Start hour of the day for all time periods.
-For example, if **Day start hour** = 3:
+> For example, if **Day start hour** = 3:
 * Daily period starts at 03:00,
 * Weekly period starts at 03:00 on **Week start day**,
 * And Monthly period starts at 03:00 on the 1st day of the month.

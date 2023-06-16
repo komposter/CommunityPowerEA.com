@@ -109,7 +109,7 @@ permalink: /docs/versions-history
 * [+] Close on BreakEven after order #
 * [+] Pending entry by LIMIT orders added<br/>
 **WARNING! Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!**<br/>
-* [*] Pending buy-orders cancelation by opposite signal fixed for "in profit only" modes
+* [*] Pending buy-orders cancellation by opposite signal fixed for "in profit only" modes
 * [*] GUI blinking fixed
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added

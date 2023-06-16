@@ -1,7 +1,7 @@
 ---
 layout: page
 title: What is a point?
-permalink: /docs/how-tos/what-is-a-point
+permalink: /docs/FAQ/what-is-a-point
 ---
 
 # What is a "point" in CommunityPower EA?

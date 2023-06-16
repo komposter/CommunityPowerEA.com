@@ -73,7 +73,7 @@ Set 0 to disable cancellation after bars.
 ### Distance calc mode
 
 **Distance to order** and **Cancel after distance** can be set:<br/>
-* **In points** ([what is a "point"?](/docs/how-tos/what-is-a-point))
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />

@@ -72,7 +72,7 @@ Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 User-defined coefficient sequence for Custom lot coefficients increasing mode. Coefficients should be separated by comma. Max allowed string length — 63 symbols.
 
-For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
+> For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
 
 
 ### Step size
@@ -85,22 +85,23 @@ Step size (in points or like coefficient to Volatility)
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:<br/>
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
-* Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 
 ### Step increase coefficient
 
-Step increase coefficient for 2nd and all next martingale deals. <br/>
-For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 67.5 - 101.3 and so on
+Step increase coefficient for 2nd and all next martingale deals.
+
+> For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 67.5 - 101.3 and so on
 
 
 ### Change step after order #, Change step by coefficient
 
 <sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
-Change the step after a certain order by custom coefficient (next steps also change).<br/>
-For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
+Change the step after a certain order by custom coefficient (next steps also change).
+> For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
 
 
 ### Custom step coefficients
@@ -118,7 +119,7 @@ Set empty value to disable **Custom step coefficients**.
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
-Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
+Minimum step size (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).<br/>
 Calculated step can't be smaller than the **Min step size** value.
 
 
@@ -138,7 +139,7 @@ Calculated step can't be larger than the **Max step size** value.
 
 Close all orders when your series containing a specified number of orders reaches Break Even.
 
-For example, if **Close on BreakEven after order #** = 2, and if you have 2 or more deals opened in one direction, they will be closed as soon as they become profitable.
+> For example, if **Close on BreakEven after order #** = 2, and if you have 2 or more deals opened in one direction, they will be closed as soon as they become profitable.
 
 Set 0 to disable this function.
 
@@ -147,7 +148,7 @@ Set 0 to disable this function.
 
 <sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
-Min profit size to close series on BreakEven after order (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
+Min profit size to close series on BreakEven after order (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).
 
 
 ### BreakEven Alert
@@ -156,7 +157,7 @@ Min profit size to close series on BreakEven after order (in points) ([What is a
 
 Send a message to Grammy when your series containing a specified number of orders reached Break Even. One alert for each series length.
 
-For example, if **BreakEven Alert after order #** = 3, and if you have 3 or more deals opened in one direction, you’ll have a message as soon as these orders become profitable. You will not have a message if the opened series is shorter than 3 orders.
+> For example, if **BreakEven Alert after order #** = 3, and if you have 3 or more deals opened in one direction, you’ll have a message as soon as these orders become profitable. You will not have a message if the opened series is shorter than 3 orders.
 
 Set 0 to disable BreakEven alert.
 

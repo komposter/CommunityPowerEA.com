@@ -496,7 +496,7 @@ Moving Average (MA) properties
 ### Distance / angle calculation type
 
 **Distance / angle** calculation type:
-* **In points**: fixed distance in points / fixed angle in points per bar is used ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
+* **In points**: fixed distance in points / fixed angle in points per bar is used ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
 [Example](https://communitypowerea.userecho.com/en/communities/7/topics/325-how-to-use-bollingerbands-bb-as-an-entry-filter) - How to use BollingerBands (BB) as an entry filter
 
@@ -575,7 +575,7 @@ ZZ properties
 ### Distance type
 
 **Distance** calculation type:
-* **In points**: fixed distance in points is used ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
+* **In points**: fixed distance in points is used ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
     IMAGE HERE
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
@@ -669,16 +669,19 @@ Selected Volatility indicator period
 
 ### Min Volatility
 
-Min volatility (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) to allow new trade (both buy and sell).
+Min volatility (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
 
 Set 0 to disable minimum volatility value.
 
 
 ### Max Volatility
 
-Max volatility (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) to allow new trade (both buy and sell).
+Max volatility (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
 
 Set 0 to disable maximum volatility value.
+
+> For example, if you set **Volatility Indicator** = ATR, and **Volatility Period** = 20, and **Min Volatility (in points)** = 10, you'll have trades in the green zones only:
+![]({{site.baseurl}}/assets/img/docs/volatility3.png)
 
 
 ### Smoothing Filter
@@ -806,7 +809,7 @@ TF for the signal
 Name of the indicator you want to use.<br/>
 If it is located not in the "MQL5\Indicators\" folder, the path should be specified too.
 
-For example, if your indicator "SuperTrend.ex5" is in the "MQL5\Indicators\Market\" folder, you should set the **Indicator path and name = "Market\SuperTrend"**.
+> For example, if your indicator "SuperTrend.ex5" is in the "MQL5\Indicators\Market\" folder, you should set the **Indicator path and name = "Market\SuperTrend"**.
 
 
 ### Indicator parameters
@@ -835,7 +838,7 @@ Set -1 to use the same buffer index as for Buy.
 
 If both **Buy color buffer number** and **Buy color index** are set (>= 0), color filtering is applied for all values in Buy-buffer: if the value in the **Buy color buffer number** differs from **Buy color index**, value in Buy-buffer is considered as empty.
 
-For example, if the indicator draws arrows for both buy and sell signals using buffer #0, and applies colors to these arrows using buffer #1 (first is green, means buy, second is red, means sell), you should set:
+> For example, if the indicator draws arrows for both buy and sell signals using buffer #0, and applies colors to these arrows using buffer #1 (first is green, means buy, second is red, means sell), you should set:
 * **Signal type = On arrow / On new arrow**
 * **Buy buffer number** = 0
 * **Sell buffer number** = 0
@@ -896,7 +899,7 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
-Max spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening.
+Max spread (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) for positions opening.
 
 Set 0 to disable the filter.
 
@@ -905,7 +908,7 @@ Set 0 to disable the filter.
 
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
-Max average spread (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)) for positions opening and the number of seconds to calculate it.
+Max average spread (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) for positions opening and the number of seconds to calculate it.
 
 Set 0 to disable the filter.
 

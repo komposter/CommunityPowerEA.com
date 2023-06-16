@@ -23,7 +23,7 @@ Be careful, EA will reopen the last martingale order if the series is not totall
 <sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 Percent of losing order that can be closed with profit by Partial close.
-For example, there are 2 deals opened:
+> For example, there are 2 deals opened:
 1. buy-order 1.4 lots with profit +50
 1. buy-order 1.2 lots with loss -80
 

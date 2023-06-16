@@ -34,8 +34,9 @@ You can set several individual signals, and deals will be opened on each signal.
 
 In Open on Collective signal mode, all selected “Collective” signals must show the same direction to open the deal. Individual signals are ignored for this set of signals (but continue to work individually).
 
-Open on Collective signal (neutral signals accepted) mode works like previous, but selected filters/signals should just not show the opposite direction to allow the opening.<br/>
-For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
+Open on Collective signal (neutral signals accepted) mode works like previous, but selected filters/signals should just not show the opposite direction to allow the opening.
+
+> For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
 
 ### **Open martin on** parameter for each filter
@@ -60,7 +61,7 @@ The same as **Open martin on**, but for auto-hedge deals.
 
 You can set up closing by individual signal/filter or by several filters showing the same signal. Both modes can be used with **in profit only** option.
 
-For example, you can set Oscillator signal, TDI and MA filters, and close deals in profit on opposite MA signal or on opposite Oscillator + TDI signal with or without profit. To do this, set **Close on = Individual signal, in profit only** for MA filter and **Close on = Collective signal** for Oscillator and TDI.
+> For example, you can set Oscillator signal, TDI and MA filters, and close deals in profit on opposite MA signal or on opposite Oscillator + TDI signal with or without profit. To do this, set **Close on = Individual signal, in profit only** for MA filter and **Close on = Collective signal** for Oscillator and TDI.
 
 Close signal - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
 

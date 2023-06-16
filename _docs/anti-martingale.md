@@ -63,7 +63,7 @@ Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
 User-defined coefficient sequence for **Custom lot coefficients** increasing mode. Coefficients should be separated by comma. Max allowed string length - 63 symbols.
 
-For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
+> For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
 
 
 ### Step size
@@ -76,21 +76,22 @@ Step size (in points or like coefficient to Volatility)
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
-* Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 
 ### Step increase coefficient
 
-Step increase coefficient for 2nd and all next martingale deals.<br/>
-For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 68 and so on
+Step increase coefficient for 2nd and all next martingale deals.
+
+> For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 68 and so on
 
 
 ### Min step size (points)
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
-Minimum step size (in points) ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).<br/>
+Minimum step size (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).<br/>
 Calculated step can't be smaller than the Min step size value.
 
 <br />
@@ -110,7 +111,7 @@ Can be negative (when calculated from average price) (starting from v2.20)
 Anti-StopLoss reduce size and coefficient.<br/>
 If enabled, SL for each next anti-martingale order in the series will be reduced by specified **reduce size**. This size will be also multiplied by **reduce coefficient** for each next stage too.
 
-For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:
+> For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 you will have the following series:
 * For the 1st deal SL will be = 50 points
 * For 2 deals: 50 - 10 = 40
 * For 3 deals: 50 - 10*1.1 = 29
@@ -118,9 +119,9 @@ For example, with Anti-StopLoss = 50, reduce size = 10 and reduce coeff = 1.1 yo
 * For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
-Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
+Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).
 
-For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the last example, starting from 4th SL will be = 20 (16.9 is less than 20, so will be replaced).<br/>
+> For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the last example, starting from 4th SL will be = 20 (16.9 is less than 20, so will be replaced).<br/>
 **Anti-StopLoss size** can be negative.
 
 
@@ -139,8 +140,8 @@ Anti-StopLoss mode:<br/>
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Can be:
-* **In points** ([What is a "point" in CP?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
-* Like **Coefficient to Volatility** ([volatility parameters](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.sx27nza3heuj) must be set correctly)
+* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 
 
