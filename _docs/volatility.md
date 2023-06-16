@@ -16,7 +16,9 @@ Then you can set **calculation mode** for any parameter to **Coefficient to Vola
 
 ![]({{site.baseurl}}/assets/img/docs/volatility2.png)
 
-In this example, TrailingStop size will be calculated as *"Current ATR * 1.5"*, Trailing Step will be *"ATR * 0.1"*.
+In this example, **TrailingStop size** will be calculated as **ATR * 1.5**, and **Trailing Step** will be **ATR * 0.1**.
+
+<br />
 
 You can set "calculation mode" for the following parameters:
 * Pending entry: Distance to order and Cancel after distance
@@ -52,7 +54,7 @@ TimeFrame and Period of volatility indicator
 
 ### Min and Max volatility to use (points)
 
-Indicator value will be limited by these Min and Max values defined **in points** ([what is a "point" in CommunityPower EA?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
+Indicator value will be limited by these Min and Max values defined **in points** ([what is a "point"?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean)).
 
 > For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with coefficient to volatility = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
 
