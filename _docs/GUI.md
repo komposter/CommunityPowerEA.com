@@ -20,18 +20,6 @@ One click trading in action (with and without confirmation):
 ![one-click-trading.gif](..%2Fassets%2Fimg%2Fdocs%2Fone-click-trading.gif)
 
 <br />
-
-Click on signal label to show indicator and switch to signal TF [*(starting from v2.26)*](/docs/versions-history#20210202-226):
-
-![show-indy.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow-indy.gif)
-
-<br />
-
-Show orders [*(starting from v2.28)*](/docs/versions-history#20210303-228) and show news [*(starting from v2.29)*](/docs/versions-history#20210403-229):
-
-![show_orders.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow_orders.gif)
-
-<br />
 <br />
 
 # GUI parameters
@@ -60,6 +48,10 @@ Show signals panel.
 
 Only activated signals and filters will be shown.
 
+Click on signal label to show indicator and switch to signal TF [*(starting from v2.26)*](/docs/versions-history#20210202-226):
+
+![show-indy.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow-indy.gif)
+
 <br />
 
 ### Signals background color, Signals text color
@@ -68,9 +60,9 @@ Signals background and text color
 
 <br />
 
-### Buy/Sell block colors: background, buttons (pressed and unpressed), borders and text
+### Buy/Sell block colors
 
-All colors used in Buy and Sell trading blocks.
+All colors used in Buy and Sell trading blocks (background, buttons (pressed and unpressed), borders and text).
 
 
 <br />
@@ -79,7 +71,8 @@ All colors used in Buy and Sell trading blocks.
 
 <sup>[*(starting from v2.04)*](/docs/versions-history#20200416-204)</sup>
 
-You are able to draw StopLoss, TakeProfit, BreakEven and NextOrder levels on the chart. Each level can be configured with following parameters:
+You are able to draw StopLoss, TakeProfit, BreakEven and NextOrder levels on the chart. Each level can be configured with following parameters.
+
 <br />
 
 ### Width
@@ -87,11 +80,13 @@ You are able to draw StopLoss, TakeProfit, BreakEven and NextOrder levels on the
 Line width.
 
 Set 0 to disable drawing this type of lines.
+
 <br />
 
 ### Style
 
 Line style (works with width = 1 only)
+
 <br />
 
 ### Color BUY
@@ -106,7 +101,13 @@ Color for the line corresponding to SELL orders
 
 <br />
 
-Starting from **2.50.4**, you can also enable **Allow dragging the lines to modify SL/TP** to allow modification of SL and TP by dragging the lines on the chart. To restore original SL or TP, just delete the line.
+### Allow dragging the lines to modify SL/TP
+
+<sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
+
+Allow modification of SL and TP by dragging the lines on the chart.
+
+To restore original SL or TP, just delete the line.
 
 <br />
 
@@ -114,22 +115,27 @@ Starting from **2.50.4**, you can also enable **Allow dragging the lines to modi
 
 <sup>[*(starting from v2.28)*](/docs/versions-history#20210303-228)</sup>
 
-You can enable drawing of the EA orders on the chart and toggle it by button on the expert panel (look at **GUI user guide** (MISSING LINK) for details). EA draws only trades with a magic number equal to the Expert Id set in the properties (and manually opened trades, if Manage manual = true).
+You can enable drawing of the EA orders on the chart and toggle it by button on the expert panel.
+
+EA draws only trades with a magic number equal to the Expert Id set in the properties (and manually opened trades, if Manage manual = true):
+
+![show_orders.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow_orders.gif)
+
 <br />
 
 ### Main properties
 
-**Show OPENED deals**:
+Show OPENED deals:
 * **Disabled** - don't draw any opened positions on chart,
 * **Trend lines from open to current price** - draw trend line for every open position,
 * **Horizontal lines like in MT** - draw horizontal line for every open position,
 * **Trend lines + Horizontal lines** - draw both horizontal and trend lines for every open position.
 
-**Show CLOSED deals** - true / false.
+Show CLOSED deals - true / false.
 
-**Show PENDING orders** - true / false.
+Show PENDING orders - true / false.
 
-**Max history deals** - draw only last X deals from history (0 - disable limit).
+Max history deals - draw only last X deals from history (0 - disable limit).
 
 <br />
 

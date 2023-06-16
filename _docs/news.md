@@ -77,8 +77,11 @@ Time interval around the news release when “news time” is active.
 
 ### Show on chart
 
-**true** - draw news lines on the chart by default<br/>
-**false** - don't draw
+**true** - draw news lines on the chart by default, **false** - don't draw
+
+[Starting from v2.29](/docs/versions-history#20210403-229), you can toggle news lines visibility on the chart using the button on the panel:
+
+![show_orders.gif](..%2Fassets%2Fimg%2Fdocs%2Fshow_orders.gif)
 
 <br />
 
