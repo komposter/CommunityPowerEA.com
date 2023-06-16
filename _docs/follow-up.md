@@ -86,7 +86,8 @@ Disables opening new first trades after closing by StopLoss or GlobalStopLoss. S
 
 <sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
-Set **true** to close trades by market when SL level is reached.<br/>
+Set **true** to close trades by market when SL level is reached.
+
 Set **false** to set the real SL for all orders (if possible).
 
 <br />
@@ -260,7 +261,8 @@ Minimal step to move the StopLoss
 
 ### Start trailing after
 
-Trailing activated after profit = **Start trailing after**.<br/>
+Trailing activated after profit = **Start trailing after**.
+
 If 0, trailing activated after profit = **Trailing stop size**.
 
 <br />

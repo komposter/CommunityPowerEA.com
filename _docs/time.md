@@ -41,7 +41,8 @@ DST mode of your broker:
 
 ### GMT offset
 
-GMT offset for StrategyTester.<br/>
+GMT offset for StrategyTester.
+
 Ask your broker what GMT offset and DST mode he uses.
 
 [How to set the correct GMT and DST for your broker?](https://communitypowerea.userecho.com/en/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker)
@@ -50,8 +51,10 @@ Ask your broker what GMT offset and DST mode he uses.
 
 ### EveryDay start hour/minute
 
-Start time for every day.<br/>
-First trade opens only within the **start time  -  end time** interval.<br/>
+Start time for every day.
+
+First trade opens only within the **start time  -  end time** interval.
+
 If disabled, work time starts at 00:00
 
 <br />
@@ -60,15 +63,18 @@ If disabled, work time starts at 00:00
 
 <sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
-Length (in minutes) of the EA trade session.<br/>
+Length (in minutes) of the EA trade session.
+
 Set 0 to use EveryDay end hour/minute parameters.
 
 <br />
 
 ### EveryDay end hour/minute
 
-End time for every day.<br/>
-First trade opens only within the **start time  -  end time** interval.<br/>
+End time for every day.
+
+First trade opens only within the **start time  -  end time** interval.
+
 If disabled, work time ends at 23:59
 
 <br />
@@ -77,21 +83,24 @@ If disabled, work time ends at 23:59
 
 <sup>[*(starting from v2.25)*](/docs/versions-history#20210115-225)</sup>
 
-Close time for every day.<br/>
+Close time for every day.
+
 EA will close all open deals at this time.
 
 <br />
 
 ### Friday stop hour/minute
 
-End time for Friday (can differs from EveryDay end time).<br/>
+End time for Friday (can differs from EveryDay end time).
+
 EA will not open new first trades after this time on Friday.
 
 <br />
 
 ### Friday close hour/minute
 
-Close time for Friday.<br/>
+Close time for Friday.
+
 EA will close all opened deals at this time on Friday (if trading is still enabled).
 
 <br />
@@ -100,8 +109,10 @@ EA will close all opened deals at this time on Friday (if trading is still enabl
 
 <sup>[*(starting from v2.25)*](/docs/versions-history#20210115-225)</sup>
 
-Individual schedule for each day.<br/>
-Works if **Enable Custom Schedule** = true only.<br/>
+Individual schedule for each day.
+
+Works if **Enable Custom Schedule** = true only.
+
 Set equal start and end hour/minute to disable the whole day.
 
 <br />

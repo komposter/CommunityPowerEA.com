@@ -42,7 +42,8 @@ Set 0 to disable this filter.
 
 <sup>[*(starting from v2.47)*](/docs/versions-history#20220520-247)</sup>
 
-When true, **New deal on the end of the bar only** and **Min pause between trades** analyze only open positions.<br/>
+When true, **New deal on the end of the bar only** and **Min pause between trades** analyze only open positions.
+
 When false, closed positions are taken into account as well (closed position may be opened later than opened one, for example after Partial close)
 
 <br />
@@ -128,7 +129,8 @@ Set empty value to disable **Custom step coefficients**.
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
-Minimum step size (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).<br/>
+Minimum step size (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
 Calculated step can't be smaller than the **Min step size** value.
 
 <br />
@@ -182,6 +184,7 @@ Set 0 to disable BreakEven alert.
 
 <sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
-Increase lot of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.<br/>
+Increase lot size of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.
+
 To start again with a Start lot on account with loss, set new Magic number.
 

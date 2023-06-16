@@ -29,7 +29,8 @@ You can set up opening of the first deal:
 * by several signals/filters showing the same direction,
 * by several signals/filters showing the same direction or just confirming it (not showing the opposite one).
 
-If Open on Individual signal mode is selected for any signal, a deal is opened by this signal any time it happens. So, it is an independent signal for opening.<br/>
+If Open on Individual signal mode is selected for any signal, a deal is opened by this signal any time it happens. So, it is an independent signal for opening.
+
 You can set several individual signals, and deals will be opened on each signal.
 
 In Open on Collective signal mode, all selected “Collective” signals must show the same direction to open the deal. Individual signals are ignored for this set of signals (but continue to work individually).

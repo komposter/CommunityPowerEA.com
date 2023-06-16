@@ -146,7 +146,8 @@ If true, buy signals replaced by sell signals and vice versa
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for Oscillator filters is True
 
 
@@ -188,7 +189,8 @@ Reverse all IdentifyTrend signals (Buy on Red and Sell on Blue)
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for IdentifyTrend is False.
 
 
@@ -242,7 +244,8 @@ Reverse all TDI signals (Buy <= 50 and Sell >= 50)
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for TDI is True.
 
 
@@ -297,7 +300,8 @@ TimeFrame for the MACD filter
 
 <sup>[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
-Signal level for all filter types where level 0 is used.<br/>
+Signal level for all filter types where level 0 is used.
+
 Thus, **> 0** means **> Signal Level** and **< 0** means **< -Signal Level**
 
 
@@ -362,7 +366,8 @@ Reverse all ADX signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for ADX is True.
 
 
@@ -408,7 +413,8 @@ Reverse all DTrend signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for DTrend is False.
 
 
@@ -523,7 +529,8 @@ Reverse all Moving Average (MA) signals
 
 <sup>[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
-Use only closed (formed) bars.<br/>
+Use only closed (formed) bars.
+
 If true, the signal can't change in the middle of the bar.
 
 
@@ -612,7 +619,8 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 
 <sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
-ZZ signal visualization parameters.<br/>
+ZZ signal visualization parameters.
+
 Enable visualization to understand signals better.
 
 
@@ -806,7 +814,8 @@ TF for the signal
 
 ### Indicator path and name
 
-Name of the indicator you want to use.<br/>
+Name of the indicator you want to use.
+
 If it is located not in the "MQL5\Indicators\" folder, the path should be specified too.
 
 > For example, if your indicator "SuperTrend.ex5" is in the "MQL5\Indicators\Market\" folder, you should set the **Indicator path and name = "Market\SuperTrend"**.
@@ -816,7 +825,8 @@ If it is located not in the "MQL5\Indicators\" folder, the path should be specif
 
 Indicator parameters separated by commas.
 
-Order and type of parameters must match the original order and type of indicator parameters.<br/>
+Order and type of parameters must match the original order and type of indicator parameters.
+
 String parameters must be enclosed in single quotes.
 
 **Warning!** Indicators with "parameters groups" can't be used with parameters specified!
@@ -872,13 +882,15 @@ Reverse all CustomIndy signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.<br/>
+Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+
 Default value for CustomIndy is True.
 
 
 ### Short indicator name, Draw in subwindow
 
-These parameters should be set for correct work of the CP GUI (show/hide indicator by clicking on signal label).<br/>
+These parameters should be set for correct work of the CP GUI (show/hide indicator by clicking on signal label).
+
 **Short indicator name** must match the indicator name as it is shown in the Data window.
 
 **Draw in subwindow** must be set to **True** for all indicators that draw in sub-windows (oscillators, MACD, ADX, etc) and to **False** for others.

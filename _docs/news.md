@@ -19,7 +19,9 @@ permalink: /docs/news
 Can be one of the following:
 * **News disabled** - news filter disabled, news don't draw on the chart.
 * **News time as a filter** - news filter active, news can be drawn on the chart. News time applied as a filter.For example, if you set Open on, EA will trade in specified time intervals around news releases and will not trade out of these intervals (example)
-* **No news time as a filter** - news filter active, news can be drawn on the chart. No news time applied as a filter.<br/>For example, if you set Open on, EA will NOT trade in specified time intervals around news releases and will trade out of these intervals.
+* **No news time as a filter** - news filter active, news can be drawn on the chart. No news time applied as a filter.
+
+> For example, if you set Open on, EA will NOT trade in specified time intervals around news releases and will trade out of these intervals.
 
 <br />
 

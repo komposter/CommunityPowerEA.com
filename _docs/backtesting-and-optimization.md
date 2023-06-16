@@ -48,8 +48,10 @@ Percent or amount in account currency for each withdrawal.
 ### Custom optimization criterion
 
 * **Disabled** - don't use custom criterion.
-* **R^2 on equity** - use R-squared as an estimation of quality of the strategy equity curve (read this article for details).<br/>
-Greater value is better with 1 as maximum possible value (ideal equity going up-right without any volatility).<br/>
+* **R^2 on equity** - use R-squared as an estimation of quality of the strategy equity curve (read this article for details).
+
+Greater value is better with 1 as maximum possible value (ideal equity going up-right without any volatility).
+
 You should use Fixed start lot size when optimizing using the R-squared because of the nature of this criterion.
 
 * **Max Relative DD** *(starting from 2.29*) - use Maximal relative DrawDown (in percent) based on equity.<br>
