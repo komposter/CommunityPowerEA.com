@@ -42,7 +42,7 @@ If **true**, anti-martingale trades can be opened only on signals with **Open ma
 
 <sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
-Can be one of the following:<br/>
+Can be one of the following:
 * **Sum**: previous lot + adding [1-2-3-4-5-...]<br/>
 * **Fibo**: previous lot + pre-previous lot [1-1-2-3-5-8-...]<br/>
 * **Martin**: previous lot * coeff [1-2-4-8-16-...]<br/>
@@ -129,7 +129,7 @@ Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([what is a
 
 <sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
-Anti-StopLoss mode:<br/>
+Anti-StopLoss mode:
 * **From average open price**: SL based on weighted average open price of all positions in the series.
 * **From last open price**: SL based on the open price of the last position in the series.
 * **From first open price**: SL based on the open price of the first position in the series.

@@ -38,7 +38,7 @@ If **true**:
 * allows open buy when sell is opened,
 * allows open sell when buy is opened.
 
-If **false**:<br/>
+If **false**:
 * skips all buy signals (first and martingale) when sell is opened,
 * skips all sell signals (first and martingale) when buy is opened.
 
@@ -62,7 +62,7 @@ After the first entry, hedge-series works like the main series (with martingale,
 
 If there are X sell trades opened and buy signal appears, lot for the new buy order will be calculated using these parameters.
 
-Depending on **Apply coefficient to**:<br/>
+Depending on **Apply coefficient to**:
 * **First opposite lot** mode: lot for the first buy will be calculated as "lot of first sell-order * Increase lot coefficient"
 * ~~**Corresponding lot** mode: lot for buy order #X will be calculated as "corresponding sell lot * Increase lot coefficient" where ‘corresponding sell’ - is a sell number Increase hedge after # - X + 1~~ <sup><sub>[*(removed in v2.50)*](/docs/versions-history#20221014-20230107-250)</sub></sup>
 * **Last opposite lot mode**: lot for the first buy will be calculated as *lot of last sell-order * Increase lot coefficient*

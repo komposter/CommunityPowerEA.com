@@ -48,7 +48,7 @@ StopLoss mode:
 
 ### StopLoss calc mode
 
-StopLoss can be set:<br/>
+StopLoss can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
@@ -201,7 +201,7 @@ When you select **Close in profit only** mode for any signal, it will close the 
 
 ### Min/max profit calc mode
 
-Min/max profit can be set:<br/>
+Min/max profit can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
@@ -233,7 +233,7 @@ Thus, the series will be closed with profit of **BreakEven to** points.
 
 ### BreakEven calc mode
 
-BreakEven can be set:<br/>
+BreakEven can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 

@@ -45,12 +45,13 @@ Set 0 to disable this filter.
 When true, **New deal on the end of the bar only** and **Min pause between trades** analyze only open positions.<br/>
 When false, closed positions are taken into account as well (closed position may be opened later than opened one, for example after Partial close)
 
+<br />
 
 ### Lot increasing mode
 
 <sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
-Can be one of the following:<br/>
+Can be one of the following:
 * **Sum**: previous lot + adding [1-2-3-4-5-...]
 * **Fibo**: previous lot + pre-previous lot [1-1-2-3-5-8-...]
 * **Martin**: previous lot * coeff [1-2-4-8-16-...]
@@ -60,11 +61,13 @@ Can be one of the following:<br/>
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see Custom lot coefficients parameter below)
 * **1st deal lot * distance * coeff** [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250): lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
+<br />
 
 ### Lot coefficient / adding / x0
 
 Lot coefficient / adding / x0 for 2nd and next deals lot calculation.
 
+<br />
 
 ### Custom lot coefficients
 
@@ -74,20 +77,22 @@ User-defined coefficient sequence for Custom lot coefficients increasing mode. C
 
 > For example: sequence "1.0,2.0,3.0" with start lot 0.1 will cause a series with lots: 0.1 (first deal) - 0.1 - 0.2 - 0.3 - 0.3 - 0.3 - ...
 
+<br />
 
 ### Step size
 
 Step size (in points or like coefficient to Volatility)
 
+<br />
 
 ### Step size calc mode
-
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
-Step can be set:<br/>
+Step can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
+<br />
 
 ### Step increase coefficient
 
@@ -95,14 +100,17 @@ Step increase coefficient for 2nd and all next martingale deals.
 
 > For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 67.5 - 101.3 and so on
 
+<br />
 
 ### Change step after order #, Change step by coefficient
 
 <sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
 Change the step after a certain order by custom coefficient (next steps also change).
+
 > For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
 
+<br />
 
 ### Custom step coefficients
 
@@ -114,6 +122,7 @@ If both **Step increase coefficient** and **Custom step coefficients** are set, 
 
 Set empty value to disable **Custom step coefficients**.
 
+<br />
 
 ### Min step size (points)
 
@@ -122,6 +131,7 @@ Set empty value to disable **Custom step coefficients**.
 Minimum step size (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).<br/>
 Calculated step can't be smaller than the **Min step size** value.
 
+<br />
 
 ### Max step size (points)
 
@@ -129,6 +139,7 @@ Maximum step size (in points)<br/>
 Calculated step can't be larger than the **Max step size** value.
 
 
+<br />
 <br />
 
 # Break even
@@ -143,6 +154,7 @@ Close all orders when your series containing a specified number of orders reache
 
 Set 0 to disable this function.
 
+<br />
 
 ### BreakEven min profit
 
@@ -150,6 +162,7 @@ Set 0 to disable this function.
 
 Min profit size to close series on BreakEven after order (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
+<br />
 
 ### BreakEven Alert
 
@@ -163,10 +176,9 @@ Set 0 to disable BreakEven alert.
 
 
 <br />
+<br />
 
 # Apply martin to the new deals
-
-### Apply martin after closed loss
 
 <sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
