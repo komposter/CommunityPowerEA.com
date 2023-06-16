@@ -4,6 +4,13 @@ title: Follow up
 permalink: /docs/follow-up
 ---
 
+# Follow up
+
+In this section you can set parameters that affect position management after it is opened.
+
+<br />
+<br />
+
 # StopLoss
 
 ### StopLoss size
@@ -82,7 +89,7 @@ Disables opening new first trades after closing by StopLoss or GlobalStopLoss. S
 Set **true** to close trades by market when SL level is reached.<br/>
 Set **false** to set the real SL for all orders (if possible).
 
-
+<br />
 <br />
 
 # TakeProfit
