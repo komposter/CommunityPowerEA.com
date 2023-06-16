@@ -73,7 +73,7 @@ Set 0 to disable cancellation after bars.
 ### Distance calc mode
 
 **Distance to order** and **Cancel after distance** can be set:<br/>
-* **In points** ([what is a "point"?](https://communitypowerea.userecho.com/en/communities/7/topics/384-what-is-a-point-in-cp-what-does-stoploss-250-points-mean))
+* **In points** ([what is a "point"?](/docs/how-tos/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
@@ -101,5 +101,5 @@ Set **true** to delete pending buy-order if any sell position is open and vice v
 Enable this option if you want to cancel existing pending order if another position is closed:
 
 * **Delete on any close**: delete pending order if it was set before last position of any direction is closed
-* **Delete on co-dir close***: delete pending order if it was set before last position of the same direction is closed (buy-limit and buy-stop will be canceled only after close of buy position)
+* **Delete on co-dir close**: delete pending order if it was set before last position of the same direction is closed (buy-limit and buy-stop will be canceled only after close of buy position)
 * **Disable**: function disabled
