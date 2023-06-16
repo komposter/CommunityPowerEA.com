@@ -15,7 +15,7 @@ You can activate the trading and signals panel in the EA settings:
 
 <br />
 
-One click trading in action (with and without confirmation):
+You can use expert panel for one click trading (with and without confirmation). EA will manage orders opened by panel as its own orders:
 
 ![one-click-trading.gif](..%2Fassets%2Fimg%2Fdocs%2Fone-click-trading.gif)
 
@@ -64,7 +64,7 @@ Signals background and text color
 
 All colors used in Buy and Sell trading blocks (background, buttons (pressed and unpressed), borders and text).
 
-
+<br />
 <br />
 
 # Lines
@@ -109,6 +109,7 @@ Allow modification of SL and TP by dragging the lines on the chart.
 
 To restore original SL or TP, just delete the line.
 
+<br />
 <br />
 
 # Orders on chart
