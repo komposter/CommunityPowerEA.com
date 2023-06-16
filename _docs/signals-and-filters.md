@@ -496,7 +496,7 @@ Moving Average (MA) properties
 ### Distance / angle calculation type
 
 **Distance / angle** calculation type:
-* **In points**: fixed distance in points / fixed angle in points per bar is used ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* **In points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
 [Example](https://communitypowerea.userecho.com/en/communities/7/topics/325-how-to-use-bollingerbands-bb-as-an-entry-filter) - How to use BollingerBands (BB) as an entry filter
 
@@ -575,7 +575,7 @@ ZZ properties
 ### Distance type
 
 **Distance** calculation type:
-* **In points**: fixed distance in points is used ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
     IMAGE HERE
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
@@ -669,14 +669,14 @@ Selected Volatility indicator period
 
 ### Min Volatility
 
-Min volatility (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
+Min volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
 
 Set 0 to disable minimum volatility value.
 
 
 ### Max Volatility
 
-Max volatility (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
+Max volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
 
 Set 0 to disable maximum volatility value.
 
@@ -899,7 +899,7 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
-Max spread (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) for positions opening.
+Max spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for positions opening.
 
 Set 0 to disable the filter.
 
@@ -908,7 +908,7 @@ Set 0 to disable the filter.
 
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
-Max average spread (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)) for positions opening and the number of seconds to calculate it.
+Max average spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for positions opening and the number of seconds to calculate it.
 
 Set 0 to disable the filter.
 

@@ -76,7 +76,7 @@ Step size (in points or like coefficient to Volatility)
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:
-* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 
@@ -91,7 +91,7 @@ Step increase coefficient for 2nd and all next martingale deals.
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
-Minimum step size (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).<br/>
+Minimum step size (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).<br/>
 Calculated step can't be smaller than the Min step size value.
 
 <br />
@@ -119,7 +119,7 @@ If enabled, SL for each next anti-martingale order in the series will be reduced
 * For 5 deals: 50 - 10 - 10*1.1 - 10*1.1*1.1 - 10*1.1*1.1*1.1 = 3.6
 * And so on (-11 for 6 deals, -27.2 for 7 deals)
 
-Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).
+Anti-StopLoss can't be less than **Min Anti-StopLoss size (points)** ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
 > For example, if you set **Min Anti-StopLoss size** = 20, for all deals from the last example, starting from 4th SL will be = 20 (16.9 is less than 20, so will be replaced).<br/>
 **Anti-StopLoss size** can be negative.
@@ -140,7 +140,7 @@ Anti-StopLoss mode:<br/>
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Can be:
-* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 

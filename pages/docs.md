@@ -50,6 +50,8 @@ permalink: /docs/
 
 ### [Versions history](/docs/versions-history)
 
+### [FAQ](/docs/FAQ)
+
 [//]: # (<div class="section-index">)
 
 [//]: # (    <hr class="panel-line">)

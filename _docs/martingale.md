@@ -85,7 +85,7 @@ Step size (in points or like coefficient to Volatility)
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:<br/>
-* **In points** ([What is a "point" in CP?](/docs/FAQ/what-is-a-point))
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 
@@ -119,7 +119,7 @@ Set empty value to disable **Custom step coefficients**.
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
-Minimum step size (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).<br/>
+Minimum step size (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).<br/>
 Calculated step can't be smaller than the **Min step size** value.
 
 
@@ -148,7 +148,7 @@ Set 0 to disable this function.
 
 <sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
-Min profit size to close series on BreakEven after order (in points) ([What is a "point" in CP?](/docs/FAQ/what-is-a-point)).
+Min profit size to close series on BreakEven after order (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
 
 ### BreakEven Alert
