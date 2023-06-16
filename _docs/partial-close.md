@@ -67,41 +67,10 @@ Close only profitable orders on **Partial close on** signals even if profit is n
 ![partial_close.jpg](..%2Fassets%2Fimg%2Fdocs%2Fpartial_close.jpg)
 
 <br />
-
-# ~~Partial close hedge (starting from v2.32)~~ **Removed in 2.50**
 <br />
 
-### ~~Close partial after order #, Min profit to close (in account currency / in% from balance / in % from opposite loss)~~
+# ~~Partial close hedge~~
 
-~~Close some opposite direction orders (the last buy and the first sell, for example) if they sum profit is big enough (>= Min profit to close) and the series is long enough (orders number >= Close partial after order #).~~
-
-~~Min profit can be defined in account currency, in % from current balance, in % from opposite order loss, or using all 3 limits (greater will be taken into account).~~
-
-
-### ~~Close main series by opposite main series~~
-
-~~[*(starting from v2.36)*](/docs/versions-history#20210804-236)~~
-
-~~Allow partial close of opposite main series with total profit (all other partial close parameters also work for this mode)~~
-
-
-### ~~Allow close both ways~~
-
-~~**False**: close a winning order from a series with fewer orders with losing orders from a series with more orders.~~
-~~**True**: allow close both ways (profitable order from a series with more orders with losing orders from a series with fewer orders, as well).~~
-
-
-### ~~Max profitable orders to close~~
-
-~~Max number of profitable orders that can be used for partial close hedge. Set 0 to disable this limit.~~
-
-
-### ~~Min part of losing order to close (%)~~
-
-~~Percent of losing order that can be closed with profit by Partial close.~~
-
-~~The same as for Partial close of one-side orders.~~
-
-
+<sup>[**(removed in 2.50)**](/docs/versions-history#20221014-20230107-250)</sup>
 
 
