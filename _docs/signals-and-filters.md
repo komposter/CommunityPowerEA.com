@@ -7,7 +7,7 @@ permalink: /docs/signals-and-filters
 
 # Signals and filters
 
-# Directional change filter
+## Directional change filter
 
 ### Directional change filter type
 
@@ -15,22 +15,20 @@ permalink: /docs/signals-and-filters
 
 * **Disabled**: filter disabled
 * **Change dir after loss**:
-*   allows BUYs after profitable BUYs/after losing SELLs
-*   allows SELLs after profitable SELLs/after losing BUYs
+  *   allows BUYs after profitable BUYs/after losing SELLs
+  *   allows SELLs after profitable SELLs/after losing BUYs
 
 
 <br />
+<br />
 
-# Big candle filter
-
-### Big candle filter type, Big candle min size, Big candle max size, Big candle TimeFrame, Analyze current bar
-
+## Big candle filter
 <sup>[*(starting from v2.12)*](/docs/versions-history#20200624-212)</sup>
-<sup>*(added in v2.44)*</sup>
 
-Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe.
+Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe and allows entry only if candle size is in the specified range.
 
-Can work in one of following modes:
+### Big candle filter type
+
 * **Disabled**: filter disabled
 * **Big candle in any direction**:
     * both BUYs and SELLs are allowed only if High - Low >= **Big candle min size** and High - Low <= **Big candle max size** (or max size = 0)
@@ -42,6 +40,34 @@ Can work in one of following modes:
     * SELLs are allowed if High - Open >= **Big candle min size** and High - Open <= **Big candle max size** (or max size = 0)
 
 
+<br />
+
+### Big candle min size
+
+Min candle size in points to activate signal ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+<br />
+
+### Big candle max size
+<sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
+
+Max candle size in points to activate signal ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+Set 0 to disable max size check.
+
+<br />
+
+### Big candle TimeFrame
+
+TimeFrame to analyze candle size.
+
+<br />
+
+### Analyze current bar
+
+Set **true** to analyze current bar, **false** to analyze previous (formed) bar.
+
+<br />
 <br />
 
 # Oscillator filters #1-3
@@ -60,15 +86,17 @@ Type of oscillator signal:
     * BUYs are allowed when oscillator crosses LevelDn upwards
     * SELLs are allowed when oscillator crosses LevelUp downwards
 * **Cross MA**:
-    * BUYs are allowed when oscillator crosses MA based on it's line below the LevelDn
-    * SELLs are allowed when oscillator crosses MA based on it's line above the LevelUp ([Example](https://communitypowerea.userecho.com/en/communities/1/topics/113-cross-ma-mode-oscillators?redirect_to_reply=567#comment-567))
-* **Above/below MA** *(starting from 2.35)*:
-    * BUYs are allowed if oscillator > MA based on it's line and <= LevelDn
-    * SELLs are allowed when oscillator < MA based on it's line and >= LevelUp
-* **Reversal** *(starting from 2.52)*:
+    * BUYs are allowed when oscillator crosses MA based on its line below the LevelDn
+    * SELLs are allowed when oscillator crosses MA based on its line above the LevelUp ([Example](https://communitypowerea.userecho.com/en/communities/1/topics/113-cross-ma-mode-oscillators?redirect_to_reply=567#comment-567))
+<br />![oscillator_cross_ma.png](..%2Fassets%2Fimg%2Fdocs%2Foscillator_cross_ma.png)
+* **Above/below MA** [*(starting from v2.35)*](/docs/versions-history#20210715-235):
+    * BUYs are allowed if oscillator > MA based on its line and <= LevelDn
+    * SELLs are allowed when oscillator < MA based on its line and >= LevelUp
+* **Reversal** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if oscillator turns UP below the LevelDn (middle bar should be below the level)
     * SELLs are allowed if oscillator turns DOWN above the LevelUp (middle bar should be above the level)
 
+<br />
 
 ### Indicator
 
@@ -81,41 +109,49 @@ Can be one of the following:
 * Stochastic D <sup>[*(starting from v2.21)*](/docs/versions-history#20201130-221)</sup>
 * Momentum <sup>[*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
 
+<br />
 
 ### TimeFrame
 
 TimeFrame to calculate signal.
 
+<br />
 
 ### Main Period
 
 Period of oscillator (K period for Stochastic)
 
+<br />
 
 ### Applied price
 
 Applied price for CCI and RSI
 
+<br />
 
 ### MA Period
 
 MA period for **Cross MA** mode
 
+<br />
 
 ### MA Method
 
 MA method for **Cross MA** mode
 
+<br />
 
 ### Stochastic Slowing period and Price
 
 Stochastic parameters
 
+<br />
 
 ### Level UP
 
 Signal level for **sell** signals
 
+<br />
 
 ### Level DN
 
@@ -136,11 +172,13 @@ For CCI - from 0:
 * Up = 150 ---> Dn = -150
 * Up = 0 ---> Dn = 0
 
+<br />
 
 ### Reverse mode
 
 If true, buy signals replaced by sell signals and vice versa
 
+<br />
 
 ### Use closed bars only
 
@@ -167,16 +205,19 @@ Set false to disable this filter.
 
 You don't need the IdentifyTrend indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want.
 
+<br />
 
 ### IdentifyTrend TimeFrame
 
 TimeFrame for the IdentifyTrend filter
 
+<br />
 
 ### IdentifyTrend Price, IdentifyTrend Period
 
 Price and period for IdentifyTrend calculation
 
+<br />
 
 ### IdentifyTrend Reverse mode
 
@@ -184,6 +225,7 @@ Price and period for IdentifyTrend calculation
 
 Reverse all IdentifyTrend signals (Buy on Red and Sell on Blue)
 
+<br />
 
 ### IdentifyTrend use closed bars only
 
@@ -200,6 +242,7 @@ Default value for IdentifyTrend is False.
 
 *(starting from v1.01)*
 
+<br />
 
 ### TDI filter mode
 
@@ -213,11 +256,13 @@ Default value for IdentifyTrend is False.
 
 You don't need the TDI indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want
 
+<br />
 
 ### TDI TimeFrame
 
 TimeFrame for the TDI filter
 
+<br />
 
 ### Signal level
 
@@ -225,6 +270,7 @@ TimeFrame for the TDI filter
 
 Signal level for signal calculation
 
+<br />
 
 ### RSI period and price, RSI smoothing period and method, Signal smoothing period and method, Volatility bands period, Standard Deviations,
 
@@ -232,6 +278,7 @@ Signal level for signal calculation
 
 TDI indicator parameters
 
+<br />
 
 ### TDI Reverse mode
 
@@ -239,6 +286,7 @@ TDI indicator parameters
 
 Reverse all TDI signals (Buy <= 50 and Sell >= 50)
 
+<br />
 
 ### TDI use closed bars only
 
@@ -290,11 +338,13 @@ Type of MACD filter:
     * BUYs are allowed on the bar where MACD Signal line crosses **Signal Level** upwards
     * SELLs are allowed on the bar where MACD Signal line crosses **-Signal Level** downwards
 
+<br />
 
 ### MACD TimeFrame
 
 TimeFrame for the MACD filter
 
+<br />
 
 ### MACD Signal Level
 
@@ -304,11 +354,13 @@ Signal level for all filter types where level 0 is used.
 
 Thus, **> 0** means **> Signal Level** and **< 0** means **< -Signal Level**
 
+<br />
 
 ### MACD Fast period, MACD Fast method, MACD Slow period, MACD Slow method, MACD Signal period, MACD Signal method, MACD Applied price
 
 MACD indicator parameters
 
+<br />
 
 ### MACD Reverse mode
 
@@ -316,6 +368,7 @@ MACD indicator parameters
 
 Reverse all MACD signals
 
+<br />
 
 ### MACD use closed bars only
 
@@ -325,6 +378,7 @@ Reverse all MACD signals
 <br />
 
 # ADX filter
+<br />
 
 ### Type
 
@@ -343,26 +397,31 @@ Type of ADX filter:
     both BUYs and SELLs are allowed if ADX >= **Signal level**
     [Signals examples](https://t.me/CommunityPowerNews/5)
 
+<br />
 
 ### TimeFrame
 
 TimeFrame for the ADX filter
 
+<br />
 
 ### Period Applied price *(for MT4 only)*
 
 ADX indicator parameters
 
+<br />
 
 ### Signal level
 
 Signal level value
 
+<br />
 
 ### Reverse mode
 
 Reverse all ADX signals
 
+<br />
 
 ### Use closed bars only
 
@@ -376,6 +435,7 @@ Default value for ADX is True.
 # DTrend filter
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
+<br />
 
 ### Type
 
@@ -390,26 +450,31 @@ Type of DTrend filter:
 * **Buy on bottom / Sell on top**:
     * BUYs are allowed if indicator starts to grow
     * SELLs are allowed if indicator starts to fall
+<br />
 
 ### TimeFrame
 
 TimeFrame for the DTrend filter
 
+<br />
 
 ### MA1 period, MA2 period, D period, Scalar
 
 DTrend indicator parameters
 
+<br />
 
 ### Signal level
 
 Level value for **Buy > level / Sell < -level** mode
 
+<br />
 
 ### Reverse mode
 
 Reverse all DTrend signals
 
+<br />
 
 ### Use closed bars only
 
@@ -423,6 +488,7 @@ Default value for DTrend is False.
 # Parabolic SAR filter
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
+<br />
 
 ### Signal Type
 
@@ -435,16 +501,19 @@ Type of Parabolic filter:
     * BUYs are allowed if price crosses the Parabolic upward
     * SELLs are allowed if price crosses the Parabolic downward
 
+<br />
 
 ### TimeFrame
 
 TimeFrame for the Parabolic filter
 
+<br />
 
 ### Step Maximum
 
 Parabolic indicator parameters
 
+<br />
 
 ### Reverse mode
 
@@ -457,6 +526,7 @@ Reverse all Parabolic signals
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
+<br />
 
 ### MA Filter Type
 
@@ -488,16 +558,19 @@ Type of MA filter:
     * BUYs are allowed if the MA rises with a slope >= **Angle**
     * SELLs are allowed if the MA falls with a slope >= **Angle**
 
+<br />
 
 ### TimeFrame
 
 TimeFrame for MA filter
 
+<br />
 
 ### MA Period, MA Method, Applied price
 
 Moving Average (MA) properties
 
+<br />
 
 ### Distance / angle calculation type
 
@@ -506,6 +579,7 @@ Moving Average (MA) properties
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
 [Example](https://communitypowerea.userecho.com/en/communities/7/topics/325-how-to-use-bollingerbands-bb-as-an-entry-filter) - How to use BollingerBands (BB) as an entry filter
 
+<br />
 
 ### Distance / angle value
 
@@ -517,6 +591,7 @@ Angle is set in points per bar (for example, 1.5 points per bar means MA changed
 
 Angle value also can be negative, so in **Buy on rising MA** mode BUY will be allowed on falling MA, but it shouldn't fall too fast (slope still should be >= **Angle**).
 
+<br />
 
 ### Reverse mode
 
@@ -524,6 +599,7 @@ Angle value also can be negative, so in **Buy on rising MA** mode BUY will be al
 
 Reverse all Moving Average (MA) signals
 
+<br />
 
 ### Use closed bars only
 
@@ -540,6 +616,7 @@ If true, the signal can't change in the middle of the bar.
 
 <sup>[*(starting from v2.30)*](/docs/versions-history#20210419-230)</sup>
 
+<br />
 
 ### ZZ filter type
 
@@ -568,16 +645,19 @@ Type of ZZ filter:
     * SELLs are allowed when the UP-section of ZZ is forming and the distance between the last bottom and the current price is big enough
     IMAGE HERE
 
+<br />
 
 ### TimeFrame
 
 TimeFrame for ZZ filter
 
+<br />
 
 ### Period, Min Amplitude, Min Motion
 
 ZZ properties
 
+<br />
 
 ### Distance type
 
@@ -589,6 +669,7 @@ ZZ properties
 * **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
     IMAGE HERE
 
+<br />
 
 ### Distance size (Points / Coefficient)
 
@@ -596,6 +677,7 @@ Distance size for signal calculation.
 
 Distance can be set negative (so, in **Extremum break** mode trade will be opened **before X points** before extremum break)
 
+<br />
 
 ### Use previous unbroken extremums
 
@@ -604,16 +686,19 @@ Distance can be set negative (so, in **Extremum break** mode trade will be opene
 If enabled, previous (unbroken) extremums will be used after the last extremum is broken:
 IMAGE HERE
 
+<br />
 
 ### Reverse mode
 
 Reverse all ZZ signals
 
+<br />
 
 ### Use closed bars only
 
 Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
 
+<br />
 
 ### Visualize levels, Fill rectangle, Color UP, Color DN
 
@@ -630,6 +715,7 @@ Enable visualization to understand signals better.
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
+<br />
 
 ### Volatility Indicator
 
@@ -642,6 +728,7 @@ Can be one of the following:
 
 [Example of ATR/StDev using.](https://communitypowerea.userecho.com/en/communities/1/topics/509-how-to-properly-use-the-volatility-filter?redirect_to_reply=3383#comment-3383)
 
+<br />
 
 ### TimeFrame and Period
 
@@ -651,6 +738,7 @@ TimeFrame and Period of volatility indicator
 <br />
 
 # Volatility Filter
+<br />
 
 ### Volatility Filter Indicator
 
@@ -664,16 +752,19 @@ Disabled: Volatility Filter disabled
 * WATR
 * Tick volume <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
+<br />
 
 ### Volatility Filter TimeFrame
 
 TimeFrame for the Volatility Filter
 
+<br />
 
 ### Indicator Period
 
 Selected Volatility indicator period
 
+<br />
 
 ### Min Volatility
 
@@ -681,6 +772,7 @@ Min volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) to 
 
 Set 0 to disable minimum volatility value.
 
+<br />
 
 ### Max Volatility
 
@@ -691,6 +783,7 @@ Set 0 to disable maximum volatility value.
 > For example, if you set **Volatility Indicator** = ATR, and **Volatility Period** = 20, and **Min Volatility (in points)** = 10, you'll have trades in the green zones only:
 ![]({{site.baseurl}}/assets/img/docs/volatility3.png)
 
+<br />
 
 ### Smoothing Filter
 
@@ -699,6 +792,7 @@ Smoothing Volatility filter. Can be one of following:
 * **Allow trade on growth** (Volatility > MA): new trade is allowed only if the Volatility indicator is greater than MA based on it.
 * **Allow trade on reduce** (Volatility < MA): new trade is allowed only if the Volatility indicator is lower than MA based on it.
 
+<br />
 
 ### Smoothing Period
 
@@ -711,6 +805,7 @@ MA period for Smoothing Volatility filter
 
 <sup>[*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*</sup>
 
+<br />
 
 ### Type
 
@@ -736,6 +831,7 @@ IMAGE HERE
 
 **FiboLevel** is set by parameter.
 
+<br />
 
 ### Check Interval
 
@@ -746,16 +842,19 @@ Signal check frequency and price used:
 * **Every M5 bar**: check signal every M5 bar, use Close price of the last M5 bar;
 and so on...
 
+<br />
 
 ### Bars for range calculation
 
 The number of bars used to find extremums.
 
+<br />
 
 ### Fibo level
 
 Fibo level used for signal
 
+<br />
 
 ### Use closed bars only
 
@@ -768,11 +867,13 @@ If **Use closed bars only** = true, FIBO levels recalculate every bar of selecte
 
 <sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
+<br />
 
 ### Custom label
 
 Short and understandable name of your custom indy to draw on the GUI, write to the expert logs and send via Grammy to your Telegram
 
+<br />
 
 ### Type
 
@@ -806,11 +907,13 @@ Custom indicator signal type. Can be one of the following:
     * BUYs are allowed on every bar where line from the Buy-buffer is above the line from the Sell-buffer
     * SELLs are allowed on every bar where line from the Buy-buffer is below the line from the Sell-buffer
 
+<br />
 
 ### TimeFrame
 
 TF for the signal
 
+<br />
 
 ### Indicator path and name
 
@@ -820,6 +923,7 @@ If it is located not in the "MQL5\Indicators\" folder, the path should be specif
 
 > For example, if your indicator "SuperTrend.ex5" is in the "MQL5\Indicators\Market\" folder, you should set the **Indicator path and name = "Market\SuperTrend"**.
 
+<br />
 
 ### Indicator parameters
 
@@ -831,19 +935,23 @@ String parameters must be enclosed in single quotes.
 
 **Warning!** Indicators with "parameters groups" can't be used with parameters specified!
 
+<br />
 
 ### Buy buffer number
 
 **Buy-buffer** - is an indicator buffer with index Buy buffer number (numeration starts from 0)
 
+<br />
 
 ### Sell buffer number
 
 Sell-buffer — is an indicator buffer with index Sell buffer number (numeration starts from 0)
 
 Set -1 to use the same buffer index as for Buy.
+<br />
 
-### Buy color buffer number, Buy color index
+### Buy color buffer number, Buy color index<br />
+
 ### Sell color buffer number, Sell color index
 
 If both **Buy color buffer number** and **Buy color index** are set (>= 0), color filtering is applied for all values in Buy-buffer: if the value in the **Buy color buffer number** differs from **Buy color index**, value in Buy-buffer is considered as empty.
@@ -858,6 +966,7 @@ If both **Buy color buffer number** and **Buy color index** are set (>= 0), colo
 * and **Sell color index** = 1
 Thus, buy-signal will appear after the green arrow, and sell-signal — after red.
 
+<br />
 
 ### Buy max/min level, Sell max/min level
 
@@ -874,11 +983,13 @@ Levels can be used:
 
 Set -999 to disable filtering by levels.
 
+<br />
 
 ### Reverse mode
 
 Reverse all CustomIndy signals
 
+<br />
 
 ### Use closed bars only
 
@@ -886,6 +997,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 
 Default value for CustomIndy is True.
 
+<br />
 
 ### Short indicator name, Draw in subwindow
 
@@ -895,6 +1007,7 @@ These parameters should be set for correct work of the CP GUI (show/hide indicat
 
 **Draw in subwindow** must be set to **True** for all indicators that draw in sub-windows (oscillators, MACD, ADX, etc) and to **False** for others.
 
+<br />
 
 ### Allow negative and zero values
 
@@ -906,6 +1019,7 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 <br />
 
 # Spread Filter
+<br />
 
 ### Max current spread
 
@@ -915,6 +1029,7 @@ Max spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for pos
 
 Set 0 to disable the filter.
 
+<br />
 
 ### Max average spread, Seconds for averaging
 
@@ -924,6 +1039,7 @@ Max average spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point))
 
 Set 0 to disable the filter.
 
+<br />
 
 ### Apply to first open
 
@@ -931,6 +1047,7 @@ Set 0 to disable the filter.
 
 Set **true** to apply the spread filter to the open of the first position in a series.
 
+<br />
 
 ### Apply to martin
 
