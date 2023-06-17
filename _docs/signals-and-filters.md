@@ -13,10 +13,11 @@ permalink: /docs/signals-and-filters
 
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
 
-* **Disabled**: filter disabled
-* **Change dir after loss**:
-  *   allows BUYs after profitable BUYs/after losing SELLs
-  *   allows SELLs after profitable SELLs/after losing BUYs
+**Disabled**: filter disabled
+
+**Change dir after loss**:
+*   allows BUYs after profitable BUYs / after losing SELLs
+*   allows SELLs after profitable SELLs / after losing BUYs
 
 
 <br />
@@ -26,6 +27,8 @@ permalink: /docs/signals-and-filters
 <sup>[*(starting from v2.12)*](/docs/versions-history#20200624-212)</sup>
 
 Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe and allows entry only if candle size is in the specified range.
+
+<br />
 
 ### Big candle filter type
 
@@ -38,7 +41,6 @@ Big candle filter analyzes candle size (current or previous, depending on **Anal
 * **Opposite big candle only**:
     * BUYs are allowed if Open - Low >= **Big candle min size** and Open - Low <= **Big candle max size** (or max size = 0)
     * SELLs are allowed if High - Open >= **Big candle min size** and High - Open <= **Big candle max size** (or max size = 0)
-
 
 <br />
 
@@ -87,8 +89,9 @@ Type of oscillator signal:
     * SELLs are allowed when oscillator crosses LevelUp downwards
 * **Cross MA**:
     * BUYs are allowed when oscillator crosses MA based on its line below the LevelDn
-    * SELLs are allowed when oscillator crosses MA based on its line above the LevelUp ([Example](https://communitypowerea.userecho.com/en/communities/1/topics/113-cross-ma-mode-oscillators?redirect_to_reply=567#comment-567))
-<br />![oscillator_cross_ma.png](..%2Fassets%2Fimg%2Fdocs%2Foscillator_cross_ma.png)
+    * SELLs are allowed when oscillator crosses MA based on its line above the LevelUp
+<br />
+> For example:<br />![oscillator_cross_ma.png](..%2Fassets%2Fimg%2Fdocs%2Foscillator_cross_ma.png)
 * **Above/below MA** [*(starting from v2.35)*](/docs/versions-history#20210715-235):
     * BUYs are allowed if oscillator > MA based on its line and <= LevelDn
     * SELLs are allowed when oscillator < MA based on its line and >= LevelUp
@@ -100,14 +103,15 @@ Type of oscillator signal:
 
 ### Indicator
 
-Indicator used to find the signal.
+Indicator used for oscillator signal.
+
 Can be one of the following:
 * CCI
 * WPR
 * RSI
 * Stochastic K
-* Stochastic D <sup>[*(starting from v2.21)*](/docs/versions-history#20201130-221)</sup>
-* Momentum <sup>[*(starting from v2.16)*](/docs/versions-history#20200819-216)</sup>
+* Stochastic D [*(starting from v2.21)*](/docs/versions-history#20201130-221)
+* Momentum [*(starting from v2.16)*](/docs/versions-history#20200819-216)
 
 <br />
 
@@ -149,25 +153,27 @@ Stochastic parameters
 
 ### Level UP
 
-Signal level for **sell** signals
+Signal level for **sell** signals. Signal
 
 <br />
 
 ### Level DN
 
-*(-999 - calculate automatically)*
+Signal level for **buy** signals.
 
-Signal level for buy signals.
+Set **-999** to calculate it automatically based on Level Up (for faster optimization).
 
-Set -999 to calculate it automatically based on Level Up (for faster optimization). For Stochastic and RSI level is mirrored from 50:
+For Stochastic and RSI, level is mirrored from 50:
 * Up = 90 ---> Dn = 10
 * Up = 70 ---> Dn = 30
 * Up = 50 ---> Dn = 50
-For WPR - from -50:
+
+For WPR -- from **-50**:
 * Up = -10 ---> Dn = -90
 * Up = -20 ---> Dn = -80
 * Up = -50 ---> Dn = -50
-For CCI - from 0:
+
+For CCI -- from **0**:
 * Up = 100 ---> Dn = -100
 * Up = 150 ---> Dn = -150
 * Up = 0 ---> Dn = 0
@@ -176,7 +182,7 @@ For CCI - from 0:
 
 ### Reverse mode
 
-If true, buy signals replaced by sell signals and vice versa
+If **true**, buy signals replaced by sell signals and vice versa.
 
 <br />
 
@@ -188,7 +194,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 
 Default value for Oscillator filters is True
 
-
+<br />
 <br />
 
 # IdentifyTrend filter
@@ -236,6 +242,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for IdentifyTrend is False.
 
 
+<br />
 <br />
 
 # TDI filter
@@ -297,6 +304,7 @@ Use only closed (formed) bars. If true, the signal can't change in the middle of
 Default value for TDI is True.
 
 
+<br />
 <br />
 
 # MACD filter
@@ -376,6 +384,7 @@ Reverse all MACD signals
 
 
 <br />
+<br />
 
 # ADX filter
 <br />
@@ -431,6 +440,7 @@ Default value for ADX is True.
 
 
 <br />
+<br />
 
 # DTrend filter
 
@@ -484,6 +494,7 @@ Default value for DTrend is False.
 
 
 <br />
+<br />
 
 # Parabolic SAR filter
 
@@ -520,6 +531,7 @@ Parabolic indicator parameters
 Reverse all Parabolic signals
 
 
+<br />
 <br />
 
 # MA Filters
@@ -610,6 +622,7 @@ Use only closed (formed) bars.
 If true, the signal can't change in the middle of the bar.
 
 
+<br />
 <br />
 
 # ZigZag Filter
@@ -710,6 +723,7 @@ Enable visualization to understand signals better.
 
 
 <br />
+<br />
 
 # Volatility for MA and ZZ Filters distance
 
@@ -735,6 +749,7 @@ Can be one of the following:
 TimeFrame and Period of volatility indicator
 
 
+<br />
 <br />
 
 # Volatility Filter
@@ -800,6 +815,7 @@ MA period for Smoothing Volatility filter
 
 
 <br />
+<br />
 
 # Fibo Filters
 
@@ -861,6 +877,7 @@ Fibo level used for signal
 If **Use closed bars only** = true, FIBO levels recalculate every bar of selected TimeFrame. Otherwise, FIBO recalculates every tick.
 
 
+<br />
 <br />
 
 # Custom Indicators
@@ -1016,6 +1033,7 @@ Set **True** for indicators that can contain 0 or negative value by design (for 
 Set **False** for indicators that draw arrows and fill empty values with zeros (not EMPTY_VALUE constant).
 
 
+<br />
 <br />
 
 # Spread Filter
