@@ -92,6 +92,7 @@ Type of oscillator signal:
     * SELLs are allowed when oscillator crosses MA based on its line above the LevelUp
 
 > For example:<br />![oscillator_cross_ma.png](..%2Fassets%2Fimg%2Fdocs%2Foscillator_cross_ma.png)
+
 * **Above/below MA** [*(starting from v2.35)*](/docs/versions-history#20210715-235):
     * BUYs are allowed if oscillator > MA based on its line and <= LevelDn
     * SELLs are allowed when oscillator < MA based on its line and >= LevelUp
