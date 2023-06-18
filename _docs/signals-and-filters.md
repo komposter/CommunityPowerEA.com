@@ -153,7 +153,7 @@ Stochastic parameters
 
 ### Level UP
 
-Signal level for **sell** signals. Signal
+Signal level for **sell** signals
 
 <br />
 
@@ -190,9 +190,9 @@ If **true**, buy signals replaced by sell signals and vice versa.
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for Oscillator filters is True
+Default value for Oscillator filters is true
 
 <br />
 <br />
@@ -207,7 +207,7 @@ Default value for Oscillator filters is True
 * SELLs are allowed if IdentifyTrend is red
 * Indicator values are taken from the previous (formed) bar of **IdentifyTrend TimeFrame**.
 
-Set false to disable this filter.
+Set **false** to disable this filter.
 
 You don't need the IdentifyTrend indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want.
 
