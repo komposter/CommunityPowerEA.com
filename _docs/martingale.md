@@ -105,6 +105,8 @@ Step increase coefficient for 2nd and all next martingale deals.
 
 > For example, with **Step size** = 20 points and **Step increase coefficient** = 1.5, distances between orders in martingale series will be 20 - 30 - 45 - 67.5 - 101.3 and so on
 
+Set 0 to disable step change <sup>[*(starting from v2.54)*](/docs/versions-history)</sup>
+
 <br />
 
 ### Change step after order #, Change step by coefficient
