@@ -870,6 +870,21 @@ The number of bars used to find extremums.
 
 <br />
 
+
+### MACD bars for extremums detection
+
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+You can use MACD for price extremums detection:
+ - High extremum will be located on positive MACD waves,
+ - Low extremums will be located on negative MACD waves.
+
+Minimum wave width is defined by this parameter.
+
+Set 0 to disable MACD extremums detection.
+
+<br />
+
 ### Fibo level
 
 Fibo level used for signal

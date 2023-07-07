@@ -52,6 +52,6 @@ You can also donate or support the project [in many other ways](donate).
 
 <br/>
 
-### We are glad to see you here!
+### We are glad to see you here
 
 Together we are stronger!

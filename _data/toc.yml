@@ -36,6 +36,8 @@
       url: "docs/anti-martingale"
     - title: "Partial close"
       url: "docs/partial-close"
+    - title: "Individual follow-up"
+      url: "docs/individual-follow-up"
     - title: "Entry strategy"
       url: "docs/entry-strategy"
     - title: "Signals and Filters"

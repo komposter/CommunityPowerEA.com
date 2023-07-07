@@ -92,6 +92,27 @@ Set 0 to disable the limit.
 
 <br />
 
+### Min distance from the main order (points)
+
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+Allows to open a new hedge (buy, if sell is already active, or sell, if buy is already active) only if distance from the main order open price is >= X points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+Set 0 to disable this filter.
+
+<br />
+
+### Min distance calculation type
+
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+Distance for **Min distance from the main order** filter can be calculated from the:
+ - **First order** - order of the main series with the smallest open time
+ - **Last order** - order of the main series with the biggest open time
+ - **Average price** - average price of all orders of the main series
+
+<br />
+
 ### Allow hedge only on main DrawDown %
 
 Allows to open a new hedge (buy, if sell is already active, or sell, if buy is already active) only if loss of the main series is >= X% from the current balance.

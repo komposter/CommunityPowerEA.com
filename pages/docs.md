@@ -32,6 +32,8 @@ permalink: /docs/
 
 ### [Partial close](/docs/partial-close)
 
+### [Individual follow-up](/docs/individual-follow-up)
+
 ### [Entry strategy](/docs/entry-strategy)
 
 ### [Signals and Filters](/docs/signals-and-filters)

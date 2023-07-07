@@ -238,6 +238,17 @@ BreakEven can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
+<br />
+
+### ActivePeriod
+
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+BreakEven can be **always active** or use 1 of 4 predefined periods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+
+BreakEven works only if it is active.
 
 <br />
 <br />
@@ -326,3 +337,15 @@ TrailingStop mode:
 TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:
 * **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+
+<br />
+
+### ActivePeriod
+
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+TrailingStop can be **always active** or use 1 of 4 predefined periods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+
+TrailingStop works only if it is active.
