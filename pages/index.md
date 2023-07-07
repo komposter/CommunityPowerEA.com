@@ -8,9 +8,9 @@ permalink: /
 
 CommunityPower EA — is the Expert Advisor for MetaTrader 4/5, created by community and for community.
 
-{% include alert.html type="success" title="The idea is simple" content="Your suggestions + my code = a win-win for everyone!" %}
-
 It is free, versatile and very powerful, and allows to trade a wide range of strategies.
+
+{% include alert.html type="success" title="The idea is simple" content="Your suggestions + my code = a win-win for everyone!" %}
 
 <br/>
 
@@ -40,11 +40,11 @@ Look for the [<button class="btn btn-warning">set file</button>](https://forum.c
 
 Read [<button class="btn btn-danger">the docs</button>](docs)
 
-Join the discussion [<button class="btn btn-info">on Telegram</button>](https://t.me/CommunityPowerNews)
+Join the discussion [<button class="btn btn-success">on Telegram</button>](https://t.me/CommunityPowerNews)
 
 <br/>
 
-### How to contribute?
+### Want to do your part?
 
 The best way to contribute is to share your ideas and set-files on the community forum.
 
@@ -52,4 +52,6 @@ You can also donate or support the project [in many other ways](donate).
 
 <br/>
 
-### Welcome to the Community!
+### We are glad to see you here!
+
+Together we are stronger!
