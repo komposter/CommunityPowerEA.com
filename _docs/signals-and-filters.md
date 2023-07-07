@@ -9,9 +9,12 @@ permalink: /docs/signals-and-filters
 
 ## Directional change filter
 
-### Directional change filter type
-
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
+
+Directional change filter allows to filter entries based on previous closed trade direction and its profit.
+
+
+### Directional change filter type
 
 **Disabled**: filter disabled
 
@@ -840,10 +843,10 @@ Type of Fibo filter:
 
 Fibo retracement is placed automatically from lowest Low to highest High based on specified **Bars number** and **TimeFrame**.
 
-**Trend is Bullish** means highest High happened after lowest Low:
+**Trend is Bullish** means the highest High happened after the lowest Low:
 IMAGE HERE
 
-**Trend is Bearish** means highest High happened before lowest Low:
+**Trend is Bearish** means the highest High happened before the lowest Low:
 IMAGE HERE
 
 **FiboLevel** is set by parameter.

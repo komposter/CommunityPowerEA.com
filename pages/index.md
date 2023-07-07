@@ -6,16 +6,50 @@ permalink: /
 
 # Welcome to the Community!
 
-CommunityPower — is the Expert Advisor for MetaTrader 4/5, created by community and for community.
+CommunityPower EA — is the Expert Advisor for MetaTrader 4/5, created by community and for community.
+
+{% include alert.html type="success" title="The idea is simple" content="Your suggestions + my code = a win-win for everyone!" %}
 
 It is free, versatile and very powerful, and allows to trade a wide range of strategies.
 
-{% include alert.html type="success" title="The rules are simple" content="your ideas + my code = profit for everyone!" %}
+<br/>
 
-We took a simple signal and several filters as a basis, gradually adding more and more functions.
-There are several strategies ready to use, and the work is going on. Join the community, become the part of this power!
+### Is it a ready-to-use money-making machine?
+
+No, it is definitely not.
+
+It is a tool, which allows you to create and run your own trading strategy, and it is up to you to find profitable settings and take the responsibility for your trading.
 
 <br/>
 
-[<button class="btn btn-primary">Download and install</button>](quick-start-guide) [<button class="btn btn-info">Join the Discussion</button>](https://t.me/CommunityPowerNews/3)
-[<button class="btn btn-warning">Look for the set file</button>](https://forum.communitypowerea.com/communities/4-strategies-and-set-files) [<button class="btn btn-danger">Read the docs</button>](docs)
+### Is there some ready-to-use set-files?
+
+Yes, you can find some set-files on the community forum, but you should always test them on your own before using in real trading.
+
+<br/>
+
+### How to start?
+
+Learn a bit [<button class="btn btn-success">how does it work</button>](how-it-works)
+
+[<button class="btn btn-primary">Download and install</button>](quick-start-guide) the EA
+
+Look for the [<button class="btn btn-warning">set file</button>](https://forum.communitypowerea.com/communities/4-strategies-and-set-files)
+
+[<button class="btn btn-info">Back-test</button>](backtesting-and-optimization) and analyze the results
+
+Read [<button class="btn btn-danger">the docs</button>](docs)
+
+Join the discussion [<button class="btn btn-info">on Telegram</button>](https://t.me/CommunityPowerNews)
+
+<br/>
+
+### How to contribute?
+
+The best way to contribute is to share your ideas and set-files on the community forum.
+
+You can also donate or support the project [in many other ways](donate).
+
+<br/>
+
+### Welcome to the Community!
