@@ -928,6 +928,8 @@ Short and understandable name of your custom indy to draw on the GUI, write to t
 
 Custom indicator signal type. Can be one of the following:
 * **Disabled**: custom indicator signal disabled.
+
+
 * **On arrow (non-empty buffer)**:
     * BUYs are allowed **on every bar** with some value in the Buy-buffer
     * SELLs are allowed **on every bar** with some value in the Sell-buffer
@@ -947,8 +949,9 @@ Custom indicator signal type. Can be one of the following:
     * SELLs are allowed if the last bar with some value in the Sell-buffer was later than the last bar with some value in the Buy-buffer
   
   If both buffers are not empty on the same bar, both BUYs and SELLs are allowed after it.
-  
-> For example, if the latest arrow is UP, buys are allowed, if the latest arrow is DN, sells are allowed, and if there are both arrows on the same bar, both buys and sells are   allowed after it.
+
+  For example, if the latest arrow is UP, buys are allowed, if the latest arrow is DN, sells are allowed, and if there are both arrows on the same bar, both buys and sells are   allowed after it.
+
 
 * **On lines cross**:
     * BUYs are allowed on the bar where line from the Buy-buffer crosses above the line from the Sell-buffer
@@ -963,7 +966,7 @@ Custom indicator signal type. Can be one of the following:
 
 ### TimeFrame
 
-TF for the signal
+TimeFrame for the signal
 
 <br />
 
@@ -1003,9 +1006,7 @@ Set **-1** to use the same buffer index as for Buy.
 
 <br />
 
-### Buy color buffer number, Buy color index<br />
-
-### Sell color buffer number, Sell color index
+### Color buffer number and index
 
 If both **Buy color buffer number** and **Buy color index** are set (>= 0), color filtering is applied for all values in Buy-buffer: if the value in the **Buy color buffer number** differs from **Buy color index**, value in Buy-buffer is considered as empty.
 
@@ -1016,15 +1017,15 @@ If both **Buy color buffer number** and **Buy color index** are set (>= 0), colo
 * **Buy color buffer number** = 1
 * **Sell color buffer number** = 1
 * **Buy color index** = 0
-* and **Sell color index** = 1
-
+* and **Sell color index** = 1<br/>
 Thus, buy-signal will appear after the green arrow, and sell-signal — after red.
 
 <br />
 
-### Buy max/min level, Sell max/min level
+### Max/min level
 
 If the value in the **Buy-buffer** is greater than **Buy max level**, it is considered as empty.
+
 If the value in the **Buy-buffer** is less than **Buy min level**, it is considered as empty.
 
 The same for Sell-buffer.

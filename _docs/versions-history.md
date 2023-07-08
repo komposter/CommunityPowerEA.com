@@ -312,20 +312,20 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] Global Account TargetProfit (in account currency / in %)
 * [+] All pips parameters can be set like coefficient to volatility (min/max value accepted):
 
-Pending entry: Distance to order and Cancel after distance
-StopLoss size
-TakeProfit size
-Min profit to close on signal
-Martingale Step size
-Anti-martingale Step size
-Anti-StopLoss size
-TrailingStop size
-Trailing Step
-Start trailing after
-ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
-Martingale and anti-martingale mode now can be enabled or disabled only.
-To use Step like volatility use the "Step size calc mode" parameter.
-To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
+  * Pending entry: Distance to order and Cancel after distance
+  * StopLoss size
+  * TakeProfit size
+  * Min profit to close on signal
+  * Martingale Step size
+  * Anti-martingale Step size
+  * Anti-StopLoss size
+  * TrailingStop size
+  * Trailing Step
+  * Start trailing after
+  * ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
+  * Martingale and anti-martingale mode now can be enabled or disabled only.
+  * To use Step like volatility use the "Step size calc mode" parameter.
+  * To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
 
 {% include alert.html type="warning" title="Warning" content="All sets with martingale or anti-martingale modes enabled must be reviewed!
 'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.
