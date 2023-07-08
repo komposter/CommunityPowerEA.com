@@ -264,7 +264,7 @@ permalink: /docs/versions-history
 * [*] AntiStopLoss works if AntiMartingale is enabled only
 * [*] PauseAfterLoss fixed for some cases
 * [+] Use virtual TakeProfit
-* [+] "[R squared](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.us8umgjycrqs)" as custom optimization criterion
+* [+] "[R squared](/docs/backtesting-and-optimization)" as custom optimization criterion
 * [+] BreakEven After Order: MinProfit (points)
 * [+] New TDI filter with all inputs
 
