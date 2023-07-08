@@ -735,11 +735,14 @@ Use only closed (formed) bars. If **true**, the signal can't change in the middl
 
 <br />
 
-### Visualize levels, Fill rectangle, Color UP, Color DN
+### Visualization parameters.
 
 <sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
-ZZ signal visualization parameters.
+ * Visualize levels (true/false)
+ * Fill rectangle (true/false)
+ * Color UP
+ * Color DN
 
 Enable visualization to understand signals better.
 
@@ -747,22 +750,20 @@ Enable visualization to understand signals better.
 <br />
 <br />
 
-# Volatility for MA and ZZ Filters distance
+# Volatility for MA and ZZ Filters
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
-
-<br />
 
 ### Volatility Indicator
 
 Indicator used for the Distance calculation for the MA and ZZ Filters.
+
 Can be one of the following:
 * ATR
 * StDev
-* ATR based on “Close-Open” (high and low prices not used)
+* ATR based on **Close-Open** (high and low prices not used)
 * WATR
-
-[Example of ATR/StDev using.](https://communitypowerea.userecho.com/en/communities/1/topics/509-how-to-properly-use-the-volatility-filter?redirect_to_reply=3383#comment-3383)
+* (don't use Volume mode for this block!)
 
 <br />
 
@@ -775,19 +776,18 @@ TimeFrame and Period of volatility indicator
 <br />
 
 # Volatility Filter
-<br />
 
 ### Volatility Filter Indicator
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
 Indicator for the Volatility Filter:
-Disabled: Volatility Filter disabled
+* Disabled: Volatility Filter disabled
 * ATR
 * StDev
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
-* Tick volume <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
+* Volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
 
 <br />
 
