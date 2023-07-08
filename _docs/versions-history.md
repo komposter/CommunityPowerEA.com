@@ -326,10 +326,12 @@ ATR for martingale and anti-martingale steps removed (use Volatility instead of 
 Martingale and anti-martingale mode now can be enabled or disabled only.
 To use Step like volatility use the "Step size calc mode" parameter.
 To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
-**Warning! All sets with martingale or anti-martingale modes enabled must be reviewed!**
-"ATR * coefficient" mode must be replaced with "Martingale enabled", "Step size calc mode" must be set to "Coefficient to volatility", ATR parameters must be set in the corresponding section.
-"Previous step * coefficient" mode must be replaced with "Martingale enabled". No other changes are needed.
-"Step increase coefficient" for "Fixed step" mode must be set 1.
+
+{% include alert.html type="warning" title="Warning" content="All sets with martingale or anti-martingale modes enabled must be reviewed!
+**ATR * coefficient** mode must be replaced with **Martingale enabled**, **Step size calc mode** must be set to **Coefficient to volatility**, ATR parameters must be set in the corresponding section.
+**Previous step * coefficient** mode must be replaced with **Martingale enabled**. No other changes are needed.
+**Step increase coefficient** for **Fixed step** mode must be set 1.
+" %}
 
 <br />
 
@@ -359,7 +361,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] Hedge deal opening with disabled GUI fixed
 * [*] Martingale and Anti-martingale: max trades, lot and step are calculated using its own orders (not all orders)
 * [+] "Custom lot coefficients" Lot increasing mode<br/>
-**Warning! All sets with enabled "Auto-hedge after order" or "Allow both Martin and Anti-martin" must be reviewed!**
+{% include alert.html type="warning" title="Warning" content="All sets with enabled **Auto-hedge after order** or **Allow both Martin and Anti-martin** must be reviewed!" %}
 
 <br />
 
@@ -463,8 +465,8 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Partial close: Close profit itself
 * [+] TrailingStop: Decrease every minutes, Decrease coefficient and Decrease start after minutes
 * [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size<br/>
-**Warning! Set files from version 2.45 with non-zero "Min/max size" must be revised!**
 * [+] Martin: "Change step after order #" and "Change step by coefficient"
+{% include alert.html type="warning" title="Warning" content="Set files from version 2.45 with non-zero **Min/max size** must be revised!" %}
 
 <br />
 
@@ -505,7 +507,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] Expert Comment is shown in the panel header
 * [*] "Apply martin after closed loss" works correctly with pending orders
 * [+] Hedge works like a main series with common management rules but with its own entry rules.<br/>
-**Warning! All sets with enabled Auto-hedge must be reviewed!**
+{% include alert.html type="warning" title="Warning" content="All sets with enabled Auto-hedge must be reviewed!" %}
 
 <br />
 
@@ -530,11 +532,11 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] StopLoss: Start reducing after bars<br/>
 * [+] StopLoss min size (points)<br/>
 * [*] "Buy above MA / Sell below MA" and "Buy on cross UP / Sell on cross DN" modes were deprecated. Use "Buy below MA / Sell above MA" and "Buy on cross DN / Sell on cross UP" with "Reverse mode" = true instead.<br/>
-**Warning! All sets using MA filters with these 2 modes must be updated!!!**<br/>
 * [*] "Buy on cross DN / Sell on cross UP" mode is refactored to work correctly (in the previous version, the whole previous bar had to be above/below the MA).<br/>
 * [+] "Buy on rising MA / Sell on falling MA" mode added<br/>
 * [+] "Reverse mode" and "Use closed bars only" parameters added for all signal types<br/>
 * [+] MACD filters: Signal Level
+{% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
 
 <br />
 

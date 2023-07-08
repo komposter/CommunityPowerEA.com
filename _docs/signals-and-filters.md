@@ -1000,6 +1000,7 @@ String parameters must be enclosed in single quotes.
 Sell-buffer — is an indicator buffer with index Sell buffer number (numeration starts from 0)
 
 Set -1 to use the same buffer index as for Buy.
+
 <br />
 
 ### Buy color buffer number, Buy color index<br />
