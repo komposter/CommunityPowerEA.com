@@ -42,7 +42,7 @@ Can be one of the following:
 * StDev
 * ATR based on "Close-Open" (high and low prices not used)
 * WATR
-* (don't use Volume mode for this block!)
+* Volume (don't use for this block!)
 
 <br />
 

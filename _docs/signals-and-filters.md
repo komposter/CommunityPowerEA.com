@@ -735,7 +735,7 @@ Use only closed (formed) bars. If **true**, the signal can't change in the middl
 
 <br />
 
-### Visualization parameters.
+### Visualization parameters
 
 <sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
@@ -763,7 +763,7 @@ Can be one of the following:
 * StDev
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
-* (don't use Volume mode for this block!)
+* Volume (don't use for this block!)
 
 <br />
 
@@ -841,9 +841,7 @@ MA period for Smoothing Volatility filter
 
 # Fibo Filters
 
-<sup>[*(starting from v2.17)*](/docs/versions-history#20200826-217) *(improved in v2.24 and v2.25)*</sup>
-
-<br />
+<sup>*([starting from v2.17](/docs/versions-history#20200826-217), [improved in v2.24](/docs/versions-history#20201231-224), [improved in v2.25](/docs/versions-history#20210115-225))*</sup>
 
 ### Type
 
@@ -859,13 +857,13 @@ Type of Fibo filter:
     * BUYs are allowed if **Trend is Bearish** and Price <= FiboLevel
     * SELLs are allowed if **Trend is Bullish** and Price >= FiboLevel
 
-Fibo retracement is placed automatically from lowest Low to highest High based on specified **Bars number** and **TimeFrame**.
+Fibo retracement is placed automatically from the lowest Low to the highest High based on specified **Bars number** and **TimeFrame**.
 
 **Trend is Bullish** means the highest High happened after the lowest Low:
-IMAGE HERE
+![]({{site.baseurl}}/assets/img/docs/fibo1.png)
 
 **Trend is Bearish** means the highest High happened before the lowest Low:
-IMAGE HERE
+![]({{site.baseurl}}/assets/img/docs/fibo2.png)
 
 **FiboLevel** is set by parameter.
 
@@ -920,8 +918,6 @@ If **Use closed bars only** = true, FIBO levels recalculate every bar of selecte
 # Custom Indicators
 
 <sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
-
-<br />
 
 ### Custom label
 
