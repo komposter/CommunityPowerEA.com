@@ -852,7 +852,7 @@ Type of Fibo filter:
     * SELLs are allowed if **Trend is Bearish** and Price >= FiboLevel
 * **On retracement + opposite direction**:
     * BUYs are allowed if **Trend is Bullish** and Price <= FiboLevel or **Trend is Bearish**
-    * SELLs are allowed if **Trend is Bearish** and Price >= FiboLevel or **Trend is Bullish***
+    * SELLs are allowed if **Trend is Bearish** and Price >= FiboLevel or **Trend is Bullish**
 * **On trend reversal**:
     * BUYs are allowed if **Trend is Bearish** and Price <= FiboLevel
     * SELLs are allowed if **Trend is Bullish** and Price >= FiboLevel
@@ -872,11 +872,11 @@ Fibo retracement is placed automatically from the lowest Low to the highest High
 ### Check Interval
 
 Signal check frequency and price used:
-* **Every bar of indy TF**: check signal on every bar of the FIBO TimeFrame, use Close price of the last bar;
-* **Every tick**: check signal on every tick, use Bid price;
-* **Every M1 bar**: check signal every M1 bar, use Close price of the last M1 bar;
-* **Every M5 bar**: check signal every M5 bar, use Close price of the last M5 bar;
-and so on...
+* **Every bar of indy TF**: check signal on every bar of the FIBO TimeFrame, use Close price of the last bar
+* **Every tick**: check signal on every tick, use Bid price
+* **Every M1 bar**: check signal every M1 bar, use Close price of the last M1 bar
+* **Every M5 bar**: check signal every M5 bar, use Close price of the last M5 bar
+* and so on...
 
 <br />
 
@@ -910,7 +910,6 @@ Fibo level used for signal
 ### Use closed bars only
 
 If **Use closed bars only** = true, FIBO levels recalculate every bar of selected TimeFrame. Otherwise, FIBO recalculates every tick.
-
 
 <br />
 <br />
