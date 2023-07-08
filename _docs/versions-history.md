@@ -136,7 +136,7 @@ permalink: /docs/versions-history
 * [+] Peace filter renamed to MACD and improved with 2 growing modes
 * [+] TrailingStep parameter added
 
-{% include alert.html type="warning" title="Warning" content="All sets using **Close on signal**, **Close on filter** mode or Peace filter must be updated!!!" %}
+{% include alert.html type="warning" title="Warning" content="All sets using 'Close on signal', 'Close on filter' mode or Peace filter must be updated!!!" %}
 
 <br />
 
@@ -156,7 +156,7 @@ permalink: /docs/versions-history
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
-{% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter **Pending entry type** starting from this version. All sets that use Pending entry must be updated (**Pending entry type** must be set = **Entry with STOP order**)!!!" %}
+{% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter 'Pending entry type' starting from this version. All sets that use Pending entry must be updated ('Pending entry type' must be set = 'Entry with STOP order')!!!" %}
 
 <br />
 
@@ -300,7 +300,7 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] "Logistic Growth" Lot increasing mode
 * [+] "Auto-hedge after order" always executes like market-order
 
-{% include alert.html type="warning" title="Warning" content="All sets with **Auto-hedge after order** and Pending entry enabled must be reviewed!" %}
+{% include alert.html type="warning" title="Warning" content="All sets with 'Auto-hedge after order' and Pending entry enabled must be reviewed!" %}
 
 <br />
 
@@ -328,9 +328,9 @@ To use Step like volatility use the "Step size calc mode" parameter.
 To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
 
 {% include alert.html type="warning" title="Warning" content="All sets with martingale or anti-martingale modes enabled must be reviewed!
-**ATR * coefficient** mode must be replaced with **Martingale enabled**, **Step size calc mode** must be set to **Coefficient to volatility**, ATR parameters must be set in the corresponding section.
-**Previous step * coefficient** mode must be replaced with **Martingale enabled**. No other changes are needed.
-**Step increase coefficient** for **Fixed step** mode must be set 1.
+'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.
+'Previous step * coefficient' mode must be replaced with 'Martingale enabled'. No other changes are needed.
+'Step increase coefficient' for 'Fixed step' mode must be set 1.
 " %}
 
 <br />
@@ -361,7 +361,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [*] Hedge deal opening with disabled GUI fixed
 * [*] Martingale and Anti-martingale: max trades, lot and step are calculated using its own orders (not all orders)
 * [+] "Custom lot coefficients" Lot increasing mode<br/>
-{% include alert.html type="warning" title="Warning" content="All sets with enabled **Auto-hedge after order** or **Allow both Martin and Anti-martin** must be reviewed!" %}
+{% include alert.html type="warning" title="Warning" content="All sets with enabled 'Auto-hedge after order' or 'Allow both Martin and Anti-martin' must be reviewed!" %}
 
 <br />
 
@@ -466,7 +466,7 @@ To increase step size with every order use the "Step increase coefficient" param
 * [+] TrailingStop: Decrease every minutes, Decrease coefficient and Decrease start after minutes
 * [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size<br/>
 * [+] Martin: "Change step after order #" and "Change step by coefficient"
-{% include alert.html type="warning" title="Warning" content="Set files from version 2.45 with non-zero **Min/max size** must be revised!" %}
+{% include alert.html type="warning" title="Warning" content="Set files from version 2.45 with non-zero 'Min/max size' must be revised!" %}
 
 <br />
 
