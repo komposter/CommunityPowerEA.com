@@ -182,15 +182,3 @@ Send a message to Grammy when your series containing a specified number of order
 
 Set 0 to disable BreakEven alert.
 
-
-<br />
-<br />
-
-# Apply martin to the new deals
-
-<sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
-
-Increase lot size of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.
-
-To start again with a Start lot on account with loss, set new Magic number.
-

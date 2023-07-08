@@ -59,3 +59,19 @@ Set 0 to disable the limit.
 
 [Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/196-max-lot-option-max-lot-per-1000)
 
+<br />
+
+### Apply martin to the new deals
+
+<sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
+
+Increase lot size of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.
+
+To start again with a Start lot on account with loss, set new Magic number.
+
+<br />
+
+### d'Alembert money management system
+
+d'Alembert money management system
+d'Alembert: Units Multiplier

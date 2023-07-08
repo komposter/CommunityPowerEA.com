@@ -430,7 +430,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2021.12.10 (2.40-2.41)
-* [+] Ready to trade crypto on Binance (MT5 only, details here)
+* [+] Ready to trade crypto on Binance (MT5 only, [details are here](https://t.me/BinanceMT5))
 * [*] Fix for Roboforex accounts with empty Orders history (MT5)
 
 <br />
