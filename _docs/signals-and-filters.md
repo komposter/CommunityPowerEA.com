@@ -650,8 +650,10 @@ Type of ZZ filter:
 * **Extremum break**
     * BUYs are allowed on the bar breaking UP the last formed extremum of ZZ:
     ![]({{site.baseurl}}/assets/img/docs/zz1.png)
+
     * SELLs are allowed on the bar breaking DOWN the last formed extremum of ZZ:
     ![]({{site.baseurl}}/assets/img/docs/zz2.png)
+
 * **Trend continue (last broken extremum direction)**
     Can be used as a filter to other signals.
     * BUYs are allowed after the last UP-break and till the next peak of ZZ is formed:
