@@ -931,21 +931,24 @@ Custom indicator signal type. Can be one of the following:
 * **On arrow (non empty buffer)**:
     * BUYs are allowed **on every bar** with some value in the Buy-buffer
     * SELLs are allowed **on every bar** with some value in the Sell-buffer
-    * **Non-empty** means any value. It can look like an arrow, like a line, like a histogram or even be invisible (calculation buffer).
 
-* **On new arrow (non empty after empty)**:
+  **Non-empty** means any value. It can look like an arrow, like a line, like a histogram or even be invisible (calculation buffer).
+
+
+* **On new arrow (non-empty after empty)**:
     * BUYs are allowed **on the bar** with some value in the Buy-buffer that follows a bar with an empty value the Buy-buffer
     * SELLs are allowed **on the bar** with some value in the Sell-buffer that follows a bar with an empty value in the Sell-buffer
-    * It can be an arrow, beginning of the line, first bar of histogram (after emptiness), etc..
+  
+  It can be an arrow, beginning of the line, first bar of histogram (after emptiness), etc..
+
 
 * **In the direction of the last arrow**:
     * BUYs are allowed if the last bar with some value in the Buy-buffer was later than the last bar with some value in the Sell-buffer
     * SELLs are allowed if the last bar with some value in the Sell-buffer was later than the last bar with some value in the Buy-buffer
-    * If both buffers are not empty on the same bar, both BUYs and SELLs are allowed after it.
-    * For example, if the latest arrow is UP, buys are allowed, if the latest arrow is DN, sells are allowed, and if there are both arrows on the same bar, both buys and sells are   allowed after it.
-
-* Buy above the last arrow / Sell below the last arrow: coming soon
-* Buy below the line / Sell above the line: coming soon
+  
+  If both buffers are not empty on the same bar, both BUYs and SELLs are allowed after it.
+  
+> For example, if the latest arrow is UP, buys are allowed, if the latest arrow is DN, sells are allowed, and if there are both arrows on the same bar, both buys and sells are   allowed after it.
 
 * **On lines cross**:
     * BUYs are allowed on the bar where line from the Buy-buffer crosses above the line from the Sell-buffer
@@ -982,7 +985,7 @@ Order and type of parameters must match the original order and type of indicator
 
 String parameters must be enclosed in single quotes.
 
-**Warning!** Indicators with "parameters groups" can't be used with parameters specified!
+{% include alert.html type="warning" title="Warning" content="Indicators with "parameters groups" can't be used with parameters specified!" %}
 
 <br />
 

@@ -80,7 +80,7 @@ permalink: /docs/versions-history
 ### 2020.05.06 (2.08)
 * [*] TrailngStop fixed. 
 
-> **Warning!** Check all your sets with TrailingStop activated before launching EA live!
+{% include alert.html type="warning" title="Warning" content="Check all your sets with TrailingStop activated before launching EA live!" %}
 
 <br />
 
@@ -88,7 +88,7 @@ permalink: /docs/versions-history
 * [*] Signal TimeFrame parameter added.
 * [+] Pending entry
 
-> **Warning!** Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!
+{% include alert.html type="warning" title="Warning" content="Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!" %}
 
 <br />
 
@@ -126,7 +126,7 @@ permalink: /docs/versions-history
 * [+] MA below/above filters are replaced by 3 universal MA filters
 * [+] Distance for MA filters can be calculated using Volatility indicator
 
-> **Warning!** All sets using MA filters must be updated!!!
+{% include alert.html type="warning" title="Warning" content="All sets using MA filters must be updated!!!" %}
 
 <br />
 
@@ -136,7 +136,7 @@ permalink: /docs/versions-history
 * [+] Peace filter renamed to MACD and improved with 2 growing modes
 * [+] TrailingStep parameter added
 
-> **Warning!** All sets using "Close on signal", "Close on filter" mode or Peace filter must be updated!!!
+{% include alert.html type="warning" title="Warning" content="All sets using "Close on signal", "Close on filter" mode or Peace filter must be updated!!!" %}
 
 <br />
 
@@ -156,7 +156,7 @@ permalink: /docs/versions-history
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
-> **Warning!** Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!
+{% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!" %}
 
 <br />
 
@@ -169,7 +169,7 @@ permalink: /docs/versions-history
 * [*] "Ticket #xxx disappeared from the terminal" error fixed
 * [+] "Trade is disabled" and "Not enough money" alerts only once per 5 minutes
 
-> **Warning!** All sets using non-default open signals must be updated!!!
+{% include alert.html type="warning" title="Warning" content="All sets using non-default open signals must be updated!!!" %}
 
 <br />
 
@@ -246,7 +246,7 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] "Apply schedule to" parameter
 * [+] Auto-hedge after order
 
-> **Warning! Please, review all set-files with Fibo-filter activated!**
+{% include alert.html type="warning" title="Warning" content="Please, review all set-files with Fibo-filter activated!" %}
 
 <br />
 
@@ -267,7 +267,7 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] "R squared" as custom optimization criterion
 * [+] BreakEven After Order: MinProfit (points)
 * [+] New TDI filter with all inputs
-> **Warning! All sets with disabled TDI filter must be updated (now it is enabled by default)!**
+{% include alert.html type="warning" title="Warning" content="All sets with disabled TDI filter must be updated (now it is enabled by default)!" %}
 
 <br />
 
@@ -300,7 +300,7 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] "Logistic Growth" Lot increasing mode
 * [+] "Auto-hedge after order" always executes like market-order
 
-> **Warning! All sets with "Auto-hedge after order" and Pending entry enabled must be reviewed!**
+{% include alert.html type="warning" title="Warning" content="All sets with "Auto-hedge after order" and Pending entry enabled must be reviewed!" %}
 
 <br />
 
