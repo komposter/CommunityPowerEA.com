@@ -55,7 +55,7 @@ permalink: /docs/versions-history
 
 ### 2020.04.21 (2.05)
 * [+] [Version for MT5](https://www.mql5.com/en/market/product/48493)
-* [+] Messages to the Telegram on openings and closings (Grammy must be launched on the same terminal!)
+* [+] Messages to the Telegram on openings and closings ([Grammy](https://www.mql5.com/en/market/product/14774) must be launched on the same terminal!)
 * [+] Spread filter (current and average) on positions opening
 
 <br />
@@ -208,9 +208,9 @@ permalink: /docs/versions-history
 * [+] Reduce TakeProfit after minutes
 * [+] Max floating loss
 * [+] Global StopLoss in account currency
-* [+] TMA, FRAMA and JMA as base indicators for MA filters
-Indicators for visualization can be downloaded from Google Drive (ToDo: add link)
-To visualize "TMA channel" you can use this indy (ToDo: add link). But it is only one possible option from hundreds available in the EA.
+* [+] TMA, FRAMA and JMA as base indicators for MA filters 
+  * Indicators for visualization can be downloaded from [Google Drive](https://drive.google.com/drive/u/0/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v)
+  * To visualize "TMA channel" you can use [this indy](https://www.mql5.com/en/code/22350). But it is only one possible option from hundreds available in the EA.
 * [+] Partial close: Min profit to close (% from balance)
 * [*] Partial close trying to close as many trades as possible
 * [*] GUI: visual testing speed increased
