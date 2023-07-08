@@ -13,7 +13,7 @@ permalink: /docs/entry-strategy
 
 Each signal has an **Active period** parameter. Signal can be **always active** or use 1 of 4 predefined periods.
 
-Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 Active signals are shown on the EA panel as usual (gray if there is no signal, and blue/red if there is a signal), non-active signals are shown in light blue and light red if there is a signal:
 

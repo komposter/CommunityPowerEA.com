@@ -10,7 +10,7 @@ permalink: /docs/individual-follow-up
 
 Individual BE can only move SL in profit direction, it is always real (not virtual) and it can be replaced by a group SL, if the last one is set at a better price (for example, by trailing stop).
 
-> **Be careful**, order closed by BE can be immediately reopened (if it is a martingale and all conditions for opening are met)
+{% include alert.html type="warning" title="Be careful" content="Order closed by BE can be immediately reopened (if it is a martingale and all conditions for opening are met)" %}
 
 <br />
 
@@ -26,6 +26,6 @@ Thus, the order will be closed with profit of **BreakEven to** points.
 
 BreakEven can be **always active** or use 1 of 4 predefined periods.
 
-Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 BreakEven works only if it is active.

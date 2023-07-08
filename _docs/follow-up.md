@@ -246,7 +246,7 @@ BreakEven can be set:
 
 BreakEven can be **always active** or use 1 of 4 predefined periods.
 
-Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 BreakEven works only if it is active.
 
@@ -346,6 +346,6 @@ TrailingStop, TrailingStep, Start trailing after, Increase trailing every and In
 
 TrailingStop can be **always active** or use 1 of 4 predefined periods.
 
-Each of 4 Active periods can be set in the [Active Periods for signals and filters](docs/active-periods) section.
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 TrailingStop works only if it is active.
