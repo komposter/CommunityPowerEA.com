@@ -29,7 +29,7 @@ Directional change filter allows to filter entries based on previous closed trad
 ## Big candle filter
 <sup>[*(starting from v2.12)*](/docs/versions-history#20200624-212)</sup>
 
-Big candle filter analyzes candle size (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe and allows entry only if candle size is in the specified range.
+Big candle filter analyzes candle (current or previous, depending on **Analyze current bar** parameter) from the specified timeframe and allows entry only if candle size is in the specified range.
 
 <br />
 
@@ -186,7 +186,7 @@ For CCI -- from **0**:
 
 ### Reverse mode
 
-If **true**, buy signals replaced by sell signals and vice versa.
+Reverse all Oscillator signals.
 
 <br />
 
@@ -196,7 +196,7 @@ If **true**, buy signals replaced by sell signals and vice versa.
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for Oscillator filters is true
+Default value for Oscillator filters is **true**
 
 <br />
 <br />
@@ -207,9 +207,9 @@ Default value for Oscillator filters is true
 
 <sup>[*(starting from v2.03)*](/docs/versions-history#20200414-203)</sup>
 
+If true:
 * BUYs are allowed if IdentifyTrend is blue
 * SELLs are allowed if IdentifyTrend is red
-* Indicator values are taken from the previous (formed) bar of **IdentifyTrend TimeFrame**.
 
 Set **false** to disable this filter.
 
@@ -241,7 +241,7 @@ Reverse all IdentifyTrend signals (Buy on Red and Sell on Blue)
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 Default value for IdentifyTrend is False.
 
@@ -251,7 +251,13 @@ Default value for IdentifyTrend is False.
 
 # TDI filter
 
-*(starting from v1.01)*
+<sup>[*(starting from v1.01)*](/docs/versions-history#20200404-101)</sup>
+
+TDI -- is a well-known oscillator based on RSI:
+
+![]({{site.baseurl}}/assets/img/docs/iTDI.png)
+
+You don't need the TDI indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want
 
 <br />
 
@@ -264,8 +270,6 @@ Default value for IdentifyTrend is False.
 * **Market Base Line > Signal Level**:
     * BUYs are allowed if TDI yellow line is >= **Signal level**
     * SELLs are allowed if TDI yellow line is <= **Signal level**
-
-You don't need the TDI indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want
 
 <br />
 
@@ -283,7 +287,11 @@ Signal level for signal calculation
 
 <br />
 
-### RSI period and price, RSI smoothing period and method, Signal smoothing period and method, Volatility bands period, Standard Deviations,
+### RSI period and price
+### RSI smoothing period and method
+### Signal smoothing period and method
+### Volatility bands period
+### Standard Deviations
 
 <sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
@@ -295,7 +303,7 @@ TDI indicator parameters
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-Reverse all TDI signals (Buy <= 50 and Sell >= 50)
+Reverse all TDI signals
 
 <br />
 
@@ -303,7 +311,7 @@ Reverse all TDI signals (Buy <= 50 and Sell >= 50)
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 Default value for TDI is True.
 
@@ -432,13 +440,13 @@ Signal level value
 
 ### Reverse mode
 
-Reverse all ADX signals
+If **true**, buy signals replaced by sell signals and vice versa.
 
 <br />
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 Default value for ADX is True.
 
@@ -492,7 +500,7 @@ Reverse all DTrend signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 Default value for DTrend is False.
 
@@ -713,7 +721,7 @@ Reverse all ZZ signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 <br />
 
@@ -1029,7 +1037,7 @@ Reverse all CustomIndy signals
 
 ### Use closed bars only
 
-Use only closed (formed) bars. If true, the signal can't change in the middle of the bar.
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 Default value for CustomIndy is True.
 
