@@ -264,9 +264,10 @@ permalink: /docs/versions-history
 * [*] AntiStopLoss works if AntiMartingale is enabled only
 * [*] PauseAfterLoss fixed for some cases
 * [+] Use virtual TakeProfit
-* [+] "R squared" as custom optimization criterion
+* [+] "[R squared](https://docs.google.com/document/d/1ww1M97H54IBwtCKZDhxtqsTsrtEMKofXHMEWMGCyZNs/edit#heading=h.us8umgjycrqs)" as custom optimization criterion
 * [+] BreakEven After Order: MinProfit (points)
 * [+] New TDI filter with all inputs
+
 {% include alert.html type="warning" title="Warning" content="All sets with disabled TDI filter must be updated (now it is enabled by default)!" %}
 
 <br />
@@ -281,7 +282,7 @@ permalink: /docs/versions-history
 * [+] Max Relative DD as optimization criterion
 * [*] BreakEven button works with non-virtual SL/TP too
 * [+] Orders on chart: aggregated profits on history
-* [+] Lot increasing mode "Martin Sum": previous lots sum * coeff * [1-2-6-18-54-...]
+* [+] Lot increasing mode "Martin Sum": previous lots sum * coefficient [1-2-6-18-54-...]
 * [+] Volatility Filter based on tick volume
 * [+] Parabolic SAR filter
 * [+] 3rd Oscillator filter
@@ -322,15 +323,19 @@ permalink: /docs/versions-history
   * TrailingStop size
   * Trailing Step
   * Start trailing after
-  * ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
-  * Martingale and anti-martingale mode now can be enabled or disabled only.
-  * To use Step like volatility use the "Step size calc mode" parameter.
-  * To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
+  
+  ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
+  
+  Martingale and anti-martingale mode now can be enabled or disabled only.
+
+  To use Step like volatility use the "Step size calc mode" parameter.
+
+  To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
 
 {% include alert.html type="warning" title="Warning" content="All sets with martingale or anti-martingale modes enabled must be reviewed!<br/>
-'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.<br/>
-'Previous step * coefficient' mode must be replaced with 'Martingale enabled'. No other changes are needed.<br/>
-'Step increase coefficient' for 'Fixed step' mode must be set 1.
+ * 'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.<br/>
+ * 'Previous step * coefficient' mode must be replaced with 'Martingale enabled'. No other changes are needed.<br/>
+ * 'Step increase coefficient' for 'Fixed step' mode must be set 1.
 " %}
 
 <br />
