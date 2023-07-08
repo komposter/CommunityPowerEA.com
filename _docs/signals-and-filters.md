@@ -985,7 +985,7 @@ Order and type of parameters must match the original order and type of indicator
 
 String parameters must be enclosed in single quotes.
 
-{% include alert.html type="warning" title="Warning" content="Indicators with "parameters groups" can't be used with parameters specified!" %}
+{% include alert.html type="warning" title="Warning" content="Indicators with **parameters groups** can't be used with parameters specified!" %}
 
 <br />
 

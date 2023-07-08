@@ -136,7 +136,7 @@ permalink: /docs/versions-history
 * [+] Peace filter renamed to MACD and improved with 2 growing modes
 * [+] TrailingStep parameter added
 
-{% include alert.html type="warning" title="Warning" content="All sets using "Close on signal", "Close on filter" mode or Peace filter must be updated!!!" %}
+{% include alert.html type="warning" title="Warning" content="All sets using **Close on signal**, **Close on filter** mode or Peace filter must be updated!!!" %}
 
 <br />
 
@@ -156,7 +156,7 @@ permalink: /docs/versions-history
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
-{% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter "Pending entry type" starting from this version. All sets that use Pending entry must be updated ("Pending entry type" must be set = "Entry with STOP order")!!!" %}
+{% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter **Pending entry type** starting from this version. All sets that use Pending entry must be updated (**Pending entry type** must be set = **Entry with STOP order**)!!!" %}
 
 <br />
 
@@ -300,7 +300,7 @@ To visualize "TMA channel" you can use this indy (ToDo: add link). But it is onl
 * [+] "Logistic Growth" Lot increasing mode
 * [+] "Auto-hedge after order" always executes like market-order
 
-{% include alert.html type="warning" title="Warning" content="All sets with "Auto-hedge after order" and Pending entry enabled must be reviewed!" %}
+{% include alert.html type="warning" title="Warning" content="All sets with **Auto-hedge after order** and Pending entry enabled must be reviewed!" %}
 
 <br />
 
