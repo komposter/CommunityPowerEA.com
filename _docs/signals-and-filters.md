@@ -243,7 +243,7 @@ Reverse all IdentifyTrend signals (Buy on Red and Sell on Blue)
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for IdentifyTrend is False.
+Default value for IdentifyTrend is **false**.
 
 
 <br />
@@ -314,7 +314,7 @@ Reverse all TDI signals
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for TDI is True.
+Default value for TDI is **true**.
 
 
 <br />
@@ -414,14 +414,18 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
+
 ![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.png)
+
 * **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
 * **Buy/sell on +DI crosses -DI up/down when ADX >= level**:
     * BUYs are allowed if ADX >= **Signal level** and +DI line crosses -DI line up
     * SELLs are allowed if ADX >= **Signal level** and +DI line crosses -DI line down
+
 ![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.png)
+
 * **Buy/sell when ADX >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * Both BUYs and SELLs are allowed if ADX >= **Signal level**
 
@@ -464,6 +468,7 @@ Default value for ADX is **true**.
 # DTrend filter
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
+
 <br />
 
 ### Type
@@ -479,6 +484,8 @@ Type of DTrend filter:
 * **Buy on bottom / Sell on top**:
     * BUYs are allowed if indicator starts to grow
     * SELLs are allowed if indicator starts to fall
+
+
 <br />
 
 ### TimeFrame
@@ -487,9 +494,12 @@ TimeFrame for the DTrend filter
 
 <br />
 
-### MA1 period, MA2 period, D period, Scalar
+### DTrend indicator parameters
 
-DTrend indicator parameters
+ * MA1 period
+ * MA2 period
+ * D period
+ * Scalar
 
 <br />
 
@@ -509,7 +519,7 @@ Reverse all DTrend signals
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for DTrend is False.
+Default value for DTrend is **false**.
 
 
 <br />
@@ -1046,7 +1056,7 @@ Reverse all CustomIndy signals
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for CustomIndy is True.
+Default value for CustomIndy is **true**.
 
 <br />
 
