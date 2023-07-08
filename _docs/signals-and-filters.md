@@ -414,9 +414,7 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
-
-![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.png)
-
+![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.jpg)
 * **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
@@ -424,7 +422,7 @@ Type of ADX filter:
     * BUYs are allowed if ADX >= **Signal level** and +DI line crosses -DI line up
     * SELLs are allowed if ADX >= **Signal level** and +DI line crosses -DI line down
 
-![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.png)
+![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.jpg)
 
 * **Buy/sell when ADX >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * Both BUYs and SELLs are allowed if ADX >= **Signal level**
