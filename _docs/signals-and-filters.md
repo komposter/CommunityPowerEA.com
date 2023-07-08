@@ -287,15 +287,16 @@ Signal level for signal calculation
 
 <br />
 
-### RSI period and price
-### RSI smoothing period and method
-### Signal smoothing period and method
-### Volatility bands period
-### Standard Deviations
+### TDI indicator parameters
 
 <sup>[*(starting from v2.27)*](/docs/versions-history#20210302-227)</sup>
 
-TDI indicator parameters
+ * RSI period and price
+ * RSI smoothing period and method
+ * Signal smoothing period and method
+ * Volatility bands period
+ * Standard Deviations
+
 
 <br />
 
@@ -370,15 +371,20 @@ TimeFrame for the MACD filter
 
 <sup>[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
-Signal level for all filter types where level 0 is used.
-
-Thus, **> 0** means **> Signal Level** and **< 0** means **< -Signal Level**
+Signal level for all filter types where it is used
 
 <br />
 
-### MACD Fast period, MACD Fast method, MACD Slow period, MACD Slow method, MACD Signal period, MACD Signal method, MACD Applied price
+### MACD indicator parameters
 
-MACD indicator parameters
+ * MACD Fast period
+ * MACD Fast method
+ * MACD Slow period
+ * MACD Slow method
+ * MACD Signal period
+ * MACD Signal method
+ * MACD Applied price
+
 
 <br />
 
@@ -394,12 +400,12 @@ Reverse all MACD signals
 
 <sup>[*(starting from v2.14)*](/docs/versions-history#20200722-214)</sup>
 
+Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
 <br />
 <br />
 
 # ADX filter
-<br />
 
 ### Type
 
@@ -408,15 +414,16 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
-* **Buy on +DI >= level / Sell on -DI >= level** <sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>:
+![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.png)
+* **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
 * **Buy/sell on +DI crosses -DI up/down when ADX >= level**:
     * BUYs are allowed if ADX >= **Signal level** and +DI line crosses -DI line up
     * SELLs are allowed if ADX >= **Signal level** and +DI line crosses -DI line down
-* **Buy/sell when ADX >= level** <sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>:
-    both BUYs and SELLs are allowed if ADX >= **Signal level**
-    [Signals examples](https://t.me/CommunityPowerNews/5)
+![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.png)
+* **Buy/sell when ADX >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
+    * Both BUYs and SELLs are allowed if ADX >= **Signal level**
 
 <br />
 
@@ -448,7 +455,7 @@ If **true**, buy signals replaced by sell signals and vice versa.
 
 Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
 
-Default value for ADX is True.
+Default value for ADX is **true**.
 
 
 <br />
