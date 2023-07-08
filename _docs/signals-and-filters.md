@@ -561,11 +561,9 @@ Reverse all Parabolic signals
 
 # MA Filters
 
-<sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
+<sup>*([starting from v2.15](/docs/versions-history#20200806-215), [refactored in 2.53](/docs/versions-history#20230412-0426-253))*</sup>
 
 ### MA Filter Type
-
-<sup>[*(refactored in v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
 Type of MA filter:
 * **Disabled**: MA filter disabled
@@ -645,34 +643,32 @@ If true, the signal can't change in the middle of the bar.
 
 <sup>[*(starting from v2.30)*](/docs/versions-history#20210419-230)</sup>
 
-<br />
-
 ### ZZ filter type
 
 Type of ZZ filter:
 * **Disabled**: ZZ filter disabled
 * **Extremum break**
     * BUYs are allowed on the bar breaking UP the last formed extremum of ZZ:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz1.png)
     * SELLs are allowed on the bar breaking DOWN the last formed extremum of ZZ:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz2.png)
 * **Trend continue (last broken extremum direction)**
     Can be used as a filter to other signals.
     * BUYs are allowed after the last UP-break and till the next peak of ZZ is formed:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz3.png)
     * SELLs are allowed after the last DOWN-break and till the next bottom is formed:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz4.png)
 * **Reversion point**
     * BUYs are allowed when the DOWN-section of ZZ is forming and the distance between the last top and the current price becomes big enough:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz5.png)
     * SELLs are allowed when the UP-section of ZZ is forming and the distance between the last bottom and the current price becomes big enough:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz6.png)
 * **Counter-trend (distance from last extremum)**
     Can be used as a filter to other signals
     * BUYs are allowed when the DOWN-section of ZZ is forming and the distance between the last top and the current price is big enough:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz7.png)
     * SELLs are allowed when the UP-section of ZZ is forming and the distance between the last bottom and the current price is big enough
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz8.png)
 
 <br />
 
@@ -682,9 +678,11 @@ TimeFrame for ZZ filter
 
 <br />
 
-### Period, Min Amplitude, Min Motion
+### ZZ indicator properties
 
-ZZ properties
+ * Period
+ * Min Amplitude
+ * Min Motion
 
 <br />
 
@@ -693,10 +691,10 @@ ZZ properties
 **Distance** calculation type:
 * **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz9.png)
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
 * **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
-    IMAGE HERE
+    ![]({{site.baseurl}}/assets/img/docs/zz10.png)
 
 <br />
 
@@ -713,7 +711,7 @@ Distance can be set negative (so, in **Extremum break** mode trade will be opene
 <sup>[*(starting from v2.43)*](/docs/versions-history#20220202-243)</sup>
 
 If enabled, previous (unbroken) extremums will be used after the last extremum is broken:
-IMAGE HERE
+![]({{site.baseurl}}/assets/img/docs/zz11.png)
 
 <br />
 
