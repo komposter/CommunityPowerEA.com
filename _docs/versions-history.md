@@ -323,10 +323,10 @@ permalink: /docs/versions-history
   * TrailingStop size
   * Trailing Step
   * Start trailing after
-  <br/>
-  
+  <br/><br/>
+
   ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
-  
+
   Martingale and anti-martingale mode now can be enabled or disabled only.
 
   To use Step like volatility use the "Step size calc mode" parameter.
@@ -343,10 +343,10 @@ permalink: /docs/versions-history
 
 ### 2021.06.05 (2.32)
 * [+] GUI works in tester visual mode!
-* [+] Soft Martin Lot increasing mode
-* [+] Max lot per 1000
-* [+] Partial close: Min part of losing order to close (%)
-* [+] Allow both Martin and Anti-martin — allows new martingale deals if anti-marin is opened and vice versa. "TakeProfit", "BreakEven after order #" and "PartialClose" work if the last deal is not anti-martingale only.
+* [+] [Soft Martin](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence) Lot increasing mode
+* [+] [Max lot per 1000](https://communitypowerea.userecho.com/en/communities/1/topics/196-max-lot-option-max-lot-per-1000)
+* [+] Partial close: [Min part of losing order to close (%)](https://communitypowerea.userecho.com/en/communities/1/topics/242-split-an-order-for-partial-close)
+* [+] [Allow both Martin and Anti-martin](https://communitypowerea.userecho.com/en/communities/1/topics/71-anti-martingale-and-martingale-combination) — allows new martingale deals if anti-marin is opened and vice versa. "TakeProfit", "BreakEven after order #" and "PartialClose" work if the last deal is not anti-martingale only.
 * [+] Hedge: Increase lot after order #
 * [+] Hedge: Close partial after order #
 * [+] Hedge: Allow individual close
