@@ -928,7 +928,7 @@ Short and understandable name of your custom indy to draw on the GUI, write to t
 
 Custom indicator signal type. Can be one of the following:
 * **Disabled**: custom indicator signal disabled.
-* **On arrow (non empty buffer)**:
+* **On arrow (non-empty buffer)**:
     * BUYs are allowed **on every bar** with some value in the Buy-buffer
     * SELLs are allowed **on every bar** with some value in the Sell-buffer
 
@@ -991,15 +991,15 @@ String parameters must be enclosed in single quotes.
 
 ### Buy buffer number
 
-**Buy-buffer** - is an indicator buffer with index Buy buffer number (numeration starts from 0)
+**Buy-buffer** — is an indicator buffer with index Buy buffer number (numeration starts from 0)
 
 <br />
 
 ### Sell buffer number
 
-Sell-buffer — is an indicator buffer with index Sell buffer number (numeration starts from 0)
+**Sell-buffer** — is an indicator buffer with index Sell buffer number (numeration starts from 0)
 
-Set -1 to use the same buffer index as for Buy.
+Set **-1** to use the same buffer index as for Buy.
 
 <br />
 
@@ -1017,6 +1017,7 @@ If both **Buy color buffer number** and **Buy color index** are set (>= 0), colo
 * **Sell color buffer number** = 1
 * **Buy color index** = 0
 * and **Sell color index** = 1
+
 Thus, buy-signal will appear after the green arrow, and sell-signal — after red.
 
 <br />
@@ -1030,11 +1031,11 @@ The same for Sell-buffer.
 
 Levels can be used:
 * for Oscillator signals:
-    * Stochastic in **On new arrow (non empty after empty)** mode with **Buy max** = 20 / **Sell min** = 80 will generate signals on Main line cross levels 80 (sell) and 20 (buy)
+    * Stochastic in **On new arrow (non-empty after empty)** mode with **Buy max** = 20 / **Sell min** = 80 will generate signals on Main line cross levels 80 (sell) and 20 (buy)
 * for Trend filter signals:
-    * MACD in **On arrow (non empty buffer)** mode with **Buy min** = 0 / **Sell max** = 0 will filter all buys below 0 line and all sells above 0 level.
+    * MACD in **On arrow (non-empty buffer)** mode with **Buy min** = 0 / **Sell max** = 0 will filter all buys below 0 line and all sells above 0 level.
 
-Set -999 to disable filtering by levels.
+Set **-999** to disable filtering by levels.
 
 <br />
 
@@ -1073,7 +1074,6 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 <br />
 
 # Spread Filter
-<br />
 
 ### Max current spread
 
