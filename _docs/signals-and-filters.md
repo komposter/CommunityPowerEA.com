@@ -658,17 +658,22 @@ Type of ZZ filter:
     Can be used as a filter to other signals.
     * BUYs are allowed after the last UP-break and till the next peak of ZZ is formed:
     ![]({{site.baseurl}}/assets/img/docs/zz3.png)
+
     * SELLs are allowed after the last DOWN-break and till the next bottom is formed:
     ![]({{site.baseurl}}/assets/img/docs/zz4.png)
+
 * **Reversion point**
     * BUYs are allowed when the DOWN-section of ZZ is forming and the distance between the last top and the current price becomes big enough:
     ![]({{site.baseurl}}/assets/img/docs/zz5.png)
+
     * SELLs are allowed when the UP-section of ZZ is forming and the distance between the last bottom and the current price becomes big enough:
     ![]({{site.baseurl}}/assets/img/docs/zz6.png)
+
 * **Counter-trend (distance from last extremum)**
     Can be used as a filter to other signals
     * BUYs are allowed when the DOWN-section of ZZ is forming and the distance between the last top and the current price is big enough:
     ![]({{site.baseurl}}/assets/img/docs/zz7.png)
+
     * SELLs are allowed when the UP-section of ZZ is forming and the distance between the last bottom and the current price is big enough
     ![]({{site.baseurl}}/assets/img/docs/zz8.png)
 
@@ -694,6 +699,7 @@ TimeFrame for ZZ filter
 * **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
     ![]({{site.baseurl}}/assets/img/docs/zz9.png)
+
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
 * **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
     ![]({{site.baseurl}}/assets/img/docs/zz10.png)
