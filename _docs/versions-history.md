@@ -264,7 +264,7 @@ permalink: /docs/versions-history
 * [*] AntiStopLoss works if AntiMartingale is enabled only
 * [*] PauseAfterLoss fixed for some cases
 * [+] Use virtual TakeProfit
-* [+] "[R squared](/docs/backtesting-and-optimization)" as custom optimization criterion
+* [+] "[R squared](/docs/backtesting-and-optimization#custom-optimization-criterion)" as custom optimization criterion
 * [+] BreakEven After Order: MinProfit (points)
 * [+] New TDI filter with all inputs
 
@@ -324,6 +324,7 @@ permalink: /docs/versions-history
   * Trailing Step
   * Start trailing after
   <br/>
+  
   ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
   
   Martingale and anti-martingale mode now can be enabled or disabled only.
