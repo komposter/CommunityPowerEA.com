@@ -414,7 +414,7 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
-![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.jpg)
+> ![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.jpg)
 * **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
@@ -422,7 +422,7 @@ Type of ADX filter:
     * BUYs are allowed if ADX >= **Signal level** and +DI line crosses -DI line up
     * SELLs are allowed if ADX >= **Signal level** and +DI line crosses -DI line down
 
-![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.jpg)
+  ![]({{site.baseurl}}/assets/img/docs/ADX-signal-2.jpg)
 
 * **Buy/sell when ADX >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * Both BUYs and SELLs are allowed if ADX >= **Signal level**
@@ -526,7 +526,6 @@ Default value for DTrend is **false**.
 # Parabolic SAR filter
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
-<br />
 
 ### Signal Type
 
@@ -565,20 +564,15 @@ Reverse all Parabolic signals
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
-<br />
-
 ### MA Filter Type
 
-*(changed in v2.53)*
+<sup>[*(refactored in v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
 Type of MA filter:
 * **Disabled**: MA filter disabled
 * **Buy below MA / Sell above MA**:
     * BUYs are allowed if MA - Ask >= **Distance**
     * SELLs are allowed if Bid - MA >= **Distance**
-* **Buy above MA / Sell below MA**:
-    * BUYs are allowed if Ask - MA >= **Distance**
-    * SELLs are allowed if MA - Bid >= **Distance**
 * **Buy on cross DN / Sell on cross UP**:
     * BUYs are allowed if:
         * MA - Ask >= **Distance** [on current bar];
@@ -586,13 +580,6 @@ Type of MA filter:
     * SELLs are allowed if:
         * Bid - MA >= **Distance** [on current bar];
         * High - MA < **Distance** [on previous bar].
-* **Buy on cross UP / Sell on cross DN**:
-    * BUYs are allowed if:
-        * Ask - MA >= **Distance** [on current bar];
-        * High - MA < **Distance** [on previous bar].
-    * SELLs are allowed if:
-        * MA - Bid >= **Distance** [on current bar];
-        * MA - Low < **Distance** [on previous bar].
 * **Buy on rising MA / Sell on falling MA**:
     * BUYs are allowed if the MA rises with a slope >= **Angle**
     * SELLs are allowed if the MA falls with a slope >= **Angle**
@@ -605,9 +592,11 @@ TimeFrame for MA filter
 
 <br />
 
-### MA Period, MA Method, Applied price
+### Moving Average properties
 
-Moving Average (MA) properties
+ * MA Period
+ * MA Method
+ * Applied price
 
 <br />
 
@@ -616,7 +605,8 @@ Moving Average (MA) properties
 **Distance / angle** calculation type:
 * **In points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
-[Example](https://communitypowerea.userecho.com/en/communities/7/topics/325-how-to-use-bollingerbands-bb-as-an-entry-filter) - How to use BollingerBands (BB) as an entry filter
+
+
 
 <br />
 
