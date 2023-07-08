@@ -414,7 +414,9 @@ Type of ADX filter:
 * **Buy on +DI <= level / Sell on -DI <= level**:
     * BUYs are allowed if +DI value <= **Signal level**
     * SELLs are allowed if -DI value <= **Signal level**
-> ![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.jpg)
+
+  ![]({{site.baseurl}}/assets/img/docs/ADX-signal-1.jpg)
+
 * **Buy on +DI >= level / Sell on -DI >= level** [*(starting from v2.52)*](/docs/versions-history#20230211-0324-252):
     * BUYs are allowed if +DI value >= **Signal level**
     * SELLs are allowed if -DI value >= **Signal level**
@@ -435,9 +437,9 @@ TimeFrame for the ADX filter
 
 <br />
 
-### Period Applied price *(for MT4 only)*
+### Period Applied price
 
-ADX indicator parameters
+ADX indicator parameters (for MT4 only)
 
 <br />
 
@@ -467,8 +469,6 @@ Default value for ADX is **true**.
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
-<br />
-
 ### Type
 
 Type of DTrend filter:
@@ -482,7 +482,6 @@ Type of DTrend filter:
 * **Buy on bottom / Sell on top**:
     * BUYs are allowed if indicator starts to grow
     * SELLs are allowed if indicator starts to fall
-
 
 <br />
 
