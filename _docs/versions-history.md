@@ -323,7 +323,7 @@ permalink: /docs/versions-history
   * TrailingStop size
   * Trailing Step
   * Start trailing after
-  
+  <br/>
   ATR for martingale and anti-martingale steps removed (use Volatility instead of ATR).
   
   Martingale and anti-martingale mode now can be enabled or disabled only.
@@ -333,9 +333,9 @@ permalink: /docs/versions-history
   To increase step size with every order use the "Step increase coefficient" parameter (set 1 to use fixed step).
 
 {% include alert.html type="warning" title="Warning" content="All sets with martingale or anti-martingale modes enabled must be reviewed!<br/>
- * 'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.<br/>
- * 'Previous step * coefficient' mode must be replaced with 'Martingale enabled'. No other changes are needed.<br/>
- * 'Step increase coefficient' for 'Fixed step' mode must be set 1.
+ - 'ATR * coefficient' mode must be replaced with 'Martingale enabled', 'Step size calc mode' must be set to 'Coefficient to volatility', ATR parameters must be set in the corresponding section.<br/>
+ - 'Previous step * coefficient' mode must be replaced with 'Martingale enabled'. No other changes are needed.<br/>
+ - 'Step increase coefficient' for 'Fixed step' mode must be set 1.
 " %}
 
 <br />
