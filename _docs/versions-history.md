@@ -556,5 +556,5 @@ permalink: /docs/versions-history
 * [+] Fibo signals: MACD bars for extremums detection (0 - don't use MACD)
 * [*] Martin and anti-martin: Step increase coefficient can be disabled by setting it to 0
 * [+] Hedge: Min distance from the main order (points)
-* [+] d'Alembert money management system (ToDo: add docs!)
+* [+] d'Alembert money management system
 * [+] d'Alembert: Units Multiplier

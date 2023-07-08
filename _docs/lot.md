@@ -73,5 +73,10 @@ To start again with a Start lot on account with loss, set new Magic number.
 
 ### d'Alembert money management system
 
+<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+
+(ToDo: add description!)
+
 d'Alembert money management system
+
 d'Alembert: Units Multiplier
