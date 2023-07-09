@@ -75,8 +75,9 @@ Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the
 
     You should use Fixed start lot size when optimizing using the R-squared because of the nature of this criterion.
 
-* **Max Relative DD** *(starting from 2.29*) - use Maximal relative DrawDown (in percent) based on equity.<br>
-Result is shown as negative value to make genetic optimization possible (greater value should be better), so -17.5 in the results column means 17.5% DD
+* **Max Relative DD** [*(starting from v2.29)*](/docs/versions-history#20210403-229) -- use Maximal relative DrawDown (in percent) based on equity.
+
+  Result is shown as negative value to make genetic optimization possible (greater value should be better), so **-17.5** in the results column means **17.5%** DD
 
 <br />
 
