@@ -69,7 +69,7 @@ Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the
 ### Custom optimization criterion
 
 * **Disabled** - don't use custom criterion.
-* **R^2 on equity** - use R-squared as an estimation of quality of the strategy equity curve (read this article for details).
+* **R^2 on equity** - use R-squared as an estimation of quality of the strategy equity curve (read [this article](https://www.mql5.com/en/articles/2358) for details).
 
     Greater value is better with 1 as maximum possible value (ideal equity going up-right without any volatility).
 
