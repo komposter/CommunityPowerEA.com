@@ -54,8 +54,8 @@ permalink: /docs/versions-history
 <br />
 
 ### 2020.04.21 (2.05)
-* [+] [Version for MT5](https://www.mql5.com/en/market/product/48493)
-* [+] Messages to the Telegram on openings and closings ([Grammy](https://www.mql5.com/en/market/product/14774) must be launched on the same terminal!)
+* [+] Version [for MT5](https://www.mql5.com/en/market/product/48493)
+* [+] [Messages to the Telegram](https://communitypowerea.com/docs/notifications#notifications-settings) on openings and closings
 * [+] Spread filter (current and average) on positions opening
 
 <br />

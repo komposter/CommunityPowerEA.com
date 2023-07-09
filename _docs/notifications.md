@@ -7,15 +7,21 @@ permalink: /docs/notifications
 
 # Notifications settings
 
-<sup>[*(starting from v2.26)*](/docs/versions-history#20210202-226)</sup>
+[Starting from v2.26](/docs/versions-history#20210202-226), you can set any sound for any opening and closing signals, as well as send signal screenshots to the Telegram.
 
-You can set any sound for any opening and closing signals.
+To connect your MetaTrader terminal to the Telegram, you need to rent and install Grammy:
+ - Version for MT4 is [here](https://www.mql5.com/en/market/product/14774)
+ - Version for MT5 is [here](https://www.mql5.com/en/market/product/14775)
+
+You can look how it works in the [CommunityPowerEA Trades](https://t.me/CommunityPowerEA_Trades) channel.
+
+Contact me to get your free demo-version of Grammy.
 
 <br />
 
 ### Allow messages to Grammy
 
-If **true**, EA sends additional messages and screenshots to the Telegram using [Grammy](https://www.mql5.com/en/market/product/14774) (it should be launched on the same terminal and configured, of course).
+If **true**, EA sends additional messages and screenshots to the Telegram (Grammy should be launched on the same terminal and configured, of course).
 
 <br />
 
