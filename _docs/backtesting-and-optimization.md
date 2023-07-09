@@ -16,9 +16,14 @@ permalink: /docs/backtesting-and-optimization
 
 * **Disabled** - don't use tester withdrawal.
 * **Withdraw percent of profit** - withdraw specified percent of profit.
+
 > For example, you set to withdraw 50% every day. If you have a profit of $50 at the end of the day, $25 is withdrawn. Set 100% to withdraw all profits you made.
+
 * **Withdraw fixed amount** - withdraw specified amount of profit (in your account currency).
+
 > For example, you set to withdraw $45 every day. If you have a profit of $50 at the end of the day, $45 is withdrawn.
+
+<br />
 
 Withdrawal amount can't be more than the profit made since the last withdrawal!
 > For example, if you set to withdraw $45 every day but only $10 is made at the end of the day, only $10 is withdrawn.
