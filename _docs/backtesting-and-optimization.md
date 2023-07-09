@@ -15,28 +15,32 @@ permalink: /docs/backtesting-and-optimization
 ### Withdrawal type
 
 * **Disabled** - don't use tester withdrawal.
-* **Withdraw percent of profit** - withdraw specified percent of profit. For example, you set to withdraw 50% every day. If you have a profit of $50 at the end of the day, $25 is withdrawn. Set 100% to withdraw all profits you made.
-* **Withdraw fixed amount** - withdraw specified amount of profit (in your account currency). For example, you set to withdraw $45 every day. If you have a profit of $50 at the end of the day, $45 is withdrawn.
+* **Withdraw percent of profit** - withdraw specified percent of profit.
+> For example, you set to withdraw 50% every day. If you have a profit of $50 at the end of the day, $25 is withdrawn. Set 100% to withdraw all profits you made.
+* **Withdraw fixed amount** - withdraw specified amount of profit (in your account currency).
+> For example, you set to withdraw $45 every day. If you have a profit of $50 at the end of the day, $45 is withdrawn.
 
-Withdrawal amount can't be more than the profit made since the last withdrawal! For example, if you set to withdraw $45 every day but only $10 is made at the end of the day, only $10 is withdrawn.
+Withdrawal amount can't be more than the profit made since the last withdrawal!
+> For example, if you set to withdraw $45 every day but only $10 is made at the end of the day, only $10 is withdrawn.
 
+<br />
 
 ### Withdrawal frequency
 
-Frequency of withdrawals:
-
+Frequency of withdrawals. Can be:
 * **Withdraw every day**
 * **Withdraw every week**
 * **Withdraw every month**
 * **Withdraw every quarter**
 * **Withdraw every year**
 
+<br />
 
 ### Withdrawal size (% or amount)
 
 Percent or amount in account currency for each withdrawal.
 
-
+<br />
 <br />
 
 # Optimization criterion

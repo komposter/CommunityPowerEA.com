@@ -15,13 +15,13 @@ You can set any sound for any opening and closing signals.
 
 ### Allow messages to Grammy
 
-If **true**, EA sends additional messages and screenshots to the Telegram channel using Grammy (Grammy must be launched on the same terminal and configured, of course).
+If **true**, EA sends additional messages and screenshots to the Telegram using [Grammy](https://www.mql5.com/en/market/product/14774) (it should be launched on the same terminal and configured, of course).
 
 <br />
 
 ### Enable alert on first signal
 
-Show alert on every first signal (even if trading is disabled or 'first' checkbox is unchecked)
+Show alert on every first signal (even if trading is disabled or **first** checkbox is unchecked)
 
 <br />
 
