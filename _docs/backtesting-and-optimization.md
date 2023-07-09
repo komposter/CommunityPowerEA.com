@@ -54,15 +54,15 @@ Percent or amount in account currency for each withdrawal.
 
 To do this, select “Custom max” in the Strategy Tester settings:
 
-![](/docs/img/custom_criterion_1.png)
+![]({{site.baseurl}}/assets/img/docs/custom_criterion_1.png)
 
 and enable corresponding parameter in the EA settings:
 
-![](/docs/img/custom_criterion_2.png)
+![]({{site.baseurl}}/assets/img/docs/custom_criterion_2.png)
 
 Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the “Result” column of Optimization results:
 
-![](/docs/img/custom_criterion_3.png)
+![]({{site.baseurl}}/assets/img/docs/custom_criterion_3.png)
 
 <br />
 
