@@ -6,6 +6,12 @@ permalink: /docs/FAQ/
 
 # Frequently Asked Questions
 
+In this section I tried to answer the most frequently asked questions.
+
+If you can’t find the answer to your question here, please ask it in the [Telegram](https://t.me/CommunityPowerEA).
+
+<br />
+
 ### [What is a "point" in CommunityPower EA?](/docs/FAQ/what-is-a-point)
 
 <br />
@@ -14,7 +20,7 @@ permalink: /docs/FAQ/
 
 <br />
 
-#### I’ve installed and launched the EA as described above. Is it working?
+### I’ve installed and launched the EA as described above. Is it working?
 
 Yes, it is. Just check the smile in the right upper corner of the chart:
 
@@ -23,31 +29,31 @@ Yes, it is. Just check the smile in the right upper corner of the chart:
 
 <br />
 
-#### So when I launch the EA it automatically already has the indicators built in, right?
+### So when I launch the EA it already has the indicators built in, right?
 
 Yes, all indicators are built into EA. You don’t need to install anything else.
 
 <br />
 
-#### Stochastic/RSI levels after the test differ from Signal levels in the EA settings. What’s wrong?
+### Stochastic/RSI levels after the test differ from Signal levels I set in the EA settings. What’s wrong?
 
 These are just indicator draw settings, EA can’t change them. But EA works correctly (with signal levels you’ve set), just check signals.
 
 <br />
 
-#### Should I drag all indicators to the chart while EA is working?
+### Should I drag all indicators to the chart while EA is working?
 
 No, you shouldn’t.
 
 <br />
 
-#### EA doesn’t open any trades! I see only “Trade by experts is disabled!” and “ERROR #133 (trade is disabled)” messages in the expert log.
+### EA doesn't open any trades! I see only “Trade by experts is disabled!” and “ERROR #133 (trade is disabled)” messages in the expert log.
 
 This is a restriction from your broker. Ask your broker to allow trading by EAs or [change your broker](/brokers/).
 
 <br />
 
-#### Can’t load EA (Error #4200)
+### Can’t load EA (Error #4200)
 
 ![]({{site.baseurl}}/assets/img/faq/faq3.png)
 
@@ -59,9 +65,13 @@ To use templates with EA attached:
 
 <br />
 
-#### Alert: GVManager: WARNING! Too long GV name ("20674884 CommunityPower MT5 3041  BE_Alerted_S")
+### GVManager: WARNING! Too long GV name
 
-Rename EA with a shorter name (for example, "CP MT5" instead of "CommunityPower MT5 3041"). 
+If you get Alert like this:
+
+> GVManager: WARNING! Too long GV name ("20674884 CommunityPower MT5 3041  BE_Alerted_S")
+
+Rename the EA with a shorter name (for example, "CP MT5" instead of "CommunityPower MT5 3041"). 
 
 To find the EA file, use the File -> Open Data Folder menu, then go to **MQL5\Experts\** folder.
 
