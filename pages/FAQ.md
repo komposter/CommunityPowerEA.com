@@ -8,6 +8,8 @@ permalink: /docs/FAQ/
 
 ### [What is a "point" in CommunityPower EA?](/docs/FAQ/what-is-a-point)
 
+<br />
+
 ### [How to set the correct GMT and DST for your broker?](/docs/FAQ/gmt-and-dst)
 
 <br />
@@ -49,7 +51,7 @@ This is a restriction from your broker. Ask your broker to allow trading by EAs 
 
 ![]({{site.baseurl}}/assets/img/faq/faq3.png)
 
-To use templates with ea attached:
+To use templates with EA attached:
  * Launch and configure the ea
  * delete all objects from chart (including hidden objects)
  * save the template
@@ -59,6 +61,8 @@ To use templates with ea attached:
 
 #### Alert: GVManager: WARNING! Too long GV name ("20674884 CommunityPower MT5 3041  BE_Alerted_S")
 
-Rename EA with a shorter name (for example, CP MT5 3041). 
+Rename EA with a shorter name (for example, "CP MT5" instead of "CommunityPower MT5 3041"). 
+
+To find the EA file, use the File -> Open Data Folder menu, then go to **MQL5\Experts\** folder.
 
 <br />
