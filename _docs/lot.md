@@ -60,23 +60,25 @@ Set 0 to disable the limit.
 [Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/196-max-lot-option-max-lot-per-1000)
 
 <br />
+<br />
+# Lot size based on previous results
 
 ### Apply martin to the new deals
 
 <sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
-Increase lot size of the first deal of the new series (opened on signal) after loss is closed. EA will apply martingale till profit becomes positive.
+Increase lot size of the first deal of the new series (opened on signal) after closing the loss. The EA will apply [lot coefficient](/docs/martingale#lot-coefficient--adding--x0) until the profit becomes positive.
 
-To start again with a Start lot on account with loss, set new Magic number.
+To begin again with a Start lot on account with loss, set a new [Magic number](/docs/main-parameters#expert-id).
 
 <br />
 
 ### d'Alembert money management system
 
-<sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
+[Starting from v2.54](/docs/versions-history#20230427-0706-254), you can apply d'Alembert money management system to all first deals of the series.
 
-(ToDo: add description!)
+d'Alembert money management system increases lot size after each loss and decreases after each win, but does this in a more smooth way than martingale:
 
-d'Alembert money management system
+![](/docs/assets/img/dAlambert1.png)
 
 d'Alembert: Units Multiplier
