@@ -19,15 +19,17 @@ News calendar is downloaded from [Forex factory](https://www.forexfactory.com/ca
 
 ### How to set up the News filter?
 
-You should configure your terminal for correct News filter work.
+To set up the News filter, you need to do several steps.
 
 <br />
 
 #### For backtesting and optimization
 
-1. Download news archive (News_2007.01_2021.04.zip) and latest news files (2021.05.01.csv, 2021.06.01.csv and so on) from the [Google Drive](https://drive.google.com/drive/folders/1vZGuPtfRsI2NvCvQD2oA_BwjEBTDjj3v)
+1. Download news archive (News_2007_2021.zip) and latest news files (2022.01.01.csv, 2022.02.01.csv and so on) from the [Google Drive](https://drive.google.com/drive/folders/1vZGuPtfRsI2NvCvQD2oA_BwjEBTDjj3v)
 
-2. Unpack archive and save all files to the common folder of all MetaTraders on your PC: C:\Users\**your_name**\AppData\Roaming\MetaQuotes\Terminal\Common\Files\
+2. Unpack archive and save all files to the common folder of all MetaTraders on your PC: C:\Users\\**your_name**\\AppData\Roaming\MetaQuotes\Terminal\Common\Files\
+
+   To get there, you can use the “Open data folder” command in the terminal (File -> Open data folder).
 
    You should have the following directory and files structure after unpack:
 
@@ -35,7 +37,7 @@ You should configure your terminal for correct News filter work.
 
 3. Set the correct DST mode and GMT offset in the [Time settings](/docs/time).
    
-   You should set the GMT and DST settings of your broker, not your local ones ([how to do this?](/docs/FAQ/GMT-and-DST)).
+   You should set the GMT and DST settings of your broker, not your local ones ([how to do this?](/docs/FAQ/gmt-and-dst)).
 
 4. Enable News filter in the EA settings and run the test.
    
@@ -57,6 +59,7 @@ You should configure your terminal for correct News filter work.
 
    ![]({{site.baseurl}}/assets/img/docs/news4.png)
 
+<br />
 <br />
 
 # News parameters
