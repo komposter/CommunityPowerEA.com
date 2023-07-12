@@ -5,7 +5,7 @@ description: News parameters
 permalink: /docs/news
 ---
 
-# News parameters
+# News filter
 
 <sup>[*(starting from v2.29)*](/docs/versions-history#20210403-229)</sup>
 
@@ -14,11 +14,52 @@ News filter allows you to avoid trading during news releases, or the opposite, t
 You can specify the currencies and the impact of news to be used in trading and the time interval around news releases.
 
 News calendar is downloaded from [Forex factory](https://www.forexfactory.com/calendar.php).
- 
-[How to set up the News filter?](https://communitypowerea.userecho.com/en/communities/7/topics/393-how-to-set-up-the-news-filter)
-
 
 <br />
+
+### How to set up the News filter?
+
+You should configure your terminal for correct News filter work.
+
+<br />
+
+#### For backtesting and optimization
+
+1. Download news archive (News_2007.01_2021.04.zip) and latest news files (2021.05.01.csv, 2021.06.01.csv and so on) from the [Google Drive](https://drive.google.com/drive/folders/1vZGuPtfRsI2NvCvQD2oA_BwjEBTDjj3v)
+
+2. Unpack archive and save all files to the common folder of all MetaTraders on your PC: C:\Users\**your_name**\AppData\Roaming\MetaQuotes\Terminal\Common\Files\
+
+   You should have the following directory and files structure after unpack:
+
+   ![]({{site.baseurl}}/assets/img/docs/news1.png)
+
+3. Set the correct DST mode and GMT offset in the [Time settings](/docs/time).
+   
+   You should set the GMT and DST settings of your broker, not your local ones ([how to do this?](/docs/FAQ/GMT-and-DST)).
+
+4. Enable News filter in the EA settings and run the test.
+   
+   If everything is set correctly, you will see news lines on the visual testing chart:
+
+   ![]({{site.baseurl}}/assets/img/docs/news2.png)
+
+<br />
+
+#### For LIVE trading
+
+1. Add “https://nfs.faireconomy.media” to the Allowed URLs list in your MT (Tools -> Options or Ctrl+O):
+
+   ![]({{site.baseurl}}/assets/img/docs/news3.png)
+
+2. Enable News filter in the EA settings.
+
+   If everything is fine, you will see news lines on the chart. You can toggle news visualization by the button in the top of the EA panel:
+
+   ![]({{site.baseurl}}/assets/img/docs/news4.png)
+
+<br />
+
+# News parameters
 
 ### News filter mode
 
