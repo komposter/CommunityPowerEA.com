@@ -16,6 +16,8 @@ You can also decide how to manage opposite positions -- limit only netto positio
 
 By default, only positions with magic number equals Expert Id are taken into account, but you can specify additional magics in settings.
 
+[More detailts](https://forum.communitypowerea.com/communities/1/topics/775-risk-per-currency-function)
+
 <br />
 
 ### Type
@@ -24,7 +26,7 @@ Type of risk management:
 
 **Disabled**: risk management disabled.
 
-**By positions number**: limit is set as positions number. 
+**By positions number**: limit is set as positions number.
 
 > For example, if Max risk value = 3, and you have 3 open positions (lot doesn't matter), new opens will be prohibited.
 
