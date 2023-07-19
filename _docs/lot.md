@@ -13,7 +13,8 @@ permalink: /docs/lot
 
 Lot size calculation type (applies to first trade in each series): <br/>
 * **Fixed lot**: lot is fixed and regulated by Lot size parameter
-* **Risk per trade**: deal closed by SL will damage the account by a specified % of balance. Percent is regulated by the "Lot risk %" parameter. <br/><span style="color:red">This mode will work correctly only with  disabled martingale and enabled StopLoss!</span>
+* **Risk per trade**: deal closed by SL will damage the account by a specified % of balance. Percent is regulated by the "Lot risk %" parameter.
+  _This mode will work correctly only with  disabled martingale and enabled StopLoss!_
 * **Margin percent use**: lot calculates to use specified % of margin. Percent is regulated by the "Lot risk %" parameter.
 * **Fixed size per 1000**: lot size is specified for every 1000 units of your account balance. For example, with Start lot = 0.1 you’ll have: <br/>
   - for balance $2000: 0.2 lots
@@ -61,6 +62,7 @@ Set 0 to disable the limit.
 
 <br />
 <br />
+
 # Lot size based on previous results
 
 ### Apply martin to the new deals
@@ -79,6 +81,30 @@ To begin again with a Start lot on account with loss, set a new [Magic number](/
 
 d'Alembert money management system increases lot size after each loss and decreases after each win, but does this in a more smooth way than martingale:
 
-![](/docs/assets/img/dAlambert1.png)
+![]({{site.baseurl}}/assets/img/docs/dAlambert1.png)
 
-d'Alembert: Units Multiplier
+The lot size is calculated as:
+ * If the last series closed with profit, and account reached a new high, use the standard lot size calculation (fixed lot, risk per trade, etc)
+ * If the last series closed with loss, increase the lot by 1 unit (unit = first lot of the first series after account new high)
+ * If the last series closed with profit >= 0 and < **Expected loss** in money, keep the same lot as in previous series.
+ * If the last series closed with profit >= **Expected loss** in money and < 2\***Expected loss** in money, decrease lot by 1 unit
+ * If the last series closed with profit >= 2\***Expected loss** in money and < 3\***Expected loss** in money, decrease lot by 2 units
+ * If the last series closed with profit >= 3\***Expected loss** in money and < 4\***Expected loss** in money, decrease lot by 3 units
+ * and so on...
+
+<br />
+
+#### d'Alembert: Expected Loss
+
+Expected loss in money for d'Alembert money management system.
+
+Set 0 to disable d'Alembert.
+
+<br />
+
+#### d'Alembert: Units Multiplier
+
+Custom units multiplier for d'Alembert money management system.
+
+> For example, with Units Multiplier = 0.5:
+> if the last series closed with profit >= 3*Expected loss* in money and < 4*Expected loss in money, lot will be decreased by 3*0.5=1.5 units (instead of 3 units)
