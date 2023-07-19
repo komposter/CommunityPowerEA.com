@@ -1011,7 +1011,7 @@ Set **-1** to use the same buffer index as for Buy.
 If both **Buy color buffer number** and **Buy color index** are set (>= 0), color filtering is applied for all values in Buy-buffer: if the value in the **Buy color buffer number** differs from **Buy color index**, value in Buy-buffer is considered as empty.
 
 > For example, if the indicator draws arrows for both buy and sell signals using buffer #0, and applies colors to these arrows using buffer #1 (first is green, means buy, second is red, means sell), you should set:
-* **Signal type = On arrow / On new arrow**
+* **Signal type** = On arrow / On new arrow
 * **Buy buffer number** = 0
 * **Sell buffer number** = 0
 * **Buy color buffer number** = 1
@@ -1021,11 +1021,36 @@ If both **Buy color buffer number** and **Buy color index** are set (>= 0), colo
 Thus, buy-signal will appear after the green arrow, and sell-signal — after red.
 
 <br />
-> Another example: indicator draws color line and color arrows:
-![]({{site.baseurl}}/assets/img/docs/custom_indy_1.jpg)
-![]({{site.baseurl}}/assets/img/docs/custom_indy_2.jpg)
-Buffer #0 corresponds to the line, buffer #1 — to the colors of the line. Buffers #2 and #3 correspond to the arrows.
 
+Another example: indicator draws color line and color arrows. If you open its settings, you will see the following:
+
+![]({{site.baseurl}}/assets/img/docs/custom_indy_1.jpg)
+
+If you go to source code, you can find something like this:
+
+![]({{site.baseurl}}/assets/img/docs/custom_indy_2.jpg)
+
+Buffer #0 (LineBuffer) corresponds to the line, buffer #1 (LineColors) — to the colors of the line.
+
+Buffers #2 (UpBuffer) and #3 (DownBuffer) correspond to the arrows.
+
+So, if you want to allow buys on the blue line and sells on the red line, you should set:
+* **Signal type** = On arrow (non-empty buffer)
+* **Buy buffer number** = 0
+* **Sell buffer number** = 0
+* **Buy color buffer number** = 1
+* **Sell color buffer number** = 1
+* **Buy color index** = 1 (because blue color index is 1, counting from 0)
+* and **Sell color index** = 0 (because red color index is 0, counting from 0)
+
+Or, if you want to entry on the color arrows, you should set:
+* **Signal type** = On new arrow (non-empty after empty)
+* **Buy buffer number** = 2
+* **Sell buffer number** = 3
+* **Buy color buffer number** = -1 (no need to set, because arrows of different colors are in different buffers)
+* **Sell color buffer number** = -1 (no need to set, because arrows of different colors are in different buffers)
+* **Buy color index** = -1 (no need to set)
+* and **Sell color index** = -1 (no need to set)
 
 <br />
 
