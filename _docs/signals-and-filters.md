@@ -1021,6 +1021,13 @@ If both **Buy color buffer number** and **Buy color index** are set (>= 0), colo
 Thus, buy-signal will appear after the green arrow, and sell-signal — after red.
 
 <br />
+> Another example: indicator draws color line and color arrows:
+![]({{site.baseurl}}/assets/img/docs/custom_indy_1.jpg)
+![]({{site.baseurl}}/assets/img/docs/custom_indy_2.jpg)
+Buffer #0 corresponds to the line, buffer #1 — to the colors of the line. Buffers #2 and #3 correspond to the arrows.
+
+
+<br />
 
 ### Max/min level
 
