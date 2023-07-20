@@ -544,6 +544,9 @@ permalink: /docs/versions-history
 * [+] MACD filters: Signal Level
 {% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
 
+<span class="badge badge-success">[Download for MT5]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)</span>
+<span class="badge badge-success">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)</span>
+
 <br />
 
 ### 2023.04.27-07.06 (2.54)
@@ -558,3 +561,7 @@ permalink: /docs/versions-history
 * [+] Hedge: Min distance from the main order (points)
 * [+] d'Alembert money management system
 * [+] d'Alembert: Units Multiplier
+
+
+<span class="badge badge-success">[Download for MT5]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex5)</span>
+<span class="badge badge-success">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)</span>
