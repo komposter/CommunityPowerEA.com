@@ -545,7 +545,7 @@ permalink: /docs/versions-history
 {% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
 
 <span class="badge badge-success">[Download for MT5]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)</span>
-<span class="badge badge-success">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)</span>
+<span class="badge badge-info">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)</span>
 
 <br />
 
@@ -564,4 +564,4 @@ permalink: /docs/versions-history
 
 
 <span class="badge badge-success">[Download for MT5]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex5)</span>
-<span class="badge badge-success">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)</span>
+<span class="badge badge-primary">[Download for MT4]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)</span>
