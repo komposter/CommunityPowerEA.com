@@ -544,8 +544,9 @@ permalink: /docs/versions-history
 * [+] MACD filters: Signal Level
 {% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
 
-[<button class="btn btn-success">Download for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)
-[<button class="btn btn-info">Download for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)
+[<button class="btn btn-success">v2.53 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)
+[<button class="btn btn-primary">v2.53 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)
+
 <br />
 
 ### 2023.04.27-07.06 (2.54)
@@ -564,3 +565,6 @@ permalink: /docs/versions-history
 
 [<button class="btn btn-success">Download for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex5)
 [<button class="btn btn-primary">Download for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)
+
+<br />
+
