@@ -88,9 +88,9 @@ permalink: /docs/versions-history
 * [*] Signal TimeFrame parameter added.
 * [+] Pending entry
 
-[<button class="btn btn-success">Download v2.09 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.09.ex5)
-
 {% include alert.html type="warning" title="Warning" content="Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!" %}
+
+[<button class="btn btn-success">Download v2.09 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.09.ex5)
 
 <br />
 
@@ -142,9 +142,9 @@ permalink: /docs/versions-history
 * [+] Peace filter renamed to MACD and improved with 2 growing modes
 * [+] TrailingStep parameter added
 
-[<button class="btn btn-success">Download v2.16 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.16.ex5)
-
 {% include alert.html type="warning" title="Warning" content="All sets using 'Close on signal', 'Close on filter' mode or Peace filter must be updated!!!" %}
+
+[<button class="btn btn-success">Download v2.16 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.16.ex5)
 
 <br />
 
@@ -166,9 +166,9 @@ permalink: /docs/versions-history
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
-[<button class="btn btn-success">Download v2.18 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.18.ex5)
-
 {% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter 'Pending entry type' starting from this version. All sets that use Pending entry must be updated ('Pending entry type' must be set = 'Entry with STOP order')!!!" %}
+
+[<button class="btn btn-success">Download v2.18 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.18.ex5)
 
 <br />
 
@@ -181,10 +181,10 @@ permalink: /docs/versions-history
 * [*] "Ticket #xxx disappeared from the terminal" error fixed
 * [+] "Trade is disabled" and "Not enough money" alerts only once per 5 minutes
 
+{% include alert.html type="warning" title="Warning" content="All sets using non-default open signals must be updated!!!" %}
+
 [<button class="btn btn-success">Download v2.19 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.19.ex5)
 [<button class="btn btn-primary">Download v2.19 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.19.ex4)
-
-{% include alert.html type="warning" title="Warning" content="All sets using non-default open signals must be updated!!!" %}
 
 <br />
 
@@ -275,10 +275,10 @@ permalink: /docs/versions-history
 * [+] "Apply schedule to" parameter
 * [+] Auto-hedge after order
 
+{% include alert.html type="warning" title="Warning" content="Please, review all set-files with Fibo-filter activated!" %}
+
 [<button class="btn btn-success">Download v2.25 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.25.ex5)
 [<button class="btn btn-primary">Download v2.25 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.25.ex4)
-
-{% include alert.html type="warning" title="Warning" content="Please, review all set-files with Fibo-filter activated!" %}
 
 <br />
 
@@ -305,10 +305,16 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All sets with disabled TDI filter must be updated (now it is enabled by default)!" %}
 
+[<button class="btn btn-success">Download v2.27 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.27.ex5)
+[<button class="btn btn-primary">Download v2.27 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.27.ex4)
+
 <br />
 
 ### 2021.03.03 (2.28)
 * [+] Automatic orders drawing and "Show orders" button on panel
+
+[<button class="btn btn-success">Download v2.28 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.28.ex5)
+[<button class="btn btn-primary">Download v2.28 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.28.ex4)
 
 <br />
 
@@ -326,6 +332,9 @@ permalink: /docs/versions-history
 * [+] Min step size (for ATR based step size calculation)
 * [*] Visual testing speed increased
 
+[<button class="btn btn-success">Download v2.29 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.29.ex5)
+[<button class="btn btn-primary">Download v2.29 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.29.ex4)
+
 <br />
 
 ### 2021.04.19 (2.30)
@@ -337,6 +346,9 @@ permalink: /docs/versions-history
 * [+] "Auto-hedge after order" always executes like market-order
 
 {% include alert.html type="warning" title="Warning" content="All sets with 'Auto-hedge after order' and Pending entry enabled must be reviewed!" %}
+
+[<button class="btn btn-success">Download v2.30 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.30.ex5)
+[<button class="btn btn-primary">Download v2.30 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.30.ex4)
 
 <br />
 
@@ -374,6 +386,9 @@ permalink: /docs/versions-history
  - 'Step increase coefficient' for 'Fixed step' mode must be set 1.
 " %}
 
+[<button class="btn btn-success">Download v2.31 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.31.ex5)
+[<button class="btn btn-primary">Download v2.31 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.31.ex4)
+
 <br />
 
 ### 2021.06.05 (2.32)
@@ -394,6 +409,9 @@ permalink: /docs/versions-history
 * [*] Global StopLoss and Global TakeProfit renamed to Sum StopLoss and Sum TakeProfit
 * [*] Global Account Close works in tester
 
+[<button class="btn btn-success">Download v2.32 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.32.ex5)
+[<button class="btn btn-primary">Download v2.32 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.32.ex4)
+
 <br />
 
 ### 2021.06.10 (2.33)
@@ -401,14 +419,21 @@ permalink: /docs/versions-history
 * [+] Auto-hedge works with any "Trade direction"
 * [*] Hedge deal opening with disabled GUI fixed
 * [*] Martingale and Anti-martingale: max trades, lot and step are calculated using its own orders (not all orders)
-* [+] "Custom lot coefficients" Lot increasing mode<br/>
+* [+] "Custom lot coefficients" Lot increasing mode
+
 {% include alert.html type="warning" title="Warning" content="All sets with enabled 'Auto-hedge after order' or 'Allow both Martin and Anti-martin' must be reviewed!" %}
+
+[<button class="btn btn-success">Download v2.33 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.33.ex5)
+[<button class="btn btn-primary">Download v2.33 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.33.ex4)
 
 <br />
 
 ### 2021.06.12 (2.34)
 * [+] GlobalAccount TrailingStop
 * [+] GlobalAccount TargetProfit restarts if all positions are closed
+
+[<button class="btn btn-success">Download v2.34 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.34.ex5)
+[<button class="btn btn-primary">Download v2.34 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.34.ex4)
 
 <br />
 
@@ -425,6 +450,9 @@ permalink: /docs/versions-history
 * [+] MACD: "Buy on Signal > 0 / Sell on Signal < 0" mode
 * [+] MACD: "Buy on Main > Signal and Signal < 0 / Sell on Main < Signal and Signal > 0" mode
 
+[<button class="btn btn-success">Download v2.35 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.35.ex5)
+[<button class="btn btn-primary">Download v2.35 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.35.ex4)
+
 <br />
 
 ### 2021.08.04 (2.36)
@@ -433,6 +461,9 @@ permalink: /docs/versions-history
 * [+] "Open hedge on" parameter for each filter
 * [+] Hedge: Close main series by opposite main series
 * [*] Hedge: Allow close both ways fixed
+
+[<button class="btn btn-success">Download v2.36 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.36.ex5)
+[<button class="btn btn-primary">Download v2.36 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.36.ex4)
 
 <br />
 
@@ -445,11 +476,17 @@ permalink: /docs/versions-history
 * [*] Testing speed improvement
 * [*] Safer default settings
 
+[<button class="btn btn-success">Download v2.37 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.37.ex5)
+[<button class="btn btn-primary">Download v2.37 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.37.ex4)
+
 <br />
 
 ### 2021.09.23 (2.38)
 * [+] Max step size (points) for martingale and anti-martingale
 * [*] Recompiled with correct MT5 build
+
+[<button class="btn btn-success">Download v2.38 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.38.ex5)
+[<button class="btn btn-primary">Download v2.38 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.38.ex4)
 
 <br />
 
@@ -462,11 +499,17 @@ permalink: /docs/versions-history
 * [*] Global Account TrailingStop works correctly after closed loss
 * [*] Global Account Close works correctly with separate in/out commission
 
+[<button class="btn btn-success">Download v2.39 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.39.ex5)
+[<button class="btn btn-primary">Download v2.39 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.39.ex4)
+
 <br />
 
 ### 2021.12.10 (2.40-2.41)
 * [+] Ready to trade crypto on Binance (MT5 only, [details are here](https://t.me/BinanceMT5))
 * [*] Fix for Roboforex accounts with empty Orders history (MT5)
+
+[<button class="btn btn-success">Download v2.40 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.40.ex5)
+[<button class="btn btn-success">Download v2.41 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.41.ex5)
 
 <br />
 
@@ -476,6 +519,9 @@ permalink: /docs/versions-history
 * [*] Pending entry: "Disable if opposite trade is open" renamed to "Enter by market if opposite trade is open"
 * [+] Pending entry: Delete if opposite trade is open
 * [*] MACD and HMA indicators fixed (MT5)
+
+[<button class="btn btn-success">Download v2.42 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.42.ex5)
+[<button class="btn btn-primary">Download v2.42 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.42.ex4)
 
 <br />
 
@@ -579,9 +625,6 @@ permalink: /docs/versions-history
 * [+] MACD filters: Signal Level
 {% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
 
-[<button class="btn btn-success">v2.53 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)
-[<button class="btn btn-primary">v2.53 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)
-
 <br />
 
 ### 2023.04.27-07.06 (2.54)
@@ -596,10 +639,6 @@ permalink: /docs/versions-history
 * [+] Hedge: Min distance from the main order (points)
 * [+] d'Alembert money management system
 * [+] d'Alembert: Units Multiplier
-
-
-[<button class="btn btn-success">Download for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex5)
-[<button class="btn btn-primary">Download for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)
 
 <br />
 
