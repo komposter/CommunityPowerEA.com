@@ -90,6 +90,8 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!" %}
 
+[<button class="btn btn-success">Download v2.09 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.09.ex5)
+
 <br />
 
 ### 2020.05.18 (2.10)
@@ -110,6 +112,8 @@ permalink: /docs/versions-history
 * [+] Anti-martingale mode
 * [+] Big candle filter
 
+[<button class="btn btn-success">Download v2.12 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.12.ex5)
+
 <br />
 
 ### 2020.07.22 (2.14)
@@ -118,6 +122,8 @@ permalink: /docs/versions-history
 * [+] Extended info messages
 * [*] Pending entry works correctly with stop-level
 * [*] "Manage manual trades" mode fixed
+
+[<button class="btn btn-success">Download v2.14 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.14.ex5)
 
 <br />
 
