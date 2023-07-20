@@ -529,6 +529,8 @@ permalink: /docs/versions-history
 * [+] Improved ZZ signal with visualization
 * [+] Binance: more stable connection to the Binance Trade Manager
 
+[<button class="btn btn-success">Download v2.43 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.43.ex5)
+
 <br />
 
 ### 2022.03.12 (2.44)
@@ -536,6 +538,9 @@ permalink: /docs/versions-history
 * [+] Directional change filter
 * [*] “Delete if opposite trade is open” works with enabled pending entry only
 * [+] Big candle max size
+
+[<button class="btn btn-success">Download v2.44 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.44.ex5)
+[<button class="btn btn-primary">Download v2.44 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.44.ex4)
 
 <br />
 
@@ -545,15 +550,22 @@ permalink: /docs/versions-history
 * [+] GlobalAccountClose: Stop Till Tomorrow After Close
 * [+] ADX filter
 
+[<button class="btn btn-success">Download v2.45 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.45.ex5)
+[<button class="btn btn-primary">Download v2.45 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.45.ex4)
+
 <br />
 
 ### 2022.04.28 (2.46)
 * [*] "New deal on the end of the bar only" and "Min pause between trades" work correctly even if last martin trade was closed (and some of previous ones are still opened)
 * [+] Partial close: Close profit itself
 * [+] TrailingStop: Decrease every minutes, Decrease coefficient and Decrease start after minutes
-* [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size<br/>
+* [*] TrailingStop: Min/max size parameter replaced with 2 separate parameters: Min size and Max size
 * [+] Martin: "Change step after order #" and "Change step by coefficient"
+
 {% include alert.html type="warning" title="Warning" content="Set files from version 2.45 with non-zero 'Min/max size' must be revised!" %}
+
+[<button class="btn btn-success">Download v2.46 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.46.ex5)
+[<button class="btn btn-primary">Download v2.46 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.46.ex4)
 
 <br />
 
@@ -562,6 +574,9 @@ permalink: /docs/versions-history
 * [+] Lot: "Amount in base currency" mode
 * [+] "Use only opened trades for time filters" (set true to make "New deal on the end of the bar only" and "Min pause between trades" working like in 2.45)
 
+[<button class="btn btn-success">Download v2.47 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.47.ex5)
+[<button class="btn btn-primary">Download v2.47 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.47.ex4)
+
 <br />
 
 ### 2022.07.02 (2.48)
@@ -569,6 +584,9 @@ permalink: /docs/versions-history
 * [+] Period Limits
 * [+] "Set description" parameter
 * [+] MACD filter: "Main cross 0" and "Signal cross 0" modes
+
+[<button class="btn btn-success">Download v2.48 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.48.ex5)
+[<button class="btn btn-primary">Download v2.48 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.48.ex4)
 
 <br />
 
@@ -582,6 +600,9 @@ permalink: /docs/versions-history
 * [*] AutoHedge deals are closed with main series if it is closed by non-virtual SL or TP
 * [*] News: testing works correct for the last month
 
+[<button class="btn btn-success">Download v2.49 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.49.ex5)
+[<button class="btn btn-primary">Download v2.49 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.49.ex4)
+
 <br />
 
 ### 2022.10.14-2023.01.07 (2.50)
@@ -593,8 +614,12 @@ permalink: /docs/versions-history
 * [+] Allow dragging the lines to modify SL/TP
 * [+] Expert Comment is shown in the panel header
 * [*] "Apply martin after closed loss" works correctly with pending orders
-* [+] Hedge works like a main series with common management rules but with its own entry rules.<br/>
+* [+] Hedge works like a main series with common management rules but with its own entry rules
+
 {% include alert.html type="warning" title="Warning" content="All sets with enabled Auto-hedge must be reviewed!" %}
+
+[<button class="btn btn-success">Download v2.50 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.50.ex5)
+[<button class="btn btn-primary">Download v2.50 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.50.ex4)
 
 <br />
 
@@ -610,20 +635,27 @@ permalink: /docs/versions-history
 * [+] Anti-martingale: Min pause between trades (in bars of Signal TF)
 * [+] Anti-martingale: Use martingale signal for anti-martin trades
 
+[<button class="btn btn-success">Download v2.52 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.52.ex5)
+[<button class="btn btn-primary">Download v2.52 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.52.ex4)
+
 <br />
 
 ### 2023.04.12-04.26 (2.53)
-* [+] ADX: Buy/sell when ADX >= level<br/>
-* [+] ADX: Buy on +DI >= level / Sell on -DI >= level<br/>
-* [+] StopLoss reduce every bar K (0 - disable)<br/>
-* [+] StopLoss: Start reducing after bars<br/>
-* [+] StopLoss min size (points)<br/>
-* [*] "Buy above MA / Sell below MA" and "Buy on cross UP / Sell on cross DN" modes were deprecated. Use "Buy below MA / Sell above MA" and "Buy on cross DN / Sell on cross UP" with "Reverse mode" = true instead.<br/>
-* [*] "Buy on cross DN / Sell on cross UP" mode is refactored to work correctly (in the previous version, the whole previous bar had to be above/below the MA).<br/>
-* [+] "Buy on rising MA / Sell on falling MA" mode added<br/>
-* [+] "Reverse mode" and "Use closed bars only" parameters added for all signal types<br/>
+* [+] ADX: Buy/sell when ADX >= level
+* [+] ADX: Buy on +DI >= level / Sell on -DI >= level
+* [+] StopLoss reduce every bar K (0 - disable)
+* [+] StopLoss: Start reducing after bars
+* [+] StopLoss min size (points)
+* [*] "Buy above MA / Sell below MA" and "Buy on cross UP / Sell on cross DN" modes were deprecated. Use "Buy below MA / Sell above MA" and "Buy on cross DN / Sell on cross UP" with "Reverse mode" = true instead.
+* [*] "Buy on cross DN / Sell on cross UP" mode is refactored to work correctly (in the previous version, the whole previous bar had to be above/below the MA).
+* [+] "Buy on rising MA / Sell on falling MA" mode added
+* [+] "Reverse mode" and "Use closed bars only" parameters added for all signal types
 * [+] MACD filters: Signal Level
+
 {% include alert.html type="warning" title="Warning" content="All sets using MA filters with these 2 modes must be updated!!!" %}
+
+[<button class="btn btn-success">Download v2.53 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex5)
+[<button class="btn btn-primary">Download v2.53 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.53.ex4)
 
 <br />
 
@@ -639,6 +671,9 @@ permalink: /docs/versions-history
 * [+] Hedge: Min distance from the main order (points)
 * [+] d'Alembert money management system
 * [+] d'Alembert: Units Multiplier
+
+[<button class="btn btn-success">Download v2.54 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex5)
+[<button class="btn btn-primary">Download v2.54 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.ex4)
 
 <br />
 
