@@ -88,9 +88,9 @@ permalink: /docs/versions-history
 * [*] Signal TimeFrame parameter added.
 * [+] Pending entry
 
-{% include alert.html type="warning" title="Warning" content="Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!" %}
-
 [<button class="btn btn-success">Download v2.09 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.09.ex5)
+
+{% include alert.html type="warning" title="Warning" content="Please, set Signal TimeFrame equal to Oscillator TimeFrame in all your set-files from previous versions!" %}
 
 <br />
 
@@ -142,6 +142,8 @@ permalink: /docs/versions-history
 * [+] Peace filter renamed to MACD and improved with 2 growing modes
 * [+] TrailingStep parameter added
 
+[<button class="btn btn-success">Download v2.16 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.16.ex5)
+
 {% include alert.html type="warning" title="Warning" content="All sets using 'Close on signal', 'Close on filter' mode or Peace filter must be updated!!!" %}
 
 <br />
@@ -149,6 +151,8 @@ permalink: /docs/versions-history
 ### 2020.08.26 (2.17)
 * [+] Global TakeProfit (% from balance)
 * [+] Fibo retracement filter
+
+[<button class="btn btn-success">Download v2.17 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.17.ex5)
 
 <br />
 
@@ -162,6 +166,8 @@ permalink: /docs/versions-history
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
+[<button class="btn btn-success">Download v2.18 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.18.ex5)
+
 {% include alert.html type="warning" title="Warning" content="Pending entry is controlled by parameter 'Pending entry type' starting from this version. All sets that use Pending entry must be updated ('Pending entry type' must be set = 'Entry with STOP order')!!!" %}
 
 <br />
@@ -174,6 +180,9 @@ permalink: /docs/versions-history
 * [*] "Too long GV name" error fixed
 * [*] "Ticket #xxx disappeared from the terminal" error fixed
 * [+] "Trade is disabled" and "Not enough money" alerts only once per 5 minutes
+
+[<button class="btn btn-success">Download v2.19 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.19.ex5)
+[<button class="btn btn-primary">Download v2.19 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.19.ex4)
 
 {% include alert.html type="warning" title="Warning" content="All sets using non-default open signals must be updated!!!" %}
 
@@ -193,6 +202,9 @@ permalink: /docs/versions-history
 * [*] Fixed lot per 1000 USD mode fixed
 * [*] Checkboxes save their states on chart symbol and Expert Id change
 
+[<button class="btn btn-success">Download v2.20 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.20.ex5)
+[<button class="btn btn-primary">Download v2.20 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.20.ex4)
+
 <br />
 
 ### 2020.11.30 (2.21)
@@ -201,11 +213,17 @@ permalink: /docs/versions-history
 * [+] Trade both sides if all signals are disabled
 * [+] Oscillators: Stochastic D as an indicator
 
+[<button class="btn btn-success">Download v2.21 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.21.ex5)
+[<button class="btn btn-primary">Download v2.21 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.21.ex4)
+
 <br />
 
 ### 2020.12.03 (2.22)
 * [+] GUI: tooltips in status-bar
 * [*] Volatility Filter fixed (didn't work since 2.19)
+
+[<button class="btn btn-success">Download v2.22 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.22.ex5)
+[<button class="btn btn-primary">Download v2.22 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.22.ex4)
 
 <br />
 
@@ -222,6 +240,9 @@ permalink: /docs/versions-history
 * [*] GUI: visual testing speed increased
 * [+] GUI: "refresh interval" parameter for even faster visual test (try values between 60-300)
 
+[<button class="btn btn-success">Download v2.23 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.23.ex5)
+[<button class="btn btn-primary">Download v2.23 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.23.ex4)
+
 <br />
 
 ### 2020.12.31 (2.24)
@@ -235,6 +256,8 @@ permalink: /docs/versions-history
 * [*] MartingailOnTheBarEnd fixed
 * [+] One more Fibo retracement filter added
 
+[<button class="btn btn-success">Download v2.24 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.24.ex5)
+[<button class="btn btn-primary">Download v2.24 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.24.ex4)
 
 <br />
 
@@ -252,6 +275,9 @@ permalink: /docs/versions-history
 * [+] "Apply schedule to" parameter
 * [+] Auto-hedge after order
 
+[<button class="btn btn-success">Download v2.25 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.25.ex5)
+[<button class="btn btn-primary">Download v2.25 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.25.ex4)
+
 {% include alert.html type="warning" title="Warning" content="Please, review all set-files with Fibo-filter activated!" %}
 
 <br />
@@ -261,6 +287,9 @@ permalink: /docs/versions-history
 * [+] Parameters grouped for easier optimization
 * [+] Sounds on position opening and closing added
 * [*] Loading after terminal crash is fixed (MT4)
+
+[<button class="btn btn-success">Download v2.26 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.26.ex5)
+[<button class="btn btn-primary">Download v2.26 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.26.ex4)
 
 <br />
 
