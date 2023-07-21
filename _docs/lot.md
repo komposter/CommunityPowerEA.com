@@ -106,6 +106,10 @@ Set 0 to disable d'Alembert.
 
 Custom units multiplier for d'Alembert money management system.
 
+Applied to the number of units to increase/decrease lot size.
+
 > For example, with Units Multiplier = 0.5:
 > 
-> If the last series closed with profit >= 3\*Expected loss in money and < 4\*Expected loss in money, lot will be decreased by 3\*0.5=1.5 units (instead of 3 units)
+> If the last series closed with loss, lot will be increased by 0.5 units (instead of 1 unit).
+> 
+> If the last series closed with profit >= 3\*Expected loss in money and < 4\*Expected loss in money, lot will be decreased by 3\*0.5=1.5 units (instead of 3 units).

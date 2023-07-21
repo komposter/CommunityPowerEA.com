@@ -64,7 +64,8 @@ Can be one of the following:
 * **Logistic Growth** [*(starting from v2.30)*](/docs/versions-history#20210419-230): lot is calculated using [logistic growth formula](https://communitypowerea.userecho.com/en/communities/1/topics/199-smart-risk-limitation-of-martingale-by-logistic-growth) (between Start Lot and Max Lot with average size at order x0, where x0 is specified by parameter “Lot coefficient / adding / x0”)
 * **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see Custom lot coefficients parameter below)
-* **1st deal lot * distance * coeff** [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250): lot calculated coefficient to 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
+* **First deal lot * distance * coeff** [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250): the 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
+* **Last deal lot * distance * coeff** [*(starting from v2.55)*](/docs/versions-history): the last deal lot multiplied by distance between last entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
 <br />
 

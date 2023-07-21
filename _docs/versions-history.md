@@ -665,3 +665,9 @@ permalink: /docs/versions-history
 
 <br />
 
+### 2023.07.20 (2.54.1-2.54.4):
+* [+] Cancel TakeProfit if both buy and sell are open
+* [+] Disable TrailingStop if both buy and sell are open
+* [+] Lot increasing mode: Last deal lot * distance * coeff
+* [+] d'Alembert: Units Multiplier is also applied after loss
+* [*] RiskPerCurrency: invalid pointer access error fixed

@@ -122,6 +122,20 @@ TakeProfit can be set:
 
 <br />
 
+### Cancel TakeProfit if both buy and sell are open
+
+<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+
+Allows to cancel TP if both buy and sell positions are open.
+
+Use this option if you want to close positions by Partial Close, Trailing Stop or any other way.
+
+If one of directions is closed, TP will be set back.
+
+> For example, you have buy series with 5 orders, TP is set. Then sell position is opened. TP will be cancelled. Then sell position is closed together with 1 buy order by Partial Close. TP will be set back.
+
+<br />
+
 ### Reduce TP after minutes, Reduce coefficient
 
 <sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
@@ -255,7 +269,6 @@ BreakEven works only if it is active.
 
 # TrailingStop
 
-
 ### TrailingStop size
 
 Trailing stop size (0 - disabled)
@@ -349,3 +362,17 @@ TrailingStop can be **always active** or use 1 of 4 predefined periods.
 Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 TrailingStop works only if it is active.
+
+<br />
+
+### Disable TrailingStop if both buy and sell are open
+
+<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+
+Allows to disable TrailingStop if both buy and sell positions are open. StopLoss that was set before doesn't change.
+
+Use this option if you want to close positions by Partial Close, close signal or any other way.
+
+If one of directions is closed, TrailingStop will continue to work.
+
+<br />
