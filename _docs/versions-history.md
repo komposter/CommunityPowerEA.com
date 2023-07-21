@@ -671,3 +671,6 @@ permalink: /docs/versions-history
 * [+] Lot increasing mode: Last deal lot * distance * coeff
 * [+] d'Alembert: Units Multiplier is also applied after loss
 * [*] RiskPerCurrency: invalid pointer access error fixed
+
+[<button class="btn btn-success">Download v2.54.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex5)
+[<button class="btn btn-primary">Download v2.54.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex4)
