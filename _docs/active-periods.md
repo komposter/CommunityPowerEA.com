@@ -23,7 +23,7 @@ Event that activates period. Can be one of the following:
 * **Activate after trade #**: period activates when deal # **Activation value** in the series is opened.
 * **Activate on DrawDown >=** and **Activate on DrawDown <=**: period activates if current drawdown of series becomes greater/smaller than Activation value %.
 
-Each Active period can be activated only once. Means, it will not be activated again after deactivation even if an activation event occurs.
+Each Active period can be activated **Max activations number** times. After that it will not be activated again after deactivation even if an activation event occurs.
 
 <br />
 
