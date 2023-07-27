@@ -32,3 +32,12 @@ Each Active period can be activated only once. Means, it will not be activated a
 Deactivation events work the same way as activation events.
 
 Period can't be deactivated if it is not active (all deactivation events will be ignored). But it can be deactivated right after the activation (if a deactivation event occurs). Period can be deactivated only once.
+
+<br />
+
+### Max activations number
+<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+
+Maximum number of activations of this period. If set to 0, period can be activated unlimited number of times.
+
+Default value is 1, means period can be activated only once.

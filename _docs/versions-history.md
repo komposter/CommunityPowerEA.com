@@ -665,12 +665,13 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.07.20 (2.54.1-2.54.4):
+### 2023.07.20-07.27 (2.54.1-2.54.5):
 * [+] Cancel TakeProfit if both buy and sell are open
 * [+] Disable TrailingStop if both buy and sell are open
 * [+] Lot increasing mode: Last deal lot * distance * coeff
 * [+] d'Alembert: Units Multiplier is also applied after loss
 * [*] RiskPerCurrency: invalid pointer access error fixed
+* [+] Active Periods: Max activations number (0 - unlimited)
 
 [<button class="btn btn-success">Download v2.54.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex5)
 [<button class="btn btn-primary">Download v2.54.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex4)
