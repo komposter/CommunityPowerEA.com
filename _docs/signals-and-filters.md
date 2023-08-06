@@ -666,18 +666,12 @@ Type of Line filter:
 * **Disabled**: Line filter is disabled
 
 * **Buy below Line / Sell above Line**:
-    * BUYs are allowed if current price is below the line by **Distance**
-
-      > _Line - price >= **Distance**_
-    * SELLs are allowed if current price is above the Line by **Distance**
-
-      > _price - Line >= **Distance**_
+    * BUYs are allowed if current price is below the line by **Distance** (Line - price >= **Distance**)
+    * SELLs are allowed if current price is above the Line by **Distance** (price - Line >= **Distance**)
 
 * **Buy on cross DN / Sell on cross UP**:
-    * BUYs are allowed if price crosses the Line upward by **Distance**<br />
-        > _Line - price >= **Distance** [on current bar] and Line - price < **Distance** [on previous bar]_
-    * SELLs are allowed if price crosses the Line downward by **Distance**<br />
-        > _price - Line >= **Distance** [on current bar] and price - Line < **Distance** [on previous bar]_
+    * BUYs are allowed if price crosses the Line upward by **Distance** (Line - price >= **Distance** [on current bar] and Line - price < **Distance** [on previous bar])
+    * SELLs are allowed if price crosses the Line downward by **Distance** (price - Line >= **Distance** [on current bar] and price - Line < **Distance** [on previous bar])
 
 <br />
 
@@ -686,6 +680,7 @@ Type of Line filter:
  * If "Use closed bars only" = **false**:
    * Price on current bar = **Ask** for BUYs, **Bid** for SELLs
    * Price on previous bar = **Open** price of the previous bar
+
  * If "Use closed bars only" = **true**:
    * Price on current bar = **Open** price of the current bar
    * Price on previous bar = **Open** price of the previous bar
