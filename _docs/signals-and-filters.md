@@ -555,7 +555,6 @@ Parabolic indicator parameters
 
 Reverse all Parabolic signals
 
-
 <br />
 <br />
 
@@ -603,8 +602,6 @@ TimeFrame for MA filter
 * **In points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
 
-
-
 <br />
 
 ### Distance / angle value
@@ -633,8 +630,65 @@ Reverse all Moving Average (MA) signals
 
 Use only closed (formed) bars.
 
-If true, the signal can't change in the middle of the bar.
+If **true**, the signal can't change in the middle of the bar.
 
+<br />
+<br />
+
+# Line Filters
+
+<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+
+### Line Filter Type
+
+Type of Line filter:
+* **Disabled**: Line filter disabled
+* **Buy below Line / Sell above Line**:
+    * BUYs are allowed if Line - Ask >= **Distance**
+    * SELLs are allowed if Bid - Line >= **Distance**
+* **Buy on cross DN / Sell on cross UP**:
+    * BUYs are allowed if:
+        * Line - Ask >= **Distance** [on current bar];
+        * Line - Low < **Distance** [on previous bar].
+    * SELLs are allowed if:
+        * Bid - Line >= **Distance** [on current bar];
+        * High - Line < **Distance** [on previous bar].
+
+<br />
+
+### TimeFrame
+
+TimeFrame for Line filter
+
+<br />
+
+### Distance calculation type
+
+Distance calculation type:
+* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient"
+
+<br />
+
+### Distance value
+
+Distance value for signal calculation.
+
+Distance can be negative (so, in **Buy below Line** mode, BUYs will be allowed if Ask above the Line, but not more than by distance points).
+
+<br />
+
+### Reverse mode
+
+Reverse all Line filter signals
+
+<br />
+
+### Use closed bars only
+
+Use only closed (formed) bars.
+
+If true, the signal can't change in the middle of the bar.
 
 <br />
 <br />
