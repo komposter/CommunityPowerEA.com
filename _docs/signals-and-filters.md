@@ -639,26 +639,52 @@ If **true**, the signal can't change in the middle of the bar.
 
 <sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
 
+Line filter allows to use a graphical object as a filter.
+
+Activate it with specific **Object name**, create a **trend** or **horizontal** line on the chart with the EA, and rename it with the same name as you set in filter parameters.
+
+{% include alert.html type="warning" title="Attention" content="Objects don't work in the MT5 visual tester mode, so you can test it on history in MT4 only" %}
+
+<br />
+
 ### Line Filter Type
 
 Type of Line filter:
-* **Disabled**: Line filter disabled
+* **Disabled**: Line filter is disabled
+
 * **Buy below Line / Sell above Line**:
-    * BUYs are allowed if Line - Ask >= **Distance**
-    * SELLs are allowed if Bid - Line >= **Distance**
+    * BUYs are allowed if current price is below the line by **Distance**<br />
+      > _Line - price >= **Distance**_
+    * SELLs are allowed if current price is above the Line by **Distance**<br />
+      > _price - Line >= **Distance**_
+
 * **Buy on cross DN / Sell on cross UP**:
-    * BUYs are allowed if:
-        * Line - Ask >= **Distance** [on current bar];
-        * Line - Low < **Distance** [on previous bar].
-    * SELLs are allowed if:
-        * Bid - Line >= **Distance** [on current bar];
-        * High - Line < **Distance** [on previous bar].
+    * BUYs are allowed if price crosses the Line upward by **Distance**<br />
+        > _Line - price >= **Distance** [on current bar] and Line - price < **Distance** [on previous bar]_
+    * SELLs are allowed if price crosses the Line downward by **Distance**<br />
+        > _price - Line >= **Distance** [on current bar] and price - Line < **Distance** [on previous bar]_
+
+
+**Price** depends on the "Use closed bars only" parameter:
+
+ * If "Use closed bars only" = **false**:
+   * Price on current bar = **Ask** for BUYs, **Bid** for SELLs
+   * Price on previous bar = **Open** price of the previous bar
+ * If "Use closed bars only" = **true**:
+   * Price on current bar = **Open** price of the current bar
+   * Price on previous bar = **Open** price of the previous bar
 
 <br />
 
 ### TimeFrame
 
 TimeFrame for Line filter
+
+<br />
+
+### Object name
+
+Name of the graphical object to use as a Line filter
 
 <br />
 
@@ -688,7 +714,7 @@ Reverse all Line filter signals
 
 Use only closed (formed) bars.
 
-If true, the signal can't change in the middle of the bar.
+If **true**, the signal can't change in the middle of the bar.
 
 <br />
 <br />
