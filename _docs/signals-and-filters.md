@@ -662,6 +662,8 @@ Activate it with specific **Object name**, create a **trend** or **horizontal** 
 
 {% include alert.html type="warning" title="Attention" content="Chart objects don't work in the MT5 visual tester mode, so you can test it on history in MT4 only" %}
 
+![]({{site.baseurl}}/assets/img/docs/line_filter_1.gif)
+
 <br />
 
 ### Line Filter Type
