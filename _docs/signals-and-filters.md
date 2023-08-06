@@ -568,16 +568,18 @@ Type of MA filter:
 * **Disabled**: MA filter is disabled
 
 * **Buy below MA / Sell above MA**:
-    * BUYs are allowed if current price is below the MA by **Distance**<br />
-      > _MA - price >= **Distance**_
-    * SELLs are allowed if current price is above the MA by **Distance**<br />
-      > _price - MA >= **Distance**_
+    * BUYs are allowed if current price is below the MA by **Distance**:
+      * MA - price >= **Distance**
+    * SELLs are allowed if current price is above the MA by **Distance**:
+      * price - MA >= **Distance**
 
 * **Buy on cross DN / Sell on cross UP**:
-    * BUYs are allowed if price crosses the MA upward by **Distance**<br />
-        > _MA - price >= **Distance** [on current bar] and MA - price < **Distance** [on previous bar]_
-    * SELLs are allowed if price crosses the MA downward by **Distance**<br />
-        > _price - MA >= **Distance** [on current bar] and price - MA < **Distance** [on previous bar]_
+    * BUYs are allowed if price crosses the MA upward by **Distance**:
+      * MA - price >= **Distance** [on current bar]
+      * MA - price < **Distance** [on previous bar]
+    * SELLs are allowed if price crosses the MA downward by **Distance**:
+      * price - MA >= **Distance** [on current bar]
+      * price - MA < **Distance** [on previous bar]
 
 * **Buy on rising MA / Sell on falling MA**:
     * BUYs are allowed if the MA rises with a slope >= **Angle**
