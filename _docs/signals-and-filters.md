@@ -565,20 +565,33 @@ Reverse all Parabolic signals
 ### MA Filter Type
 
 Type of MA filter:
-* **Disabled**: MA filter disabled
+* **Disabled**: MA filter is disabled
+
 * **Buy below MA / Sell above MA**:
-    * BUYs are allowed if MA - Ask >= **Distance**
-    * SELLs are allowed if Bid - MA >= **Distance**
+    * BUYs are allowed if current price is below the MA by **Distance**<br />
+      > _MA - price >= **Distance**_
+    * SELLs are allowed if current price is above the MA by **Distance**<br />
+      > _price - MA >= **Distance**_
+
 * **Buy on cross DN / Sell on cross UP**:
-    * BUYs are allowed if:
-        * MA - Ask >= **Distance** [on current bar];
-        * MA - Low < **Distance** [on previous bar].
-    * SELLs are allowed if:
-        * Bid - MA >= **Distance** [on current bar];
-        * High - MA < **Distance** [on previous bar].
+    * BUYs are allowed if price crosses the MA upward by **Distance**<br />
+        > _MA - price >= **Distance** [on current bar] and MA - price < **Distance** [on previous bar]_
+    * SELLs are allowed if price crosses the MA downward by **Distance**<br />
+        > _price - MA >= **Distance** [on current bar] and price - MA < **Distance** [on previous bar]_
+
 * **Buy on rising MA / Sell on falling MA**:
     * BUYs are allowed if the MA rises with a slope >= **Angle**
     * SELLs are allowed if the MA falls with a slope >= **Angle**
+
+
+**Price** depends on the "Use closed bars only" parameter:
+
+ * If "Use closed bars only" = **false**:
+   * Price on current bar = **Ask** for BUYs, **Bid** for SELLs
+   * Price on previous bar = **Open** price of the previous bar
+ * If "Use closed bars only" = **true**:
+   * Price on current bar = **Open** price of the current bar
+   * Price on previous bar = **Open** price of the previous bar
 
 <br />
 
@@ -643,7 +656,7 @@ Line filter allows to use a graphical object as a filter.
 
 Activate it with specific **Object name**, create a **trend** or **horizontal** line on the chart with the EA, and rename it with the same name as you set in filter parameters.
 
-{% include alert.html type="warning" title="Attention" content="Objects don't work in the MT5 visual tester mode, so you can test it on history in MT4 only" %}
+{% include alert.html type="warning" title="Attention" content="Chart objects don't work in the MT5 visual tester mode, so you can test it on history in MT4 only" %}
 
 <br />
 
@@ -653,9 +666,11 @@ Type of Line filter:
 * **Disabled**: Line filter is disabled
 
 * **Buy below Line / Sell above Line**:
-    * BUYs are allowed if current price is below the line by **Distance**<br />
+    * BUYs are allowed if current price is below the line by **Distance**
+
       > _Line - price >= **Distance**_
-    * SELLs are allowed if current price is above the Line by **Distance**<br />
+    * SELLs are allowed if current price is above the Line by **Distance**
+
       > _price - Line >= **Distance**_
 
 * **Buy on cross DN / Sell on cross UP**:
@@ -664,6 +679,7 @@ Type of Line filter:
     * SELLs are allowed if price crosses the Line downward by **Distance**<br />
         > _price - Line >= **Distance** [on current bar] and price - Line < **Distance** [on previous bar]_
 
+<br />
 
 **Price** depends on the "Use closed bars only" parameter:
 
