@@ -627,14 +627,24 @@ Distance or angle value for signal calculation.
 
 Distance can be negative (so, in **Buy below MA** mode, BUYs will be allowed if Ask above the MA, but not more than by distance points).
 
-Angle is set in points per bar (for example, 1.5 points per bar means MA changed by 1.5 points), or as  "current volatility * Coefficient" per bar (for example, if volatility = 20 points, and **Distance / angle** value = 0.1, MA should change by 20*0.1 = 2 points per bar to generate signal).
+Angle is set in points per bar (for example, 1.5 points per bar means MA changed by 1.5 points), or as "current volatility * Coefficient" per bar (for example, if volatility = 20 points, and **Distance / angle** value = 0.1, MA should change by 20*0.1 = 2 points per bar to generate signal).
 
 Angle value also can be negative, so in **Buy on rising MA** mode BUY will be allowed on falling MA, but it shouldn't fall too fast (slope still should be >= **Angle**).
 
 <br />
 
-### Reverse mode
+### Max Distance / Angle value
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
 
+Max distance / angle value.
+
+> For example, if **Distance value** = 10, **Max Distance value** = 20, Buy below MA signal will be active if **Max Distance** >= MA - price >= **Distance**.
+
+Set 0 to disable this limit.
+
+<br />
+
+### Reverse mode
 <sup>[*(starting from v2.53)*](/docs/versions-history#20230412-0426-253)</sup>
 
 Reverse all Moving Average (MA) signals

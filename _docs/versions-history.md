@@ -681,7 +681,7 @@ permalink: /docs/versions-history
 * [+] Partial Close: [Sort By Profit]({{site.baseurl}}/docs/partial-close#sort-by-profit) parameter
 * [*] [Lot increasing mode]({{site.baseurl}}/docs/martingale#lot-increasing-mode): "Sum: previous lot + adding" fixed
 * [*] [Period Limits](/docs/period-limits) fixed
-* [+] MA Filters: Max Distance / Angle value (0 - disable limit)
+* [+] MA Filters: [Max Distance / Angle value]({{site.baseurl}}/docs/signals-and-filters#max-distance--angle-value)
 * [+] Line Filters: Max Distance value (0 - disable limit)
 
 [<button class="btn btn-success">Download v2.55 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex5)
