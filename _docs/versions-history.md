@@ -583,7 +583,7 @@ permalink: /docs/versions-history
 * [+] 2 CustomIndy signals
 * [+] Spread filter: apply to first/apply to martin
 * [+] BreakEven
-* [+] RiskPerCurrency
+* [+] [Risk per currency](/docs/risk-per-currency)
 * [*] GUI refresh is fixed for enabled Stop Till Tomorrow After Close
 * [*] AutoHedge deals are closed with main series if it is closed by non-virtual SL or TP
 * [*] News: testing works correct for the last month
@@ -673,16 +673,16 @@ permalink: /docs/versions-history
 * [*] [Risk per currency](/docs/risk-per-currency): invalid pointer access error fixed
 * [+] Active Periods: [Max activations number]({{site.baseurl}}/docs/active-periods#max-activations-number)
 * [+] Active Periods: [Activate after trades number <=]({{site.baseurl}}/docs/active-periods#activation-event-and-activation-value)
-* [*] [Partial close: Close profit itself]({{site.baseurl}}/docs/partial-close#close-profit-itself) works with anti-martingale orders
+* [*] Partial close: [Close profit itself]({{site.baseurl}}/docs/partial-close#close-profit-itself) works with anti-martingale orders
 * [+] [Line Filters]({{site.baseurl}}/docs/signals-and-filters#line-filters) #1-3
-* [+] RiskPerCurrency: [Max Positions Total (all symbols)](/docs/risk-per-currency#max-positions-total-all-symbols)
-* [+] RiskPerCurrency: [Consider only one position per EA (symbol/magic/type)](/docs/risk-per-currency#consider-only-one-position-per-ea-symbolmagictype)
+* [+] Risk Per Currency: [Max Positions Total (all symbols)](/docs/risk-per-currency#max-positions-total-all-symbols)
+* [+] Risk Per Currency: [Consider only one position per EA (symbol/magic/type)](/docs/risk-per-currency#consider-only-one-position-per-ea-symbolmagictype)
 * [*] [Apply martin after closed loss]({{site.baseurl}}/docs/lot#apply-martin-after-closed-loss), [d'Alembert]({{site.baseurl}}/docs/lot#dalembert-money-management-system): new account high detection fixed
 * [+] Partial Close: [Sort By Profit]({{site.baseurl}}/docs/partial-close#sort-by-profit) parameter
-* [*] [Lot increasing mode]({{site.baseurl}}/docs/martingale#lot-increasing-mode): "Sum: previous lot + adding" fixed
+* [*] Lot increasing mode: [Sum: previous lot + adding]({{site.baseurl}}/docs/martingale#lot-increasing-mode) fixed
 * [*] [Period Limits](/docs/period-limits) fixed
 * [+] MA Filters: [Max Distance / Angle value]({{site.baseurl}}/docs/signals-and-filters#max-distance--angle-value)
-* [+] Line Filters: Max Distance value (0 - disable limit)
+* [+] Line Filters: [Max Distance value]({{site.baseurl}}/docs/signals-and-filters#max-distance-value)
 
 [<button class="btn btn-success">Download v2.55 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex5)
 [<button class="btn btn-primary">Download v2.55 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex4)

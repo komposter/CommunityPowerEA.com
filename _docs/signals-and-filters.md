@@ -738,6 +738,17 @@ Distance can be negative (so, in **Buy below Line** mode, BUYs will be allowed i
 
 <br />
 
+### Max Distance value
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
+
+Max distance value.
+
+> For example, if **Distance value** = 10, **Max Distance value** = 20, Sell above Line signal will be active if **Max Distance** >= price - Line >= **Distance**.
+
+Set 0 to disable this limit.
+
+<br />
+
 ### Reverse mode
 
 Reverse all Line filter signals
