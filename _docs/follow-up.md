@@ -124,7 +124,7 @@ TakeProfit can be set:
 
 ### Cancel TakeProfit if both buy and sell are open
 
-<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
 
 Allows to cancel TP if both buy and sell positions are open.
 
@@ -367,7 +367,7 @@ TrailingStop works only if it is active.
 
 ### Disable TrailingStop if both buy and sell are open
 
-<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
 
 Allows to disable TrailingStop if both buy and sell positions are open. StopLoss that was set before doesn't change.
 

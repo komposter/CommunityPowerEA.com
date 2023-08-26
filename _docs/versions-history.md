@@ -665,13 +665,13 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.07.20-07.27 (2.55):
+### 2023.07.20-08.18 (2.55):
 * [+] Cancel TakeProfit if both buy and sell are open
 * [+] Disable TrailingStop if both buy and sell are open
 * [+] Lot increasing mode: Last deal lot * distance * coeff
 * [+] d'Alembert: Units Multiplier is also applied after loss
 * [*] RiskPerCurrency: invalid pointer access error fixed
-* [+] Active Periods: Max activations number (0 - unlimited)
+* [+] Active Periods: [Max activations number]({{site.baseurl}}/docs/active-periods#max-activations-number)
 * [+] Active Periods: Activate after trades number <=
 * [*] Partial close: Close profit itself works with anti-martingale orders
 * [+] Line Filters #1-3

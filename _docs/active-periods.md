@@ -36,7 +36,7 @@ Period can't be deactivated if it is not active (all deactivation events will be
 <br />
 
 ### Max activations number
-<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
 
 Maximum number of activations of this period. If set to 0, period can be activated unlimited number of times.
 

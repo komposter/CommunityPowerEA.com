@@ -654,7 +654,7 @@ If **true**, the signal can't change in the middle of the bar.
 
 # Line Filters
 
-<sup>[*(starting from v2.55)*](/docs/versions-history)</sup>
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
 
 Line filter allows to use a graphical object as a filter.
 
