@@ -58,9 +58,27 @@ Max sum lot (in **By lots** mode) or max positions number (in **By positions num
 
 <br />
 
+### Max Positions Total (all symbols)
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
+
+Defines max total positions number for all symbols.
+
+Set 0 to disable this limit.
+
+<br />
+
 ### Additional magic numbers list (comma separated)
 
 By default, only positions with magic number equals Expert Id are taken into account by Risk manager, but you can specify additional magics by this parameter.
+
+<br />
+
+### Consider only one position per EA (symbol/magic/type)
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
+    
+When **true**, only one position per EA of each type is taken into account.
+
+> For example, if you have buy-series with 5 positions, only 1 position will be counted.
 
 <br />
 

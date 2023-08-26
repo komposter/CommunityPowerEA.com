@@ -669,19 +669,18 @@ permalink: /docs/versions-history
 * [+] [Cancel TakeProfit if both buy and sell are open]({{site.baseurl}}/docs/follow-up#cancel-takeprofit-if-both-buy-and-sell-are-open)
 * [+] [Disable TrailingStop if both buy and sell are open]({{site.baseurl}}/docs/follow-up#disable-trailingstop-if-both-buy-and-sell-are-open)
 * [+] Lot increasing mode: [Last deal lot * distance * coeff]({{site.baseurl}}/docs/martingale#lot-increasing-mode)
-* [+] [d'Alembert]({{site.baseurl}}/docs/lot#d'Alembert money management system): Units Multiplier is also applied after loss
+* [+] [d'Alembert]({{site.baseurl}}/docs/lot#dalembert-money-management-system): Units Multiplier is also applied after loss
 * [*] [Risk per currency](/docs/risk-per-currency): invalid pointer access error fixed
 * [+] Active Periods: [Max activations number]({{site.baseurl}}/docs/active-periods#max-activations-number)
 * [+] Active Periods: [Activate after trades number <=]({{site.baseurl}}/docs/active-periods#activation-event-and-activation-value)
-* [*] Partial close: Close profit itself works with anti-martingale orders
-* [+] Line Filters #1-3
-* [*] Line Filters: horizontal lines fixed
-* [+] RiskPerCurrency: Max Positions Total (all symbols)
-* [+] RiskPerCurrency: Consider only one position per EA (symbol/magic/type)
-* [*] Apply martin after loss, d'Alembert: new account high detection fixed
-* [+] PartialClose: Sort By Profit parameter
-* [*] Lot increasing mode: "Sum: previous lot + adding" fixed
-* [*] Period Limits fixed
+* [*] [Partial close: Close profit itself]({{site.baseurl}}/docs/partial-close#close-profit-itself) works with anti-martingale orders
+* [+] [Line Filters]({{site.baseurl}}/docs/signals-and-filters#line-filters) #1-3
+* [+] RiskPerCurrency: [Max Positions Total (all symbols)](/docs/risk-per-currency#max-positions-total-all-symbols)
+* [+] RiskPerCurrency: [Consider only one position per EA (symbol/magic/type)](/docs/risk-per-currency#consider-only-one-position-per-ea-symbolmagictype)
+* [*] [Apply martin after loss]({{site.baseurl}}/docs/lot#apply-martin-after-loss), [d'Alembert]({{site.baseurl}}/docs/lot#dalembert-money-management-system): new account high detection fixed
+* [+] Partial Close: [Sort By Profit]({{site.baseurl}}/docs/partial-close#sort-by-profit) parameter
+* [*] [Lot increasing mode]({{site.baseurl}}/docs/martingale#lot-increasing-mode): "Sum: previous lot + adding" fixed
+* [*] [Period Limits](/docs/period-limits) fixed
 * [+] MA Filters: Max Distance / Angle value (0 - disable limit)
 * [+] Line Filters: Max Distance value (0 - disable limit)
 

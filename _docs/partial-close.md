@@ -5,7 +5,6 @@ permalink: /docs/partial-close
 ---
 
 # Partial close
-
 <sup>[*(starting from v2.20)*](/docs/versions-history#20201103-220)</sup>
 
 Close some orders in the same direction (the last one and the first one, for example) if they sum profit is big enough (>= **Min profit to close**), the series is long enough (orders number >= **Close partial after order #**) and there is a signal for partial close (**Partial close on** parameter in each filter settings).
@@ -33,7 +32,6 @@ Min profit (in account currency / in% from balance) to close part of orders in s
 <br />
 
 ### Min part of losing order to close (%)
-
 <sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 Percent of losing order that can be closed with profit by Partial close.
@@ -47,7 +45,6 @@ By default, only the entire order can be closed (**Min part of losing order to c
 <br />
 
 ### Close any with any
-
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
 
 Allows **partial close** to close orders with any direction (buy or sell).
@@ -59,12 +56,20 @@ Same side closings (most losing buy with several profitable buys, for example) a
 <br />
 
 ### Close profit itself
-
 <sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
 Close only profitable orders on **Partial close on** signals even if profit is not big enough to cover the loss.
 
 ![partial_close.jpg](..%2Fassets%2Fimg%2Fdocs%2Fpartial_close.jpg)
+
+<br />
+
+### Sort By Profit
+<sup>[*(starting from v2.55)*](/docs/versions-history#20230720-0818-255)</sup>
+
+If **true**, orders are sorted by profit before partial close. So, the most profitable orders will be closed with the most losing ones.
+
+If **false**, orders are sorted by opening time before partial close. So, the oldest orders will be closed with the newest ones.
 
 <br />
 <br />
