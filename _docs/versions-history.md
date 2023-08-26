@@ -666,9 +666,9 @@ permalink: /docs/versions-history
 <br />
 
 ### 2023.07.20-08.18 (2.55):
-* [+] Cancel TakeProfit if both buy and sell are open
-* [+] Disable TrailingStop if both buy and sell are open
-* [+] Lot increasing mode: Last deal lot * distance * coeff
+* [+] [Cancel TakeProfit if both buy and sell are open]({{site.baseurl}}/docs/follow-up#cancel-takeprofit-if-both-buy-and-sell-are-open)
+* [+] [Disable TrailingStop if both buy and sell are open]({{site.baseurl}}/docs/follow-up#disable-trailingstop-if-both-buy-and-sell-are-open)
+* [+] Lot increasing mode: [Last deal lot * distance * coeff]{{site.baseurl}}/docs/martingale#lot-increasing-mode)
 * [+] d'Alembert: Units Multiplier is also applied after loss
 * [*] RiskPerCurrency: invalid pointer access error fixed
 * [+] Active Periods: [Max activations number]({{site.baseurl}}/docs/active-periods#max-activations-number)
