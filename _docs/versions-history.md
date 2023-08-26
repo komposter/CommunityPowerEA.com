@@ -670,9 +670,9 @@ permalink: /docs/versions-history
 * [+] [Disable TrailingStop if both buy and sell are open]({{site.baseurl}}/docs/follow-up#disable-trailingstop-if-both-buy-and-sell-are-open)
 * [+] Lot increasing mode: [Last deal lot * distance * coeff]({{site.baseurl}}/docs/martingale#lot-increasing-mode)
 * [+] [d'Alembert]({{site.baseurl}}/docs/lot#d'Alembert money management system): Units Multiplier is also applied after loss
-* [*] RiskPerCurrency: invalid pointer access error fixed
+* [*] [Risk per currency](/docs/risk-per-currency): invalid pointer access error fixed
 * [+] Active Periods: [Max activations number]({{site.baseurl}}/docs/active-periods#max-activations-number)
-* [+] Active Periods: Activate after trades number <=
+* [+] Active Periods: [Activate after trades number <=]({{site.baseurl}}/docs/active-periods#activation-event-and-activation-value)
 * [*] Partial close: Close profit itself works with anti-martingale orders
 * [+] Line Filters #1-3
 * [*] Line Filters: horizontal lines fixed

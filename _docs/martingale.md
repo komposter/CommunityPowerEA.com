@@ -65,7 +65,7 @@ Can be one of the following:
 * **Soft Martin** [*(starting from v2.32)*](/docs/versions-history#20210605-232): previous lot * coeff - previous lot [1-1-2-4-8-...] ([Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence))
 * **Custom lot coefficients** [*(starting from v2.33)*](/docs/versions-history#20210610-233): user-defined coefficient sequence (see Custom lot coefficients parameter below)
 * **First deal lot * distance * coeff** [*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250): the 1st deal lot multiplied by distance between 1st entry price and current price. For EURUSD, coefficient values near 1000 have sense.
-* **Last deal lot * distance * coeff** [*(starting from v2.55)*](/docs/versions-history): the last deal lot multiplied by distance between last entry price and current price. For EURUSD, coefficient values near 1000 have sense.
+* **Last deal lot * distance * coeff** [*(starting from v2.55)*](/docs/versions-history#20230720-0818-255): the last deal lot multiplied by distance between last entry price and current price. For EURUSD, coefficient values near 1000 have sense.
 
 <br />
 
