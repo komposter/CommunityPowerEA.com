@@ -65,7 +65,7 @@ Set 0 to disable the limit.
 
 # Lot size based on previous results
 
-### Apply martin to the new deals
+### Apply martin after closed loss
 
 <sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 

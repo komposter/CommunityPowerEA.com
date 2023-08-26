@@ -72,7 +72,7 @@ permalink: /docs/versions-history
 * [-] The third "MA below" and "MA above" filters removed
 * [*] Commissions and swaps are taken into account for sell-positions
 * [*] "Messages to Grammy" are allowed only if trading is enabled
-* [+] New type of martingale — lot coefficient applied after each loss ("Apply after closed loss" parameter)
+* [+] [Apply martin after closed loss]({{site.baseurl}}/docs/lot#apply-martin-after-closed-loss)
 * [+] Global StopLoss in % from current balance
 
 <br />
@@ -601,7 +601,7 @@ permalink: /docs/versions-history
 * [+] Fix volatility on 1st position open
 * [+] Allow dragging the lines to modify SL/TP
 * [+] Expert Comment is shown in the panel header
-* [*] "Apply martin after closed loss" works correctly with pending orders
+* [*] [Apply martin after closed loss]({{site.baseurl}}/docs/lot#apply-martin-after-closed-loss) works correctly with pending orders
 * [+] Hedge works like a main series with common management rules but with its own entry rules
 
 {% include alert.html type="warning" title="Warning" content="All sets with enabled Auto-hedge must be reviewed!" %}
@@ -677,7 +677,7 @@ permalink: /docs/versions-history
 * [+] [Line Filters]({{site.baseurl}}/docs/signals-and-filters#line-filters) #1-3
 * [+] RiskPerCurrency: [Max Positions Total (all symbols)](/docs/risk-per-currency#max-positions-total-all-symbols)
 * [+] RiskPerCurrency: [Consider only one position per EA (symbol/magic/type)](/docs/risk-per-currency#consider-only-one-position-per-ea-symbolmagictype)
-* [*] [Apply martin after loss]({{site.baseurl}}/docs/lot#apply-martin-after-loss), [d'Alembert]({{site.baseurl}}/docs/lot#dalembert-money-management-system): new account high detection fixed
+* [*] [Apply martin after closed loss]({{site.baseurl}}/docs/lot#apply-martin-after-closed-loss), [d'Alembert]({{site.baseurl}}/docs/lot#dalembert-money-management-system): new account high detection fixed
 * [+] Partial Close: [Sort By Profit]({{site.baseurl}}/docs/partial-close#sort-by-profit) parameter
 * [*] [Lot increasing mode]({{site.baseurl}}/docs/martingale#lot-increasing-mode): "Sum: previous lot + adding" fixed
 * [*] [Period Limits](/docs/period-limits) fixed
