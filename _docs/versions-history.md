@@ -665,13 +665,25 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.07.20-07.27 (2.54.1-2.54.5):
+### 2023.07.20-07.27 (2.55):
 * [+] Cancel TakeProfit if both buy and sell are open
 * [+] Disable TrailingStop if both buy and sell are open
 * [+] Lot increasing mode: Last deal lot * distance * coeff
 * [+] d'Alembert: Units Multiplier is also applied after loss
 * [*] RiskPerCurrency: invalid pointer access error fixed
 * [+] Active Periods: Max activations number (0 - unlimited)
+* [+] Active Periods: Activate after trades number <=
+* [*] Partial close: Close profit itself works with anti-martingale orders
+* [+] Line Filters #1-3
+* [*] Line Filters: horizontal lines fixed
+* [+] RiskPerCurrency: Max Positions Total (all symbols)
+* [+] RiskPerCurrency: Consider only one position per EA (symbol/magic/type)
+* [*] Apply martin after loss, d'Alembert: new account high detection fixed
+* [+] PartialClose: Sort By Profit parameter
+* [*] Lot increasing mode: "Sum: previous lot + adding" fixed
+* [*] Period Limits fixed
+* [+] MA Filters: Max Distance / Angle value (0 - disable limit)
+* [+] Line Filters: Max Distance value (0 - disable limit)
 
-[<button class="btn btn-success">Download v2.54.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex5)
-[<button class="btn btn-primary">Download v2.54.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.54.4.ex4)
+[<button class="btn btn-success">Download v2.55 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex5)
+[<button class="btn btn-primary">Download v2.55 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex4)
