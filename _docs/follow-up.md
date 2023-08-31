@@ -58,7 +58,9 @@ StopLoss can be set:
 
 <sup>[*(starting from v2.23)*](/docs/versions-history#20201210-223)</sup>
 
-Sum StopLoss for all positions opened by EA in account currency.
+Sum StopLoss for all positions (buy + sell) opened by EA in account currency.
+
+> For example, if you set **Sum StopLoss** = 25, EA will close all positions, when sum loss of buy and sell positions will be >= $25.
 
 Set 0 to disable.
 
@@ -68,7 +70,9 @@ Set 0 to disable.
 
 <sup>[*(starting from v2.07)*](/docs/versions-history#20200504-207)</sup>
 
-Sum StopLoss for all positions opened by EA in % from current balance.
+Sum StopLoss for all positions (buy + sell) opened by EA in % from current balance.
+
+> For example, if you set **Sum StopLoss** = 1.5%, and your balance is $1000, EA will close all positions, when sum loss of buy and sell positions will be >= $15.
 
 Set 0 to disable.
 
@@ -174,7 +178,9 @@ TakeProfit can't be less than **Min TakeProfit size (points)** ([what is a "poin
 
 <sup>[*(starting from v2.17)*](/docs/versions-history#20200826-217)</sup>
 
-Sum TakeProfit for all positions opened by EA in % from current balance.
+Sum TakeProfit for all positions (buy + sell) opened by EA in % from current balance.
+
+> For example, if you set **Sum TakeProfit** = 1.5%, and your balance is $1000, EA will close all positions, when sum profit of buy and sell positions will be >= $15.
 
 Set 0 to disable.
 
@@ -184,7 +190,9 @@ Set 0 to disable.
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
-Sum TakeProfit for all positions opened by EA in account currency.
+Sum TakeProfit for all positions (buy + sell) opened by EA in account currency.
+
+> For example, if you set **Sum TakeProfit** = 25, EA will close all positions, when sum profit of buy and sell positions will be >= $25.
 
 Set 0 to disable.
 
@@ -194,7 +202,7 @@ Set 0 to disable.
 
 <sup>[*(starting from v2.35)*](/docs/versions-history#20210715-235)</sup>
 
-Set this parameter to true to activate Sum TakeProfit if both buy and sell trades are opened.
+Set this parameter to **true** to activate Sum TakeProfit if both buy and sell trades are opened (it will not work if only one direction is opened).
 
 <br />
 
