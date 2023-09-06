@@ -16,7 +16,7 @@ Individual StopLoss is set for each position right after opening (if [Use Virtua
 
 ### StopLoss size
 
-StopLoss size (in points or Like Coefficient to Volatility).
+Individual StopLoss size (in points or Like Coefficient to Volatility).
 
 Set 0 to disable StopLoss.
 
