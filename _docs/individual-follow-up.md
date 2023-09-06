@@ -28,6 +28,30 @@ StopLoss can be set:
 
 <br />
 
+
+# Individual TakeProfit
+
+<sup>[*(starting from v2.55.2)*](/docs/versions-history#20230818-0905-2552)</sup>
+
+Individual TakeProfit is set for each position right after opening (if [Use Virtual TP](/docs/follow-up#use-virtual-takeprofit) is disabled) or checked on each tick (if Use Virtual TP is enabled).
+
+<br />
+
+### TakeProfit size
+
+TakeProfit size.
+
+<br />
+
+### TakeProfit calc mode
+
+TakeProfit can be set:
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+
+<br />
+
+
 # Individual BreakEven
 
 <sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
