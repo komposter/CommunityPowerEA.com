@@ -580,7 +580,7 @@ permalink: /docs/versions-history
 
 ### 2022.10.07 (2.49)
 * [+] EveryDay session duration (mins) (0 - use end hour and minute)
-* [+] 2 CustomIndy signals
+* [+] 2 [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] Spread filter: apply to first/apply to martin
 * [+] BreakEven
 * [+] [Risk per currency](/docs/risk-per-currency)
@@ -648,8 +648,8 @@ permalink: /docs/versions-history
 <br />
 
 ### 2023.04.27-07.06 (2.54)
-* [+] Individual BreakEven
-* [+] 3rd CustomIndy signal
+* [+] [Individual BreakEven](/docs/individual-follow-up#individual-breakeven)
+* [+] 3rd [CustomIndy signal](/docs/signals-and-filters#custom-indicators)
 * [+] 4th ActivePeriod
 * [+] ActivePeriod for BreakEven, TrailingStop, and Individual BreakEven
 * [*] Open trade by panel button: if price is above the highest buy open price / below the lowest sell open price, anti-martingale trade is open (with the corresponding settings)
@@ -690,8 +690,8 @@ permalink: /docs/versions-history
 <br />
 
 ### 2023.08.18-09.05 (2.55.2):
-* [+] Individual SL and TP
-* [+] 2 more Custom indicators
+* [+] [Individual SL and TP](/docs/individual-follow-up#individual-stoploss)
+* [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] Pivot Filter with 4 separate signals
 
 [<button class="btn btn-success">Download v2.55.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.2.ex5)

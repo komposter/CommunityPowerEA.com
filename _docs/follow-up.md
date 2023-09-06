@@ -13,9 +13,15 @@ In this section you can set parameters that affect position management after it 
 
 # StopLoss
 
+StopLoss for all positions in series.
+
+<br />
+
 ### StopLoss size
 
-StopLoss for all positions in series (for the single position, if martingale and anti-martingale disabled).
+StopLoss size (in points or Like Coefficient to Volatility).
+
+Set 0 to disable StopLoss.
 
 <br />
 
@@ -99,9 +105,15 @@ Set **false** to set the real SL for all orders (if possible).
 
 # TakeProfit
 
+TakeProfit for all positions in series.
+
+<br />
+
 ### TakeProfit size
 
-TakeProfit size (In points or Like Coefficient to Volatility) (0 - disabled)
+TakeProfit size (in points or Like Coefficient to Volatility).
+
+Set 0 to disable TakeProfit.
 
 <br />
 

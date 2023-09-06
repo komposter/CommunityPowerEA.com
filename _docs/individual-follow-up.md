@@ -16,7 +16,9 @@ Individual StopLoss is set for each position right after opening (if [Use Virtua
 
 ### StopLoss size
 
-StopLoss size.
+StopLoss size (in points or Like Coefficient to Volatility).
+
+Set 0 to disable StopLoss.
 
 <br />
 
@@ -39,7 +41,9 @@ Individual TakeProfit is set for each position right after opening (if [Use Virt
 
 ### TakeProfit size
 
-TakeProfit size.
+Individual TakeProfit size (in points or Like Coefficient to Volatility).
+
+Set 0 to disable TakeProfit.
 
 <br />
 
