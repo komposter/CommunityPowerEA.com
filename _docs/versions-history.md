@@ -686,3 +686,13 @@ permalink: /docs/versions-history
 
 [<button class="btn btn-success">Download v2.55 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex5)
 [<button class="btn btn-primary">Download v2.55 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.ex4)
+
+<br />
+
+### 2023.08.18-09.05 (2.55.2):
+* [+] Individual SL and TP
+* [+] 2 more Custom indicators
+* [+] Pivot Filter with 4 separate signals
+
+[<button class="btn btn-success">Download v2.55.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.2.ex5)
+[<button class="btn btn-primary">Download v2.55.2 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.2.ex4)

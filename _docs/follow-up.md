@@ -15,7 +15,7 @@ In this section you can set parameters that affect position management after it 
 
 ### StopLoss size
 
-StopLoss for the last position in series (for the single position, if martingale disabled)
+StopLoss for all positions in series (for the single position, if martingale and anti-martingale disabled).
 
 <br />
 

@@ -4,13 +4,37 @@ title: Individual follow-up
 permalink: /docs/individual-follow-up
 ---
 
+# Individual StopLoss
+
+<sup>[*(starting from v2.55.2)*](/docs/versions-history#20230818-0905-2552)</sup>
+
+Individual StopLoss is set for each position right after opening (if [Use Virtual SL](/docs/follow-up#use-virtual-stoploss) is disabled) or checked on each tick (if Use Virtual SL is enabled).
+
+{% include alert.html type="warning" title="Be careful" content="Order closed by SL can be immediately reopened (if it is a martingale order and all conditions for opening are met)" %}
+
+<br />
+
+### StopLoss size
+
+StopLoss size.
+
+<br />
+
+### StopLoss calc mode
+
+StopLoss can be set:
+* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+
+<br />
+
 # Individual BreakEven
 
 <sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
 
 Individual BE can only move SL in profit direction, it is always real (not virtual) and it can be replaced by a group SL, if the last one is set at a better price (for example, by trailing stop).
 
-{% include alert.html type="warning" title="Be careful" content="Order closed by BE can be immediately reopened (if it is a martingale and all conditions for opening are met)" %}
+{% include alert.html type="warning" title="Be careful" content="Order closed by BE can be immediately reopened (if it is a martingale order and all conditions for opening are met)" %}
 
 <br />
 
