@@ -29,7 +29,7 @@ StopLoss can be set:
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
-
+<br />
 
 # Individual TakeProfit
 
@@ -54,7 +54,7 @@ TakeProfit can be set:
 * Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
-
+<br />
 
 # Individual BreakEven
 
