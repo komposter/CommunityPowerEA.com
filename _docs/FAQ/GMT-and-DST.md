@@ -35,7 +35,7 @@ Always check both summer and winter periods, lines should fit the movements all 
 
 You can use these sets to check GMT and DST:
 
-* [Set for MT4 (CP v2.29)](/assets/sets/CP_MT4_USD_GMTandDST_check.set)
-* [Set for MT5 (CP v2.29)](/assets/sets/CP_MT5_USD_GMTandDST_check.set)
+* [Set for MT4 (CP v2.55)](/assets/sets/CP_MT4_USD_GMTandDST_check.set)
+* [Set for MT5 (CP v2.55)](/assets/sets/CP_MT5_USD_GMTandDST_check.set)
 
 If you experience problems with GMT and DST configuration, look for help on the [community forum](https://forum.communitypowerea.com/communities/7/topics/273-how-to-set-the-correct-gmt-and-dst-for-your-broker).
