@@ -694,13 +694,13 @@ permalink: /docs/versions-history
 * [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
-* [*] Manually created objects do not lose focus immediately after creation (MT5)
-* [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
-* [*] Line filters: Max Distance bug fixed
 * [+] Custom indy: "Above/below the line/last arrow" and "On line/last arrow cross" modes
 * [+] Hedge: Main series detection by sum volume
 * [+] Optimization: Trades per year: min and good
-* [*] Individual StopLoss and TakeProfit fixed for pending orders
+* [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
+* [*] [Line Filters](/docs/signals-and-filters#line-filters): Max Distance bug fixed
+* [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
+* [*] Manually created objects do not lose focus immediately after creation (MT5)
 
 [<button class="btn btn-success">Download v2.55.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex5)
 [<button class="btn btn-primary">Download v2.55.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex4)
