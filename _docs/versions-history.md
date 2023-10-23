@@ -691,12 +691,11 @@ permalink: /docs/versions-history
 
 ### 2023.08.18-10.25 (2.56):
 * [+] GUI improved with [Close checkboxes](/docs/gui#close-checkboxes), new colors and logo
-* [+] [Individual SL and TP](/docs/individual-follow-up#individual-stoploss)
+* [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
 * [*] Manually created objects do not lose focus immediately after creation (MT5)
-* [*] GlobalAccountClose: "Stop Till Tomorrow" works correct if it was set by another EA
-* [+] Individual TrailingStop
+* [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
 * [*] Line filters: Max Distance bug fixed
 * [+] Custom indy: "Above/below the line/last arrow" and "On line/last arrow cross" modes
 * [+] Hedge: Main series detection by sum volume

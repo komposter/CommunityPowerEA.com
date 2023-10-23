@@ -81,3 +81,48 @@ BreakEven can be **always active** or use 1 of 4 predefined periods.
 Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
 
 BreakEven works only if it is active.
+
+<br />
+<br />
+
+# Individual TrailingStop
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+Individual TrailingStop can only move SL in profit direction, it is always real (not virtual) and it can be replaced by a group SL, if the last one is set at a better price (for example, by trailing stop).
+
+{% include alert.html type="warning" title="Be careful" content="Order closed by TrailingStop can be immediately reopened (if it is a martingale order and all conditions for opening are met)" %}
+
+<br />
+
+### TrailingStop size
+
+Individual TrailingStop size in points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+Set 0 to disable TrailingStop.
+
+<br />
+
+### Min profit to protect
+
+TrailingStop will move SL only to the level where profit is more than **Min profit to protect** points.
+
+Set 0 to make first modification of SL to the level of position open price.
+
+<br />
+
+### Trailing step
+
+Trailing step in points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+SL will be moved minimum by **Trailing step** points.
+
+<br />
+
+### ActivePeriod
+
+TrailingStop can be **always active** or use 1 of 4 predefined periods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
+
+TrailingStop works only if it is active.
