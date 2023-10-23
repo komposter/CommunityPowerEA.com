@@ -776,7 +776,7 @@ Symbol to calculate Pivot. Leave empty to use current symbol.
 
 ### Pivot calculation mode
 
-Pivot calculation mode:
+Pivot calculation mode can be one of the following:
 * **Classic**
 * **Woodie**
 * **Camarilla**
@@ -809,7 +809,7 @@ Distance calculation type:
 
 ### Visualization properties
 
-Enable visualization to understand signals better.
+Enable visualization to understand signals better. You can choose:
  * Lines width
  * Lines style
  * Pivot Level Color
@@ -864,6 +864,9 @@ Level to use as a filter:
 * **Support / Resistance #2**
 * **Support / Resistance #3**
 * **Support / Resistance #4**
+
+> For example, if **Use level** = **Support / Resistance #2** and **Type** = **Buy below Level / Sell above Level**, 
+> BUYs will be allowed if Ask below the **Support #2** and SELLs will be allowed if Bid above the **Resistance #2**.
 
 For some Pivot calculation modes, not all levels are available.
 
