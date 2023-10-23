@@ -11,11 +11,15 @@ Hedge -- is a position in the opposite direction to the existing (main) position
 
 If you already have a main series started (for example, buy), hedge (sell) can be opened only if all hedge-rules are passed (details in the table below).
 
-Main series remains main, as long as the first order open time is less than the open time of the first hedge order. Thus, if your main series is closed, and the hedge is still open, the hedge series becomes main.
+Main series remains main, as long as the first order open time is less than the open time of the first hedge order (can be changed by the [Main series detection by sum volume](/docs/hedge#main-series-detection-by-sum-volume) parameter).
+Thus, if your main series is closed, and the hedge is still open, the hedge series becomes main.
 
 > For example, you had 3 sell orders in the main series, one buy order in the hedge series, and all sells were closed by TakeProfit. Now your buy-order -- is the first order of the new main series.
 
-Hedge series can also become main, if the first main order is closed and the first hedge order open time becomes smallest within all open trades. This can be done by Partial close or manually, for example.
+Hedge series can also become main:
+
+* If [Main series detection by sum volume](#main-series-detection-by-sum-volume) = false: if the first main order is closed and the first hedge order open time becomes smallest within all open trades. This can be done by Partial close or manually, for example.
+* If [Main series detection by sum volume](/docs/hedge#main-series-detection-by-sum-volume) = true: if the sum volume of the hedge series becomes bigger than the sum volume of the main series. This can happen if there are more signals in hedge direction, for example.
 
 If you want to replace **Auto-hedge after order #**, that was available before v2.50, set:
 * Allow hedge on its own signal only = False
@@ -141,3 +145,12 @@ Allows to open a hedge order if there were no hedge-orders opened or closed on t
 
 If **false**, multiple hedge orders can be opened one after another on the same signal or after the same main order.
 
+<br />
+
+### Main series detection by sum volume
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+If **false**, main series remains main, as long as the first order open time is less than the open time of the first hedge order.
+
+If **true**, main series is defined as a series with the biggest sum volume of all orders. So, if the sum volume of the hedge series becomes bigger than the sum volume of the main series, the hedge series becomes main.
