@@ -107,6 +107,8 @@ Set 0 to disable TrailingStop.
 
 TrailingStop will move SL only to the level where profit is more than **Min profit to protect** points.
 
+> For example, if **TrailingStop size** = 20 points and **Min profit to protect** = 10 points, SL will be moved if profit is more than 30 points (SL will protect 10 points of profit).
+
 Set 0 to make first modification of SL to the level of position open price.
 
 <br />
@@ -115,7 +117,7 @@ Set 0 to make first modification of SL to the level of position open price.
 
 Trailing step in points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
-SL will be moved minimum by **Trailing step** points.
+SL can be moved by at least **Trailing step** points.
 
 <br />
 
