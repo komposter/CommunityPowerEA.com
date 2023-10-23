@@ -764,10 +764,132 @@ If **true**, the signal can't change in the middle of the bar.
 <br />
 <br />
 
-# Pivot filter
+# Pivot Filter
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
 
+### Pivot symbol
+
+Symbol to calculate Pivot. Leave empty to use current symbol.
+
+<br />
+
+### Pivot calculation mode
+
+Pivot calculation mode:
+* **Classic**
+* **Woodie**
+* **Camarilla**
+* **Fibonacci**
+* **Demark**
+
+<br />
+
+### Pivot TimeFrame
+
+TimeFrame to calculate Pivot
+
+<br />
+
+### Check Interval
+
+Pivot signals can be checked on every tick, or on every bar of the specified TimeFrame.
+
+Use **Every tick** for the most accurate signals.
+
+<br />
+
+### Distance calculation type
+
+Distance calculation type:
+* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient"
+
+<br />
+
+### Visualization properties
+
+Enable visualization to understand signals better.
+ * Lines width
+ * Lines style
+ * Pivot Level Color
+ * Support Levels Color
+ * Resistance Levels Color
+
+Set **Lines width** = 0 to disable visualization.
+
+<br />
+
+### Pivot Level #1-4 properties
+
+#### Type
+
+Type of Pivot filter:
+* **Disabled**: filter disabled
+
+* **Buy below Level / Sell above Level**:
+    * BUYs are allowed if current price is below the level by **Distance**:
+      * Level - price >= **Distance**
+    * SELLs are allowed if current price is above the level by **Distance**:
+      * price - Level >= **Distance**
+
+
+* **Buy on cross DN / Sell on cross UP**:
+    * BUYs are allowed if price crosses the level upward by **Distance**:
+      * Level - price >= **Distance** [on current bar]
+      * Level - price < **Distance** [on previous bar]
+    * SELLs are allowed if price crosses the level downward by **Distance**:
+      * price - Level >= **Distance** [on current bar]
+      * price - Level < **Distance** [on previous bar]
+
+<br />
+
+**Price** depends on the "Use closed bars only" parameter:
+
+ * If "Use closed bars only" = **false**:
+   * Price on current bar = **Ask** for BUYs, **Bid** for SELLs
+   * Price on previous bar = **Open** price of the previous bar
+
+ * If "Use closed bars only" = **true**:
+   * Price on current bar = **Open** price of the current bar
+   * Price on previous bar = **Open** price of the previous bar
+
+<br />
+
+#### Use level
+
+Level to use as a filter:
+* **Pivot Level**
+* **Support / Resistance #1**
+* **Support / Resistance #2**
+* **Support / Resistance #3**
+* **Support / Resistance #4**
+
+For some Pivot calculation modes, not all levels are available.
+
+<br />
+
+#### Distance value
+
+Distance value for signal calculation.
+
+Distance can be negative (so, in **Buy below Level** mode, BUYs will be allowed if Ask above the level, but not more than by distance points).
+
+<br />
+
+#### Max Distance value
+
+Max distance value.
+
+> For example, if **Distance value** = 10, **Max Distance value** = 20, Sell above Level signal will be active if **Max Distance** >= price - Level >= **Distance**.
+
+Set 0 to disable this limit.
+
+<br />
+
+#### Reverse mode
+
+Reverse all Pivot filter signals
 
 <br />
 <br />
