@@ -689,10 +689,10 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.08.18-09.05 (2.55.2):
+### 2023.08.18-10.25 (2.56):
 * [+] [Individual SL and TP](/docs/individual-follow-up#individual-stoploss)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
-* [+] Pivot Filter with 4 separate signals
+* [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
 
-[<button class="btn btn-success">Download v2.55.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.2.ex5)
-[<button class="btn btn-primary">Download v2.55.2 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.2.ex4)
+[<button class="btn btn-success">Download v2.55.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex5)
+[<button class="btn btn-primary">Download v2.55.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex4)

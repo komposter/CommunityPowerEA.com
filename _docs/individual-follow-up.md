@@ -6,7 +6,7 @@ permalink: /docs/individual-follow-up
 
 # Individual StopLoss
 
-<sup>[*(starting from v2.55.2)*](/docs/versions-history#20230818-0905-2552)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
 
 Individual StopLoss is set for each position right after opening (if [Use Virtual SL](/docs/follow-up#use-virtual-stoploss) is disabled) or checked on each tick (if Use Virtual SL is enabled).
 
@@ -33,7 +33,7 @@ StopLoss can be set:
 
 # Individual TakeProfit
 
-<sup>[*(starting from v2.55.2)*](/docs/versions-history#20230818-0905-2552)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
 
 Individual TakeProfit is set for each position right after opening (if [Use Virtual TP](/docs/follow-up#use-virtual-takeprofit) is disabled) or checked on each tick (if Use Virtual TP is enabled).
 

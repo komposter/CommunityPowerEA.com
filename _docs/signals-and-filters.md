@@ -764,6 +764,14 @@ If **true**, the signal can't change in the middle of the bar.
 <br />
 <br />
 
+# Pivot filter
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+
+<br />
+<br />
+
 # ZigZag Filter
 
 <sup>[*(starting from v2.30)*](/docs/versions-history#20210419-230)</sup>
