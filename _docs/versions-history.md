@@ -702,5 +702,5 @@ permalink: /docs/versions-history
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
 * [*] Manually created objects do not lose focus immediately after creation (MT5)
 
-[<button class="btn btn-success">Download v2.55.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex5)
-[<button class="btn btn-primary">Download v2.55.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.6.ex4)
+[<button class="btn btn-success">Download v2.55.9 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.9.ex5)
+[<button class="btn btn-primary">Download v2.55.9 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.9.ex4)
