@@ -1211,6 +1211,16 @@ Custom indicator signal type. Can be one of the following:
   For example, if the latest arrow is UP, buys are allowed, if the latest arrow is DN, sells are allowed, and if there are both arrows on the same bar, both buys and sells are   allowed after it.
 
 
+* **Above/below the line/last arrow**
+    * BUYs are allowed if the close price is above the line/arrow in the Buy-buffer. If the Buy-buffer is empty, the last bar with some value in the Buy-buffer is used.
+    * SELLs are allowed if the close price is below the line/arrow in the Sell-buffer. If the Sell-buffer is empty, the last bar with some value in the Sell-buffer is used.
+
+
+* **On line/last arrow cross**
+    * BUYs are allowed on the bar where the close price crosses above the line/arrow in the Buy-buffer. If the Buy-buffer is empty, the last bar with some value in the Buy-buffer is used. For arrows, only the first cross is used.
+    * SELLs are allowed on the bar where the close price crosses below the line/arrow in the Sell-buffer. If the Sell-buffer is empty, the last bar with some value in the Sell-buffer is used. For arrows, only the first cross is used.
+
+
 * **On lines cross**:
     * BUYs are allowed on the bar where line from the Buy-buffer crosses above the line from the Sell-buffer
     * SELLs are allowed on the bar where line from the Buy-buffer crosses below the line from the Sell-buffer

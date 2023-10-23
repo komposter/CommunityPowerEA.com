@@ -694,7 +694,7 @@ permalink: /docs/versions-history
 * [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
-* [+] CustomIndy: "Above/below the line/last arrow" and "On line/last arrow cross" modes
+* [+] CustomIndy: ["Above/below the line/last arrow" and "On line/last arrow cross" modes](/docs/signals-and-filters#type-4)
 * [+] Hedge: [Main series detection by sum volume](/docs/hedge#main-series-detection-by-sum-volume)
 * [+] Optimization: Trades per year: min and good
 * [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
