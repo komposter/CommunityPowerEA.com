@@ -87,3 +87,40 @@ Correlation calculation type for R^2 criterion:
 * Pearson's correlation
 * Spearman's Rank-Order correlation
 
+<br />
+
+### Trades per year: min and good
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+Works with R^2 criterion only.
+
+If defined, final result is adjusted by coefficient that calculated as:
+* 0 -- if the "fact number of trades per year" < "min"
+* 1 -- if the "fact number of trades per year" >= "good"
+* in a range [0:1] -- if the "fact number of trades per year" is between "min" and "good"
+
+> For example, if you set "min" to 100 and "good" to 200, and "fact number of trades per year" is 150, then coefficient will be 0.5
+
+If you set only "min" value ("good" = 0, means disabled), then adjustment will be made only if "fact number of trades per year" < "min" (coefficient will be 0).
+
+More examples for different settings:
+
+| R^2 | min | good | trades <br />per year | adjustment <br />coefficient | final <br />result |
+| --- |-----| --- |-----------------------|------------------------|--------------|
+| 0.9 | 100 | 200 | 50                    | 0                      | 0.0          |
+| 0.9 | 100 | 200 | 150                   | 0.5                    | 0.45       |
+| 0.9 | 100 | 200 | 250                   | 1                      | 0.9          |
+| 0.9 | 100 | 0 | 75                    | 0                      | 0.0            |
+| 0.9 | 100 | 0 | 125                   | 1.0                    | 0.9            |
+| 0.9 | 100 | 0 | 175                   | 1.0                    | 0.9            |
+| 0.5 | 10  | 1000 | 100                   | 0.09                  | 0.045        |
+| 0.5 | 10  | 1000 | 505                   | 0.5                   | 0.25          |
+| 0.5 | 10  | 1000 | 901                   | 0.9                   | 0.45          |
+| 0.5 | 10  | 1000 | 1000                  | 1.0                   | 0.5            |
+| 0.5 | 10  | 1000 | 3576                  | 1.0                   | 0.5            |
+
+As you can see, adjustment coefficient can only decrease the final result for low number of trades per year. After "good" value is reached, adjustment coefficient is 1.0 and doesn't change the final result.
+
+
+

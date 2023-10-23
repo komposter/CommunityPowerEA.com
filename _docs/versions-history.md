@@ -696,7 +696,7 @@ permalink: /docs/versions-history
 * [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
 * [+] CustomIndy: ["Above/below the line/last arrow" and "On line/last arrow cross" modes](/docs/signals-and-filters#type-4)
 * [+] Hedge: [Main series detection by sum volume](/docs/hedge#main-series-detection-by-sum-volume)
-* [+] Optimization: Trades per year: min and good
+* [+] Optimization: [Trades per year: min and good](/docs/backtesting-and-optimization#Trades-per-year-min-and-good)
 * [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
 * [*] [Line Filters](/docs/signals-and-filters#line-filters): Max Distance bug fixed
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
