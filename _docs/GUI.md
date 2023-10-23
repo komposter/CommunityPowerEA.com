@@ -20,6 +20,18 @@ You can use expert panel for one click trading (with and without confirmation). 
 ![one-click-trading.gif](..%2Fassets%2Fimg%2Fdocs%2Fone-click-trading.gif)
 
 <br />
+
+### Close checkboxes
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+If the checkbox is unchecked, closing by SL, TP, TS, BE, signal and Partial close are disabled.
+
+Sum StopLoss, Sum TakeProfit and Partial close in the 'Any with any' mode work if the Close checkboxes are checked for both Buy and Sell.
+
+GlobalAccountClose and closing by GUI buttons work with any state of these checkboxes.
+
+<br />
 <br />
 
 # GUI parameters
