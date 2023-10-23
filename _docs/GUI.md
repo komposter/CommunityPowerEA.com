@@ -25,11 +25,13 @@ You can use expert panel for one click trading (with and without confirmation). 
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
 
-If the checkbox is unchecked, closing by SL, TP, TS, BE, signal and Partial close are disabled.
+If the checkbox is unchecked, closing by [StopLoss](/docs/follow-up#stoploss), [TakeProfit](/docs/follow-up#takeprofit), 
+[BreakEven](/docs/follow-up#breakeven), [TrailingStop](/docs/follow-up#trailingstop), [Partial close](/docs/partial-close) and any [Signal](/docs/signals-and-filters) is disabled for this direction.
 
-Sum StopLoss, Sum TakeProfit and Partial close in the 'Any with any' mode work if the Close checkboxes are checked for both Buy and Sell.
+[Sum StopLoss](/docs/follow-up#sum-stoploss-in-account-currency), [Sum TakeProfit](/docs/follow-up#sum-takeprofit-in-account-currency) and 
+Partial close in the ['Any with any' mode](/docs/partial-close#any-with-any) work if the Close checkboxes are checked **for both Buy and Sell**.
 
-GlobalAccountClose and closing by GUI buttons work with any state of these checkboxes.
+[Global Account Closing](/docs/global-account-properties) and closing by GUI buttons work with **any state of these checkboxes**.
 
 <br />
 <br />
