@@ -173,6 +173,16 @@ Can be:
 
 Set **true** to enable simple TakeProfit for series with anti-martingale trade open.
 
+<br />
+
+### ActivePeriod
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+New anti-martingale trade can be opened only during the specified ActivePeriods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
+
 
 <br />
 <br />
@@ -182,6 +192,4 @@ Set **true** to enable simple TakeProfit for series with anti-martingale trade o
 <sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 Set **true** to allow martingale deals if any anti-martingale deal is opened and vice versa.
-
-
 

@@ -183,3 +183,12 @@ Send a message to Grammy when your series containing a specified number of order
 
 Set 0 to disable BreakEven alert.
 
+<br />
+
+### ActivePeriod
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+New martingale trade can be opened only during the specified ActivePeriods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
