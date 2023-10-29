@@ -72,6 +72,20 @@ If **true**, orders are sorted by profit before partial close. So, the most prof
 If **false**, orders are sorted by opening time before partial close. So, the oldest orders will be closed with the newest ones.
 
 <br />
+
+### ActivePeriod
+
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+Partial close can be done only during the specified ActivePeriods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
+
+In the 'Any with any' mode, active period should be active for one of the directions (buy or sell).
+
+> For example, if you set 'Activate after trades number >= 3', Partial close 'any with any' will be active if there are 3 buy or 3 sell orders opened.
+
+<br />
 <br />
 
 # ~~Partial close hedge~~
