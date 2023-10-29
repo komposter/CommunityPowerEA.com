@@ -665,7 +665,7 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.07.20-08.18 (2.55):
+### 2023.07.20-08.18 (2.55)
 * [+] [Cancel TakeProfit if both buy and sell are open]({{site.baseurl}}/docs/follow-up#cancel-takeprofit-if-both-buy-and-sell-are-open)
 * [+] [Disable TrailingStop if both buy and sell are open]({{site.baseurl}}/docs/follow-up#disable-trailingstop-if-both-buy-and-sell-are-open)
 * [+] Lot increasing mode: [Last deal lot * distance * coeff]({{site.baseurl}}/docs/martingale#lot-increasing-mode)
@@ -689,7 +689,7 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.08.18-10.25 (2.56):
+### 2023.08.18-10.25 (2.56)
 * [+] GUI improved with [Close checkboxes](/docs/gui#close-checkboxes), new colors and logo
 * [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
@@ -704,5 +704,5 @@ permalink: /docs/versions-history
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
 * [*] Manually created objects do not lose focus immediately after creation (MT5)
 
-[<button class="btn btn-success">Download v2.55.9 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.9.ex5)
-[<button class="btn btn-primary">Download v2.55.9 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.9.ex4)
+[<button class="btn btn-success">Download v2.55.11 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex5)
+[<button class="btn btn-primary">Download v2.55.11 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex4)
