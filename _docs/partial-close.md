@@ -55,6 +55,15 @@ Same side closings (most losing buy with several profitable buys, for example) a
 
 <br />
 
+### Close any with any on signal
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+Allows **partial close any with any** only if there is a signal for partial close (**Partial close on** parameter in each filter settings).
+
+Both buy and sell signals are checked.
+
+<br />
+
 ### Close profit itself
 <sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 

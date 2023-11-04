@@ -613,10 +613,9 @@ permalink: /docs/versions-history
 
 ### 2023.02.11-03.24 (2.52)
 * [+] Max profit to close on signal
-* [+] Active Periods
+* [+] [Active Periods](/docs/active-periods)
 * [+] Min profit to close on signal fix
 * [*] TDI fix (MT5 tester only)
-* [*] Active Periods are applied to close signals
 * [*] TrailingStop works correctly with enabled "Allow dragging the lines to modify SL/TP" in the visual mode of MT5
 * [*] "... line has been moved to 0" message fixed
 * [+] Oscillators: Reversal signal type
@@ -699,10 +698,13 @@ permalink: /docs/versions-history
 * [+] Optimization: [Trades per year: min and good](/docs/backtesting-and-optimization#trades-per-year-min-and-good)
 * [+] ActivePeriod for [martingale](/docs/martingale#activeperiod) and [anti-martingale](/docs/anti-martingale#activeperiod)
 * [+] ActivePeriod for [Partial Close](/docs/partial-close#activeperiod)
+* [+] PartialClose: [Close any with any on signal](/docs/partial-close#close-any-with-any-on-signal)
 * [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
 * [*] [Line Filters](/docs/signals-and-filters#line-filters): Max Distance bug fixed
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
 * [*] Manually created objects do not lose focus immediately after creation (MT5)
+* [*] [R squared](/docs/backtesting-and-optimization#custom-optimization-criterion) calculation fixed for backtests with million and more equity points
+* [*] [Active Periods](/docs/active-periods): Save/load state on reload
 
 [<button class="btn btn-success">Download v2.55.11 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex5)
 [<button class="btn btn-primary">Download v2.55.11 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex4)
