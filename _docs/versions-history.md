@@ -708,5 +708,5 @@ permalink: /docs/versions-history
 * [*] [R squared](/docs/backtesting-and-optimization#custom-optimization-criterion) calculation fixed for backtests with million and more equity points
 * [*] [Active Periods](/docs/active-periods): Save/load state on reload
 
-[<button class="btn btn-success">Download v2.55.11 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex5)
-[<button class="btn btn-primary">Download v2.55.11 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.11.ex4)
+[<button class="btn btn-success">Download v2.55.14 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex5)
+[<button class="btn btn-primary">Download v2.55.14 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex4)
