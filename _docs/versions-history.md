@@ -700,6 +700,7 @@ permalink: /docs/versions-history
 * [+] ActivePeriod for [martingale](/docs/martingale#activeperiod) and [anti-martingale](/docs/anti-martingale#activeperiod)
 * [+] ActivePeriod for [Partial Close](/docs/partial-close#activeperiod)
 * [+] PartialClose: [Close any with any on signal](/docs/partial-close#close-any-with-any-on-signal)
+* [+] Hedge: [Max difference in the number of trades](/docs/hedge#max-difference-in-the-number-of-trades)
 * [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
 * [*] [Line Filters](/docs/signals-and-filters#line-filters): Max Distance bug fixed
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders

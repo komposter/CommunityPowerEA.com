@@ -49,7 +49,6 @@ If **false**:
 <br />
 
 ### Allow hedge on its own signal only
-
 <sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
 If **true**, allows a new hedge order only on its own signal (one of the signals with “Open hedge on” = Open on individual/collective signal).
@@ -61,7 +60,6 @@ After the first entry, hedge-series works like the main series (with martingale,
 <br />
 
 ### Increase hedge lot after order #, Increase lot coefficient, Apply coefficient to
-
 <sup>*([starting from v2.32](/docs/versions-history#20210605-232), [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
 
 If there are X sell trades opened and buy signal appears, lot for the new buy order will be calculated using these parameters.
@@ -77,7 +75,6 @@ Set **Increase hedge lot after order = 0** to disable this feature.
 <br />
 
 ### Allow hedge only after main order #
-
 <sup>*([starting from v2.25](/docs/versions-history#20210115-225), [refactored in 2.50](/docs/versions-history#20221014-20230107-250))*</sup>
 
 Allows to open a hedge series (buy, if sell is already active, or sell, if buy is already active) only if there are X open orders of main series.
@@ -97,7 +94,6 @@ Set 0 to disable the limit.
 <br />
 
 ### Min distance from the main order (points)
-
 <sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
 
 Allows to open a new hedge (buy, if sell is already active, or sell, if buy is already active) only if distance from the main order open price is >= X points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
@@ -107,7 +103,6 @@ Set 0 to disable this filter.
 <br />
 
 ### Min distance calculation type
-
 <sup>[*(starting from v2.54)*](/docs/versions-history#20230427-0706-254)</sup>
 
 Distance for **Min distance from the main order** filter can be calculated from the:
@@ -126,7 +121,6 @@ Set 0 to disable this filter.
 <br />
 
 ### Allow hedge only right after main position open
-
 <sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
 Allows to open a hedge order only within 60 seconds after main order opening.
@@ -138,7 +132,6 @@ If **false**, hedge can be opened at any time while the main series exists (all 
 <br />
 
 ### Allow hedge on new bar only
-
 <sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
 Allows to open a hedge order if there were no hedge-orders opened or closed on this bar of Signal TimeFrame. This means that a new hedge can be opened only on the next bar after the previous one.
@@ -148,9 +141,21 @@ If **false**, multiple hedge orders can be opened one after another on the same 
 <br />
 
 ### Main series detection by sum volume
-
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
 
 If **false**, main series remains main, as long as the first order open time is less than the open time of the first hedge order.
 
 If **true**, main series is defined as a series with the biggest sum volume of all orders. So, if the sum volume of the hedge series becomes bigger than the sum volume of the main series, the hedge series becomes main.
+
+<br />
+
+### Max difference in the number of trades
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+Limits opening of a new trade in the direction with more trades.
+
+> For example, if there are 3 sell trades and 1 buy trade, and **Max difference in the number of trades = 2**,
+> buy trade can be opened, but sell trade can't be opened. After buy trade is opened, there will be 3 sell trades and 2 buy trades,
+> so sell trade can be opened again.
+
+Set 0 to disable this filter.
