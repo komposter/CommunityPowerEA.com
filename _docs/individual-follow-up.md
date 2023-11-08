@@ -83,6 +83,13 @@ Each of 4 Active periods can be set in the [Active Periods for signals and filte
 BreakEven works only if it is active.
 
 <br />
+
+### Apply to Anti-martin orders only
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+
+If **true**, BreakEven will be applied only to Anti-martin orders.
+
+<br />
 <br />
 
 # Individual TrailingStop

@@ -691,6 +691,7 @@ permalink: /docs/versions-history
 ### 2023.08.18-10.25 (2.56)
 * [+] GUI improved with [Close checkboxes](/docs/gui#close-checkboxes), new colors and logo
 * [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
+* [+] Individual BreakEven: [Apply to Anti-martin orders only](/docs/individual-follow-up#apply-to-anti-martin-orders-only)
 * [+] 2 more [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
 * [+] [Pivot Filter](/docs/signals-and-filters#pivot-filter) with 4 separate signals
 * [+] CustomIndy: ["Above/below the line/last arrow" and "On line/last arrow cross" modes](/docs/signals-and-filters#type-4)
