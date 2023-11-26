@@ -711,7 +711,7 @@ permalink: /docs/versions-history
 * [*] [Enable alert on first signal](/docs/notifications#enable-alert-on-first-signal) disables Grammy message as well, if disabled
 * [*] Manually created objects do not lose focus immediately after creation (MT5)
 
-{% include alert.html type="warning" title="Warning" content="This version has new default parameters, including the Expert Id! If you use the EA with the default parameters, wait until all your open trades are closed before updating!" %}
+{% include alert.html type="warning" title="Warning" content="This version contains new default values of parameters, including Expert ID! If you use the EA with default parameters, wait until all open trades are closed before updating!" %}
 
 [<button class="btn btn-success">Download v2.56 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex5)
 [<button class="btn btn-primary">Download v2.56 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex4)
