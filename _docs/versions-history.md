@@ -713,5 +713,5 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="This version has new default parameters, including the Expert Id! If you use the EA with the default parameters, wait until all your open trades are closed before updating!" %}
 
-[<button class="btn btn-success">Download v2.55.14 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex5)
-[<button class="btn btn-primary">Download v2.55.14 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex4)
+[<button class="btn btn-success">Download v2.56 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex5)
+[<button class="btn btn-primary">Download v2.56 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex4)
