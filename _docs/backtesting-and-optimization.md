@@ -91,7 +91,7 @@ Correlation calculation type for R^2 criterion:
 
 ### Trades per year: min and good
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Works with R^2 criterion only.
 

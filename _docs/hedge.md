@@ -141,7 +141,7 @@ If **false**, multiple hedge orders can be opened one after another on the same 
 <br />
 
 ### Main series detection by sum volume
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 If **false**, main series remains main, as long as the first order open time is less than the open time of the first hedge order.
 
@@ -150,7 +150,7 @@ If **true**, main series is defined as a series with the biggest sum volume of a
 <br />
 
 ### Max difference in the number of trades
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Limits opening of a new trade in the direction with more trades.
 

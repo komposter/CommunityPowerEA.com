@@ -187,7 +187,7 @@ Set 0 to disable BreakEven alert.
 
 ### ActivePeriod
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 New martingale trade can be opened only during the specified ActivePeriods.
 

@@ -177,7 +177,7 @@ Set **true** to enable simple TakeProfit for series with anti-martingale trade o
 
 ### ActivePeriod
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 New anti-martingale trade can be opened only during the specified ActivePeriods.
 

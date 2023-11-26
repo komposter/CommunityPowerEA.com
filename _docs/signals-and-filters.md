@@ -116,6 +116,7 @@ Can be one of the following:
 * Stochastic K
 * Stochastic D [*(starting from v2.21)*](/docs/versions-history#20201130-221)
 * Momentum [*(starting from v2.16)*](/docs/versions-history#20200819-216)
+* Force Index [*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)
 
 <br />
 
@@ -766,7 +767,7 @@ If **true**, the signal can't change in the middle of the bar.
 
 # Pivot Filter
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 ### Pivot symbol
 

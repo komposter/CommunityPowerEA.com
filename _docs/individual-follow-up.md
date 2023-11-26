@@ -6,7 +6,7 @@ permalink: /docs/individual-follow-up
 
 # Individual StopLoss
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Individual StopLoss is set for each position right after opening (if [Use Virtual SL](/docs/follow-up#use-virtual-stoploss) is disabled) or checked on each tick (if Use Virtual SL is enabled).
 
@@ -33,7 +33,7 @@ StopLoss can be set:
 
 # Individual TakeProfit
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Individual TakeProfit is set for each position right after opening (if [Use Virtual TP](/docs/follow-up#use-virtual-takeprofit) is disabled) or checked on each tick (if Use Virtual TP is enabled).
 
@@ -85,7 +85,7 @@ BreakEven works only if it is active.
 <br />
 
 ### Apply to Anti-martin orders only
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 If **true**, BreakEven will be applied only to Anti-martin orders.
 
@@ -94,7 +94,7 @@ If **true**, BreakEven will be applied only to Anti-martin orders.
 
 # Individual TrailingStop
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Individual TrailingStop can only move SL in profit direction, it is always real (not virtual) and it can be replaced by a group SL, if the last one is set at a better price (for example, by trailing stop).
 

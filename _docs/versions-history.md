@@ -688,7 +688,8 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.08.18-10.25 (2.56)
+### 2023.08.18-11.24 (2.56)
+* [+] New default parameters (thanks Sai for contribution!)
 * [+] GUI improved with [Close checkboxes](/docs/gui#close-checkboxes), new colors and logo
 * [+] [Individual StopLoss, TakeProfit and TrailingStop](/docs/individual-follow-up#individual-stoploss)
 * [+] Individual BreakEven: [Apply to Anti-martin orders only](/docs/individual-follow-up#apply-to-anti-martin-orders-only)
@@ -697,16 +698,20 @@ permalink: /docs/versions-history
 * [+] CustomIndy: ["Above/below the line/last arrow" and "On line/last arrow cross" modes](/docs/signals-and-filters#type-4)
 * [+] Hedge: [Main series detection by sum volume](/docs/hedge#main-series-detection-by-sum-volume)
 * [+] Optimization: [Trades per year: min and good](/docs/backtesting-and-optimization#trades-per-year-min-and-good)
-* [+] ActivePeriod for [martingale](/docs/martingale#activeperiod) and [anti-martingale](/docs/anti-martingale#activeperiod)
-* [+] ActivePeriod for [Partial Close](/docs/partial-close#activeperiod)
+* [+] ActivePeriod for [martingale](/docs/martingale#activeperiod), [anti-martingale](/docs/anti-martingale#activeperiod) and  [Partial Close](/docs/partial-close#activeperiod)
 * [+] PartialClose: [Close any with any on signal](/docs/partial-close#close-any-with-any-on-signal)
 * [+] Hedge: [Max difference in the number of trades](/docs/hedge#max-difference-in-the-number-of-trades)
+* [+] [Oscillator filter](/docs/signals-and-filters#oscillator-filters-1-3): Force Index indicator
 * [*] [Global Account Closing](/docs/global-account-properties): "Stop Till Tomorrow" works correct if it was set by another EA
 * [*] [Line Filters](/docs/signals-and-filters#line-filters): Max Distance bug fixed
 * [*] [Individual StopLoss and TakeProfit](/docs/individual-follow-up#individual-stoploss) fixed for pending orders
-* [*] Manually created objects do not lose focus immediately after creation (MT5)
 * [*] [R squared](/docs/backtesting-and-optimization#custom-optimization-criterion) calculation fixed for backtests with million and more equity points
 * [*] [Active Periods](/docs/active-periods): Save/load state on reload
+* [*] [Active Periods](/docs/active-periods): Correct activation for <= trades number or dd
+* [*] [Enable alert on first signal](/docs/notifications#enable-alert-on-first-signal) disables Grammy message as well, if disabled
+* [*] Manually created objects do not lose focus immediately after creation (MT5)
+
+{% include alert.html type="warning" title="Warning" content="This version has new default parameters, including the Expert Id! If you use the EA with the default parameters, wait until all your open trades are closed before updating!" %}
 
 [<button class="btn btn-success">Download v2.55.14 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex5)
 [<button class="btn btn-primary">Download v2.55.14 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.55.14.ex4)

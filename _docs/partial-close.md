@@ -56,7 +56,7 @@ Same side closings (most losing buy with several profitable buys, for example) a
 <br />
 
 ### Close any with any on signal
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Allows **partial close any with any** only if there is a signal for partial close (**Partial close on** parameter in each filter settings).
 
@@ -84,7 +84,7 @@ If **false**, orders are sorted by opening time before partial close. So, the ol
 
 ### ActivePeriod
 
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1025-256)</sup>
+<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 
 Partial close can be done only during the specified ActivePeriods.
 
