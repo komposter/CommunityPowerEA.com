@@ -715,3 +715,4 @@ permalink: /docs/versions-history
 
 [<button class="btn btn-success">Download v2.56 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex5)
 [<button class="btn btn-primary">Download v2.56 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex4)
+[<button class="btn btn-success">Download v2.56 for MT5 with all input parameters (not for tester)</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.a.ex5)
