@@ -716,3 +716,13 @@ permalink: /docs/versions-history
 [<button class="btn btn-success">Download v2.56 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex5)
 [<button class="btn btn-primary">Download v2.56 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.ex4)
 [<button class="btn btn-info">Download v2.56.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.56.a.ex5)
+
+
+<br />
+
+### 2023.11.27 (2.57)
+* [*] [Active Periods](/docs/active-periods): Bug fix
+
+[<button class="btn btn-success">Download v2.57 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.ex5)
+[<button class="btn btn-primary">Download v2.57 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.ex4)
+[<button class="btn btn-info">Download v2.57.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.a.ex5)
