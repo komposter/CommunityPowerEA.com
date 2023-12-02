@@ -27,7 +27,7 @@ Set 0 to disable partial close.
 
 ### Min profit to close
 
-Min profit (in account currency / in% from balance) to close part of orders in series.
+Min profit (in account currency / in % from balance) to close part of orders in series.
 
 <br />
 
@@ -41,6 +41,15 @@ Percent of losing order that can be closed with profit by Partial close.
 <br />With **Min profit to close** = 10 we can close only 50% (0.6 lots) of losing order, and have +50 - 40 = +10 total profit. So, if **Min part of losing order to close = 50% or less**, orders will be closed.
 
 By default, only the entire order can be closed (**Min part of losing order to close** = 100%). Value of 0 also disables this function.
+
+<br />
+
+### Max profitable orders to close
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1202-258)</sup>
+
+Max number of profitable orders to close.
+
+Set 0 to disable this filter.
 
 <br />
 

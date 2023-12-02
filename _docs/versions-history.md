@@ -726,3 +726,16 @@ permalink: /docs/versions-history
 [<button class="btn btn-success">Download v2.57 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.ex5)
 [<button class="btn btn-primary">Download v2.57 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.ex4)
 [<button class="btn btn-info">Download v2.57.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.a.ex5)
+
+
+<br />
+
+### 2023.11.27-12.02 (2.58)
+* [+] [Directional change filter](/docs/signals-and-filters#directional-change-filter) : Change dir after profit
+* [*] [Max Current Spread](/docs/signals-and-filters#max-current-spread) filter allows to trade if spread is equal to max allowed
+* [+] PartialClose: [Max profitable orders to close](/docs/partial-close#max-profitable-orders-to-close) parameter
+
+[<button class="btn btn-success">Download v2.58 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex5)
+[<button class="btn btn-primary">Download v2.58 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex4)
+[<button class="btn btn-info">Download v2.58.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.a.ex5)
+
