@@ -730,10 +730,14 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2023.11.27-12.02 (2.58)
+### 2023.11.27-12.14 (2.58)
 * [+] [Directional change filter](/docs/signals-and-filters#directional-change-filter) : Change dir after profit
 * [*] [Max Current Spread](/docs/signals-and-filters#max-current-spread) filter allows to trade if spread is equal to max allowed
 * [+] PartialClose: [Max profitable orders to close](/docs/partial-close#max-profitable-orders-to-close) parameter
+* [+] Anti-martin: [New deal on the end of the bar only](/docs/anti-martingale#new-deal-on-the-end-of-the-bar-only)
+* [+] Individual FollowUp: [Apply to Anti-martin orders only](/docs/individual-follow-up#apply-to-anti-martin-orders-only) works for both Individual BE and Individual TS
+
+{% include alert.html type="warning" title="Warning" content="All set-files with active Individual BE and TS must be reviewed!" %}
 
 [<button class="btn btn-success">Download v2.57.3 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex5)
 [<button class="btn btn-primary">Download v2.57.3 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex4)

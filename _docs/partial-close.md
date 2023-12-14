@@ -45,7 +45,7 @@ By default, only the entire order can be closed (**Min part of losing order to c
 <br />
 
 ### Max profitable orders to close
-<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1202-258)</sup>
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1214-258)</sup>
 
 Max number of profitable orders to close.
 
