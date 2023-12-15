@@ -733,7 +733,8 @@ permalink: /docs/versions-history
 ### 2023.11.27-12.14 (2.58)
 * [+] [Directional change filter](/docs/signals-and-filters#directional-change-filter) : Change dir after profit
 * [*] [Max Current Spread](/docs/signals-and-filters#max-current-spread) filter allows to trade if spread is equal to max allowed
-* [+] PartialClose: [Max profitable orders to close](/docs/partial-close#max-profitable-orders-to-close) parameter
+* [+] PartialClose: [Max profitable orders to close](/docs/partial-close#max-profitable-orders-to-close)
+* [+] PartialClose: [Min profit to close (points)](/docs/partial-close#min-profit-to-close-points)
 * [+] Anti-martin: [New deal on the end of the bar only](/docs/anti-martingale#new-deal-on-the-end-of-the-bar-only)
 * [+] Individual FollowUp: [Apply to Anti-martin orders only](/docs/individual-follow-up#apply-to-anti-martin-orders-only) works for both Individual BE and Individual TS
 

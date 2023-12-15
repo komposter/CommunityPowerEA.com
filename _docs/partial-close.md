@@ -29,7 +29,25 @@ Set 0 to disable partial close.
 
 Min profit (in account currency / in % from balance) to close part of orders in series.
 
+Greater value will be taken into account if both limits are set.
+
 <br />
+
+### Min profit to close (points)
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1214-258)</sup>
+
+Min profit in points ([what is a "point"?](/docs/FAQ/what-is-a-point)) to close part of orders in series.
+
+Profit is calculated as:
+* Bid price - weighted average open price of Buy orders that are going to be closed
+* Weighted average open price of Sell orders that are going to be closed - Ask price
+
+Set 0 to disable this filter.
+
+This filter does not work in the 'Any with any' mode.
+
+<br />
+
 
 ### Min part of losing order to close (%)
 <sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
@@ -41,6 +59,8 @@ Percent of losing order that can be closed with profit by Partial close.
 <br />With **Min profit to close** = 10 we can close only 50% (0.6 lots) of losing order, and have +50 - 40 = +10 total profit. So, if **Min part of losing order to close = 50% or less**, orders will be closed.
 
 By default, only the entire order can be closed (**Min part of losing order to close** = 100%). Value of 0 also disables this function.
+
+This function does not work with **Min profit to close (points)**.
 
 <br />
 
@@ -56,7 +76,7 @@ Set 0 to disable this filter.
 ### Close any with any
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
 
-Allows **partial close** to close orders with any direction (buy or sell).
+Allows **partial close** to close orders in any direction (buy or sell).
 
 If enabled, any number of profitable orders in any direction can be closed with the most losing order in any direction. Starts work when opened orders number >= **Close partial after order #**.
 
