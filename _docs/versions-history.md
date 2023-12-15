@@ -740,6 +740,6 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All set-files with active Individual BE and TS must be reviewed!" %}
 
-[<button class="btn btn-success">Download v2.57.3 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex5)
-[<button class="btn btn-primary">Download v2.57.3 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.ex4)
-[<button class="btn btn-info">Download v2.57.3.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.3.a.ex5)
+[<button class="btn btn-success">Download v2.57.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.4.ex5)
+[<button class="btn btn-primary">Download v2.57.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.4.ex4)
+[<button class="btn btn-info">Download v2.57.4.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.4.a.ex5)
