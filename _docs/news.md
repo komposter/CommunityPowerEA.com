@@ -25,7 +25,7 @@ To set up the News filter, you need to do several steps.
 
 #### For backtesting and optimization
 
-1. Download news archive (News_2007_2022.zip) and latest news files (2023.01.01.csv, 2023.02.01.csv and so on) from the [Google Drive](https://drive.google.com/drive/folders/1vZGuPtfRsI2NvCvQD2oA_BwjEBTDjj3v)
+1. Download news archive (News_2007_2022.zip) and latest news files (2023.01.01.csv, 2023.02.01.csv and so on) from the [News archive](/docs/news/archive) page.
 
 2. Unpack archive and save all files to the common folder of all MetaTraders on your PC: C:\Users\\**your_name**\\AppData\Roaming\MetaQuotes\Terminal\Common\Files\
 

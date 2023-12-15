@@ -5,7 +5,7 @@ description: News archive
 permalink: /docs/news/archive
 ---
 
-# ForexFactory news archive
+# News archive
 
 ### [News_2007_2022.zip]({{site.baseurl}}/assets/News/FF/News_2007_2022.zip)
 
