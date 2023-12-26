@@ -22,7 +22,7 @@ Directional change filter allows to filter entries based on previous closed trad
 * allows BUYs after profitable BUYs / after losing SELLs
 * allows SELLs after profitable SELLs / after losing BUYs
 
-**Change dir after profit** [*(starting from v2.58)*](/docs/versions-history#20231127-1214-258):
+**Change dir after profit** [*(starting from v2.58)*](/docs/versions-history#20231127-1226-258):
 * allows BUYs after losing BUYs / after profitable SELLs
 * allows SELLs after losing SELLs / after profitable BUYs
 

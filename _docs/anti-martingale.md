@@ -27,7 +27,7 @@ Max anti-martingale deals in series.
 <br />
 
 ### New deal on the end of the bar only
-<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1214-258)</sup>
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1226-258)</sup>
 
 If enabled, Step condition is checked using last bar Close price (+ current spread for buy-orders). So, only 1 trade per bar is allowed and all trades are opened on the beginning of the bar.
 

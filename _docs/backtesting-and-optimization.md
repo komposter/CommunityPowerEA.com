@@ -79,6 +79,10 @@ Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the
 
   Result is shown as negative value to make genetic optimization possible (greater value should be better), so **-17.5** in the results column means **17.5%** DD
 
+* **Lowest margin level** [*(starting from v2.58)*](/docs/versions-history#20231127-1226-258) -- use the lowest margin level (in percent).
+
+  Use this criterion to detect strategies with high risk of margin call.
+
 <br />
 
 ### Correlation type

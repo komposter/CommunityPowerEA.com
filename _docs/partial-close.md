@@ -34,7 +34,7 @@ Greater value will be taken into account if both limits are set.
 <br />
 
 ### Min profit to close (points)
-<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1214-258)</sup>
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1226-258)</sup>
 
 Min profit in points ([what is a "point"?](/docs/FAQ/what-is-a-point)) to close part of orders in series.
 
@@ -65,7 +65,7 @@ This function does not work with **Min profit to close (points)**.
 <br />
 
 ### Max profitable orders to close
-<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1214-258)</sup>
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1226-258)</sup>
 
 Max number of profitable orders to close.
 
