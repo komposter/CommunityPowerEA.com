@@ -1264,6 +1264,8 @@ Order and type of parameters must match the original order and type of indicator
 
 String parameters must be enclosed in single quotes.
 
+Starting from v2.58, you can use ["INPUT_XX" macros](#optimization-inputs) to replace the parameter value with the special parameter that could be optimized.
+
 {% include alert.html type="warning" title="Warning" content="Indicators with 'parameters groups' can't be used with parameters specified!" %}
 
 <br />
@@ -1378,6 +1380,16 @@ Set **True** for indicators that can contain 0 or negative value by design (for 
 
 Set **False** for indicators that draw arrows and fill empty values with zeros (not EMPTY_VALUE constant).
 
+<br />
+
+### Optimization Inputs
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1226-258)</sup>
+
+Specifying [Indicator parameters](#indicator-parameters), you can put "INPUT_XX" instead of the actual value of the parameter.
+In this case, the value of the parameter will be taken from the special parameter "INPUT_XX" from this block.
+
+> For example, you can set "Indicator parameters" for MACD as "INPUT_01,INPUT_02,INPUT_03", and set "INPUT_01" = 12, "INPUT_02" = 26, "INPUT_03" = 9 in this block.
+> Then, if you want to optimize MACD parameters, you can optimize values of "INPUT_01", "INPUT_02" and "INPUT_03".
 
 <br />
 <br />
@@ -1385,7 +1397,6 @@ Set **False** for indicators that draw arrows and fill empty values with zeros (
 # Spread Filter
 
 ### Max current spread
-
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
 Max spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for positions opening.
