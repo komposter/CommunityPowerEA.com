@@ -738,6 +738,7 @@ permalink: /docs/versions-history
 * [+] Anti-martin: [New deal on the end of the bar only](/docs/anti-martingale#new-deal-on-the-end-of-the-bar-only)
 * [+] Individual FollowUp: [Apply to Anti-martin orders only](/docs/individual-follow-up#apply-to-anti-martin-orders-only) works for both Individual BE and Individual TS
 * [+] Backtesting and optimization: [Lowest margin level](/docs/backtesting-and-optimization#custom-optimization-criterion) criterion
+* [+] Lot: [Max first lot](/docs/lot#max-first-lot)
 
 {% include alert.html type="warning" title="Warning" content="All set-files with active Individual BE and TS must be reviewed!" %}
 

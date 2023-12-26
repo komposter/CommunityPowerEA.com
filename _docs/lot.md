@@ -8,7 +8,6 @@ permalink: /docs/lot
 # Lot parameters
 
 ### Lot type
-
 <sup>*([starting from v2.10](/docs/versions-history#20200518-210), [improved in v2.47](/docs/versions-history#20220520-247))*</sup>
 
 Lot size calculation type (applies to first trade in each series): <br/>
@@ -33,7 +32,6 @@ Lot size for **Fixed lot**, **Fixed size per 1000** and **Fixed size per 1000 US
 <br />
 
 ### Lot risk %
-
 <sup>[*(starting from v2.10)*](/docs/versions-history#20200518-210)</sup>
 
 Risk % for **Risk per trade** and **Margin percent use** modes.
@@ -49,7 +47,6 @@ If 0, the limit is disabled.
 <br />
 
 ### Max lot per 1000
-
 <sup>[*(starting from v2.32)*](/docs/versions-history#20210605-232)</sup>
 
 Max lot calculated per 1000 units of account balance.
@@ -59,6 +56,15 @@ Max lot calculated per 1000 units of account balance.
 Set 0 to disable the limit.
 
 [Initial discussion is here](https://communitypowerea.userecho.com/en/communities/1/topics/196-max-lot-option-max-lot-per-1000)
+
+<br />
+
+### Max first lot
+<sup>[*(starting from v2.58)*](/docs/versions-history#20231127-1226-258)</sup>
+
+Max lot for the first deal in the series.
+
+Set 0 to disable the limit.
 
 <br />
 <br />
