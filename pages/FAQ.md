@@ -20,6 +20,10 @@ If you can’t find the answer to your question here, please ask it in the [Tele
 
 <br />
 
+### [How to attach indicators to the chart? Where can I get indicators?](/docs/FAQ/indicators)
+
+<br />
+
 ### I’ve installed and launched the EA as described above. Is it working?
 
 Yes, it is. Just check the smile in the right upper corner of the chart:
