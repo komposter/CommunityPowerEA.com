@@ -27,11 +27,11 @@ Download them to your hard drive, save to "Data folder\MQL4\Indicators\" ("Data 
 
 <br />
 
-AlexSTAL_ZigZagProf:
+#### AlexSTAL_ZigZagProf
 [<button class="btn btn-success">for MT5</button>]({{site.baseurl}}/assets/Indicators/AlexSTAL_ZigZagProf.ex5)
 [<button class="btn btn-primary">for MT4</button>]({{site.baseurl}}/assets/Indicators/AlexSTAL_ZigZagProf.ex4)
 
-iDTrend:
+#### iDTrend
 [<button class="btn btn-success">for MT5</button>]({{site.baseurl}}/assets/Indicators/iDTrend.ex5)
 [<button class="btn btn-primary">for MT4</button>]({{site.baseurl}}/assets/Indicators/iDTrend.ex4)
 
