@@ -221,7 +221,7 @@ permalink: /docs/versions-history
 * [+] Max floating loss
 * [+] Global StopLoss in account currency
 * [+] TMA, FRAMA and JMA as base indicators for MA filters 
-  * Indicators for visualization can be downloaded from [Google Drive](https://drive.google.com/drive/u/0/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v)
+  * Indicators for visualization can be downloaded [here]({{site.baseurl}}/docs/FAQ/indicators)
   * To visualize "TMA channel" you can use [this indy](https://www.mql5.com/en/code/22350). But it is only one possible option from hundreds available in the EA.
 * [+] Partial close: Min profit to close (% from balance)
 * [*] Partial close trying to close as many trades as possible

@@ -217,7 +217,7 @@ If true:
 
 Set **false** to disable this filter.
 
-You don't need the IdentifyTrend indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want.
+You don't need the IdentifyTrend indicator file for the correct work of EA. However, you can get it [here]({{site.baseurl}}/docs/FAQ/indicators), if you want.
 
 <br />
 
@@ -261,7 +261,7 @@ TDI -- is a well-known oscillator based on RSI:
 
 ![]({{site.baseurl}}/assets/img/docs/iTDI.png)
 
-You don't need the TDI indicator file for the correct work of EA. However, you can get it [here](https://drive.google.com/drive/folders/1VXsedtTLt2Tp27CQ1nfsGpdm-Z57IZ0v?usp=sharing), if you want
+You don't need the TDI indicator file for the correct work of EA. However, you can get it [here]({{site.baseurl}}/docs/FAQ/indicators), if you want
 
 <br />
 
