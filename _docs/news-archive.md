@@ -33,6 +33,6 @@ permalink: /docs/news/archive
 
 ### [2023.12.01.csv]({{site.baseurl}}/assets/News/FF/2023.12.01.csv)
 
-{% for post in site.assets.EAs limit:10 %}
+{% for post in site.docs limit:10 %}
    <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
 {% endfor %}
