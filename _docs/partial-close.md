@@ -73,23 +73,26 @@ Set 0 to disable this filter.
 
 <br />
 
-### Close any with any
+### Close any with any mode
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
 
-Allows **partial close** to close orders in any direction (buy or sell).
+Can be:
+* Disabled
 
-If enabled, any number of profitable orders in any direction can be closed with the most losing order in any direction. Starts work when opened orders number >= **Close partial after order #**.
+* Close any with any:
+  Allows **partial close** to close both buy and sell orders with each other.
+  If enabled, any number of most profitable orders in any direction can be closed with the most losing order in any direction. Starts work when opened orders number >= **Close partial after order #**.
+  Same side closings (most losing buy with several profitable buys, for example) are still possible, if most losing buy is the most losing trade from all, and several profitable buys are most profitable trades.
 
-Same side closings (most losing buy with several profitable buys, for example) are still possible, if most losing buy is the most losing trade from all, and several profitable buys are most profitable trades.
+* Close any with any on signal
+  <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
+  Allows **partial close any with any** only if there is a signal for partial close (**Partial close on** parameter in each filter settings).
+  Both buy and sell signals are checked.
 
-<br />
-
-### Close any with any on signal
-<sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
-
-Allows **partial close any with any** only if there is a signal for partial close (**Partial close on** parameter in each filter settings).
-
-Both buy and sell signals are checked.
+* Close only with opposite
+  <sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0212-259)</sup>
+  Allows **partial close** to close profitable orders only with the most losing order in the opposite direction. Starts work when opened orders number >= **Close partial after order #**.
+  Same side closings will not be possible.
 
 <br />
 

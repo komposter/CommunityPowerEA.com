@@ -747,3 +747,16 @@ permalink: /docs/versions-history
 [<button class="btn btn-success">Download v2.58 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.ex5)
 [<button class="btn btn-primary">Download v2.58 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.ex4)
 [<button class="btn btn-info">Download v2.58.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.a.ex5)
+
+
+<br />
+
+### 2024.01.18-02.12 (2.59)
+* [+] [Partial Close](/docs/partial-close): Close any with any and Close any with any on signal parameters are replaced with [Close any with any mode](/docs/partial-close#close-any-with-any-mode)
+* [+] PartialClose: [Close only with opposite](/docs/partial-close#close-any-with-any-mode) mode
+
+{% include alert.html type="warning" title="Warning" content="All set-files with PartialClose must be reviewed!" %}
+
+[<button class="btn btn-success">Download v2.58.1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.ex5)
+[<button class="btn btn-primary">Download v2.58.1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.ex4)
+[<button class="btn btn-info">Download v2.58.1.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.a.ex5)
