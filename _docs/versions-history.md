@@ -740,9 +740,10 @@ permalink: /docs/versions-history
 * [+] Backtesting and optimization: [Lowest margin level](/docs/backtesting-and-optimization#custom-optimization-criterion) criterion
 * [+] Lot: [Max first lot](/docs/lot#max-first-lot)
 * [+] CustomIndy: [Optimization Inputs](/docs/signals-and-filters#optimization-inputs)
+* [+] Fibo and Pivot lines have a price value in description (set "Show object description" in chart settings), News line has no description not to overload the chart
 
 {% include alert.html type="warning" title="Warning" content="All set-files with active Individual BE and TS must be reviewed!" %}
 
-[<button class="btn btn-success">Download v2.57.5 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.5.ex5)
-[<button class="btn btn-primary">Download v2.57.5 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.5.ex4)
-[<button class="btn btn-info">Download v2.57.5.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.57.5.a.ex5)
+[<button class="btn btn-success">Download v2.58 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.ex5)
+[<button class="btn btn-primary">Download v2.58 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.ex4)
+[<button class="btn btn-info">Download v2.58.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.a.ex5)
