@@ -77,7 +77,7 @@ Set 0 to disable this filter.
 
 
 Can be:
-* Disabled
+* **Disabled**
 
 * **Close any with any** [*(starting from v2.44)*](/docs/versions-history#20220312-244):<br />
   Allows partial close to close opposite orders with each other.
@@ -85,11 +85,11 @@ Can be:
   Same side closings (most losing buy with several profitable buys, for example) are still possible, if most losing buy is the most losing trade from all, and several profitable buys are most profitable trades.
 
 * **Close any with any on signal** [*(starting from v2.56)*](/docs/versions-history#20230818-1124-256):<br />
-  The same as **Close any with any**, but partial close can be done only if there is a signal for partial close (**Partial close on** parameter in each filter settings).
+  The same as Close any with any, but partial close can be done only if **there is a signal for partial close** ('Partial close on' parameter in each filter settings).
   Both buy and sell signals are taken into account.
 
 * **Close only with opposite** [*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2581):<br />
-  The same as **Close any with any**, but partial close can be done only for opposite side orders (the most profitable buys with the most losing sell, and vice versa).
+  The same as Close any with any, but partial close can be done **only for opposite side orders** (the most profitable buys with the most losing sell, and vice versa).
   Same side closings will not be possible in this mode.
 
 <br />
