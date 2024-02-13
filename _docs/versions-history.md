@@ -755,6 +755,7 @@ permalink: /docs/versions-history
 * [+] [Partial Close](/docs/partial-close): Close any with any and Close any with any on signal parameters are replaced with [Close any with any mode](/docs/partial-close#close-any-with-any-mode)
 * [+] PartialClose: [Close only with opposite](/docs/partial-close#close-any-with-any-mode) mode
 * [+] Volatility Filter: [Transformation Period](/docs/signals-and-filters#transformation-period) and [Volatility Coefficient](/docs/signals-and-filters#volatility-coefficient)
+* [+] Volatility: [OBV as a base indicator](/docs/signals-and-filters#volatility-filter-indicator)
 
 {% include alert.html type="warning" title="Warning" content="All set-files with PartialClose must be reviewed!" %}
 

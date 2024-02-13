@@ -1050,6 +1050,7 @@ Indicator for the Volatility Filter:
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
 * Volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
+* OBV [*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2581)
 
 <br />
 
