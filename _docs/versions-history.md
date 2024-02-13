@@ -751,7 +751,7 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2024.01.18-02.12 (2.59)
+### 2024.01.18-02.12 (2.58.1)
 * [+] [Partial Close](/docs/partial-close): Close any with any and Close any with any on signal parameters are replaced with [Close any with any mode](/docs/partial-close#close-any-with-any-mode)
 * [+] PartialClose: [Close only with opposite](/docs/partial-close#close-any-with-any-mode) mode
 
