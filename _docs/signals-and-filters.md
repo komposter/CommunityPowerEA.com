@@ -1097,6 +1097,27 @@ Smoothing Volatility filter. Can be one of following:
 
 MA period for Smoothing Volatility filter
 
+<br />
+
+### Transformation Period
+<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2581)</sup>
+
+Transformation period for Volatility filter.
+
+If set, volatility is calculated as `indy_1 * indy_1 / indy_2` where:
+* `indy_1` - is the selected volatility indicator with the selected period
+* `indy_2` - is the selected volatility indicator with the selected transformation period
+
+Set 0 to disable this transformation.
+
+<br />
+
+### Volatility Coefficient
+<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2581)</sup>
+
+If set, volatility value is multiplied by this coefficient.
+
+Set 0 to disable this coefficient.
 
 <br />
 <br />
