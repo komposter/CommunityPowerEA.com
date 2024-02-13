@@ -80,7 +80,7 @@ Can be:
 * **Disabled**
 
 * **Close any with any** [*(starting from v2.44)*](/docs/versions-history#20220312-244):<br />
-  Allows partial close to close opposite orders with each other.
+  Allows to close **opposite orders with each other**.
   If enabled, any number of most profitable orders in any direction can be closed with the most losing order in any direction. Starts work when opened orders number >= **Close partial after order #**.
   Same side closings (most losing buy with several profitable buys, for example) are still possible, if most losing buy is the most losing trade from all, and several profitable buys are most profitable trades.
 
