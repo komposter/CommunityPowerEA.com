@@ -33,7 +33,7 @@ Monthly and yearly subscription plans are available. Starting from €5 per mont
 
 <br />
 
-### Donate using [Telegram bot](https://t.me/CommunityPowerNews/44)
+### Donate using [Telegram bot](https://t.me/CommunityPowerNews/205)
 
 Make a one-time payment with your VISA/MasterCard for any amount you like, starting from €5.
 
