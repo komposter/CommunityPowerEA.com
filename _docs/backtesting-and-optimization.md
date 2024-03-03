@@ -7,6 +7,40 @@ permalink: /docs/backtesting-and-optimization
 
 # Backtesting and optimization settings
 
+# Fast Optimization
+
+<sup>[*(starting from v2.58.2)*](/docs/versions-history#20240118-0212-2582)</sup>
+
+Fast optimization enables you to stop the specific test if it reaches one of limits.
+
+For example, you can stop the test on big drawdown, or if number of trades is too low.
+
+This can save a lot of time and resources.
+
+<br />
+
+### Max DrawDown %
+
+If the drawdown reaches this value, the test will be stopped.
+
+Set 0 to disable this limit.
+
+<br />
+
+### Min Trades per year
+
+If the number of trades per year is less than this value, the test will be stopped.
+
+> For example, if you set 50, and after the first year there are only 40 trades, the test will be stopped.
+
+The check starts after 6 months of testing.
+
+Set 0 to disable this limit.
+
+
+<br />
+<br />
+
 # Tester withdrawal
 
 <sup>[*(starting from v2.37)*](/docs/versions-history#20210906-237)</sup>

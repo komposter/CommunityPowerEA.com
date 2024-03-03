@@ -88,7 +88,7 @@ Can be:
   The same as Close any with any, but partial close can be done only if **there is a signal for partial close** ('Partial close on' parameter in each filter settings).
   Both buy and sell signals are taken into account.
 
-* **Close only with opposite** [*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2581):<br />
+* **Close only with opposite** [*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2582):<br />
   The same as Close any with any, but partial close can be done **only for opposite side orders** (the most profitable buys with the most losing sell, and vice versa).
   Same side closings will not be possible in this mode.
 
