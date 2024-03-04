@@ -15,6 +15,8 @@ For example, you can stop the test on big drawdown, or if number of trades is to
 
 This can save a lot of time and resources.
 
+{% include alert.html type="warning" title="Attention" content="Fast optimization works in MT5 only" %}
+
 <br />
 
 ### Max DrawDown %

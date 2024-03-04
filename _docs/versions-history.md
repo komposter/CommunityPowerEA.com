@@ -760,6 +760,6 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All set-files with PartialClose must be reviewed!" %}
 
-[<button class="btn btn-success">Download v2.58.1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.ex5)
-[<button class="btn btn-primary">Download v2.58.1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.ex4)
-[<button class="btn btn-info">Download v2.58.1.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.1.a.ex5)
+[<button class="btn btn-success">Download v2.58.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.2.ex5)
+[<button class="btn btn-primary">Download v2.58.2 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.2.ex4)
+[<button class="btn btn-info">Download v2.58.2.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.58.2.a.ex5)
