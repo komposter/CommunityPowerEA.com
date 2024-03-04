@@ -5,8 +5,6 @@ description: Optimization criteria and other settings
 permalink: /docs/backtesting-and-optimization
 ---
 
-# Backtesting and optimization settings
-
 # Fast Optimization
 
 <sup>[*(starting from v2.58.2)*](/docs/versions-history#20240118-0212-2582)</sup>
