@@ -1050,7 +1050,7 @@ Indicator for the Volatility Filter:
 * ATR based on **Close-Open** (high and low prices not used)
 * WATR
 * Volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
-* OBV [*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2582)
+* OBV [*(starting from v2.58.1)*](/docs/versions-history#20240118-0316-2584)
 
 <br />
 
@@ -1101,7 +1101,7 @@ MA period for Smoothing Volatility filter
 <br />
 
 ### Transformation Period
-<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2582)</sup>
+<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0316-2584)</sup>
 
 Transformation period for Volatility filter.
 
@@ -1114,7 +1114,7 @@ Set 0 to disable this transformation.
 <br />
 
 ### Volatility Coefficient
-<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0212-2582)</sup>
+<sup>[*(starting from v2.58.1)*](/docs/versions-history#20240118-0316-2584)</sup>
 
 If set, volatility value is multiplied by this coefficient.
 
