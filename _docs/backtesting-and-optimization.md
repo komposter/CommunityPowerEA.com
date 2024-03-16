@@ -170,6 +170,6 @@ As you can see, adjustment coefficient can only decrease the final result for lo
 # Custom Start and End dates
 <sup>[*(starting from v2.58.4)*](/docs/versions-history#20240118-0316-2584)</sup>
 
-The purpose of **Custom start date** is to ensure that all necessary historical data is loaded for all indicators (some indicators require more than 1 year of history, which is available in the tester by default).
+The purpose of **Custom Start date** is to ensure that all necessary historical data is loaded for all indicators (some indicators require more than 1 year of history, which is available in the tester by default).
 
-The purpose of the **Order End Date** is to avoid starting a new series of trades at the end of the test period, so that all trades will be more likely to be closed before the end of the test.
+The purpose of the **Custom End Date** is to avoid starting a new series of trades at the end of the test period, so that all trades will be more likely to be closed before the end of the test.
