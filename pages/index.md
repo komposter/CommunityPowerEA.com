@@ -40,7 +40,9 @@ Look for the [<button class="btn btn-warning">set file</button>](https://forum.c
 
 Read [<button class="btn btn-danger">the docs</button>](docs)
 
-Join the discussion [<button class="btn btn-success">on Telegram</button>](https://t.me/CommunityPowerNews)
+Join the discussion [<button class="btn btn-success">on Telegram</button>](https://t.me/CommunityPowerEA)
+
+Follow the news and updates [<button class="btn btn-primary">in the official Channel</button>](https://t.me/CommunityPowerNews)
 
 <br/>
 
