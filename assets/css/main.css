@@ -4938,7 +4938,7 @@ input[type=button].btn-block {
     padding-top: 0;
     padding-bottom: 0;
     margin-right: 1rem;
-    font-size: 1.45rem;
+    font-size: 1.55rem;
     line-height: inherit;
     white-space: nowrap
 }
@@ -4975,8 +4975,8 @@ input[type=button].btn-block {
 
 .navbar-text {
     display: inline-block;
-    padding-top: .5rem;
-    padding-bottom: .5rem
+    padding-top: .05rem;
+    padding-bottom: .05rem
 }
 
 .navbar-collapse {
