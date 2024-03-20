@@ -65,7 +65,7 @@ google-analytics: G-ZKBYQNPTE1
 # Image and (square) dimension for logo (don't start with /)
 # If commented, will use material hat theme
 logo: "assets/img/logo_square_1.png"
-logo_pixels: 56
+logo_pixels: 64
 color: "#000000" # "#403f4c" # primary color for header, buttons
 
 # Build settings
