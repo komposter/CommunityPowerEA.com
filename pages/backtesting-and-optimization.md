@@ -14,11 +14,11 @@ To test the EA, connect your MT5 to the broker you want to trade with (different
 
 Here are some **live** account credentials for your backtesting:
 
-| Server | Login | Password |
-| --- | --- | --- |
-| ICMarketsSC-MT5-2 | 7104388 | CommunityPower1 |
-| liveUK-mt5.darwinex.com | 4000002776 | CommunityPower1 |
-| BlueberryMarkets-Live | 46293 | CommunityPower1 |
+| Server | Login | Password         |
+| --- | --- |------------------|
+| ICMarketsSC-MT5-2 | 7104388 | CommunityPower1  |
+| liveUK-mt5.darwinex.com | 4000031968 | CommunityPower1! |
+| BlueberryMarkets-Live | 46293 | CommunityPower1  |
 | OctaFX-Real | 63078017 | CommunityPower1! |
 
 <br />
