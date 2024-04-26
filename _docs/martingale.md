@@ -192,3 +192,18 @@ Set 0 to disable BreakEven alert.
 New martingale trade can be opened only during the specified ActivePeriods.
 
 Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
+
+<br />
+
+### Keep the correct series
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
+
+If **true**, EA remembers the first order of the series and keeps all the calculations based on it.
+
+If **false**, EA uses only opened orders for calculations.
+
+> For example, if you used Fibo-lots and had 4 orders in the  martingale series (0.1 - 0.1 - 0.2 - 0.4 lots), and 2 last orders (0.4 and 0.2) were closed with the 1st one (0.1) by Partial close, so the only 1 order is left:
+> * If Keep the correct series = **false**, EA will consider the remaining order as the first one and will continue the series with 0.1, 0.2 and 0.4 lots.
+> * If Keep the correct series = **true**, EA will remember the 1st order (0.1) and will continue the series with 0.2 and 0.4 lots.
+
+This parameter affects all functions connected with numbers of orders in the series or based on the 1st order of the series.

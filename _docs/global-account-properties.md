@@ -77,3 +77,23 @@ Set 0 to disable GA TakeProfit.
 <sup>[*(starting from v2.45)*](/docs/versions-history#20220421-245)</sup>
 
 Set **true** to disable trading till the next day (server time) after any close by Global Account functions
+
+<br />
+
+### Magic numbers list
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
+
+List of magic numbers that EA should take into account for Global Account functions.
+
+Leave empty to manage all magic numbers.
+
+<br />
+
+### Magic numbers group name
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
+
+Name of the group of magic numbers that EA should use to communicate with other EAs.
+
+Set the same group name in all EAs that should manage the same group of magic numbers.
+
+<br />

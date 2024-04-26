@@ -760,7 +760,11 @@ permalink: /docs/versions-history
 * [+] Time on the signals panel
 * [+] Tester: [Custom Start and End dates](/docs/backtesting-and-optimization#custom-start-and-end-dates)
 * [+] Tester: [Profit to Max Relative Drawdown ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
-
+* [+] Martingale: [Keep the correct series](/docs/martingale#keep-the-correct-series)
+* [+] CustomIndy: [UseBar](/docs/signals-and-filters#use-bar) instead of UseClosedBars
+* [*] [CustomIndy](/docs/signals-and-filters#custom-indicators) works correctly with "Indicators" in the sub-folder name
+* [+] 'Manage manual trades' replaced with [Manage magic numbers](/docs/main#manage-magic-numbers)
+* [+] GlobalAccountClose: [Magic numbers list](/docs/global-account-properties#magic-numbers-list) and [Magic numbers group name](/docs/global-account-properties#magic-numbers-list)
 
 {% include alert.html type="warning" title="Warning" content="All set-files with PartialClose must be reviewed!" %}
 

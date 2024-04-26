@@ -81,10 +81,11 @@ Set 0 to use real commission size.
 
 <br />
 
-### Manage manual trades
+### Manage magic numbers
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
 
-If **true**, EA manages trades opened by hands (with magic number = 0).
+Can be:
+- **Manage only specific magic (Expert Id)**: EA manages only trades with specified magic number.
+- **Manage manual trades**: EA manages trades with magic number = Expert Id and manual trades (with magic number = 0).
+- **Manage all magic numbers**: EA manages all trades.
 
-EA considers manual trades as its own, takes them into account for Max trades limit, manages them by TrailingStop and BreakEven, etc.
-
-If **false**, EA doesn't take into account manual trades.

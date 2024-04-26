@@ -1378,11 +1378,14 @@ Reverse all CustomIndy signals
 
 <br />
 
-### Use closed bars only
+### Use bar
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
 
-Use only closed (formed) bars. If **true**, the signal can't change in the middle of the bar.
+Number of the bar to use for the signal calculation.
 
-Default value for CustomIndy is **true**.
+0 means the current (unformed) bar, 1 means the previous (last formed) bar, 2 means the bar before the previous, etc.
+
+Default value for CustomIndy is **1**.
 
 <br />
 
