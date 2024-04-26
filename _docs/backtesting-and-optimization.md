@@ -7,7 +7,7 @@ permalink: /docs/backtesting-and-optimization
 
 # Fast Optimization
 
-<sup>[*(starting from v2.58.2)*](/docs/versions-history#20240118-0316-2584)</sup>
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
 
 Fast optimization enables you to stop the specific test if it reaches one of limits.
 
@@ -117,7 +117,7 @@ Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the
 
   Use this criterion to detect strategies with high risk of margin call.
 
-* **Profit to Max Relative Drawdown ratio** [*(starting from v2.58.4)*](/docs/versions-history#20240118-0316-2584) -- use the ratio of Profit (in account currency) to Max Relative Drawdown (in percent) based on equity.
+* **Profit to Max Relative Drawdown ratio** [*(starting from v2.59)*](/docs/versions-history#20240118-0426-259) -- use the ratio of Profit (in account currency) to Max Relative Drawdown (in percent) based on equity.
 
   Greater value is better.
 
@@ -168,7 +168,7 @@ As you can see, adjustment coefficient can only decrease the final result for lo
 <br />
 
 # Custom Start and End dates
-<sup>[*(starting from v2.58.4)*](/docs/versions-history#20240118-0316-2584)</sup>
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
 
 The purpose of **Custom Start date** is to ensure that all necessary historical data is loaded for all indicators (some indicators require more than 1 year of history, which is available in the tester by default).
 
