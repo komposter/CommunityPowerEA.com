@@ -16,7 +16,7 @@ Here are some **live** account credentials for your backtesting:
 
 | Server | Login | Password         |
 | --- | --- |------------------|
-| ICMarketsSC-MT5-2 | 7104388 | CommunityPower1  |
+| ICMarketsSC-MT5 | 5018202 | CommunityPower1!  |
 | liveUK-mt5.darwinex.com | 4000031968 | CommunityPower1! |
 | BlueberryMarkets-Live | 46293 | CommunityPower1  |
 | OctaFX-Real | 63078017 | CommunityPower1! |
