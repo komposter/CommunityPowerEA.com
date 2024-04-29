@@ -776,7 +776,9 @@ permalink: /docs/versions-history
 <br />
 
 ### 2024.04.28-04.29 (2.59.1)
-* [+] Volatility Filter with Transformation Period < 0 calculates Ratio of volatilities ("indicator 1 / indicator 2")
+* [+] Volatility Filter with negative [Transformation Period](/docs/signals-and-filters#transformation-period) calculates Ratio of volatilities ("indicator 1 / indicator 2")
+
+<br />
 
 [<button class="btn btn-success">Download v2.59.1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex5)
 [<button class="btn btn-primary">Download v2.59.1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex4)
