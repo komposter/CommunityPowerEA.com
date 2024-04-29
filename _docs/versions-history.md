@@ -771,3 +771,13 @@ permalink: /docs/versions-history
 [<button class="btn btn-success">Download v2.59 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.ex5)
 [<button class="btn btn-primary">Download v2.59 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.ex4)
 [<button class="btn btn-info">Download v2.59.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.a.ex5)
+
+
+<br />
+
+### 2024.04.28-04.29 (2.59.1)
+* [+] Volatility Filter with Transformation Period < 0 calculates Ratio of volatilities ("indicator 1 / indicator 2")
+
+[<button class="btn btn-success">Download v2.59.1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex5)
+[<button class="btn btn-primary">Download v2.59.1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex4)
+[<button class="btn btn-info">Download v2.59.1.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.a.ex5)

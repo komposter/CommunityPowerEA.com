@@ -1066,9 +1066,35 @@ Selected Volatility indicator period
 
 <br />
 
+### Transformation Period
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
+
+Transformation period for Volatility filter.
+
+If period is **positive**, volatility is calculated as `indy_1 * indy_1 / indy_2` where:
+* `indy_1` - is the selected volatility indicator with the selected period
+* `indy_2` - is the selected volatility indicator with the selected transformation period
+
+If period is **negative**, volatility is calculated as `indy_1 / indy_2` (ratio of two indicators) [*(starting from v2.59.1)*](/docs/versions-history#20240428-0429-2591)
+
+> For example, you can allow trades only when the fast (current) volatility is greater than the slow (long term) volatility (ratio >= Min Volatility)
+
+Set 0 to disable this transformation.
+
+<br />
+
+### Volatility Coefficient
+<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
+
+If set, volatility value is multiplied by this coefficient.
+
+Set 0 to disable this coefficient.
+
+<br />
+
 ### Min Volatility
 
-Min volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
+Min volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) or ratio (if Transformation period is negative) to allow new trade (both buy and sell).
 
 Set 0 to disable minimum volatility value.
 
@@ -1076,7 +1102,7 @@ Set 0 to disable minimum volatility value.
 
 ### Max Volatility
 
-Max volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) to allow new trade (both buy and sell).
+Max volatility (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) or ratio (if Transformation period is negative) to allow new trade (both buy and sell).
 
 Set 0 to disable maximum volatility value.
 
@@ -1097,28 +1123,6 @@ Smoothing Volatility filter. Can be one of following:
 ### Smoothing Period
 
 MA period for Smoothing Volatility filter
-
-<br />
-
-### Transformation Period
-<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
-
-Transformation period for Volatility filter.
-
-If set, volatility is calculated as `indy_1 * indy_1 / indy_2` where:
-* `indy_1` - is the selected volatility indicator with the selected period
-* `indy_2` - is the selected volatility indicator with the selected transformation period
-
-Set 0 to disable this transformation.
-
-<br />
-
-### Volatility Coefficient
-<sup>[*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)</sup>
-
-If set, volatility value is multiplied by this coefficient.
-
-Set 0 to disable this coefficient.
 
 <br />
 <br />
