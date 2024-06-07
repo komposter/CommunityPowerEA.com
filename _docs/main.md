@@ -11,7 +11,7 @@ permalink: /docs/main-parameters
 
 Uniq expert id (magic number).
 
-Use differnt Expert Ids to run several EAs on the same symbol.
+Use different Expert Ids to run several EAs on the same symbol.
 
 <br />
 
@@ -20,6 +20,32 @@ Use differnt Expert Ids to run several EAs on the same symbol.
 Comment for positions.
 
 Leave empty to use "CommunityPower" comment.
+
+<br />
+
+### Set description (write your notes here)
+
+Put your notes here to remember the strategy that this set is used for.
+
+<br />
+
+### Set file with additional parameters
+
+<sup>[*(starting from v2.59.6)*](/docs/versions-history#20240428-0903-260)</sup>
+
+MetaTrader 5 supports only 1024 input parameters in Strategy Tester. CP EA has more parameters, so you can load additional parameters from a file.
+
+To prepare a file with additional parameters:
+ - Run the ".a" version of the EA on the chart
+ - Set all parameters you need
+ - Save the set with to the Common folder of all MT terminals (File -> Open Common Data Folder)
+ - Remember the name of the set file
+
+To use saved parameters:
+ - Run the regular version of the EA (or load it to the Strategy Tester)
+ - Set the name you remembered in the "Set file with additional parameters" field
+
+You can download the example of the set file with all additional parameters [here](/assets/sets/CP defaults 2.60 extra params.set).
 
 <br />
 

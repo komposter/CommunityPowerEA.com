@@ -29,6 +29,8 @@ If the Close checkbox is unchecked, closing by [StopLoss](/docs/follow-up#stoplo
 [BreakEven](/docs/follow-up#breakeven), [TrailingStop](/docs/follow-up#trailingstop), [Partial close](/docs/partial-close) and 
 any [Signal](/docs/signals-and-filters) **is disabled for corresponding direction**.
 
+[Individual SL](/docs/individual-follow-up#individual-stoploss) and [TP](/docs/individual-follow-up#individual-takeprofit) are also canceled if the Close checkbox is unchecked and **will not be restored** even if the checkbox is checked again.
+
 [Sum StopLoss](/docs/follow-up#sum-stoploss-in-account-currency), [Sum TakeProfit](/docs/follow-up#sum-takeprofit-account-currency) and 
 [Partial close in the 'Any with any' mode](/docs/partial-close#close-any-with-any) work if the Close checkboxes are checked **for both Buy and Sell**.
 

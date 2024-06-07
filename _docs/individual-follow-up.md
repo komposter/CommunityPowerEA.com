@@ -7,26 +7,55 @@ permalink: /docs/individual-follow-up
 # Individual StopLoss
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
+<sup>[*(refactored in v2.59.5)*](/docs/versions-history#20240428-0903-260)</sup>
 
-Individual StopLoss is set for each position right after opening (if [Use Virtual SL](/docs/follow-up#use-virtual-stoploss) is disabled) or checked on each tick (if Use Virtual SL is enabled).
+Individual StopLoss is set for each position right after opening.
 
-{% include alert.html type="warning" title="Be careful" content="Order closed by SL can be immediately reopened (if it is a martingale order and all conditions for opening are met)" %}
+It is always "real" (not virtual, even if [Use Virtual SL](/docs/follow-up#use-virtual-stoploss) is enabled).
 
-<br />
-
-### StopLoss size
-
-Individual StopLoss size (in points or Like Coefficient to Volatility).
-
-Set 0 to disable StopLoss.
+{% include alert.html type="warning" title="Warning" content="Order closed by SL can be immediately reopened (if it is a martingale order and all conditions for opening are met)" %}
 
 <br />
 
-### StopLoss calc mode
+### StopLoss type
 
-StopLoss can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+Can be one of the following:
+* **StopLoss disabled**
+* **Fixed StopLoss**: Fixed StopLoss in points ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* **StopLoss on extremum**: SL is set on the highest high or lowest low of the last **StopLoss Extremum Bars** bars, shifted by **StopLoss size / shift / coeff** points 
+* **Donchian StopLoss**: SL is set on the Donchian channel, calculated with the **Donchian Signal Period** and **Donchian OpenShift Bars L/R** parameters, shifted by **StopLoss size / shift / coeff** points
+
+<br />
+
+### StopLoss size / shift / coeff
+
+Individual StopLoss size or shift in points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+<br />
+
+### StopLoss TimeFrame
+
+TimeFrame for Extremum bars and Donchian channel calculation.
+
+<br />
+
+### StopLoss Extremum Bars
+
+Number of bars for Extremum calculation.
+
+<br />
+
+### Donchian Signal Period, OpenShift Bars L/R
+
+Donchian channel parameters.
+
+<br />
+
+### Min StopLoss size
+
+Min StopLoss size in points ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+
+If the calculated SL is less than **Min StopLoss size**, it will be set to **Min StopLoss size**.
 
 <br />
 <br />
@@ -34,8 +63,13 @@ StopLoss can be set:
 # Individual TakeProfit
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
+<sup>[*(refactored in v2.59.5)*](/docs/versions-history#20240428-0903-260)</sup>
 
-Individual TakeProfit is set for each position right after opening (if [Use Virtual TP](/docs/follow-up#use-virtual-takeprofit) is disabled) or checked on each tick (if Use Virtual TP is enabled).
+Individual TakeProfit is set for each position right after opening.
+
+It is always "real" (not virtual, even if [Use Virtual TP](/docs/follow-up#use-virtual-takeprofit) is enabled).
+
+{% include alert.html type="warning" title="Warning" content="Order closed by TP can be immediately reopened (if all conditions for opening are met)" %}
 
 <br />
 
@@ -68,7 +102,7 @@ Individual BE can only move SL in profit direction, it is always real (not virtu
 
 ### BreakEven after, BreakEven to
 
-If the profit of order reaches **BreakEven after** points ([what is a "point"?](/docs/FAQ/what-is-a-point)), SL will be moved to the level "open price + **BreakEven** to points" (opposite for sell).
+If the profit of order reaches **BreakEven after** points ([what is a "point"?](/docs/FAQ/what-is-a-point)), SL will be moved to the level "open price + **BreakEven to** points" (opposite for sells).
 
 Thus, the order will be closed with profit of **BreakEven to** points.
 

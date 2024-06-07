@@ -1012,7 +1012,7 @@ Enable visualization to understand signals better.
 <br />
 <br />
 
-# Volatility for MA and ZZ Filters
+# Volatility for MA, ZZ, Line and Pivot filters distance
 
 <sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
 
@@ -1033,6 +1033,13 @@ Can be one of the following:
 
 TimeFrame and Period of volatility indicator
 
+### 2nd Volatility Indicator for MA filter
+
+<sup>[*(starting from v2.59.2)*](/docs/versions-history#20240428-0903-260)</sup>
+
+If set, volatility value for MA filter distance is calculated as `max(volatility_1, volatility_2)`.
+
+> For example, you can set **Volatility Indicator** = ATR, and **2nd Volatility Indicator** = StDev, and Distance for MA filter will be the maximum of ATR and StDev.
 
 <br />
 <br />
@@ -1075,7 +1082,7 @@ If period is **positive**, volatility is calculated as `indy_1 * indy_1 / indy_2
 * `indy_1` - is the selected volatility indicator with the selected period
 * `indy_2` - is the selected volatility indicator with the selected transformation period
 
-If period is **negative**, volatility is calculated as `indy_1 / indy_2` (ratio of two indicators) [*(starting from v2.59.1)*](/docs/versions-history#20240428-0429-2591)
+If period is **negative**, volatility is calculated as `indy_1 / indy_2` (ratio of two indicators) [*(starting from v2.59.1)*](/docs/versions-history#20240428-0903-260)
 
 > For example, you can allow trades only when the fast (current) volatility is greater than the slow (long term) volatility (ratio >= Min Volatility)
 
@@ -1435,7 +1442,6 @@ Set 0 to disable the filter.
 <br />
 
 ### Max average spread, Seconds for averaging
-
 <sup>[*(starting from v2.05)*](/docs/versions-history#20200421-205)</sup>
 
 Max average spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for positions opening and the number of seconds to calculate it.
@@ -1445,7 +1451,6 @@ Set 0 to disable the filter.
 <br />
 
 ### Apply to first open
-
 <sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 Set **true** to apply the spread filter to the open of the first position in a series.
@@ -1453,7 +1458,22 @@ Set **true** to apply the spread filter to the open of the first position in a s
 <br />
 
 ### Apply to martin
-
 <sup>[*(starting from v2.49)*](/docs/versions-history#20221007-249)</sup>
 
 Set **true** to apply the spread filter to the open of the martingale and anti-martingale positions.
+
+<br />
+
+### Apply to hedge
+<sup>[*(starting from v2.59.6)*](/docs/versions-history#20240428-0903-260)</sup>
+
+Set **true** to apply the spread filter to the open of the hedge positions.
+
+<br />
+
+### Apply to close
+<sup>[*(starting from v2.60.1)*](/docs/versions-history#20240915-0915-2601)</sup>
+
+Set **true** to apply the spread filter to the closing by StopLoss.
+
+<br />

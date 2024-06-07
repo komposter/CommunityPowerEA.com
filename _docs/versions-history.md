@@ -46,7 +46,7 @@ permalink: /docs/versions-history
 
 ### 2020.04.16 (2.04)
 * [+] Expert Comment
-* [+] Allow hedge
+* [+] [Allow hedge](/docs/hedge#allow-hedge)
 * [+] Manage manual trades
 * [+] Every Day schedule, Friday stop time, Friday close time, Monday start time. All parameters are in GMT! For correct testing proper GMT shift and DST mode must be set.
 * [+] Last December day to trade / First January day to trade
@@ -113,7 +113,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2020.07.22 (2.14)
-* [+] GUI
+* [+] [GUI](/docs/gui)
 * [+] Reverse mode and Use only closed bars for IdentifyTrend, TDI and Peace filters
 * [+] Extended info messages
 * [*] Pending entry works correctly with stop-level
@@ -152,7 +152,7 @@ permalink: /docs/versions-history
 * [+] Close on BreakEven after order #
 * [+] Pending entry by LIMIT orders added
 * [*] Pending buy-orders cancellation by opposite signal fixed for "in profit only" modes
-* [*] GUI blinking fixed
+* [*] [GUI](/docs/gui): blinking fixed
 * [*] BreakEven button moves TP in both sides (up and down)
 * [+] "Join the Community" button added
 
@@ -164,7 +164,7 @@ permalink: /docs/versions-history
 * [+] "Open on" parameter for each filter. Can be Individual/Collective.
 * [+] Allow martingale deals on signal only
 * [+] Window transparency parameter
-* [+] GUI scaling for 4K monitors
+* [+] [GUI](/docs/gui): scaling for 4K monitors
 * [*] "Too long GV name" error fixed
 * [*] "Ticket #xxx disappeared from the terminal" error fixed
 * [+] "Trade is disabled" and "Not enough money" alerts only once per 5 minutes
@@ -184,7 +184,7 @@ permalink: /docs/versions-history
 * [+] Close partial after order # and Min profit to close (in account currency)
 * [+] TP, TS and AntiSL: "From first open price" mode
 * [+] "StopLoss mode" parameter
-* [+] GUI: One click trading without confirmation (enables by left button on the top of the panel)
+* [+] [GUI](/docs/gui): One click trading without confirmation (enables by left button on the top of the panel)
 * [+] Martingale: "New deal on the end of the bar only"
 * [+] "Lot increasing mode" for Martin and Anti-martin
 * [*] Fixed lot per 1000 USD mode fixed
@@ -196,7 +196,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2020.11.30 (2.21)
-* [+] GUI: One click trading with Shift button pressed
+* [+] [GUI](/docs/gui): One click trading with Shift button pressed
 * [+] New deal on the new bar (for first deal)
 * [+] Trade both sides if all signals are disabled
 * [+] Oscillators: Stochastic D as an indicator
@@ -207,7 +207,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2020.12.03 (2.22)
-* [+] GUI: tooltips in status-bar
+* [+] [GUI](/docs/gui): tooltips in status-bar
 * [*] Volatility Filter fixed (didn't work since 2.19)
 
 [<button class="btn btn-success">Download v2.22 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.22.ex5)
@@ -225,8 +225,8 @@ permalink: /docs/versions-history
   * To visualize "TMA channel" you can use [this indy](https://www.mql5.com/en/code/22350). But it is only one possible option from hundreds available in the EA.
 * [+] Partial close: Min profit to close (% from balance)
 * [*] Partial close trying to close as many trades as possible
-* [*] GUI: visual testing speed increased
-* [+] GUI: "refresh interval" parameter for even faster visual test (try values between 60-300)
+* [*] [GUI](/docs/gui): visual testing speed increased
+* [+] [GUI](/docs/gui): "refresh interval" parameter for even faster visual test (try values between 60-300)
 
 [<button class="btn btn-success">Download v2.23 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.23.ex5)
 [<button class="btn btn-primary">Download v2.23 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.23.ex4)
@@ -237,9 +237,9 @@ permalink: /docs/versions-history
 * [*] Increased testing speed for strategies with huge number of trades
 * [*] TMA and FRAMA can work without indicator installed
 * [+] Fibo filter: "On retracement + opposite direction" mode added
-* [+] GUI: concept updated: pending entry has a lower priority than market entry
-* [+] GUI: profit in % added
-* [+] GUI: anti-martingale lines added
+* [+] [GUI](/docs/gui): concept updated: pending entry has a lower priority than market entry
+* [+] [GUI](/docs/gui): profit in % added
+* [+] [GUI](/docs/gui): anti-martingale lines added
 * [*] PauseAfterLoss fixed
 * [*] MartingailOnTheBarEnd fixed
 * [+] One more Fibo retracement filter added
@@ -307,7 +307,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2021.04.03 (2.29)
-* [+] News filter
+* [+] [News filter](/docs/news)
 * [+] [Max Relative DD](/docs/backtesting-and-optimization#custom-optimization-criterion) as optimization criterion
 * [*] BreakEven button works with non-virtual SL/TP too
 * [+] Orders on chart: aggregated profits on history
@@ -327,7 +327,7 @@ permalink: /docs/versions-history
 
 ### 2021.04.19 (2.30)
 * [+] ZigZag Filter
-* [+] "Open on", "Open martin on", "Close on" and "Partial close on" options for the News filter
+* [+] "Open on", "Open martin on", "Close on" and "Partial close on" options for the [News filter](/docs/news)
 * [+] Alert on first signal
 * [+] First signal sound is played (alert is shown, Grammy message is sent) even if trading is disabled (or checkbox is unchecked)
 * [+] "Logistic Growth" Lot increasing mode
@@ -380,7 +380,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2021.06.05 (2.32)
-* [+] GUI works in tester visual mode!
+* [+] [GUI](/docs/gui) works in tester visual mode!
 * [+] [Soft Martin](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence) Lot increasing mode
 * [+] [Max lot per 1000](https://communitypowerea.userecho.com/en/communities/1/topics/196-max-lot-option-max-lot-per-1000)
 * [+] Partial close: [Min part of losing order to close (%)](https://communitypowerea.userecho.com/en/communities/1/topics/242-split-an-order-for-partial-close)
@@ -393,7 +393,7 @@ permalink: /docs/versions-history
 * [+] Hedge: Max profitable orders to close at the same time
 * [+] Hedge: Allow close both ways (long series can close short series)
 * [+] Hedge: Min profit to close (% from opposite loss)
-* [*] News filter modes renamed
+* [*] [News filter](/docs/news) modes renamed
 * [*] Global StopLoss and Global TakeProfit renamed to Sum StopLoss and Sum TakeProfit
 * [*] Global Account Close works in tester
 
@@ -584,9 +584,9 @@ permalink: /docs/versions-history
 * [+] Spread filter: apply to first/apply to martin
 * [+] BreakEven
 * [+] [Risk per currency](/docs/risk-per-currency)
-* [*] GUI refresh is fixed for enabled Stop Till Tomorrow After Close
+* [*] [GUI](/docs/gui): refresh is fixed for enabled Stop Till Tomorrow After Close
 * [*] AutoHedge deals are closed with main series if it is closed by non-virtual SL or TP
-* [*] News: testing works correct for the last month
+* [*] [News filter](/docs/news): testing works correct for the last month
 
 [<button class="btn btn-success">Download v2.49 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.49.ex5)
 [<button class="btn btn-primary">Download v2.49 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.49.ex4)
@@ -775,11 +775,30 @@ permalink: /docs/versions-history
 
 <br />
 
-### 2024.04.28-04.29 (2.59.1)
+### 2024.04.28-09.03 (2.60)
 * [+] Volatility Filter with negative [Transformation Period](/docs/signals-and-filters#transformation-period) calculates Ratio of volatilities ("indicator 1 / indicator 2")
+* [+] MA filter with [2nd Volatility](/docs/signals-and-filters#2nd-volatility-indicator-for-ma-filter)
+* [+] Time: [GMT mode](/docs/time#gmt-mode)
+* [+] [Individual StopLoss](/docs/individual-follow-up#individual-stoploss) with several different modes
+* [*] Individual SL and TP are canceled if the [Close checkbox](/docs/gui#close-checkboxes) is unchecked
+* [*] [Allow hedge](/docs/hedge#allow-hedge) behavior fixed for some specific cases
+* [*] [GUI](/docs/gui): tooltips improved and fixed
+* [+] [News filter](/docs/news): dynamic pause after download error
+* [*] [Time filter](/docs/time) is applied to hedge orders
+* [+] Spread: [Apply to hedge](/docs/signals-and-filters#apply-to-hedge) parameter
+* [+] MT5: 70 non-optimisable parameters such as colors and styles have been moved to an external set-file. Specify [Set file with additional parameters](/docs/main-parameters#set-file-with-additional-parameters) to load your specific set, or leave it empty to use default values
 
 <br />
 
-[<button class="btn btn-success">Download v2.59.1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex5)
-[<button class="btn btn-primary">Download v2.59.1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.ex4)
-[<button class="btn btn-info">Download v2.59.1.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.59.1.a.ex5)
+[<button class="btn btn-success">Download v2.60 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.ex5)
+[<button class="btn btn-primary">Download v2.60 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.ex4)
+[<button class="btn btn-info">Download v2.60.a for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.a.ex5)
+
+
+<br />
+
+### 2024.09.15-09.15 (2.60.1)
+* [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
+* [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
+
+<br />

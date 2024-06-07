@@ -10534,6 +10534,14 @@ button.bg-dark:focus {
     color: #fff!important
 }
 
+.text-yellow {
+    color: #f7b924!important
+}
+
+.text-lime {
+    color: #a3cd3b!important
+}
+
 .text-primary {
     color: {{ site.color }}!important
 }
@@ -18575,12 +18583,12 @@ html body .md-typeset .headerlink {
 }
 
 footer {
-    min-height: 50px
+    min-height: 70px
 }
 
-@media(max-width:991.98px) {
+@media(max-width:820px) {
     footer {
-        min-height: 200px
+        min-height: 90px
     }
 }
 

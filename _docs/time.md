@@ -9,9 +9,11 @@ permalink: /docs/time
 
 <sup>[*(starting from v2.04)*](/docs/versions-history#20200416-204)</sup>
 
-All settings are in GMT time corrected with selected DST mode.
+All settings are in GMT time corrected with selected DST mode. It was designed this way to have the same results on different brokers (with different GMT offsets and DST modes).
 
 Please, set correct the DST mode and GMT offset during testing ([how to?](/docs/FAQ/gmt-and-dst)).
+
+If you want to use the server time, set **GMT mode** to **Manual GMT**, **GMT offset** to 0 and **DST mode** to **Disable DST**.
 
 
 <br />
@@ -28,6 +30,16 @@ Mode of schedule:
 
 <br />
 
+### GMT mode
+
+<sup>[*(starting from v2.59.4)*](/docs/versions-history#20240428-0903-260)</sup>
+
+Can be one of the following:
+* **Auto GMT** mode: detects GMT offset automatically (**not for Strategy Tester!**)
+* **Manual GMT** mode: set GMT offset manually
+
+<br />
+
 ### DST mode
 
 DST mode of your broker:
@@ -41,7 +53,7 @@ DST mode of your broker:
 
 ### GMT offset
 
-GMT offset for StrategyTester.
+GMT offset for StrategyTester or Manual GMT mode.
 
 Ask your broker what GMT offset and DST mode it uses.
 

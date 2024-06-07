@@ -260,7 +260,7 @@ Set **false** to set the real TP for all orders (if possible).
 
 ### BreakEven after, BreakEven to
 
-If the profit of a series reaches **BreakEven after** points ([what is a "point"?](/docs/FAQ/what-is-a-point)), SL of all positions will be moved to the level "average open price + **BreakEven** to points" (opposite for sell).
+If the profit of a series reaches **BreakEven after** points ([what is a "point"?](/docs/FAQ/what-is-a-point)), SL of all positions will be moved to the level "average open price + **BreakEven to** points" (opposite for sells).
 
 Thus, the series will be closed with profit of **BreakEven to** points.
 
