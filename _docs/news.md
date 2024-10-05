@@ -126,6 +126,14 @@ Leave empty not to filter the news by name.
 
 Time interval around the news release when “news time” is active.
 
+<br />
+
+### Consider weekend
+<sup>[*(starting from v2.60.2)*](/docs/versions-history#20240915-1003-2601-2603)</sup>
+
+If enabled and MinutesAfter finishes on weekend, the interval will be extended to the next Monday.
+
+> For example, if MinutesAfter = 60 and news is on Friday 23:30, trading will be disabled till Monday 00:30.
 
 <br />
 
