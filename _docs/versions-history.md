@@ -801,7 +801,7 @@ permalink: /docs/versions-history
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
 * [+] News: [Consider weekend](/docs/news#consider-weekend) parameter
-* [*] PartialClose refactored
+* [*] PartialClose [refactored](https://t.me/CommunityPowerNews/238)
 
 <br />
 
