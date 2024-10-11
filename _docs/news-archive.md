@@ -46,3 +46,8 @@ permalink: /docs/news/archive
 ### [2024.06.01.csv]({{site.baseurl}}/assets/News/FF/2024.06.01.csv)
 
 ### [2024.07.01.csv]({{site.baseurl}}/assets/News/FF/2024.07.01.csv)
+
+### [2024.08.01.csv]({{site.baseurl}}/assets/News/FF/2024.08.01.csv)
+
+### [2024.09.01.csv]({{site.baseurl}}/assets/News/FF/2024.09.01.csv)
+
