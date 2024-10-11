@@ -7,16 +7,18 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2024.09.15-10.03 (2.60.1-2.60.3)
+### 2024.09.15-10.11 (2.60.1-2.60.5)
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
 * [+] News: [Consider weekend](/docs/news#consider-weekend) parameter
-* [*] PartialClose [refactored](https://t.me/CommunityPowerNews/238)
+* [*] PartialClose [refactored](https://t.me/CommunityPowerNews/238), speed [increased](https://t.me/CommunityPowerNews/246)
+* [*] ActivePeriods and CollectiveSignal refactored
+* [+] Backtesting and optimization speed increased
 
 <br />
 
-[<button class="btn btn-success">Download v2.60.3 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.3.ex5)
-[<button class="btn btn-primary">Download v2.60.3 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.3.ex4)
+[<button class="btn btn-success">Download v2.60.5 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.5.ex5)
+[<button class="btn btn-primary">Download v2.60.5 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.5.ex4)
 
 <br />
 
