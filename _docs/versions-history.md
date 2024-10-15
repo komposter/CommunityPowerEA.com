@@ -7,13 +7,16 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2024.09.15-10.11 (2.60.1-2.60.5)
+### 2024.09.15-10.15 (2.60.1-2.60.6)
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
 * [+] News: [Consider weekend](/docs/news#consider-weekend) parameter
 * [*] PartialClose [refactored](https://t.me/CommunityPowerNews/238), speed [increased](https://t.me/CommunityPowerNews/246)
 * [*] ActivePeriods and CollectiveSignal refactored
 * [+] Backtesting and optimization speed increased
+* [+] [Individual TakeProfit](/docs/individual-follow-up#individual-takeprofit) with "coefficient to SL" mode
+
+{% include alert.html type="warning" title="Warning" content="All set-files with active Individual TP must be reviewed!" %}
 
 <br />
 
@@ -35,7 +38,7 @@ permalink: /docs/versions-history
 * [+] Spread: [Apply to hedge](/docs/signals-and-filters#apply-to-hedge) parameter
 * [+] MT5: 70 non-optimisable parameters such as colors and styles have been moved to an external set-file. Specify [Set file with additional parameters](/docs/main-parameters#set-file-with-additional-parameters) to load your specific set, or leave it empty to use default values
 
-<br />
+{% include alert.html type="warning" title="Warning" content="All set-files with active Individual SL and TP must be reviewed!" %}
 
 [<button class="btn btn-success">Download v2.60 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.ex5)
 [<button class="btn btn-primary">Download v2.60 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.ex4)

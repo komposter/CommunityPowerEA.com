@@ -7,7 +7,7 @@ permalink: /docs/individual-follow-up
 # Individual StopLoss
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
-<sup>[*(refactored in v2.59.5)*](/docs/versions-history#20240428-0903-260)</sup>
+<sup>[*(refactored in v2.60)*](/docs/versions-history#20240428-0903-260)</sup>
 
 Individual StopLoss is set for each position right after opening.
 
@@ -63,7 +63,8 @@ If the calculated SL is less than **Min StopLoss size**, it will be set to **Min
 # Individual TakeProfit
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
-<sup>[*(refactored in v2.59.5)*](/docs/versions-history#20240428-0903-260)</sup>
+<sup>[*(refactored in v2.60)*](/docs/versions-history#20240428-0903-260)</sup>
+<sup>[*(refactored in v2.60.6)*](/docs/versions-history#20240915-1015-2601-2606)</sup>
 
 Individual TakeProfit is set for each position right after opening.
 
@@ -73,19 +74,18 @@ It is always "real" (not virtual, even if [Use Virtual TP](/docs/follow-up#use-v
 
 <br />
 
-### TakeProfit size
+### TakeProfit type
 
-Individual TakeProfit size (in points or Like Coefficient to Volatility).
-
-Set 0 to disable TakeProfit.
+Can be one of the following:
+* **TakeProfit disabled**
+* **Fixed TakeProfit**: Fixed TakeProfit in points ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* **TakeProfit with coefficient to SL**: TP size is calculated as SL size multiplied by **TakeProfit size / shift / coeff**
 
 <br />
 
-### TakeProfit calc mode
+### TakeProfit size / shift / coeff
 
-TakeProfit can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+Individual TakeProfit size in points ([what is a "point"?](/docs/FAQ/what-is-a-point)) or coefficient.
 
 <br />
 <br />

@@ -129,7 +129,7 @@ Time interval around the news release when “news time” is active.
 <br />
 
 ### Consider weekend
-<sup>[*(starting from v2.60.2)*](/docs/versions-history#20240915-1011-2601-2605)</sup>
+<sup>[*(starting from v2.60.2)*](/docs/versions-history#20240915-1015-2601-2606)</sup>
 
 If enabled and MinutesAfter finishes on weekend, the interval will be extended to the next Monday.
 
