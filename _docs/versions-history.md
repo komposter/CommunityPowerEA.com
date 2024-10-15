@@ -18,10 +18,8 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All set-files with active Individual TP must be reviewed!" %}
 
-<br />
-
-[<button class="btn btn-success">Download v2.60.5 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.5.ex5)
-[<button class="btn btn-primary">Download v2.60.5 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.5.ex4)
+[<button class="btn btn-success">Download v2.60.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.6.ex5)
+[<button class="btn btn-primary">Download v2.60.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.6.ex4)
 
 <br />
 
