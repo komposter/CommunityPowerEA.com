@@ -88,8 +88,6 @@
       url: "docs/notifications"
     - title: "Backtesting and optimization"
       url: "docs/backtesting-and-optimization"
-    - title: "Connection to Binance"
-      url: "docs/binance"
     - title: "Versions history"
       url: "docs/versions-history"
 - title: "Brokers"

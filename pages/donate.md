@@ -46,7 +46,8 @@ You need desktop Telegram client to perform the payment.
 - USDT via Tron (TRC20): TKinCoaXJM5EEbVfftHuHJcUhZHbCFoUej
 - USDT via BNB Smart Chain (BEP20): 0xf386a4dc8b2ff796a7fd44624908952774f01550
 - BTC via BNB Smart Chain (BEP20): 0xf386a4dc8b2ff796a7fd44624908952774f01550
-- Via [Binance pay](https://www.binance.com/en/my/wallet/account/payment/send): Pay ID 223113105 (komposter)
+- Via [Binance pay](https://www.binance.com/en/my/wallet/account/payment/send): Pay ID 223113105 (komposter) Binance ID: 22850273
+- Via [ByBit pay](https://www.bybit.com/user/assets/withdraw): ByBit UID: 27507540
 
 <br />
 

@@ -48,8 +48,6 @@ permalink: /docs/
 
 ### [Backtesting and optimization](/docs/backtesting-and-optimization)
 
-### [Connection to Binance](/docs/binance)
-
 ### [Versions history](/docs/versions-history)
 
 ### [FAQ](/docs/FAQ)
