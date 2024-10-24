@@ -7,7 +7,7 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2024.09.15-10.15 (2.60.1-2.60.6)
+### 2024.09.15-10.15 (2.61)
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
 * [+] News: [Consider weekend](/docs/news#consider-weekend) parameter
@@ -18,8 +18,8 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All set-files with active Individual TP must be reviewed!" %}
 
-[<button class="btn btn-success">Download v2.60.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.6.ex5)
-[<button class="btn btn-primary">Download v2.60.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.60.6.ex4)
+[<button class="btn btn-success">Download v2.61 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.61.ex5)
+[<button class="btn btn-primary">Download v2.61 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.61.ex4)
 
 <br />
 

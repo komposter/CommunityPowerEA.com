@@ -64,7 +64,7 @@ If the calculated SL is less than **Min StopLoss size**, it will be set to **Min
 
 <sup>[*(starting from v2.56)*](/docs/versions-history#20230818-1124-256)</sup>
 <sup>[*(refactored in v2.60)*](/docs/versions-history#20240428-0903-260)</sup>
-<sup>[*(refactored in v2.60.6)*](/docs/versions-history#20240915-1015-2601-2606)</sup>
+<sup>[*(refactored in v2.60.6)*](/docs/versions-history#20240915-1015-261)</sup>
 
 Individual TakeProfit is set for each position right after opening.
 

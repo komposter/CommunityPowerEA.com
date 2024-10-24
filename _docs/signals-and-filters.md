@@ -1472,7 +1472,7 @@ Set **true** to apply the spread filter to the open of the hedge positions.
 <br />
 
 ### Apply to close
-<sup>[*(starting from v2.60.1)*](/docs/versions-history#20240915-1015-2601-2606)</sup>
+<sup>[*(starting from v2.60.1)*](/docs/versions-history#20240915-1015-261)</sup>
 
 Set **true** to apply the spread filter to the closing by StopLoss.
 
