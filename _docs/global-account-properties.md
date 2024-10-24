@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Global account properties
+title: Global Account Close
 permalink: /docs/global-account-properties
 ---
 
