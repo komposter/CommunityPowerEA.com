@@ -6,23 +6,6 @@ permalink: /docs/entry-strategy
 
 # Entry strategy
 
-
-### **Active Period** parameter for each filter
-
-<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
-
-Each signal has an **Active period** parameter. Signal can be **always active** or use 1 of 4 predefined periods.
-
-Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
-
-Active signals are shown on the EA panel as usual (gray if there is no signal, and blue/red if there is a signal), non-active signals are shown in light blue and light red if there is a signal:
-
-![active_periods.jpg](..%2Fassets%2Fimg%2Fdocs%2Factive_periods.jpg)
-
-Only signals that are active at the moment are used for opening and closing.
-
-<br />
-
 ### **Open on** parameter for each filter
 
 <sup>[*(starting from v2.19)*](/docs/versions-history#20201014-219)</sup>
@@ -83,5 +66,22 @@ Close signal - is an opposite signal of the filter. So, buy will be closed when 
 **Partial close** can be activated by any **Individual** or **Collective signal**, as a full close.
 
 **Close signal** - is an opposite signal of the filter. So, buy will be closed when the filter allows sell opening.
+
+<br />
+
+
+### **Active Period** parameter for each filter
+
+<sup>[*(starting from v2.52)*](/docs/versions-history#20230211-0324-252)</sup>
+
+Each signal has an **Active period** parameter. Signal can be **always active** or use 1 of 4 predefined periods.
+
+Each of 4 Active periods can be set in the [Active Periods for signals and filters](/docs/active-periods) section.
+
+Active signals are shown on the EA panel as usual (gray if there is no signal, and blue/red if there is a signal), non-active signals are shown in light blue and light red if there is a signal:
+
+![active_periods.jpg](..%2Fassets%2Fimg%2Fdocs%2Factive_periods.jpg)
+
+Only signals that are active at the moment are used for opening and closing.
 
 <br />
