@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Multi-symbol parameters
+title: Multi-symbol
 description: Multi-symbol parameters
 permalink: /docs/multi-symbol
 ---
