@@ -7,6 +7,15 @@ permalink: /docs/versions-history
 
 # Versions history
 
+### 2024.10.24 (3.0)
+* [+] [Multi-symbol](/docs/multi-symbol) version
+
+[<button class="btn btn-success">Download v3.0 beta 1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 beta 1.ex5)
+[<button class="btn btn-primary">Download v3.0 beta 1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 beta 1.ex4)
+[<button class="btn btn-info">Download v3.0 MultiSymbol beta 1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 MS beta 1.ex5)
+
+<br />
+
 ### 2024.09.15-10.15 (2.61)
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
