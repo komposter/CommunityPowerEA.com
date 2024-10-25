@@ -676,6 +676,9 @@ Activate it with specific **Object name**, create a **trend** or **horizontal** 
 
 {% include alert.html type="warning" title="Attention" content="Chart objects don't work in the MT5 visual tester mode, so you can test it on history in MT4 only" %}
 
+{% include alert.html type="warning" title="Attention" content="Line filter doesn't work for foreign symbols in multi-symbol version of EA" %}
+
+
 ![]({{site.baseurl}}/assets/img/docs/line_filter_1.gif)
 
 <br />

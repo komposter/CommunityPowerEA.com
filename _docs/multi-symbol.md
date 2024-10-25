@@ -19,6 +19,7 @@ You can also backtest and optimize the EA on multiple symbols simultaneously. Th
 
  * Works for MetaTrader 5 only
  * GUI works for the **current chart symbol** only
+ * Line filter works for the **current chart symbol** only
  * Backtesting is slower even if you use only one symbol (because it needs to check order symbol and magic on each tick, and in a single-symbol version doesn't)
 
 <br />
