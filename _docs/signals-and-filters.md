@@ -591,6 +591,7 @@ Type of MA filter:
     * BUYs are allowed if the MA rises with a slope >= **Angle**
     * SELLs are allowed if the MA falls with a slope >= **Angle**
 
+> Slope is calculated as (MA[1] - MA[2]), meaning that the MA should change by **Angle** points per bar to generate a signal
 
 **Price** depends on the "Use closed bars only" parameter:
 
