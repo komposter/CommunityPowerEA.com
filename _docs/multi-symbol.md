@@ -7,9 +7,9 @@ permalink: /docs/multi-symbol
 
 # Multi-symbol
 
-<sup>[*(starting from v3.0)*](/docs/versions-history#20241024-30)</sup>
+<sup>[*(starting from v3.0)*](/docs/versions-history#20241024-1115-30)</sup>
 
-Starting from [v3.0](/docs/versions-history#20241024-30), you can trade multiple symbols with one EA instance (MT5 only).
+Starting from [v3.0](/docs/versions-history#20241024-1115-30), you can trade multiple symbols with one EA instance (MT5 only).
 
 EA will use the same settings for all symbols, so make sure your strategy is universal and doesn't depend on point size or other symbol-specific parameters.
 

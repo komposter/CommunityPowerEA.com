@@ -593,13 +593,13 @@ Type of MA filter:
 
 > Slope is calculated as (MA[1] - MA[2]), meaning that the MA should change by **Angle** points per bar to generate a signal
 
-**Price** depends on the "Use closed bars only" parameter:
+**Price** depends on the [Use closed bars only](#use-closed-bars-only) and [Use price](#use-price) parameters:
 
- * If "Use closed bars only" = **false**:
-   * Price on current bar = **Ask** for BUYs, **Bid** for SELLs
-   * Price on previous bar = **Open** price of the previous bar
- * If "Use closed bars only" = **true**:
+ * If [Use closed bars only](#use-closed-bars-only) = **true**:
    * Price on current bar = **Open** price of the current bar
+   * Price on previous bar = **Open** price of the previous bar
+ * If [Use closed bars only](#use-closed-bars-only) = **false**:
+   * Price on current bar depends on the [Use price](#use-price) parameter
    * Price on previous bar = **Open** price of the previous bar
 
 <br />
@@ -630,7 +630,7 @@ TimeFrame for MA filter
 
 Distance or angle value for signal calculation.
 
-Distance can be negative (so, in **Buy below MA** mode, BUYs will be allowed if Ask above the MA, but not more than by distance points).
+Distance can be negative (so, in **Buy below MA** mode, BUYs will be allowed if price above the MA, but not more than by distance points).
 
 Angle is set in points per bar (for example, 1.5 points per bar means MA changed by 1.5 points), or as "current volatility * Coefficient" per bar (for example, if volatility = 20 points, and **Distance / angle** value = 0.1, MA should change by 20*0.1 = 2 points per bar to generate signal).
 
@@ -646,6 +646,18 @@ Max distance / angle value.
 > For example, if **Distance value** = 10, **Max Distance value** = 20, Buy below MA signal will be active if **Max Distance** >= MA - price >= **Distance**.
 
 Set 0 to disable this limit.
+
+<br />
+
+### Use price
+<sup>[*(starting from v3.0)*](/docs/versions-history#20241024-1115-30)</sup>
+
+Price to use for MA filter signals. Can be one of the following:
+* Co-directional: Use **Ask** for BUYs, **Bid** for SELLs
+* Opposite: Use **Bid** for BUYs, **Ask** for SELLs
+* Bid: Use **Bid** for both BUYs and SELLs
+* Ask: Use **Ask** for both BUYs and SELLs
+* Avg: Use **(Ask + Bid) / 2** for both BUYs and SELLs
 
 <br />
 
@@ -1451,6 +1463,17 @@ Set 0 to disable the filter.
 Max average spread (in points) ([what is a "point"?](/docs/FAQ/what-is-a-point)) for positions opening and the number of seconds to calculate it.
 
 Set 0 to disable the filter.
+
+<br />
+
+### M1 bars to calculate 'normal' spread
+<sup>[*(starting from v3.0)*](/docs/versions-history#20241024-1115-30)</sup>
+
+If enabled, EA will calculate the 'normal' spread: the average spread for the specified number of M1 bars.
+
+For now, this value is used only for the [MA filters](#ma-filters) to calculate the correction size: MA on the current bar is corrected by the half of the 'normal' spread. Thus, signals for the pairs with high spread will be symmetrical.
+
+Set 0 to disable this correction.
 
 <br />
 
