@@ -593,12 +593,12 @@ Type of MA filter:
 
 > Slope is calculated as (MA[1] - MA[2]), meaning that the MA should change by **Angle** points per bar to generate a signal
 
-**Price** depends on the [Use closed bars only](#use-closed-bars-only) and [Use price](#use-price) parameters:
+**Price** depends on the [Use closed bars only](#use-closed-bars-only-3) and [Use price](#use-price) parameters:
 
- * If [Use closed bars only](#use-closed-bars-only) = **true**:
+ * If [Use closed bars only](#use-closed-bars-only-3) = **true**:
    * Price on current bar = **Open** price of the current bar
    * Price on previous bar = **Open** price of the previous bar
- * If [Use closed bars only](#use-closed-bars-only) = **false**:
+ * If [Use closed bars only](#use-closed-bars-only-3) = **false**:
    * Price on current bar depends on the [Use price](#use-price) parameter
    * Price on previous bar = **Open** price of the previous bar
 
