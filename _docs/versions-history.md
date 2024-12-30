@@ -12,9 +12,9 @@ permalink: /docs/versions-history
 * [+] MA Filters: [Use price](/docs/signals-and-filters#use-price) parameter
 * [+] MA Filters: MA value on the current bar can be corrected by the ['normal' spread](/docs/signals-and-filters#m1-bars-to-calculate-normal-spread)
 
-[<button class="btn btn-success">Download v3.0 beta 1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 beta 1.ex5)
-[<button class="btn btn-primary">Download v3.0 beta 1 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 beta 1.ex4)
-[<button class="btn btn-info">Download v3.0 MultiSymbol beta 1 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 MS beta 1.ex5)
+[<button class="btn btn-success">Download v3.0 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.ex5)
+[<button class="btn btn-primary">Download v3.0 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.ex4)
+[<button class="btn btn-info">Download v3.0 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0 MS.ex5)
 
 <br />
 
