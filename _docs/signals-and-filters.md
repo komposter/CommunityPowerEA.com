@@ -50,16 +50,25 @@ Big candle filter analyzes candle (current or previous, depending on **Analyze c
 
 <br />
 
+### Big candle calculation mode
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20240105-301-3015)</sup>
+
+Can be one of the following:
+* **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* **Volatility Coefficient**: distance is calculated as "[current volatility](/docs/volatility) * Coefficient"
+* **Percentage of Price**: distance is calculated as "Asset price * Percentage / 100"
+
+
 ### Big candle min size
 
-Min candle size in points to activate signal ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+Min candle size to activate signal.
 
 <br />
 
 ### Big candle max size
 <sup>[*(starting from v2.44)*](/docs/versions-history#20220312-244)</sup>
 
-Max candle size in points to activate signal ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+Max candle size to activate signal.
 
 Set 0 to disable max size check.
 

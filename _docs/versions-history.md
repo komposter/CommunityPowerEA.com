@@ -7,6 +7,21 @@ permalink: /docs/versions-history
 
 # Versions history
 
+### 2024.11.16-2025.01.05 (3.0.1-3.0.15)
+* [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
+* [+] Martin: Change step every order
+* [+] Distance calculation mode: In Percentage
+* [+] CustomStartAndEnd with custom intervals from file
+* [+] Speed improved
+* [+] Distance calculation mode: Min volatility to use (spreads) (0 - disable limit)
+* [+] Volatility: Price Range and Percent Change modes
+* [+] Volatility: Invert/Smooth Period
+* [+] MA BelowAbove: If MA_Price is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals
+
+Coming soon...
+
+<br />
+
 ### 2024.10.24-11.15 (3.0)
 * [+] [Multi-symbol](/docs/multi-symbol) version
 * [+] MA Filters: [Use price](/docs/signals-and-filters#use-price) parameter
