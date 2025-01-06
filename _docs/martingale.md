@@ -110,13 +110,32 @@ Set 0 to disable step change <sup>[*(starting from v2.54)*](/docs/versions-histo
 
 <br />
 
-### Change step after order #, Change step by coefficient
-
+### Change step after order
 <sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
 
-Change the step after a certain order by custom coefficient (next steps also change).
+Change the step after a certain order in series by custom coefficient (next steps will also change).
 
 > For example, with **Step size** = 20 points, **Change step after order #** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 40 - 40 and so on.
+
+Set 0 to disable step change.
+
+<br />
+
+### Change step every order
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+
+Change the step **every X orders** by custom coefficient (next steps will also change).
+
+> For example, with **Step size** = 20 points, **Change step every order** = 2 and **Change step by coefficient** = 2.0, distances between orders in martingale series will be 20 - 20 - 40 - 40 - 80 - 80 - 160 - 160 and so on.
+
+Set 0 to disable step change.
+
+<br />
+
+### Change step by coefficient
+<sup>[*(starting from v2.46)*](/docs/versions-history#20220428-246)</sup>
+
+Custom coefficient for **Change step after order #** and **Change step every order** functions.
 
 <br />
 
