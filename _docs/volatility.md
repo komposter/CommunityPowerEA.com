@@ -12,7 +12,7 @@ Starting from [v2.31](/docs/versions-history#20210508-231), you can set **Volati
 
 ![]({{site.baseurl}}/assets/img/docs/volatility1.png)
 
-Then you can set **calculation mode** for any parameter to **Coefficient to Volatility**:
+Then you can set **calculation mode** for any parameter to **Volatility Coefficient**:
 
 ![]({{site.baseurl}}/assets/img/docs/volatility2.png)
 
@@ -54,9 +54,9 @@ TimeFrame and Period of volatility indicator
 
 ### Min and Max volatility to use (points)
 
-Indicator value will be limited by these Min and Max values defined **in points** ([what is a "point"?](/docs/FAQ/what-is-a-point)).
+Indicator value will be limited by these Min and Max values defined in **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
-> For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with coefficient to volatility = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
+> For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with Volatility Coefficient = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
 
 Set 0 to disable the limit.
 

@@ -51,7 +51,7 @@ Big candle filter analyzes candle (current or previous, depending on **Analyze c
 <br />
 
 ### Big candle calculation mode
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20240105-301-3015)</sup>
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
 
 Can be one of the following:
 * **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
@@ -630,8 +630,8 @@ TimeFrame for MA filter
 ### Distance / angle calculation type
 
 **Distance / angle** calculation type:
-* **In points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
+* In **Points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
 
 <br />
 
@@ -754,8 +754,8 @@ Name of the graphical object to use as a Line filter
 ### Distance calculation type
 
 Distance calculation type:
-* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient"
+* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient"
 
 <br />
 
@@ -831,8 +831,8 @@ Use **Every tick** for the most accurate signals.
 ### Distance calculation type
 
 Distance calculation type:
-* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient"
+* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient"
 
 <br />
 
@@ -983,8 +983,8 @@ TimeFrame for ZZ filter
 ### Distance type
 
 **Distance** calculation type:
-* **In points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* **Volatility * Coefficient**: distance is calculated as "current volatility * Coefficient":
+* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient":
     ![]({{site.baseurl}}/assets/img/docs/zz9.png)
 
 * **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"

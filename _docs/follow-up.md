@@ -19,7 +19,7 @@ StopLoss for all positions in series.
 
 ### StopLoss size
 
-StopLoss size (in points or Like Coefficient to Volatility).
+StopLoss size (in points or as Volatility Coefficient).
 
 Set 0 to disable StopLoss.
 
@@ -55,8 +55,8 @@ StopLoss mode:
 ### StopLoss calc mode
 
 StopLoss can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
@@ -111,7 +111,7 @@ TakeProfit for all positions in series.
 
 ### TakeProfit size
 
-TakeProfit size (in points or Like Coefficient to Volatility).
+TakeProfit size (in points or as Volatility Coefficient).
 
 Set 0 to disable TakeProfit.
 
@@ -133,8 +133,8 @@ Commission and swap also included.
 ### TakeProfit calc mode
 
 TakeProfit can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))<br/>
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))<br/>
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
@@ -237,8 +237,8 @@ When you select **Close in profit only** mode for any signal, it will close the 
 ### Min/max profit calc mode
 
 Min/max profit can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
@@ -269,8 +269,8 @@ Thus, the series will be closed with profit of **BreakEven to** points.
 ### BreakEven calc mode
 
 BreakEven can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
@@ -368,8 +368,8 @@ TrailingStop mode:
 ### TrailingStop calc mode
 
 TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 

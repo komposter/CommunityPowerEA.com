@@ -84,7 +84,7 @@ User-defined coefficient sequence for **Custom lot coefficients** increasing mod
 
 ### Step size
 
-Step size (in points or like coefficient to Volatility)
+Step size (in points or as Volatility Coefficient)
 
 <br />
 
@@ -93,8 +93,8 @@ Step size (in points or like coefficient to Volatility)
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Step can be set:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
@@ -169,8 +169,8 @@ Anti-StopLoss mode:
 <sup>[*(starting from v2.31)*](/docs/versions-history#20210508-231)</sup>
 
 Can be:
-* **In points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* Like **Coefficient to Volatility** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
 
 <br />
 
