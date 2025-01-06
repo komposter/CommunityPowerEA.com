@@ -18,8 +18,6 @@ Then you can set **calculation mode** for any parameter to **Volatility Coeffici
 
 In this example, **TrailingStop size** will be calculated as **ATR * 1.5**, and **Trailing Step** will be **ATR * 0.1**.
 
-<br />
-
 Calculation mode is available for almost all parameters in the EA.
 
 <br />
