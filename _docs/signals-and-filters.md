@@ -53,11 +53,12 @@ Big candle filter analyzes candle (current or previous, depending on **Analyze c
 ### Big candle calculation mode
 <sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
 
-Can be one of the following:
-* **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* **Volatility Coefficient**: distance is calculated as "[current volatility](/docs/volatility) * Coefficient"
-* **Percentage of Price**: distance is calculated as "Asset price * Percentage / 100"
+Can be set:
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (Asset price * Percentage / 100)
 
+<br />
 
 ### Big candle min size
 
