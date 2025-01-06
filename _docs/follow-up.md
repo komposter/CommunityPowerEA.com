@@ -56,7 +56,8 @@ StopLoss mode:
 
 StopLoss can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -133,8 +134,9 @@ Commission and swap also included.
 ### TakeProfit calc mode
 
 TakeProfit can be set:
-* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))<br/>
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -238,7 +240,8 @@ When you select **Close in profit only** mode for any signal, it will close the 
 
 Min/max profit can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -270,7 +273,8 @@ Thus, the series will be closed with profit of **BreakEven to** points.
 
 BreakEven can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -369,7 +373,8 @@ TrailingStop mode:
 
 TrailingStop, TrailingStep, Start trailing after, Increase trailing every and Increase size can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 

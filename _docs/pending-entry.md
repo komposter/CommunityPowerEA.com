@@ -74,7 +74,8 @@ Set 0 to disable cancellation after bars.
 
 **Distance to order** and **Cancel after distance** can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 

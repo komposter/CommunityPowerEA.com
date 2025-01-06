@@ -56,7 +56,7 @@ Big candle filter analyzes candle (current or previous, depending on **Analyze c
 Can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
 * As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
-* As a **Percentage of Price** (Asset price * Percentage / 100)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
