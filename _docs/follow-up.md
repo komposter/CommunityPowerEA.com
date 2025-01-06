@@ -19,7 +19,7 @@ StopLoss for all positions in series.
 
 ### StopLoss size
 
-StopLoss size (in points or as Volatility Coefficient).
+StopLoss size (in points, as a Volatility Coefficient, or as a Percentage of price).
 
 Set 0 to disable StopLoss.
 
@@ -112,7 +112,7 @@ TakeProfit for all positions in series.
 
 ### TakeProfit size
 
-TakeProfit size (in points or as Volatility Coefficient).
+TakeProfit size (in points, as a Volatility Coefficient, or as a Percentage of price).
 
 Set 0 to disable TakeProfit.
 

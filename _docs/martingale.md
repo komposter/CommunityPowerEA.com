@@ -87,7 +87,7 @@ User-defined coefficient sequence for Custom lot coefficients increasing mode. C
 
 ### Step size
 
-Step size (in points or as Volatility Coefficient)
+Step size (in points, as a Volatility Coefficient, or as a Percentage of price)
 
 <br />
 

@@ -20,17 +20,12 @@ In this example, **TrailingStop size** will be calculated as **ATR * 1.5**, and 
 
 <br />
 
-You can set "calculation mode" for the following parameters:
-* Pending entry: Distance to order and Cancel after distance
-* StopLoss size
-* TakeProfit size
-* Min profit to close on signal
-* Martingale Step size
-* Anti-martingale Step size
-* Anti-StopLoss size
-* TrailingStop size
-* Trailing Step
-* Start trailing after
+Starting from [v3.0.15](/docs/versions-history#20241116-20250105-301-3015), you can choose **Percentage of Price** calculation mode: distance will be calculated as **asset price * Percentage / 100**.
+Asset price is usually series average open price or order open price (for Individual Follow-up and Pending orders). 
+
+<br />
+
+Calculation mode is available for almost all parameters in the EA.
 
 <br />
 
