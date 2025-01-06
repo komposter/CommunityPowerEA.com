@@ -10,7 +10,7 @@ permalink: /docs/versions-history
 ### 2024.11.16-2025.01.05 (3.0.1-3.0.15)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
-* [+] Distance calculation mode: In Percentage
+* [+] Distance calculation mode: [In Percentage](/docs/volatility#percentage-of-price)
 * [+] CustomStartAndEnd with custom intervals from file
 * [+] Speed improved
 * [+] Distance calculation mode: Min volatility to use (spreads) (0 - disable limit)
