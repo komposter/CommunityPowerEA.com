@@ -58,8 +58,7 @@ Set 0 to disable the limit.
 
 <br />
 
-### Fix volatility on 1st position open
-
+### Fix at the 1st position opening
 <sup>[*(starting from v2.50)*](/docs/versions-history#20221014-20230107-250)</sup>
 
 Set **true** to use the same volatility over the lifetime of the series.

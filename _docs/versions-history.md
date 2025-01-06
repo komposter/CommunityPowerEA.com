@@ -240,7 +240,7 @@ Coming soon...
 * [+] Lot increasing mode: 1st deal lot * distance * coeff
 * [*] SL and TP are not changed by EA after manual modification until the next recalculation (opening a new order, changing swap, etc.)
 * [*] SL and TP are executed by market in UseVirtualSL/TP mode only
-* [+] Fix volatility on 1st position open
+* [+] Volatility: [Fix at the 1st position opening](/docs/volatility#fix-at-the-1st-position-opening)
 * [+] Allow dragging the lines to modify SL/TP
 * [+] Expert Comment is shown in the panel header
 * [*] [Apply martin after closed loss]({{site.baseurl}}/docs/lot#apply-martin-after-closed-loss) works correctly with pending orders
