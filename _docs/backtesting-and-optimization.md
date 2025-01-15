@@ -173,3 +173,25 @@ As you can see, adjustment coefficient can only decrease the final result for lo
 The purpose of **Custom Start date** is to ensure that all necessary historical data is loaded for all indicators (some indicators require more than 1 year of history, which is available in the tester by default).
 
 The purpose of the **Custom End Date** is to avoid starting a new series of trades at the end of the test period, so that all trades will be more likely to be closed before the end of the test.
+
+<br />
+
+### Custom Intervals File Name
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+
+If defined, EA will read custom intervals from the file with this name and use them for the test (will skip all the ticks outside of these intervals).
+
+File should be located in the common folder of all MetaTraders on your PC: `C:\Users\\**your_name**\\AppData\Roaming\MetaQuotes\Terminal\Common\Files\` or its subfolders.
+
+To get there, you can use the “Open data folder” command in the terminal (File -> Open data folder).
+
+File format should be like this:
+
+```
+2022.01.01 00:00-2022.01.02 00:00
+2022.01.03 12:00-2022.01.04 12:00
+```
+
+At the end of each interval, EA will close all the trades and will "sleep" until the beginning of the next interval.
+
+This feature may be useful for testing and optimizing the EA on the specific market conditions like extremely volatile or flat markets.

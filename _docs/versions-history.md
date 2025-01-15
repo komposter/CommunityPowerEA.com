@@ -11,7 +11,7 @@ permalink: /docs/versions-history
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
 * [+] Distance calculation mode: as a [Percentage of Price](/docs/volatility#percentage-of-price)
-* [+] CustomStartAndEnd with custom intervals from file
+* [+] Tester: Custom Start and End with [custom intervals from file](/docs/backtesting-and-optimization#custom-intervals-file-name)
 * [+] Speed improved
 * [+] Distance calculation mode: Min volatility to use (spreads) (0 - disable limit)
 * [+] Volatility: Price Range and Percent Change modes
