@@ -1051,9 +1051,12 @@ Indicator used for the Distance calculation for the MA and ZZ Filters.
 Can be one of the following:
 * ATR
 * StDev
-* ATR based on **Close-Open** (high and low prices not used)
+* ATR (Close-Open): average candle body size (|Close - Open|) for the last N bars
 * WATR
 * Volume (don't use for this block!)
+* OBV (don't use for this block!)
+* Price Range: highest high - lowest low for the last N bars
+* Percent Change: average change (|close_curr - close_prev|) for the last N bars
 
 <br />
 
@@ -1082,10 +1085,12 @@ Indicator for the Volatility Filter:
 * Disabled: Volatility Filter disabled
 * ATR
 * StDev
-* ATR based on **Close-Open** (high and low prices not used)
+* ATR (Close-Open): average candle body size (|Close - Open|) for the last N bars
 * WATR
-* Volume [*(starting from v2.29)*](/docs/versions-history#20210403-229)
-* OBV [*(starting from v2.59)*](/docs/versions-history#20240118-0426-259)
+* Volume
+* OBV
+* Price Range: highest high - lowest low for the last N bars
+* Percent Change: average change (|close_curr - close_prev|) for the last N bars
 
 <br />
 
