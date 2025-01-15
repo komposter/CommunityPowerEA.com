@@ -36,18 +36,33 @@ Indicator used for the Volatility calculation.
 Can be one of the following:
 * ATR
 * StDev
-* ATR (Close-Open): average candle body size (|Close - Open|) for the last N bars
+* ATR (Close-Open): average candle body size (abs(Close - Open)) for the last N bars
 * WATR
 * Volume (don't use for this block!)
 * OBV (don't use for this block!)
 * Price Range: highest high - lowest low for the last N bars
-* Percent Change: average change (|close_curr - close_prev|) for the last N bars
+* Percent Change: average change (abs(close_curr - close_prev)) for the last N bars
 
 <br />
 
 ### TimeFrame and Period
 
 TimeFrame and Period of volatility indicator
+
+<br />
+
+### Invert/Smooth Period
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+
+If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
+
+> For example, if **Invert/Smooth Period** = 5, MA(5) will be applied to the indicator value, and the final value will be calculated as **MA(5) - (indicator value - MA(5))**.
+
+If **Invert/Smooth Period** < 0, indicator value will be smoothed with the MA with this period.
+
+> For example, if **Invert/Smooth Period** = -5, MA(5) will be applied to the indicator value, and the final value will be equal to **MA(5)**.
+
+To understand this parameter better, you can use the **iVolatility** indicator: [for MT4]({{site.baseurl}}/assets/Indicators/iVolatility.ex4) and [for MT5]({{site.baseurl}}/assets/Indicators/iVolatility.ex5).
 
 <br />
 

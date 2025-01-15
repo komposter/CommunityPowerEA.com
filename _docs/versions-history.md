@@ -14,7 +14,7 @@ permalink: /docs/versions-history
 * [+] Tester: Custom Start and End with [custom intervals from file](/docs/backtesting-and-optimization#custom-intervals-file-name)
 * [+] Distance calculation mode: [Min volatility to use (spreads)](/docs/volatility#min-volatility-to-use-spreads)
 * [+] Volatility: [Price Range and Percent Change modes](/docs/volatility#volatility-indicator)
-* [+] Volatility: Invert/Smooth Period
+* [+] Volatility: [Invert/Smooth Period](/docs/volatility#invertsmooth-period)
 * [+] MA BelowAbove: If MA_Price is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals
 * [+] Speed improved
 
