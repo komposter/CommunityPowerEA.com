@@ -36,12 +36,12 @@ Indicator used for the Volatility calculation.
 Can be one of the following:
 * ATR
 * StDev
-* ATR (Close-Open): average candle body size (abs(Close - Open)) for the last N bars
+* ATR (Close-Open): average candle body size (`abs(Close - Open)`) for the last N bars
 * WATR
 * Volume (don't use for this block!)
 * OBV (don't use for this block!)
 * Price Range: highest high - lowest low for the last N bars
-* Percent Change: average change (abs(close_curr - close_prev)) for the last N bars
+* Percent Change: average change (`abs(close_curr - close_prev)`) for the last N bars
 
 <br />
 
