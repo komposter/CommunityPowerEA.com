@@ -628,6 +628,8 @@ TimeFrame for MA filter
  * MA Method
  * Applied price
 
+[*Starting from v3.0.15*](/docs/versions-history#20241116-20250105-301-3015), if **Applied price** is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals. Thus, you can use the only one MA filter and have symmetrical signals for Buy and Sell.
+
 <br />
 
 ### Distance / angle calculation type
