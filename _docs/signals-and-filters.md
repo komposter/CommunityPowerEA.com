@@ -612,6 +612,8 @@ Type of MA filter:
    * Price on current bar depends on the [Use price](#use-price) parameter
    * Price on previous bar = **Open** price of the previous bar
 
+MA on the current bar is corrected by the half of the ['normal' spread](/docs/signals-and-filters#m1-bars-to-calculate-normal-spread). Thus, signals for the symbols with high spread will be symmetrical.
+
 <br />
 
 ### TimeFrame
@@ -1481,7 +1483,9 @@ Set 0 to disable the filter.
 
 If enabled, EA will calculate the 'normal' spread: the average spread for the specified number of M1 bars.
 
-For now, this value is used only for the [MA filters](#ma-filters) to calculate the correction size: MA on the current bar is corrected by the half of the 'normal' spread. Thus, signals for the pairs with high spread will be symmetrical.
+For now, this value is used:
+* for the [MA filters](#ma-filters) to calculate the correction size: MA on the current bar is corrected by the half of the 'normal' spread. Thus, signals for the pairs with high spread will be symmetrical.
+* for the Distance calculation: indicator value is limited by the [Min volatility to use (spreads)](/docs/volatility#min-volatility-to-use-spreads)
 
 Set 0 to disable this correction.
 

@@ -12,11 +12,11 @@ permalink: /docs/versions-history
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
 * [+] Distance calculation mode: as a [Percentage of Price](/docs/volatility#percentage-of-price)
 * [+] Tester: Custom Start and End with [custom intervals from file](/docs/backtesting-and-optimization#custom-intervals-file-name)
-* [+] Speed improved
-* [+] Distance calculation mode: Min volatility to use (spreads) (0 - disable limit)
+* [+] Distance calculation mode: [Min volatility to use (spreads)](/docs/volatility#min-volatility-to-use-spreads)
 * [+] Volatility: Price Range and Percent Change modes
 * [+] Volatility: Invert/Smooth Period
 * [+] MA BelowAbove: If MA_Price is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals
+* [+] Speed improved
 
 Coming soon...
 

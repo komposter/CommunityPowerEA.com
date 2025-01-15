@@ -52,7 +52,18 @@ TimeFrame and Period of volatility indicator
 
 Indicator value will be limited by these Min and Max values defined in **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point)).
 
-> For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with Volatility Coefficient = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45).
+> For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and you set **Min volatility to use** = 25, EA will use 25 points as volatility size (and TrailingStop with Volatility Coefficient = 1.5 will be 25 * 1.5 = 37.5 points (not 20.3 * 1.5 = 30.45)).
+
+Set 0 to disable the limit.
+
+<br />
+
+### Min volatility to use (spreads)
+<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+
+Indicator value will be limited by this Min value defined as a number of ['normal' spreads](/docs/signals-and-filters#m1-bars-to-calculate-normal-spread).
+
+> For example, if current StDev value is 0.00203 (20.3 points for EURUSD), and current 'normal' spread is 1.5 points, and you set **Min volatility to use (spreads)** = 20, EA will use 20 * 1.5 = 30 points as volatility size (and TrailingStop with Volatility Coefficient = 1.5 will be 30 * 1.5 = 45 points (not 20.3 * 1.5 = 30.45)).
 
 Set 0 to disable the limit.
 
