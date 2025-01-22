@@ -33,6 +33,7 @@ Asset price is usually series average open price or order open price (for Indivi
 ### Volatility Indicator
 
 Indicator used for the Volatility calculation.
+
 Can be one of the following:
 * ATR
 * StDev
@@ -42,6 +43,15 @@ Can be one of the following:
 * OBV (don't use for this block!)
 * Price Range: highest high - lowest low for the last N bars
 * Percent Change: average change (`abs(close_curr - close_prev)`) for the last N bars
+
+<br />
+
+### 2nd Volatility Indicator
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+
+If set, volatility value is calculated as `max(volatility_1, volatility_2)`.
+
+> For example, you can set **Volatility Indicator** = ATR, and **2nd Volatility Indicator** = StDev, and Distance will be the maximum of ATR and StDev.
 
 <br />
 

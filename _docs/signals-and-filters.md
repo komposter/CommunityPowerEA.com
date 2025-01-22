@@ -635,8 +635,9 @@ TimeFrame for MA filter
 ### Distance / angle calculation type
 
 **Distance / angle** calculation type:
-* In **Points**: fixed distance in points / fixed angle in points per bar is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient" / angle is calculated as "current volatility * Coefficient" per bar
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -759,8 +760,9 @@ Name of the graphical object to use as a Line filter
 ### Distance calculation type
 
 Distance calculation type:
-* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient"
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -836,8 +838,9 @@ Use **Every tick** for the most accurate signals.
 ### Distance calculation type
 
 Distance calculation type:
-* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient"
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -988,13 +991,11 @@ TimeFrame for ZZ filter
 ### Distance type
 
 **Distance** calculation type:
-* In **Points**: fixed distance in points is used ([what is a "point"?](/docs/FAQ/what-is-a-point))
-* As **Volatility Coefficient**: distance is calculated as "current volatility * Coefficient":
+* In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
+* As a **Volatility Coefficient** ([volatility parameters](/docs/volatility) must be set correctly)
     ![]({{site.baseurl}}/assets/img/docs/zz9.png)
 
-* **Average ZZ size * coefficient**: distance is calculated as "average size of 10 last ZZ segments * Coefficient"
-* **Extremum bar size * coefficient** [*(starting from v2.43)*](/docs/versions-history#20220202-243): distance is calculated as *"extremum bar size * Coefficient"*, where *extremum bar size* for UP extremums = high - min(open, close), *extremum bar size* for DN extremums = max(open, close) - low:
-    ![]({{site.baseurl}}/assets/img/docs/zz10.png)
+* As a **Percentage of Price** (asset price * Percentage / 100)
 
 <br />
 
@@ -1044,52 +1045,7 @@ Enable visualization to understand signals better.
 
 # Volatility for MA, ZZ, Line and Pivot filters distance
 
-<sup>[*(starting from v2.15)*](/docs/versions-history#20200806-215)</sup>
-
-### Volatility Indicator
-
-Indicator used for the Distance calculation for the MA and ZZ Filters.
-
-Can be one of the following:
-* ATR
-* StDev
-* ATR (Close-Open): average candle body size (`abs(Close - Open)`) for the last N bars
-* WATR
-* Volume (don't use for this block!)
-* OBV (don't use for this block!)
-* Price Range: highest high - lowest low for the last N bars
-* Percent Change: average change (`abs(close_curr - close_prev)`) for the last N bars
-
-<br />
-
-### TimeFrame and Period
-
-TimeFrame and Period of volatility indicator
-
-<br />
-
-### Invert/Smooth Period
-<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
-
-If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
-
-> For example, if **Invert/Smooth Period** = 5, MA(5) will be applied to the indicator value, and the final value will be calculated as **MA(5) - (indicator value - MA(5))**.
-
-If **Invert/Smooth Period** < 0, indicator value will be smoothed with the MA with this period.
-
-> For example, if **Invert/Smooth Period** = -5, MA(5) will be applied to the indicator value, and the final value will be equal to **MA(5)**.
-
-To understand this parameter better, you can use the **iVolatility** indicator: [for MT4]({{site.baseurl}}/assets/Indicators/iVolatility.ex4) and [for MT5]({{site.baseurl}}/assets/Indicators/iVolatility.ex5).
-
-<br />
-
-### 2nd Volatility Indicator for MA filter
-
-<sup>[*(starting from v2.59.2)*](/docs/versions-history#20240428-0903-260)</sup>
-
-If set, volatility value for MA filter distance is calculated as `max(volatility_1, volatility_2)`.
-
-> For example, you can set **Volatility Indicator** = ATR, and **2nd Volatility Indicator** = StDev, and Distance for MA filter will be the maximum of ATR and StDev.
+Starting from [*v3.0.19*](/docs/versions-history#20241116-20250122-301-3019), [common volatility settings](/docs/volatility) are used for these filters.
 
 <br />
 <br />

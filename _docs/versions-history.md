@@ -18,6 +18,11 @@ permalink: /docs/versions-history
 * [+] MA Filters: some automation for [MA Price](/docs/signals-and-filters#moving-average-properties)
 * [+] [Use CloseBy for closing](/docs/main-parameters#use-closeby-for-closing)
 * [+] Speed improved
+* [+] Pivot, MA, Line and ZZ Filters use common [DistanceCalculator](/docs/volatility)
+* [+] DistanceCalculator supports [2nd Volatility](/docs/volatility#2nd-volatility-indicator)
+* [-] ZZ Signal: "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
+
+{% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 
 Coming soon...
 
