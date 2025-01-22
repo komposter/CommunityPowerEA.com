@@ -24,7 +24,7 @@ Calculation mode is available for almost all parameters in the EA.
 
 ### Percentage of Price
 
-Starting from [v3.0.15](/docs/versions-history#20241116-20250105-301-3015), you can choose **Percentage of Price** calculation mode: distance will be calculated as **asset price * Percentage / 100**.
+Starting from [v3.0.19](/docs/versions-history#20241116-20250122-301-3019), you can choose **Percentage of Price** calculation mode: distance will be calculated as **asset price * Percentage / 100**.
 
 Asset price is usually series average open price or order open price (for Individual Follow-up and Pending orders). 
 
@@ -52,7 +52,7 @@ TimeFrame and Period of volatility indicator
 <br />
 
 ### Invert/Smooth Period
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
 
@@ -77,7 +77,7 @@ Set 0 to disable the limit.
 <br />
 
 ### Min volatility to use (spreads)
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 Indicator value will be limited by this Min value defined as a number of ['normal' spreads](/docs/signals-and-filters#m1-bars-to-calculate-normal-spread).
 

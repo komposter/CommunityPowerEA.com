@@ -115,3 +115,20 @@ Can be:
 - **Manage manual trades**: EA manages trades with magic number = Expert Id and manual trades (with magic number = 0).
 - **Manage all magic numbers**: EA manages all trades.
 
+<br />
+
+### Use CloseBy for closing
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+
+If enabled, and your broker supports CloseBy, EA will use smart algorithm to close multiple trades (if 2 or more trades are opened):
+- if the total volume of Buy and Sell orders is not equal, EA will open a locking order to balance the exposure
+- next, EA will delete all pending orders (if any)
+- finally, EA will close all market orders using OrderCloseBy()
+
+Thus, floating profit/loss will be fixed at the moment of opening the locking order and further price movement will not affect it.
+
+There are 3 attempts to close using CloseBy. If something goes wrong, EA will close all orders without CloseBy, but still smarter, than before -- orders will be sorted by lot size (descending order), so slippages and delays will affect the results less.
+
+> For example, there is a buy-series with 3 orders: 0.1, 0.2 and 0.4 lots. Close signal appears, and EA tries to close all orders using CloseBy: it opens a locking sell order of 0.7 lots (0.1 + 0.2 + 0.4) and closes all buy orders by this sell order. If CloseBy is not supported, EA will close buy orders starting from the biggest one (0.4), then 0.2 and 0.1.
+
+<br />

@@ -7,7 +7,7 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2024.11.16-2025.01.05 (3.0.1-3.0.15)
+### 2024.11.16-2025.01.22 (3.0.1-3.0.19)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
 * [+] Distance calculation mode: as a [Percentage of Price](/docs/volatility#percentage-of-price)
@@ -16,6 +16,7 @@ permalink: /docs/versions-history
 * [+] Volatility: [Price Range and Percent Change modes](/docs/volatility#volatility-indicator)
 * [+] Volatility: [Invert/Smooth Period](/docs/volatility#invertsmooth-period)
 * [+] MA Filters: some automation for [MA Price](/docs/signals-and-filters#moving-average-properties)
+* [+] [Use CloseBy for closing](/docs/main-parameters#use-closeby-for-closing)
 * [+] Speed improved
 
 Coming soon...

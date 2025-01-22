@@ -51,7 +51,7 @@ Big candle filter analyzes candle (current or previous, depending on **Analyze c
 <br />
 
 ### Big candle calculation mode
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 Can be set:
 * In **Points** ([what is a "point"?](/docs/FAQ/what-is-a-point))
@@ -628,7 +628,7 @@ TimeFrame for MA filter
  * MA Method
  * Applied price
 
-[*Starting from v3.0.15*](/docs/versions-history#20241116-20250105-301-3015), if **Applied price** is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals. Thus, you can use the only one MA filter and have symmetrical signals for Buy and Sell.
+[*Starting from v3.0.19*](/docs/versions-history#20241116-20250122-301-3019), if **Applied price** is set to PRICE_LOW, MA(PRICE_HIGH) is used for Sell signals. Thus, you can use the only one MA filter and have symmetrical signals for Buy and Sell.
 
 <br />
 
@@ -1069,7 +1069,7 @@ TimeFrame and Period of volatility indicator
 <br />
 
 ### Invert/Smooth Period
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
 
@@ -1152,7 +1152,7 @@ Set 0 to disable this coefficient.
 <br />
 
 ### Invert/Smooth Period
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
 

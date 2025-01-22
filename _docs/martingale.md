@@ -123,7 +123,7 @@ Set 0 to disable step change.
 <br />
 
 ### Change step every order
-<sup>[*(starting from v3.0.15)*](/docs/versions-history#20241116-20250105-301-3015)</sup>
+<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
 
 Change the step **every X orders** by custom coefficient (next steps will also change).
 
