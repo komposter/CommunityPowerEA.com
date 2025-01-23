@@ -24,7 +24,9 @@ permalink: /docs/versions-history
 
 {% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 
-Coming soon...
+[<button class="btn btn-success">Download v3.0.19 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19.ex5)
+[<button class="btn btn-primary">Download v3.0.19 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19.ex4)
+[<button class="btn btn-info">Download v3.0.19 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19 MS.ex5)
 
 <br />
 
