@@ -35,6 +35,12 @@ jobs:
         with:
           source: ./
           destination: ./_site
+      - name: Verify Build Output
+        run: |
+          if [ ! -d "./_site" ]; then
+            echo "Build output directory '_site' does not exist."
+            exit 1
+          fi
       - name: Upload artifact
         uses: actions/upload-artifact@v4
         with:
