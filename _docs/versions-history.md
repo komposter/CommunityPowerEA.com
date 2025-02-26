@@ -20,7 +20,8 @@ permalink: /docs/versions-history
 * [+] Speed improved
 * [+] Pivot, MA, Line and ZZ Filters use common [DistanceCalculator](/docs/volatility)
 * [+] DistanceCalculator supports [2nd Volatility](/docs/volatility#2nd-volatility-indicator)
-* [-] ZZ Signal: "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
+* [+] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): periods greater than 128 are supported (MT5)
+* [-] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
 
 {% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 
@@ -334,7 +335,7 @@ permalink: /docs/versions-history
 <br />
 
 ### 2022.02.02 (2.43)
-* [+] Improved ZZ signal with visualization
+* [+] Improved [ZigZag Filter](/docs/signals-and-filters#zigzag-filter) with visualization
 * [+] Binance: more stable connection to the Binance Trade Manager
 
 [<button class="btn btn-success">Download v2.43 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 2.43.ex5)
