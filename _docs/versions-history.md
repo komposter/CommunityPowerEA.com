@@ -7,7 +7,7 @@ permalink: /docs/versions-history
 
 # Versions history
  
-### 2024.11.16-2025.01.22 (3.0.1-3.0.19)
+### 2024.11.16-2025.03.05 (3.0.1-3.0.21)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
 * [+] Distance calculation mode: as a [Percentage of Price](/docs/volatility#percentage-of-price)
@@ -22,6 +22,7 @@ permalink: /docs/versions-history
 * [+] DistanceCalculator supports [2nd Volatility](/docs/volatility#2nd-volatility-indicator)
 * [+] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): periods greater than 128 are supported (MT5)
 * [-] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
+* [+] Multi-symbol: [Symbol prefix](/docs/multi-symbol#symbol-prefix) parameter
 
 {% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 

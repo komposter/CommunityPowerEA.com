@@ -47,7 +47,7 @@ Can be one of the following:
 <br />
 
 ### 2nd Volatility Indicator
-<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
 
 If set, volatility value is calculated as `max(volatility_1, volatility_2)`.
 
@@ -62,7 +62,7 @@ TimeFrame and Period of volatility indicator
 <br />
 
 ### Invert/Smooth Period
-<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
 
 If **Invert/Smooth Period** > 0, indicator value will be inverted against the MA with this period based on the indicator value.
 
@@ -87,7 +87,7 @@ Set 0 to disable the limit.
 <br />
 
 ### Min volatility to use (spreads)
-<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
 
 Indicator value will be limited by this Min value defined as a number of ['normal' spreads](/docs/signals-and-filters#m1-bars-to-calculate-normal-spread).
 

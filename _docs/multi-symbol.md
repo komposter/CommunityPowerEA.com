@@ -35,10 +35,19 @@ If your broker uses suffixes for symbols (like `_x` or `.m`), you can specify th
 
 <br />
 
+### Symbol prefix
+<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
+
+Prefix for symbols in the list.
+
+> For example, if you set Symbol list to `EURUSD,GBPUSD` and Symbol prefix to `x_`, EA will trade on `x_EURUSD` and `x_GBPUSD`.
+
+<br />
+
 ### Symbol suffix
 
 Suffix for symbols in the list.
 
-> For example, if you set Symbol list to `EURUSD,GBPUSD` and Symbol suffix to `_x`, EA will trade on `EURUSD_x` and `GBPUSD_x`.
+> For example, if you set Symbol list to `EURUSD,GBPUSD` and Symbol suffix to `_y`, EA will trade on `EURUSD_y` and `GBPUSD_y`.
 
 <br />

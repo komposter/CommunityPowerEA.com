@@ -177,7 +177,7 @@ The purpose of the **Custom End Date** is to avoid starting a new series of trad
 <br />
 
 ### Custom Intervals File Name
-<sup>[*(starting from v3.0.19)*](/docs/versions-history#20241116-20250122-301-3019)</sup>
+<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
 
 If defined, EA will read custom intervals from the file with this name and use them for the test (will skip all the ticks outside of these intervals).
 
