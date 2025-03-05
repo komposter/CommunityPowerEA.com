@@ -23,12 +23,13 @@ permalink: /docs/versions-history
 * [+] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): periods greater than 128 are supported (MT5)
 * [-] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
 * [+] Multi-symbol: [Symbol prefix](/docs/multi-symbol#symbol-prefix) parameter
+* [*] Pivot, MA and Line Filters: Buy on cross DN / Sell on cross UP mode fixed
 
 {% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 
-[<button class="btn btn-success">Download v3.0.19 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19.ex5)
-[<button class="btn btn-primary">Download v3.0.19 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19.ex4)
-[<button class="btn btn-info">Download v3.0.19 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.19 MS.ex5)
+[<button class="btn btn-success">Download v3.0.21 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21.ex5)
+[<button class="btn btn-primary">Download v3.0.21 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21.ex4)
+[<button class="btn btn-info">Download v3.0.21 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21 MS.ex5)
 
 <br />
 
