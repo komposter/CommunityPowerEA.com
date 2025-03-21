@@ -7,7 +7,7 @@ permalink: /docs/versions-history
 
 # Versions history
  
-### 2024.11.16-2025.03.05 (3.0.1-3.0.21)
+### 2024.11.16-2025.03.21 (3.01)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
 * [+] Distance calculation mode: as a [Percentage of Price](/docs/volatility#percentage-of-price)
@@ -23,13 +23,15 @@ permalink: /docs/versions-history
 * [+] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): periods greater than 128 are supported (MT5)
 * [-] [ZigZag Filter](/docs/signals-and-filters#zigzag-filter): "Average ZZ size * coefficient" and "Extremum bar size * coefficient" distance calculation modes removed (let me know if you need them)
 * [+] Multi-symbol: [Symbol prefix](/docs/multi-symbol#symbol-prefix) parameter
+* [+] Martin: [Increase lot after, Increase lot every and Increase lot coefficient](/docs/martingale#increase-lot-after) parameters
 * [*] Pivot, MA and Line Filters: Buy on cross DN / Sell on cross UP mode fixed
+* [*] Trades with lot = 0.0 (caused by OrderCloseBy) are hidden from the chart
 
 {% include alert.html type="warning" title="Warning" content="All set-files with Pivot, MA, Line and ZZ Filters must be reviewed!" %}
 
-[<button class="btn btn-success">Download v3.0.21 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21.ex5)
-[<button class="btn btn-primary">Download v3.0.21 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21.ex4)
-[<button class="btn btn-info">Download v3.0.21 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.0.21 MS.ex5)
+[<button class="btn btn-success">Download v3.01 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.01.ex5)
+[<button class="btn btn-primary">Download v3.01 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.01.ex4)
+[<button class="btn btn-info">Download v3.01 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.01 MS.ex5)
 
 <br />
 

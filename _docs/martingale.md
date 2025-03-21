@@ -85,6 +85,27 @@ User-defined coefficient sequence for Custom lot coefficients increasing mode. C
 
 <br />
 
+### Increase lot after
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
+
+Increase lot after a certain order in series by [Increase lot coefficient](#increase-lot-coefficient) (next lots will also increase).
+
+<br />
+
+### Increase lot every
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
+
+Increase lot **every X orders** by [Increase lot coefficient](#increase-lot-coefficient).
+
+<br />
+
+### Increase lot coefficient
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
+
+Custom coefficient for **Increase lot after** function.
+
+<br />
+
 ### Step size
 
 Step size (in points, as a Volatility Coefficient, or as a Percentage of price)
@@ -123,7 +144,7 @@ Set 0 to disable step change.
 <br />
 
 ### Change step every order
-<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
 
 Change the step **every X orders** by custom coefficient (next steps will also change).
 

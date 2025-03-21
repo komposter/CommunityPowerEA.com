@@ -118,7 +118,7 @@ Can be:
 <br />
 
 ### Use CloseBy for closing
-<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
 
 If enabled, and your broker supports CloseBy, EA will use smart algorithm to close multiple trades (if 2 or more trades are opened):
 - if the total volume of Buy and Sell orders is not equal, EA will open a locking order to balance the exposure

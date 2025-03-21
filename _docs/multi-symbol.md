@@ -36,7 +36,7 @@ If your broker uses suffixes for symbols (like `_x` or `.m`), you can specify th
 <br />
 
 ### Symbol prefix
-<sup>[*(starting from v3.0.21)*](/docs/versions-history#20241116-20250305-301-3021)</sup>
+<sup>[*(starting from v3.01)*](/docs/versions-history#20241116-20250321-301)</sup>
 
 Prefix for symbols in the list.
 
