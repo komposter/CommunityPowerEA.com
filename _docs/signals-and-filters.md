@@ -1045,7 +1045,7 @@ Enable visualization to understand signals better.
 
 # Volatility for MA, ZZ, Line and Pivot filters distance
 
-Starting from [*v3.0.19*](/docs/versions-history#20241116-20250122-301-3019), [common volatility settings](/docs/volatility) are used for these filters.
+Starting from [*v3.01*](/docs/versions-history#20241116-20250321-301), [common volatility settings](/docs/volatility) are used for these filters.
 
 <br />
 <br />
