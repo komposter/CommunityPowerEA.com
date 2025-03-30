@@ -113,7 +113,7 @@ Step size (in points, as a Volatility Coefficient, or as a Percentage of price)
 <br />
 
 ### Step size mode
-<sup>[*(starting from v3.02)*](/docs/versions-history#20240330-312)</sup>
+<sup>[*(starting from v3.02)*](/docs/versions-history#20250330-312)</sup>
 
 Step can be calculated:
 * From the average series open price
