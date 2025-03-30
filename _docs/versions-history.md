@@ -6,7 +6,16 @@ permalink: /docs/versions-history
 ---
 
 # Versions history
- 
+
+### 2025.03.30 (3.1.2)
+* [+] Martingale: [Step size mode](/docs/martingale#step-size-mode) parameter
+
+[<button class="btn btn-success">Download v3.1.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.2.ex5)
+[<button class="btn btn-primary">Download v3.1.2 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.2.ex4)
+[<button class="btn btn-info">Download v3.1.2 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.2 MS.ex5)
+
+<br />
+
 ### 2024.11.16-2025.03.21 (3.01)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
