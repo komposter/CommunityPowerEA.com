@@ -7,15 +7,15 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2025.03.30-04.04 (3.1.3)
+### 2025.03.30-07.03 (3.1.6)
 * [+] Martingale: [Step size mode](/docs/martingale#step-size-mode) parameter
 * [*] PartialClose: [Min Profit (points)](/docs/partial-close#min-profit-to-close-points) works in Any with any mode
 * [*] Historical data for all used indicators is loaded at the start of the EA
 * [+] SL/TP lines with expected loss/profit
 
-[<button class="btn btn-success">Download v3.1.5 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.5.ex5)
-[<button class="btn btn-primary">Download v3.1.3 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.3.ex4)
-[<button class="btn btn-info">Download v3.1.3 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.3 MS.ex5)
+[<button class="btn btn-success">Download v3.1.6 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.6.ex5)
+[<button class="btn btn-primary">Download v3.1.6 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.6.ex4)
+[<button class="btn btn-info">Download v3.1.6 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.6 MS.ex5)
 
 <br />
 

@@ -44,7 +44,7 @@ Profit is calculated as:
 
 Set 0 to disable this filter.
 
-This filter works with the 'Any with any' mode starting from [v3.02](/docs/versions-history#20250330-0404-313)
+This filter works with the 'Any with any' mode starting from [v3.02](/docs/versions-history#20250330-0703-316)
 
 <br />
 
