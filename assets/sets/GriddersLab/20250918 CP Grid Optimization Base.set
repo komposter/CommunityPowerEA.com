@@ -1,7 +1,10 @@
-﻿; saved on 2025.09.18 23:33:17
-; this file contains input parameters for testing/optimizing CommunityPower 3.1.6 expert advisor
+﻿; saved on 2025.10.03 11:15:45
+; this file contains input parameters for testing/optimizing CommunityPower 3.1.7 GL expert advisor
 ; to use it in the strategy tester, click Load in the context menu of the Inputs tab
 ;
+; Virtual Tester by fxsaber
+inVirtualTester=false
+QuickReportSave=0
 ; Main parameters
 Expert_Properties================================================================
 Expert_Id=4110||3040||1||30400||N
@@ -1017,7 +1020,7 @@ InpEquityRecorderType=1
 InpEquityRecorderCorr=0
 InpTradesPerYearMin=0
 InpTradesPerYearGood=0
-Tester_CustomStartAndEnd=WRITE INTERVALS TO FILE
+Tester_CustomStartAndEnd=
 Tester_CustomStartDate=0
 Tester_CustomEndDate=2145916800
-Tester_CustomIntervalsFile=Tester\Intervals_75k.csv
+Tester_CustomIntervalsFile=
