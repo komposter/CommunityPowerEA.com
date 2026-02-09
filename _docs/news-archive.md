@@ -44,3 +44,4 @@ permalink: /docs/news/archive
 * [2025.10.01.csv]({{site.baseurl}}/assets/News/FF/2025.10.01.csv)
 * [2025.11.01.csv]({{site.baseurl}}/assets/News/FF/2025.11.01.csv)
 * [2025.12.01.csv]({{site.baseurl}}/assets/News/FF/2025.12.01.csv)
+* [2026.01.01.csv]({{site.baseurl}}/assets/News/FF/2026.01.01.csv)
