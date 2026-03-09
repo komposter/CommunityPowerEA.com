@@ -11,6 +11,32 @@ In this section you can set parameters that affect position management after it 
 <br />
 <br />
 
+# Absorption
+
+<sup>[*(starting from v3.2.2)*](/docs/versions-history#20260309-322)</sup>
+
+The Absorption module allows using accumulated historical profit to cover losses of current open trades.
+
+It monitors historical profit for the specified Magic Number, calculates a "budget" based on a percentage of this profit, and if the current drawdown of the oldest (or most losing) trade is less than this budget, closes that trade. The loss is deducted from the historical profit.
+
+This allows reducing the number of open trades in a losing series without waiting for a reversal.
+
+### Absorption: Start after order #
+
+The module activates only if the number of open trades in the current series (Buy or Sell) is greater than or equal to this value. Set to 0 to disable.
+
+### Absorption: Use % of historical profit
+
+Percentage of total historical profit that can be used to cover the loss of a single trade.
+
+### Absorption: Sort by profit
+
+*   **false** (default): Sorts orders by open time (FIFO). Tries to close the **oldest** order first.
+*   **true**: Sorts orders by profit. Tries to close the **most losing** order first.
+
+<br />
+<br />
+
 # StopLoss
 
 StopLoss for all positions in series.

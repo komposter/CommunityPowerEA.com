@@ -7,6 +7,16 @@ permalink: /docs/versions-history
 
 # Versions history
 
+### 2026.03.09 (3.2.2)
+* [+] Tester: [Win ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
+* [+] [Absorption module](/docs/follow-up#absorption)
+
+[<button class="btn btn-success">Download v3.2.2 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.2.ex5)
+[<button class="btn btn-primary">Download v3.2.2 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.2.ex4)
+[<button class="btn btn-info">Download v3.2.2 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.2 MS.ex5)
+
+<br />
+
 ### 2025.03.30-2026.03.06 (3.02)
 * [+] Martingale: [Step size mode](/docs/martingale#step-size-mode) parameter
 * [*] PartialClose: [Min Profit (points)](/docs/partial-close#min-profit-to-close-points) works in Any with any mode
@@ -14,7 +24,7 @@ permalink: /docs/versions-history
 * [+] SL/TP lines with expected loss/profit
 
 [<button class="btn btn-success">Download v3.02 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.02.ex5)
-[<button class="btn btn-primary">Download v3.02 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.1.6.ex4)
+[<button class="btn btn-primary">Download v3.02 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.02.ex4)
 [<button class="btn btn-info">Download v3.02 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.02 MS.ex5)
 
 <br />

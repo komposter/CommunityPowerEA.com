@@ -121,6 +121,10 @@ Custom criterion value (R-squared or Max Relative DrawDown) will be shown in the
 
   Greater value is better.
 
+* **Win ratio** [*(starting from v3.2.1)*](/docs/versions-history#20260309-321) -- use the ratio of profitable trades to total trades.
+
+  Greater value is better.
+
 <br />
 
 ### Correlation type
