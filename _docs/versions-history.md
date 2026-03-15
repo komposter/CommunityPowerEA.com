@@ -7,7 +7,7 @@ permalink: /docs/versions-history
 
 # Versions history
 
-### 2026.03.09 (3.2.2)
+### 2026.03.15 (3.2.2)
 * [+] Tester: [Win ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
 * [+] [Absorption module](/docs/follow-up#absorption)
 

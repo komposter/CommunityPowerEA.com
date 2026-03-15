@@ -13,21 +13,37 @@ In this section you can set parameters that affect position management after it 
 
 # Absorption
 
-<sup>[*(starting from v3.2.2)*](/docs/versions-history#20260309-322)</sup>
+<sup>[*(starting from v3.2.2)*](/docs/versions-history#20260315-322)</sup>
 
 The Absorption module allows using accumulated historical profit to cover losses of current open trades.
 
-It monitors historical profit for the specified Magic Number, calculates a "budget" based on a percentage of this profit, and if the current drawdown of the oldest (or most losing) trade is less than this budget, closes that trade. The loss is deducted from the historical profit.
+It monitors the EA historical profit, then calculates an absorption budget:
 
-This allows reducing the number of open trades in a losing series without waiting for a reversal.
+`Budget = (HistoricalProfit - ReservedProfit) * AbsorptionProfitPercent / 100`
+
+If the current loss of the oldest (or most losing) trade in the series is less than the available budget, the module closes that trade. It tries to close as many losing trades as possible (but always keeps at least one trade open in the series).
+
+After each successful absorption close:
+* the trade loss appears in history and reduces **HistoricalProfit**
+* additionally, a part of profit is moved into **ReservedProfit** and will never be used for absorption later
+
+This allows reducing the number of open trades in a losing series without waiting for a reversal, while ensuring that the non-absorbable part of profit is accumulated on the account.
+
+<br />
 
 ### Absorption: Start after order #
 
-The module activates only if the number of open trades in the current series (Buy or Sell) is greater than or equal to this value. Set to 0 to disable.
+The module activates only if the number of open trades in the current series (Buy or Sell) is greater than or equal to this value.
+
+Set to 0 to disable absorption.
+
+<br />
 
 ### Absorption: Use % of historical profit
 
 Percentage of total historical profit that can be used to cover the loss of a single trade.
+
+<br />
 
 ### Absorption: Sort by profit
 
