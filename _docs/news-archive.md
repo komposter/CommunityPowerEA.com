@@ -10,4 +10,4 @@ permalink: /docs/news/archive
 * [News_2007_2022.zip]({{site.baseurl}}/assets/News/FF/News_2007_2022.zip)
 * [News_2023_2025.zip]({{site.baseurl}}/assets/News/FF/News_2023_2025.zip)
 * [2026.01.01.csv]({{site.baseurl}}/assets/News/FF/2026.01.01.csv)
-* [2026.01.02.csv]({{site.baseurl}}/assets/News/FF/2026.01.02.csv)
+* [2026.02.01.csv]({{site.baseurl}}/assets/News/FF/2026.02.01.csv)
