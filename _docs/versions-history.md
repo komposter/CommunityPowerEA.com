@@ -19,6 +19,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="3.02"></a>
 ### 2025.03.30-2026.03.06 (3.02)
 * [+] Martingale: [Step size mode](/docs/martingale#step-size-mode) parameter
 * [*] PartialClose: [Min Profit (points)](/docs/partial-close#min-profit-to-close-points) works in Any with any mode
@@ -31,6 +32,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="3.01"></a>
 ### 2024.11.16-2025.03.21 (3.01)
 * [+] Big candle: [calculation mode](/docs/signals-and-filters#big-candle-calculation-mode)
 * [+] Martin: [Change step every order](/docs/martingale#change-step-every-order)
@@ -59,6 +61,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="3.0"></a>
 ### 2024.10.24-11.15 (3.0)
 * [+] [Multi-symbol](/docs/multi-symbol) version
 * [+] MA Filters: [Use price](/docs/signals-and-filters#use-price) parameter
@@ -70,6 +73,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.61"></a>
 ### 2024.09.15-10.15 (2.61)
 * [+] Spread: [Apply to close](/docs/signals-and-filters#apply-to-close) parameter
 * [*] Lot: [Risk per trade mode](/docs/lot#lot-type) takes into account Individual StopLoss first, and only if it is disabled, the series StopLoss is used
@@ -86,6 +90,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.60"></a>
 ### 2024.04.28-09.03 (2.60)
 * [+] Volatility Filter with negative [Transformation Period](/docs/signals-and-filters#transformation-period) calculates Ratio of volatilities ("indicator 1 / indicator 2")
 * [+] MA filter with [2nd Volatility](/docs/signals-and-filters#2nd-volatility-indicator-for-ma-filter)
@@ -108,6 +113,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.59"></a>
 ### 2024.01.18-04.26 (2.59)
 * [+] [Partial Close](/docs/partial-close): Close any with any and Close any with any on signal parameters are replaced with [Close any with any mode](/docs/partial-close#close-any-with-any-mode)
 * [+] PartialClose: [Close only with opposite](/docs/partial-close#close-any-with-any-mode) mode
@@ -132,6 +138,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.58"></a>
 ### 2023.11.27-12.26 (2.58)
 * [+] [Directional change filter](/docs/signals-and-filters#directional-change-filter) : Change dir after profit
 * [*] [Max Current Spread](/docs/signals-and-filters#max-current-spread) filter allows to trade if spread is equal to max allowed
@@ -153,6 +160,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.57"></a>
 ### 2023.11.27 (2.57)
 * [*] [Active Periods](/docs/active-periods): Bug fix
 
@@ -163,6 +171,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.56"></a>
 ### 2023.08.18-11.24 (2.56)
 * [+] New default parameters (thanks Sai for contribution!)
 * [+] GUI improved with [Close checkboxes](/docs/gui#close-checkboxes), new colors and logo
@@ -195,6 +204,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.55"></a>
 ### 2023.07.20-08.18 (2.55)
 * [+] [Cancel TakeProfit if both buy and sell are open]({{site.baseurl}}/docs/follow-up#cancel-takeprofit-if-both-buy-and-sell-are-open)
 * [+] [Disable TrailingStop if both buy and sell are open]({{site.baseurl}}/docs/follow-up#disable-trailingstop-if-both-buy-and-sell-are-open)
@@ -219,6 +229,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.54"></a>
 ### 2023.04.27-07.06 (2.54)
 * [+] [Individual BreakEven](/docs/individual-follow-up#individual-breakeven)
 * [+] 3rd [CustomIndy signal](/docs/signals-and-filters#custom-indicators)
@@ -237,6 +248,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.53"></a>
 ### 2023.04.12-04.26 (2.53)
 * [+] ADX: Buy/sell when ADX >= level
 * [+] ADX: Buy on +DI >= level / Sell on -DI >= level
@@ -256,6 +268,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.52"></a>
 ### 2023.02.11-03.24 (2.52)
 * [+] Max profit to close on signal
 * [+] [Active Periods](/docs/active-periods)
@@ -272,6 +285,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.50"></a>
 ### 2022.10.14-2023.01.07 (2.50)
 * [+] Pending entry: Delete on position close
 * [+] Lot increasing mode: 1st deal lot * distance * coeff
@@ -290,6 +304,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.49"></a>
 ### 2022.10.07 (2.49)
 * [+] EveryDay session duration (mins) (0 - use end hour and minute)
 * [+] 2 [CustomIndy signals](/docs/signals-and-filters#custom-indicators)
@@ -305,6 +320,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.48"></a>
 ### 2022.07.02 (2.48)
 * [+] GlobalAccount StopLoss
 * [+] Period Limits
@@ -316,6 +332,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.47"></a>
 ### 2022.05.20 (2.47)
 * [*] First order can be opened on the same tick when the "Partial close" closes all open orders (works like v2.43 and earlier versions)
 * [+] Lot: "Amount in base currency" mode
@@ -326,6 +343,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.46"></a>
 ### 2022.04.28 (2.46)
 * [*] "New deal on the end of the bar only" and "Min pause between trades" work correctly even if last martin trade was closed (and some of previous ones are still opened)
 * [+] Partial close: Close profit itself
@@ -340,6 +358,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.45"></a>
 ### 2022.04.21 (2.45)
 * [+] TrailingStop: Increase every, Increase size
 * [+] TrailingStop: Min/max size
@@ -351,6 +370,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.44"></a>
 ### 2022.03.12 (2.44)
 * [+] Partial close: Close any with any
 * [+] Directional change filter
@@ -362,6 +382,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.43"></a>
 ### 2022.02.02 (2.43)
 * [+] Improved [ZigZag Filter](/docs/signals-and-filters#zigzag-filter) with visualization
 * [+] Binance: more stable connection to the Binance Trade Manager
@@ -370,6 +391,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.42"></a>
 ### 2022.01.22 (2.42)
 * [*] Binance: correct work with MT connected to netting account
 * [*] Correct volatility values on start
@@ -382,6 +404,8 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.40"></a>
+<a id="2.41"></a>
 ### 2021.12.10 (2.40-2.41)
 * [+] Ready to trade crypto on Binance (MT5 only, [details are here](https://t.me/BinanceMT5))
 * [*] Fix for Roboforex accounts with empty Orders history (MT5)
@@ -391,6 +415,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.39"></a>
 ### 2021.11.14 (2.39)
 * [+] Max floating loss and Min margin level % for 1st trade
 * [+] Virtual StopLoss can be executed only on good spread (if Spread filter enabled)
@@ -405,6 +430,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.38"></a>
 ### 2021.09.23 (2.38)
 * [+] Max step size (points) for martingale and anti-martingale
 * [*] Recompiled with correct MT5 build
@@ -414,6 +440,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.37"></a>
 ### 2021.09.06 (2.37)
 * [+] Pending entry: Disable if opposite trade is open
 * [+] Anti-martingale: Allow TakeProfit for anti-martin trades
@@ -428,6 +455,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.36"></a>
 ### 2021.08.04 (2.36)
 * [+] Custom step coefficients
 * [+] Auto-hedge on DrawDown %
@@ -440,6 +468,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.35"></a>
 ### 2021.07.15 (2.35)
 * [+] DTrend filter
 * [*] "Custom lot coefficients" fixed
@@ -458,6 +487,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.34"></a>
 ### 2021.06.12 (2.34)
 * [+] GlobalAccount TrailingStop
 * [+] GlobalAccount TargetProfit restarts if all positions are closed
@@ -467,6 +497,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.33"></a>
 ### 2021.06.10 (2.33)
 * [+] Hedge deal with separate magic
 * [+] Auto-hedge works with any "Trade direction"
@@ -481,6 +512,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.32"></a>
 ### 2021.06.05 (2.32)
 * [+] [GUI](/docs/gui) works in tester visual mode!
 * [+] [Soft Martin](https://communitypowerea.userecho.com/en/communities/1/topics/318-position-cutter-pc-reduce-the-lot-size-by-previous-lot-size-in-the-sequence) Lot increasing mode
@@ -504,6 +536,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.31"></a>
 ### 2021.05.08 (2.31)
 * [+] Min margin level %
 * [*] Trades made in 1 second are analyzed by the EA correctly.
@@ -543,6 +576,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.30"></a>
 ### 2021.04.19 (2.30)
 * [+] ZigZag Filter
 * [+] "Open on", "Open martin on", "Close on" and "Partial close on" options for the [News filter](/docs/news)
@@ -558,6 +592,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.29"></a>
 ### 2021.04.03 (2.29)
 * [+] [News filter](/docs/news)
 * [+] [Max Relative DD](/docs/backtesting-and-optimization#custom-optimization-criterion) as optimization criterion
@@ -577,6 +612,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.28"></a>
 ### 2021.03.03 (2.28)
 * [+] Automatic orders drawing and "Show orders" button on panel
 
@@ -585,6 +621,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.27"></a>
 ### 2021.03.02 (2.27)
 * [+] Use virtual StopLoss
 * [+] Custom commission (in account currency per lot) (0 - disable)
@@ -602,6 +639,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.26"></a>
 ### 2021.02.02 (2.26)
 * [+] Indicator showing by click on signal
 * [+] Parameters grouped for easier optimization
@@ -613,6 +651,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.25"></a>
 ### 2021.01.15 (2.25)
 * [+] "Close on" parameter for Big candle filter
 * [+] 3 new types of MACD filter:
@@ -634,6 +673,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.24"></a>
 ### 2020.12.31 (2.24)
 * [*] Increased testing speed for strategies with huge number of trades
 * [*] TMA and FRAMA can work without indicator installed
@@ -650,6 +690,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.23"></a>
 ### 2020.12.10 (2.23)
 * [+] Pause after loss (in bars of Signal TF)
 * [+] Reduce TakeProfit after minutes
@@ -668,6 +709,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.22"></a>
 ### 2020.12.03 (2.22)
 * [+] [GUI](/docs/gui): tooltips in status-bar
 * [*] Volatility Filter fixed (didn't work since 2.19)
@@ -677,6 +719,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.21"></a>
 ### 2020.11.30 (2.21)
 * [+] [GUI](/docs/gui): One click trading with Shift button pressed
 * [+] New deal on the new bar (for first deal)
@@ -688,6 +731,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.20"></a>
 ### 2020.11.03 (2.20)
 * [+] Min profit to close on signal (points)
 * [+] Anti-StopLoss mode, reduce size, reduce coefficient, min size,
@@ -707,6 +751,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.19"></a>
 ### 2020.10.14 (2.19)
 * [+] "Open on" parameter for each filter. Can be Individual/Collective.
 * [+] Allow martingale deals on signal only
@@ -723,6 +768,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.18"></a>
 ### 2020.09.08 (2.18)
 * [+] MA filter: "on cross" mode added
 * [+] Min pause between trades (in bars of Signal TF)
@@ -737,12 +783,14 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.17"></a>
 ### 2020.08.26 (2.17)
 * [+] Global TakeProfit (% from balance)
 * [+] Fibo retracement filter
 
 <br />
 
+<a id="2.16"></a>
 ### 2020.08.19 (2.16)
 * [+] "Close on" parameter for each filter. Can be Individual/Collective.
 * [+] Momentum indy available in Oscillator filters
@@ -753,6 +801,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.15"></a>
 ### 2020.08.06 (2.15)
 * [+] Volatility filter
 * [+] MA below/above filters are replaced by 3 universal MA filters
@@ -762,6 +811,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.14"></a>
 ### 2020.07.22 (2.14)
 * [+] [GUI](/docs/gui)
 * [+] Reverse mode and Use only closed bars for IdentifyTrend, TDI and Peace filters
@@ -771,12 +821,14 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.12"></a>
 ### 2020.06.24 (2.12)
 * [+] Anti-martingale mode
 * [+] Big candle filter
 
 <br />
 
+<a id="2.11"></a>
 ### 2020.05.28 (2.11)
 * [*] Zero divide error fixed for instruments with empty TickValue
 * [+] StopLoss, TakeProfit, BreakEven and NextOrder levels on chart
@@ -785,12 +837,14 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.10"></a>
 ### 2020.05.18 (2.10)
 * [+] Cancel on opposite signal
 * [+] First lot type: fixed, risk %, margin % (in addition to current "lot per 1000")
 
 <br />
 
+<a id="2.09"></a>
 ### 2020.05.12 (2.09)
 * [*] Signal TimeFrame parameter added.
 * [+] Pending entry
@@ -799,6 +853,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.08"></a>
 ### 2020.05.06 (2.08)
 * [*] TrailngStop fixed. 
 
@@ -806,6 +861,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.07"></a>
 ### 2020.05.04 (2.07)
 * [-] The third "MA below" and "MA above" filters removed
 * [*] Commissions and swaps are taken into account for sell-positions
@@ -815,6 +871,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.06"></a>
 ### 2020.04.24 (2.06)
 * [+] "Allow messages to Grammy" parameter
 * [+] One more Oscillator filter
@@ -823,6 +880,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.05"></a>
 ### 2020.04.21 (2.05)
 * [+] Version [for MT5](https://www.mql5.com/en/market/product/48493)
 * [+] [Messages to the Telegram](https://communitypowerea.com/docs/notifications#notifications-settings) on openings and closings
@@ -830,6 +888,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.04"></a>
 ### 2020.04.16 (2.04)
 * [+] Expert Comment
 * [+] [Allow hedge](/docs/hedge#allow-hedge)
@@ -839,17 +898,20 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.03"></a>
 ### 2020.04.14 (2.03)
 * [+] FXGAL3 filter replaced by IdentifyTrend filter
 * [*] StopLoss fixed in "Martingale disabled" mode
 
 <br />
 
+<a id="2.02"></a>
 ### 2020.04.09 (2.02)
 * [+] MA below and MA above filters
 
 <br />
 
+<a id="2.01"></a>
 ### 2020.04.09 (2.01)
 * [+] Close on filter
 * [+] Martingale type (dynamic step between orders)
@@ -857,6 +919,7 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="2.00"></a>
 ### 2020.04.07 (2.0)
 * [+] Trade direction
 * [+] Start lot per 1000 of balance
@@ -866,11 +929,13 @@ permalink: /docs/versions-history
 
 <br />
 
+<a id="1.01"></a>
 ### 2020.04.04 (1.01)
 * [+] TDI Filter
 
 <br />
 
+<a id="1.0"></a>
 ### 2020.04.03 (1.0)
 * [+] First release
 
