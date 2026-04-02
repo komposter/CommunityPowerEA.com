@@ -9,19 +9,25 @@ permalink: /docs/entry-strategy
 ### **Open on** parameter for each filter
 
 <sup>[*(starting from v2.19)*](/docs/versions-history#20201014-219)</sup>
+<sup>[*(collective groups starting from v3.2.3)*](/docs/versions-history#3.03)</sup>
 
 You can set up opening of the first deal:
 * by one or more individual signals/filters,
-* by several signals/filters showing the same direction,
-* by several signals/filters showing the same direction or just confirming it (not showing the opposite one).
+* by one or more collective signal groups (each group is evaluated independently).
 
 If Open on Individual signal mode is selected for any signal, a deal is opened by this signal any time it happens. So, it is an independent signal for opening.
 
 You can set several individual signals, and deals will be opened on each signal.
 
-In Open on Collective signal mode, all selected “Collective” signals must show the same direction to open the deal. Individual signals are ignored for this set of signals (but continue to work individually).
+In collective modes, signals are split into groups:
+* Collective (group #1)
+* Collective (group #2)
+* Collective (group #3)
+* and their combinations (group #1 and #2, group #2 and #3, group #1, #2 and #3)
 
-Open on Collective signal (neutral signals accepted) mode works like previous, but selected filters/signals should just not show the opposite direction to allow the opening.
+Signals inside a single group work like "all must confirm": if any signal in the group does not confirm the direction, that group can't open. If at least one non-empty group confirms, the EA allows opening.
+
+Some filters may also have an additional boolean parameter like **OpenOnNeutral**. If enabled for a collective signal, it is treated as a BUY signal when it does not allow SELL (and vice versa). This can be used to allow "neutral confirmation" for selected filters in collective groups.
 
 > For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
