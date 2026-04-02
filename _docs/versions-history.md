@@ -8,7 +8,7 @@ permalink: /docs/versions-history
 # Versions history
 
 <a id="3.03"></a>
-### 2026.03.15-2026.04.02 (3.2.3) {#20260315-323}
+### 2026.03.15-2026.04.02 (3.2.3)
 * [+] Tester: [Win ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
 * [+] [Absorption module](/docs/follow-up#absorption)
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): signal groups (#1, #2, #3 and their combinations)
