@@ -10,6 +10,7 @@ permalink: /docs/entry-strategy
 
 <sup>[*(starting from v2.19)*](/docs/versions-history#20201014-219)</sup>
 <sup>[*(collective groups starting from v3.2.3)*](/docs/versions-history#3.03)</sup>
+<sup>[*(collective neutral groups starting from v3.2.4)*](/docs/versions-history#3.03)</sup>
 
 You can set up opening of the first deal:
 * by one or more individual signals/filters,
@@ -27,7 +28,12 @@ In collective modes, signals are split into groups:
 
 Signals inside a single group work like "all must confirm": if any signal in the group does not confirm the direction, that group can't open. If at least one non-empty group confirms, the EA allows opening.
 
-Some filters may also have an additional boolean parameter like **OpenOnNeutral**. If enabled for a collective signal, it is treated as a BUY signal when it does not allow SELL (and vice versa). This can be used to allow "neutral confirmation" for selected filters in collective groups.
+There are also 3 neutral collective modes:
+* Collective (group #1, neutral signals accepted)
+* Collective (group #2, neutral signals accepted)
+* Collective (group #3, neutral signals accepted)
+
+In neutral collective modes, the signal is treated as a BUY signal when it does not allow SELL (and vice versa). This can be used to allow "neutral confirmation" for selected filters in collective groups.
 
 > For example, if Stochastic Inside zone signal selected with Levels 70/30, Collective signal will allow BUY if Stochastic <= 30, but Collective neutral signal — if Stochastic < 70 (will disable BUYs if Stoch >= 70).
 
