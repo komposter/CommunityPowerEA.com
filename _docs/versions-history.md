@@ -14,9 +14,9 @@ permalink: /docs/versions-history
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): signal groups (#1, #2, #3 and their combinations)
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): groups #1, #2, #3 with neutral signals accepted
 
-[<button class="btn btn-success">Download v3.2.3 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.3.ex5)
-[<button class="btn btn-primary">Download v3.2.3 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.3.ex4)
-[<button class="btn btn-info">Download v3.2.3 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.3 MS.ex5)
+[<button class="btn btn-success">Download v3.2.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4.ex5)
+[<button class="btn btn-primary">Download v3.2.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4.ex4)
+[<button class="btn btn-info">Download v3.2.4 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4 MS.ex5)
 
 <br />
 
