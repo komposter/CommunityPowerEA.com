@@ -9,8 +9,8 @@ permalink: /docs/entry-strategy
 ### **Open on** parameter for each filter
 
 <sup>[*(starting from v2.19)*](/docs/versions-history#20201014-219)</sup>
-<sup>[*(collective groups starting from v3.2.3)*](/docs/versions-history#3.03)</sup>
-<sup>[*(collective neutral groups starting from v3.2.4)*](/docs/versions-history#3.03)</sup>
+<sup>[*(collective groups starting from v3.03)*](/docs/versions-history#3.03)</sup>
+<sup>[*(collective neutral groups starting from v3.03)*](/docs/versions-history#3.03)</sup>
 
 You can set up opening of the first deal:
 * by one or more individual signals/filters,

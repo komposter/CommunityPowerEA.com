@@ -13,7 +13,7 @@ In this section you can set parameters that affect position management after it 
 
 # Absorption
 
-<sup>[*(starting from v3.2.2)*](/docs/versions-history#3.03)</sup>
+<sup>[*(starting from v3.03)*](/docs/versions-history#3.03)</sup>
 
 The Absorption module allows using accumulated historical profit to cover losses of current open trades.
 

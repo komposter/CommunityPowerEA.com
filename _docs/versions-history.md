@@ -8,15 +8,15 @@ permalink: /docs/versions-history
 # Versions history
 
 <a id="3.03"></a>
-### 2026.03.15-2026.04.05 (3.2.4)
+### 2026.03.15-2026.08.12 (3.03)
 * [+] Tester: [Win ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
 * [+] [Absorption module](/docs/follow-up#absorption)
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): signal groups (#1, #2, #3 and their combinations)
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): groups #1, #2, #3 with neutral signals accepted
 
-[<button class="btn btn-success">Download v3.2.4 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4.ex5)
-[<button class="btn btn-primary">Download v3.2.4 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4.ex4)
-[<button class="btn btn-info">Download v3.2.4 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.2.4 MS.ex5)
+[<button class="btn btn-success">Download v3.03 for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.03.ex5)
+[<button class="btn btn-primary">Download v3.03 for MT4</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.03.ex4)
+[<button class="btn btn-info">Download v3.03 MultiSymbol for MT5</button>]({{site.baseurl}}/assets/EAs/CommunityPower 3.03 MS.ex5)
 
 <br />
 
