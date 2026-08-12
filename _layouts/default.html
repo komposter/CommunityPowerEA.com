@@ -76,8 +76,10 @@
                 {% include versionalert.html %}
               {% endif %}
             {% endif %}
-            
-	      {{ content }}	
+
+            {% include discontinued.html %}
+
+	      {{ content }}
               {% if section.links %}<div class="section-index">
                <hr class="panel-line">{% for child in section.links %}
                  <div class="entry">

@@ -9,6 +9,8 @@ permalink: /docs/versions-history
 
 <a id="3.03"></a>
 ### 2026.03.15-2026.08.12 (3.03)
+**Final release — the EA is no longer maintained. [Read more](https://t.me/CommunityPowerNews)**
+
 * [+] Tester: [Win ratio](/docs/backtesting-and-optimization#custom-optimization-criterion) optimization criterion
 * [+] [Absorption module](/docs/follow-up#absorption)
 * [+] [Open on Collective signal](/docs/entry-strategy#open-on-parameter-for-each-filter): signal groups (#1, #2, #3 and their combinations)
