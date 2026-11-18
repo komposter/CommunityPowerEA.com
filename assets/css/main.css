@@ -18583,7 +18583,8 @@ html body .md-typeset .headerlink {
 }
 
 footer {
-    min-height: 70px
+    min-height: 70px;
+    flex-shrink: 0
 }
 
 @media(max-width:820px) {
